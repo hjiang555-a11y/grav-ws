@@ -1,0 +1,49 @@
+{
+  "created_at_utc": "2026-11-04T13:31:11.300794+00:00",
+  "primary_tasks": 25,
+  "primary_result_identity": "25/25 SHA256 + SQLite text + agent + manifest match",
+  "supplemental_sources": 46,
+  "checked_source_hashes": 71,
+  "all_source_checks_passed": true,
+  "linked_file_references_checked": 310,
+  "all_links_exist": true,
+  "held_counts": {
+    "HUMAN_REVIEW_REQUIRED": 10,
+    "TECHNICAL_REVIEW_PENDING": 2,
+    "FAILED": 3,
+    "PENDING": 2,
+    "CANCELLED": 1
+  },
+  "database_content_fingerprints_unchanged_tables": 11,
+  "task_status_counts": {
+    "REVIEW": 37,
+    "PENDING": 2,
+    "FAILED": 3,
+    "CANCELLED": 1
+  },
+  "approval_status_counts": {
+    "APPROVED": 2,
+    "CONSUMED": 45
+  },
+  "newly_approved_tasks": 0,
+  "newly_dispatched_tasks": 0,
+  "retried_tasks": 0,
+  "formal_fit_runs": 0,
+  "simulation_runs": 0,
+  "original_reports_modified": 0,
+  "raw_observation_files_read_or_written": 0,
+  "external_uploads": 0,
+  "project_directory": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/history_review_stage1_20261104T131126Z",
+  "handoff_directory": "/data/AI_Research/shared/handoff/gravitation_whsh_history_review_stage1_20261104T131126Z",
+  "root_copies": [
+    {
+      "path": "/data/AI_Research/HISTORY_REVIEW_SYNTHESIS.md",
+      "sha256": "bdd0431f075c265f06724889c90fb91c9ae163739f1e17810e5cb785d5502510"
+    },
+    {
+      "path": "/data/AI_Research/NEXT_ACTIONS.md",
+      "sha256": "d4cbd6c8f014938a509f8cb1f501e975d08fe73b248bfb515727ad97e105dbe9"
+    }
+  ],
+  "claim_scope": "Bounded saved-evidence synthesis only; labels never change task approval."
+}

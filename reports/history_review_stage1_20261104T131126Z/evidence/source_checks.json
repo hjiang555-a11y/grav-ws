@@ -1,0 +1,716 @@
+[
+  {
+    "source_id": "S01",
+    "task_id": "3b82c96328ae4aa5a0f8e5aed4ac41d9",
+    "path": "/data/AI_Research/shared/handoff/research_director_takeover_20261104T124914Z/legacy_result_3b82c96328ae4aa5a0f8e5aed4ac41d9.md",
+    "expected_sha256": "738893702f92a168bd5c3e43ebf1a373b3cbaf813b99c17d6dc6ab19432b05ab",
+    "actual_sha256": "738893702f92a168bd5c3e43ebf1a373b3cbaf813b99c17d6dc6ab19432b05ab",
+    "hash_match": true,
+    "sqlite_text_equal": true,
+    "status_still_review": true,
+    "agent_matches": true,
+    "manifest_hash_unchanged": true
+  },
+  {
+    "source_id": "S02",
+    "task_id": "a441fcfb26cc4cba8c52b143f7e3b19e",
+    "path": "/data/AI_Research/shared/handoff/research_director_takeover_20261104T124914Z/legacy_result_a441fcfb26cc4cba8c52b143f7e3b19e.md",
+    "expected_sha256": "912b0888e2a828d5efef9589c057f6b8517501c1cfe18851defdfbc7f48e707f",
+    "actual_sha256": "912b0888e2a828d5efef9589c057f6b8517501c1cfe18851defdfbc7f48e707f",
+    "hash_match": true,
+    "sqlite_text_equal": true,
+    "status_still_review": true,
+    "agent_matches": true,
+    "manifest_hash_unchanged": true
+  },
+  {
+    "source_id": "S03",
+    "task_id": "c6f4abd48a7a47088d3d982a403d4f8b",
+    "path": "/data/AI_Research/runtime/director-integration-20261104T100000Z/acceptance_01/data_agent_c6f4abd48a7a47088d3d982a403d4f8b.md",
+    "expected_sha256": "9087468c247c75573c81e65b6dd3087ccfa1251dcfc22c1c2e9e9fd3b12c79fc",
+    "actual_sha256": "9087468c247c75573c81e65b6dd3087ccfa1251dcfc22c1c2e9e9fd3b12c79fc",
+    "hash_match": true,
+    "sqlite_text_equal": true,
+    "status_still_review": true,
+    "agent_matches": true,
+    "manifest_hash_unchanged": true
+  },
+  {
+    "source_id": "S04",
+    "task_id": "939f89f126974147bfc6067602796c3a",
+    "path": "/data/AI_Research/runtime/director-integration-20261104T100000Z/acceptance_01/physics_agent_939f89f126974147bfc6067602796c3a.md",
+    "expected_sha256": "ca36889f247216ad0a85f2e1cc93aa4c5d6a327a6879f8fced2b152f8b6c7ef8",
+    "actual_sha256": "ca36889f247216ad0a85f2e1cc93aa4c5d6a327a6879f8fced2b152f8b6c7ef8",
+    "hash_match": true,
+    "sqlite_text_equal": true,
+    "status_still_review": true,
+    "agent_matches": true,
+    "manifest_hash_unchanged": true
+  },
+  {
+    "source_id": "S05",
+    "task_id": "6ec3234b3edd413f86bbf28de54e4b37",
+    "path": "/data/AI_Research/runtime/director-integration-20261104T100000Z/acceptance_02/statistics_agent_6ec3234b3edd413f86bbf28de54e4b37.md",
+    "expected_sha256": "60b22679e7ac952e05300b1182e16eafd4a5275dceba9a25d6a6bfad5a434179",
+    "actual_sha256": "60b22679e7ac952e05300b1182e16eafd4a5275dceba9a25d6a6bfad5a434179",
+    "hash_match": true,
+    "sqlite_text_equal": true,
+    "status_still_review": true,
+    "agent_matches": true,
+    "manifest_hash_unchanged": true
+  },
+  {
+    "source_id": "S06",
+    "task_id": "00c370db174640ddb552504d08ad7f40",
+    "path": "/data/AI_Research/runtime/director-integration-20261104T100000Z/acceptance_02/audit_agent_00c370db174640ddb552504d08ad7f40.md",
+    "expected_sha256": "d3a2b7aaa3ae8c032417a02d11ecc47bf327a095bc3efafea0eac6d2b0475438",
+    "actual_sha256": "d3a2b7aaa3ae8c032417a02d11ecc47bf327a095bc3efafea0eac6d2b0475438",
+    "hash_match": true,
+    "sqlite_text_equal": true,
+    "status_still_review": true,
+    "agent_matches": true,
+    "manifest_hash_unchanged": true
+  },
+  {
+    "source_id": "S07",
+    "task_id": "dcbd0d8781394846aefedf27333902f8",
+    "path": "/data/AI_Research/runtime/director-integration-20261104T100000Z/acceptance_03/audit_agent_dcbd0d8781394846aefedf27333902f8.md",
+    "expected_sha256": "0680dc51f2e042c84a921e6b77537d42bf95783d385d82e2456b0c07f0861fa1",
+    "actual_sha256": "0680dc51f2e042c84a921e6b77537d42bf95783d385d82e2456b0c07f0861fa1",
+    "hash_match": true,
+    "sqlite_text_equal": true,
+    "status_still_review": true,
+    "agent_matches": true,
+    "manifest_hash_unchanged": true
+  },
+  {
+    "source_id": "S08",
+    "task_id": "5d67d827cbcb4f29a260402fb429e453",
+    "path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/second_stage_20261104T101800Z/agent_outputs/cross_review/audit_agent_5d67d827cbcb4f29a260402fb429e453.md",
+    "expected_sha256": "bd68acab3a9c6640317a8f0003e9b2ce79e613c3a2319bb4d6249a311547d206",
+    "actual_sha256": "bd68acab3a9c6640317a8f0003e9b2ce79e613c3a2319bb4d6249a311547d206",
+    "hash_match": true,
+    "sqlite_text_equal": true,
+    "status_still_review": true,
+    "agent_matches": true,
+    "manifest_hash_unchanged": true
+  },
+  {
+    "source_id": "S09",
+    "task_id": "8664a1a8f50d4e7fab2cfc2967591403",
+    "path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/second_stage_20261104T101800Z/agent_outputs/cross_review/data_agent_8664a1a8f50d4e7fab2cfc2967591403.md",
+    "expected_sha256": "54eaee83f0e053f00e0780d4b8ec36c915a585d6ba38e996a65c597751593154",
+    "actual_sha256": "54eaee83f0e053f00e0780d4b8ec36c915a585d6ba38e996a65c597751593154",
+    "hash_match": true,
+    "sqlite_text_equal": true,
+    "status_still_review": true,
+    "agent_matches": true,
+    "manifest_hash_unchanged": true
+  },
+  {
+    "source_id": "S10",
+    "task_id": "69530a5f4b1e423d8f82d8a3048d21f8",
+    "path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/discovery_20261104T110028Z/agent_outputs/design/data_agent_69530a5f4b1e423d8f82d8a3048d21f8.md",
+    "expected_sha256": "b24c86bcf8ff4a47f36994b9c51c12188b01b418ab52093a353d17e08d6e21a1",
+    "actual_sha256": "b24c86bcf8ff4a47f36994b9c51c12188b01b418ab52093a353d17e08d6e21a1",
+    "hash_match": true,
+    "sqlite_text_equal": true,
+    "status_still_review": true,
+    "agent_matches": true,
+    "manifest_hash_unchanged": true
+  },
+  {
+    "source_id": "S11",
+    "task_id": "628ced8b26634fcba1c11d3ffbd69a34",
+    "path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/discovery_20261104T110028Z/agent_outputs/design/physics_agent_628ced8b26634fcba1c11d3ffbd69a34.md",
+    "expected_sha256": "306b75c1a85f5067e0d77fbce0145b469c894913f5e0d162773252d84a307192",
+    "actual_sha256": "306b75c1a85f5067e0d77fbce0145b469c894913f5e0d162773252d84a307192",
+    "hash_match": true,
+    "sqlite_text_equal": true,
+    "status_still_review": true,
+    "agent_matches": true,
+    "manifest_hash_unchanged": true
+  },
+  {
+    "source_id": "S12",
+    "task_id": "55504198f06e474cbf79fb11ab85ebae",
+    "path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/discovery_20261104T110028Z/agent_outputs/design/statistics_agent_55504198f06e474cbf79fb11ab85ebae.md",
+    "expected_sha256": "44aa830e35377dbb0ca532c5188728e51f9c20a73756c354004d58259353aa05",
+    "actual_sha256": "44aa830e35377dbb0ca532c5188728e51f9c20a73756c354004d58259353aa05",
+    "hash_match": true,
+    "sqlite_text_equal": true,
+    "status_still_review": true,
+    "agent_matches": true,
+    "manifest_hash_unchanged": true
+  },
+  {
+    "source_id": "S13",
+    "task_id": "7a8cdecb25ba460e8e3c4ef186f85d2d",
+    "path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/discovery_20261104T110028Z/agent_outputs/design/audit_agent_7a8cdecb25ba460e8e3c4ef186f85d2d.md",
+    "expected_sha256": "d0312cab9287b32bc201ba854437608a5a8c91b708c6eba526dacf40af6bd908",
+    "actual_sha256": "d0312cab9287b32bc201ba854437608a5a8c91b708c6eba526dacf40af6bd908",
+    "hash_match": true,
+    "sqlite_text_equal": true,
+    "status_still_review": true,
+    "agent_matches": true,
+    "manifest_hash_unchanged": true
+  },
+  {
+    "source_id": "S14",
+    "task_id": "d3b278fc79434f0fb6c5d645351199cc",
+    "path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/discovery_20261104T110028Z/agent_outputs/implementation/statistics_agent_d3b278fc79434f0fb6c5d645351199cc.md",
+    "expected_sha256": "309e850f1e470bf69596cb396628a03b2947a3006d5b507e73458ac893626fb3",
+    "actual_sha256": "309e850f1e470bf69596cb396628a03b2947a3006d5b507e73458ac893626fb3",
+    "hash_match": true,
+    "sqlite_text_equal": true,
+    "status_still_review": true,
+    "agent_matches": true,
+    "manifest_hash_unchanged": true
+  },
+  {
+    "source_id": "S15",
+    "task_id": "e30c185da50d466fa3aae7cae1fca5e8",
+    "path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/discovery_20261104T110028Z/agent_outputs/implementation/physics_agent_e30c185da50d466fa3aae7cae1fca5e8.md",
+    "expected_sha256": "119aeea3c94e4edb9d66725ba9e345ea82e89d73f18c8c6489f81db2f6af12ca",
+    "actual_sha256": "119aeea3c94e4edb9d66725ba9e345ea82e89d73f18c8c6489f81db2f6af12ca",
+    "hash_match": true,
+    "sqlite_text_equal": true,
+    "status_still_review": true,
+    "agent_matches": true,
+    "manifest_hash_unchanged": true
+  },
+  {
+    "source_id": "S16",
+    "task_id": "c3459b23d59c4e7198b9dae58092c295",
+    "path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/discovery_20261104T110028Z/agent_outputs/implementation/data_agent_c3459b23d59c4e7198b9dae58092c295.md",
+    "expected_sha256": "3456f25dd1372e5f11754fe302b6ebea219d8c86d6c4f33aff57b45974b5e13d",
+    "actual_sha256": "3456f25dd1372e5f11754fe302b6ebea219d8c86d6c4f33aff57b45974b5e13d",
+    "hash_match": true,
+    "sqlite_text_equal": true,
+    "status_still_review": true,
+    "agent_matches": true,
+    "manifest_hash_unchanged": true
+  },
+  {
+    "source_id": "S17",
+    "task_id": "bdf2bf442b914d5c9a8cc93d9c26e2ff",
+    "path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/discovery_20261104T110028Z/agent_outputs/preflight_review/audit_agent_bdf2bf442b914d5c9a8cc93d9c26e2ff.md",
+    "expected_sha256": "5f8ad718ec180734e6cc9a06cd116272a5e9037b51c329583c3bec706b74160c",
+    "actual_sha256": "5f8ad718ec180734e6cc9a06cd116272a5e9037b51c329583c3bec706b74160c",
+    "hash_match": true,
+    "sqlite_text_equal": true,
+    "status_still_review": true,
+    "agent_matches": true,
+    "manifest_hash_unchanged": true
+  },
+  {
+    "source_id": "S18",
+    "task_id": "6b8c3458250247e98039a58f5bf50f8e",
+    "path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/discovery_20261104T110028Z/agent_outputs/prediction_and_extension/physics_agent_6b8c3458250247e98039a58f5bf50f8e.md",
+    "expected_sha256": "ada497f0aa5065e1321771f5340ffe31fe4a174e065eafcb9f7e17f7b88a1662",
+    "actual_sha256": "ada497f0aa5065e1321771f5340ffe31fe4a174e065eafcb9f7e17f7b88a1662",
+    "hash_match": true,
+    "sqlite_text_equal": true,
+    "status_still_review": true,
+    "agent_matches": true,
+    "manifest_hash_unchanged": true
+  },
+  {
+    "source_id": "S19",
+    "task_id": "12fbb8b1a0404ca5bc2989b5bde090e8",
+    "path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/discovery_20261104T110028Z/agent_outputs/extended_preflight/audit_agent_12fbb8b1a0404ca5bc2989b5bde090e8.md",
+    "expected_sha256": "9fb3bdce858a7a38f8bb9c1f14b9ba72cc323e71efbc4b4afc06f86e14003c99",
+    "actual_sha256": "9fb3bdce858a7a38f8bb9c1f14b9ba72cc323e71efbc4b4afc06f86e14003c99",
+    "hash_match": true,
+    "sqlite_text_equal": true,
+    "status_still_review": true,
+    "agent_matches": true,
+    "manifest_hash_unchanged": true
+  },
+  {
+    "source_id": "S20",
+    "task_id": "b0ddb4181abb424582dd29e59e472a6d",
+    "path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/discovery_20261104T110028Z/agent_outputs/extended_preflight/data_agent_b0ddb4181abb424582dd29e59e472a6d.md",
+    "expected_sha256": "92e2e5adf731df817a96c09f6c6d6fb5df7019c7fc9139e20b8a04bc763e20c1",
+    "actual_sha256": "92e2e5adf731df817a96c09f6c6d6fb5df7019c7fc9139e20b8a04bc763e20c1",
+    "hash_match": true,
+    "sqlite_text_equal": true,
+    "status_still_review": true,
+    "agent_matches": true,
+    "manifest_hash_unchanged": true
+  },
+  {
+    "source_id": "S21",
+    "task_id": "d5ebe91c405e424583990efe2a07f86e",
+    "path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/discovery_20261104T110028Z/agent_outputs/result_audit/audit_agent_d5ebe91c405e424583990efe2a07f86e.md",
+    "expected_sha256": "aacb7df81c6e2d8139b2806eb1cb389c6cd75556cc28cc9c898385c475d1f429",
+    "actual_sha256": "aacb7df81c6e2d8139b2806eb1cb389c6cd75556cc28cc9c898385c475d1f429",
+    "hash_match": true,
+    "sqlite_text_equal": true,
+    "status_still_review": true,
+    "agent_matches": true,
+    "manifest_hash_unchanged": true
+  },
+  {
+    "source_id": "S22",
+    "task_id": "fa4dcaf2b05345a19de73a6a864bdc43",
+    "path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/discovery_20261104T110028Z/agent_outputs/result_audit/data_agent_fa4dcaf2b05345a19de73a6a864bdc43.md",
+    "expected_sha256": "e5d6a5798b182f39a98a4ef95612498c2c6d5f7a1808776b1f818208e210f7c5",
+    "actual_sha256": "e5d6a5798b182f39a98a4ef95612498c2c6d5f7a1808776b1f818208e210f7c5",
+    "hash_match": true,
+    "sqlite_text_equal": true,
+    "status_still_review": true,
+    "agent_matches": true,
+    "manifest_hash_unchanged": true
+  },
+  {
+    "source_id": "S23",
+    "task_id": "8ed45fc1bdce42b2afd6fa2f5faa243a",
+    "path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/discovery_20261104T110028Z/agent_outputs/summer_calibration_implementation/statistics_agent_8ed45fc1bdce42b2afd6fa2f5faa243a.md",
+    "expected_sha256": "8c3bc99ea94d934e7596b7c1d480ea1cb3f11f9167070a07c8217618dd4d3060",
+    "actual_sha256": "8c3bc99ea94d934e7596b7c1d480ea1cb3f11f9167070a07c8217618dd4d3060",
+    "hash_match": true,
+    "sqlite_text_equal": true,
+    "status_still_review": true,
+    "agent_matches": true,
+    "manifest_hash_unchanged": true
+  },
+  {
+    "source_id": "S24",
+    "task_id": "fc8ffb408b704ff1a0b86c50556266ab",
+    "path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/discovery_20261104T110028Z/agent_outputs/summer_calibration_implementation/data_agent_fc8ffb408b704ff1a0b86c50556266ab.md",
+    "expected_sha256": "11c712ee8a81d03f2c1bee842e197bc871ad1b8913e6c3f9d5be3a27b0dfdf5c",
+    "actual_sha256": "11c712ee8a81d03f2c1bee842e197bc871ad1b8913e6c3f9d5be3a27b0dfdf5c",
+    "hash_match": true,
+    "sqlite_text_equal": true,
+    "status_still_review": true,
+    "agent_matches": true,
+    "manifest_hash_unchanged": true
+  },
+  {
+    "source_id": "S25",
+    "task_id": "ab9c9e4b2ab44a2e9ea1138a7dd59947",
+    "path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/discovery_20261104T110028Z/agent_outputs/summer_audit_fiber_inventory_predictive_code/audit_agent_ab9c9e4b2ab44a2e9ea1138a7dd59947.md",
+    "expected_sha256": "cacb44786999f70417247b34d2c6cbd50705223344a5caf9f68da35137dcdfc6",
+    "actual_sha256": "cacb44786999f70417247b34d2c6cbd50705223344a5caf9f68da35137dcdfc6",
+    "hash_match": true,
+    "sqlite_text_equal": true,
+    "status_still_review": true,
+    "agent_matches": true,
+    "manifest_hash_unchanged": true
+  },
+  {
+    "source_id": "X01",
+    "path": "/data/AI_Research/projects/gravitation-whsh/r3_template_fix_20261104T074117Z/research/nature-v17-reproduction/outputs_r3/main_estimate.json",
+    "expected_sha256": "1afc144275058f39eeda185ed673e948dcd7dea42835894d3a92bfec1fd2207e",
+    "actual_sha256": "1afc144275058f39eeda185ed673e948dcd7dea42835894d3a92bfec1fd2207e",
+    "hash_match": true,
+    "historical_expected_sha256": null,
+    "historical_match": null
+  },
+  {
+    "source_id": "X02",
+    "path": "/data/AI_Research/projects/gravitation-whsh/r3_template_fix_20261104T074117Z/research/nature-v17-reproduction/outputs_r3/robustness.json",
+    "expected_sha256": "05a66995b3dcee2075a7da1a57e7419a50d40d360c5efbb998cb06c1b8b1e22e",
+    "actual_sha256": "05a66995b3dcee2075a7da1a57e7419a50d40d360c5efbb998cb06c1b8b1e22e",
+    "hash_match": true,
+    "historical_expected_sha256": null,
+    "historical_match": null
+  },
+  {
+    "source_id": "X03",
+    "path": "/data/AI_Research/projects/gravitation-whsh/r3_template_fix_20261104T074117Z/research/nature-v17-reproduction/outputs_r3/hours_by_campaign.csv",
+    "expected_sha256": "ae80de311df99619ab18ad59e85b46fed117d06d5ccaf4625da4068b292eae8b",
+    "actual_sha256": "ae80de311df99619ab18ad59e85b46fed117d06d5ccaf4625da4068b292eae8b",
+    "hash_match": true,
+    "historical_expected_sha256": null,
+    "historical_match": null
+  },
+  {
+    "source_id": "X04",
+    "path": "/data/AI_Research/projects/gravitation-whsh/r3_template_fix_20261104T074117Z/research/nature-v17-reproduction/SEGMENT_TABLE.csv",
+    "expected_sha256": "cb4c1c51f42abd69bef74a0536142d1332d1273f423d5c03df87f60e01703e5d",
+    "actual_sha256": "cb4c1c51f42abd69bef74a0536142d1332d1273f423d5c03df87f60e01703e5d",
+    "hash_match": true,
+    "historical_expected_sha256": null,
+    "historical_match": null
+  },
+  {
+    "source_id": "X05",
+    "path": "/data/AI_Research/projects/gravitation-whsh/r3_template_fix_20261104T074117Z/research/nature-v17-reproduction/INPUT_MANIFEST.json",
+    "expected_sha256": "8348f7d4feacb25cd0396d07fc1ee332264887b2c11d7c441949a213eb3a45bc",
+    "actual_sha256": "8348f7d4feacb25cd0396d07fc1ee332264887b2c11d7c441949a213eb3a45bc",
+    "hash_match": true,
+    "historical_expected_sha256": null,
+    "historical_match": null
+  },
+  {
+    "source_id": "X06",
+    "path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/second_stage_20261104T101800Z/evidence/SUMMARY_ARITHMETIC.json",
+    "expected_sha256": "85ec2fd382dad1211669229116eda6728d28a736af229e69383351db76451642",
+    "actual_sha256": "85ec2fd382dad1211669229116eda6728d28a736af229e69383351db76451642",
+    "hash_match": true,
+    "historical_expected_sha256": null,
+    "historical_match": null
+  },
+  {
+    "source_id": "X07",
+    "path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/second_stage_20261104T101800Z/evidence/CROSS_REVIEW_RESOLUTION.json",
+    "expected_sha256": "033d1bcee8b2b71a5dee9befcaf80adcc7939995438b1d580082c8f47deec544",
+    "actual_sha256": "033d1bcee8b2b71a5dee9befcaf80adcc7939995438b1d580082c8f47deec544",
+    "hash_match": true,
+    "historical_expected_sha256": null,
+    "historical_match": null
+  },
+  {
+    "source_id": "X08",
+    "path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/second_stage_20261104T101800Z/evidence/CODE_PROVENANCE_RECONCILIATION.json",
+    "expected_sha256": "f16acf9856f6db56a53b2f9928a180ab1efe196f8b7aaf266f2ddd9fc52b5746",
+    "actual_sha256": "f16acf9856f6db56a53b2f9928a180ab1efe196f8b7aaf266f2ddd9fc52b5746",
+    "hash_match": true,
+    "historical_expected_sha256": null,
+    "historical_match": null
+  },
+  {
+    "source_id": "X09",
+    "path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/discovery_20261104T110028Z/evidence/CURRENT_CALIBRATION_STATUS.json",
+    "expected_sha256": "993cdf747875251720b2331902014e436efaf05002def1de11452b54926d5bdc",
+    "actual_sha256": "993cdf747875251720b2331902014e436efaf05002def1de11452b54926d5bdc",
+    "hash_match": true,
+    "historical_expected_sha256": null,
+    "historical_match": null
+  },
+  {
+    "source_id": "X10",
+    "path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/discovery_20261104T110028Z/evidence/ABSOLUTE_RESULT_AUDIT_STATUS_ADDENDUM.md",
+    "expected_sha256": "535f3bf6c3748898d5402a014ffa63ad2ccd6c5865ab5e42d7dc5824be804cd4",
+    "actual_sha256": "535f3bf6c3748898d5402a014ffa63ad2ccd6c5865ab5e42d7dc5824be804cd4",
+    "hash_match": true,
+    "historical_expected_sha256": null,
+    "historical_match": null
+  },
+  {
+    "source_id": "X11",
+    "path": "/data/AI_Research/shared/handoff/research_director_takeover_20261104T124914Z/PI_INPUT_2025_FREQUENCY_CHAIN.md",
+    "expected_sha256": "367874955fb77ef98f93d74e89f27d2b9e44857bbd9fb26d70c6fe89ba5196ae",
+    "actual_sha256": "367874955fb77ef98f93d74e89f27d2b9e44857bbd9fb26d70c6fe89ba5196ae",
+    "hash_match": true,
+    "historical_expected_sha256": null,
+    "historical_match": null
+  },
+  {
+    "source_id": "X12",
+    "path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/discovery_20261104T110028Z/evidence/FIBER_PHYSICAL_SCOPE_UPDATE_20261104.md",
+    "expected_sha256": "194989f34f2dbec1c72e5a595132e5c12861cabeeb60a31bb639ce8c15f0eed6",
+    "actual_sha256": "194989f34f2dbec1c72e5a595132e5c12861cabeeb60a31bb639ce8c15f0eed6",
+    "hash_match": true,
+    "historical_expected_sha256": null,
+    "historical_match": null
+  },
+  {
+    "source_id": "X13",
+    "path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/discovery_20261104T110028Z/evidence/PRL_FIBER_SOURCE_REVIEW.md",
+    "expected_sha256": "063570302198193b72724b0ba7b7f74098fe0786adf715429d553e04e7dbe7af",
+    "actual_sha256": "063570302198193b72724b0ba7b7f74098fe0786adf715429d553e04e7dbe7af",
+    "hash_match": true,
+    "historical_expected_sha256": null,
+    "historical_match": null
+  },
+  {
+    "source_id": "X14",
+    "path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/discovery_20261104T110028Z/evidence/PRL_FIBER_SOURCE_REVIEW.json",
+    "expected_sha256": "dc959a3586609141c30a6be58ea96496d1f5e02be8122a9222fd28854ae376fe",
+    "actual_sha256": "dc959a3586609141c30a6be58ea96496d1f5e02be8122a9222fd28854ae376fe",
+    "hash_match": true,
+    "historical_expected_sha256": null,
+    "historical_match": null
+  },
+  {
+    "source_id": "X15",
+    "path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/discovery_20261104T110028Z/evidence/ABSOLUTE_RESULT_AUDIT.json",
+    "expected_sha256": "6036107fa7aef7028886c3b535fac58aed098381c0e4233e60a90edb100892d4",
+    "actual_sha256": "6036107fa7aef7028886c3b535fac58aed098381c0e4233e60a90edb100892d4",
+    "hash_match": true,
+    "historical_expected_sha256": null,
+    "historical_match": null
+  },
+  {
+    "source_id": "X16",
+    "path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/discovery_20261104T110028Z/results/E1_predictive/fold_scores.csv",
+    "expected_sha256": "180650ecc073d82293eeefa215b12e3a29de739f3ad4a27ff03f2c6869dabc89",
+    "actual_sha256": "180650ecc073d82293eeefa215b12e3a29de739f3ad4a27ff03f2c6869dabc89",
+    "hash_match": true,
+    "historical_expected_sha256": null,
+    "historical_match": null
+  },
+  {
+    "source_id": "X17",
+    "path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/discovery_20261104T110028Z/results/E1_predictive/conditional_calibration.json",
+    "expected_sha256": "915bac3eee01fb623f89e9ef7e5d40db908d669036eb64049eaae86df209f556",
+    "actual_sha256": "915bac3eee01fb623f89e9ef7e5d40db908d669036eb64049eaae86df209f556",
+    "hash_match": true,
+    "historical_expected_sha256": null,
+    "historical_match": null
+  },
+  {
+    "source_id": "X18",
+    "path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/discovery_20261104T110028Z/results/E1_predictive/result.json",
+    "expected_sha256": "db73553d245ac2f115bdcf98f1dd4d3444d68fd56ae7da99de26bc4c153cfdd2",
+    "actual_sha256": "db73553d245ac2f115bdcf98f1dd4d3444d68fd56ae7da99de26bc4c153cfdd2",
+    "hash_match": true,
+    "historical_expected_sha256": null,
+    "historical_match": null
+  },
+  {
+    "source_id": "X19",
+    "path": "/data/AI_Research/projects/gravitation-whsh/evidence_closure_20261103T150618Z/specifications/PHASE_MODEL_SPECIFICATION.v2.md",
+    "expected_sha256": "13983d44700ff0dd9e37640147f1103afa35e3c5f46f653c081e051c167a24f2",
+    "actual_sha256": "13983d44700ff0dd9e37640147f1103afa35e3c5f46f653c081e051c167a24f2",
+    "hash_match": true,
+    "historical_expected_sha256": null,
+    "historical_match": null
+  },
+  {
+    "source_id": "X20",
+    "path": "/data/AI_Research/projects/gravitation-whsh/evidence_closure_20261103T150618Z/specifications/TIMING_SENSITIVITY_PROTOCOL.md",
+    "expected_sha256": "82fd9d56566c38349ab67e8b3bc54f186dbdaae36f43ddef17101ca73cb78cbd",
+    "actual_sha256": "82fd9d56566c38349ab67e8b3bc54f186dbdaae36f43ddef17101ca73cb78cbd",
+    "hash_match": true,
+    "historical_expected_sha256": null,
+    "historical_match": null
+  },
+  {
+    "source_id": "X21",
+    "path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/second_stage_20261104T101800Z/SCIENTIFIC_EVIDENCE_MATRIX.md",
+    "expected_sha256": "8765f6d1b07306186c924a9dc199623bc1e79cf3b37b74705bb3b15ec454ecad",
+    "actual_sha256": "8765f6d1b07306186c924a9dc199623bc1e79cf3b37b74705bb3b15ec454ecad",
+    "hash_match": true,
+    "historical_expected_sha256": null,
+    "historical_match": null
+  },
+  {
+    "source_id": "X22",
+    "path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/second_stage_20261104T101800Z/CRITICAL_RESEARCH_GAPS.md",
+    "expected_sha256": "deeb8217616dae3ac534571993f41ff630caee33a265a3ed3aae6435c76cb0dc",
+    "actual_sha256": "deeb8217616dae3ac534571993f41ff630caee33a265a3ed3aae6435c76cb0dc",
+    "hash_match": true,
+    "historical_expected_sha256": null,
+    "historical_match": null
+  },
+  {
+    "source_id": "X23",
+    "path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/sources/source_manifest.json",
+    "expected_sha256": "83d6b9d89f042050c448ae27f83ad03b309435bf61fc966f4d460ce00cbae324",
+    "actual_sha256": "83d6b9d89f042050c448ae27f83ad03b309435bf61fc966f4d460ce00cbae324",
+    "hash_match": true,
+    "historical_expected_sha256": null,
+    "historical_match": null
+  },
+  {
+    "source_id": "X24",
+    "path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/sources/v17b/page_001.txt",
+    "expected_sha256": "ba330574730a78bc4018e37a9b85724ef62627bcc43dfd430714766d5c790104",
+    "actual_sha256": "ba330574730a78bc4018e37a9b85724ef62627bcc43dfd430714766d5c790104",
+    "hash_match": true,
+    "historical_expected_sha256": null,
+    "historical_match": null
+  },
+  {
+    "source_id": "X25",
+    "path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/sources/v17b/page_002.txt",
+    "expected_sha256": "ca3d4ae75292646fde97b82ee6e1a8ef692aefa3be84963dc62826eab8bf2ba8",
+    "actual_sha256": "ca3d4ae75292646fde97b82ee6e1a8ef692aefa3be84963dc62826eab8bf2ba8",
+    "hash_match": true,
+    "historical_expected_sha256": null,
+    "historical_match": null
+  },
+  {
+    "source_id": "X26",
+    "path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/sources/v17b/page_003.txt",
+    "expected_sha256": "eaab807a7cc27eaf0944bccc4d21f4f0cccbfc5bb9afcacc35966a365e6d17bf",
+    "actual_sha256": "eaab807a7cc27eaf0944bccc4d21f4f0cccbfc5bb9afcacc35966a365e6d17bf",
+    "hash_match": true,
+    "historical_expected_sha256": null,
+    "historical_match": null
+  },
+  {
+    "source_id": "X27",
+    "path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/sources/v17b/page_004.txt",
+    "expected_sha256": "2020254fefb87e01367ec9f01f3d9df6fd5f9f55c54c4e9dde5d67d0ffe480a9",
+    "actual_sha256": "2020254fefb87e01367ec9f01f3d9df6fd5f9f55c54c4e9dde5d67d0ffe480a9",
+    "hash_match": true,
+    "historical_expected_sha256": null,
+    "historical_match": null
+  },
+  {
+    "source_id": "X28",
+    "path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/sources/v17b/page_005.txt",
+    "expected_sha256": "36503de390d8709bb7ccab0793eb85a6ed93ad4282fb2c0e40cf7b336be68970",
+    "actual_sha256": "36503de390d8709bb7ccab0793eb85a6ed93ad4282fb2c0e40cf7b336be68970",
+    "hash_match": true,
+    "historical_expected_sha256": null,
+    "historical_match": null
+  },
+  {
+    "source_id": "X29",
+    "path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/sources/v17b/page_006.txt",
+    "expected_sha256": "32c4d67d8de7ca14b2f19ce14d71b4bae972163cf92a5a342cd1f79a79b5eff8",
+    "actual_sha256": "32c4d67d8de7ca14b2f19ce14d71b4bae972163cf92a5a342cd1f79a79b5eff8",
+    "hash_match": true,
+    "historical_expected_sha256": null,
+    "historical_match": null
+  },
+  {
+    "source_id": "X30",
+    "path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/sources/v17b/page_009.txt",
+    "expected_sha256": "5bdfa7df999cbebbabaab5b13563000cdde03f726ffc9eb97bcbf4c57fae42e5",
+    "actual_sha256": "5bdfa7df999cbebbabaab5b13563000cdde03f726ffc9eb97bcbf4c57fae42e5",
+    "hash_match": true,
+    "historical_expected_sha256": null,
+    "historical_match": null
+  },
+  {
+    "source_id": "X31",
+    "path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/sources/europe/page_001.txt",
+    "expected_sha256": "74aac95833c98fb87d8e5f010d464f11b16a941074813ca07d67eff690f4da2f",
+    "actual_sha256": "74aac95833c98fb87d8e5f010d464f11b16a941074813ca07d67eff690f4da2f",
+    "hash_match": true,
+    "historical_expected_sha256": null,
+    "historical_match": null
+  },
+  {
+    "source_id": "X32",
+    "path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/sources/europe/page_007.txt",
+    "expected_sha256": "2608d18699322dad5ea19709a733ef2ff6b2941bd1555176ca8bbe4c98cebb60",
+    "actual_sha256": "2608d18699322dad5ea19709a733ef2ff6b2941bd1555176ca8bbe4c98cebb60",
+    "hash_match": true,
+    "historical_expected_sha256": null,
+    "historical_match": null
+  },
+  {
+    "source_id": "X33",
+    "path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/sources/europe/page_008.txt",
+    "expected_sha256": "f41f7cc4754a023e5fbd1016edfc2b1ebbe58448147e16d2bfa064ffcbd66ab0",
+    "actual_sha256": "f41f7cc4754a023e5fbd1016edfc2b1ebbe58448147e16d2bfa064ffcbd66ab0",
+    "hash_match": true,
+    "historical_expected_sha256": null,
+    "historical_match": null
+  },
+  {
+    "source_id": "X34",
+    "path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/sources/europe/page_011.txt",
+    "expected_sha256": "d3ad0bbacf66d1f5c0c71ef306cebc77dd08cad1a452d87c4ca6041574ee98e6",
+    "actual_sha256": "d3ad0bbacf66d1f5c0c71ef306cebc77dd08cad1a452d87c4ca6041574ee98e6",
+    "hash_match": true,
+    "historical_expected_sha256": null,
+    "historical_match": null
+  },
+  {
+    "source_id": "X35",
+    "path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/sources/europe/page_013.txt",
+    "expected_sha256": "43351c3d7a11163c6460783ab85464e854b20dee73d9ea0bb1fef8b2aead6960",
+    "actual_sha256": "43351c3d7a11163c6460783ab85464e854b20dee73d9ea0bb1fef8b2aead6960",
+    "hash_match": true,
+    "historical_expected_sha256": null,
+    "historical_match": null
+  },
+  {
+    "source_id": "X36",
+    "path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/sources/europe/page_014.txt",
+    "expected_sha256": "7e26a5b806538c8da1447a0c53c2c41156d9dd7fdf3b5b56d419529197aa16fe",
+    "actual_sha256": "7e26a5b806538c8da1447a0c53c2c41156d9dd7fdf3b5b56d419529197aa16fe",
+    "hash_match": true,
+    "historical_expected_sha256": null,
+    "historical_match": null
+  },
+  {
+    "source_id": "X37",
+    "path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/sources/europe/page_015.txt",
+    "expected_sha256": "432605e7aed077e39e37d1b132612676c8958b331f06683e57b8dc34e4f1a640",
+    "actual_sha256": "432605e7aed077e39e37d1b132612676c8958b331f06683e57b8dc34e4f1a640",
+    "hash_match": true,
+    "historical_expected_sha256": null,
+    "historical_match": null
+  },
+  {
+    "source_id": "X38",
+    "path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/second_stage_20261104T101800Z/evidence/R3B_TEST_RECHECK.log",
+    "expected_sha256": "906b207ec4a3bbf98f8eb50e2776c8ed684995fd8f62df4817f759895adf1766",
+    "actual_sha256": "906b207ec4a3bbf98f8eb50e2776c8ed684995fd8f62df4817f759895adf1766",
+    "hash_match": true,
+    "historical_expected_sha256": null,
+    "historical_match": null
+  },
+  {
+    "source_id": "X39",
+    "path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/discovery_20261104T110028Z/evidence/CALIBRATION_STATUS_UPDATE_20261104.md",
+    "expected_sha256": "a55eb30db73ae0be07ac00dcff8f09c917e3029587537218c3eb01e969103020",
+    "actual_sha256": "a55eb30db73ae0be07ac00dcff8f09c917e3029587537218c3eb01e969103020",
+    "hash_match": true,
+    "historical_expected_sha256": null,
+    "historical_match": null
+  },
+  {
+    "source_id": "X40",
+    "path": "/data/AI_Research/projects/gravitation-whsh/SAMPLE_LEDGER.md",
+    "expected_sha256": "7d7e2137d9067e4ba975a28ff79cfa985f3384c667687e7301bfe10d6a208568",
+    "actual_sha256": "7d7e2137d9067e4ba975a28ff79cfa985f3384c667687e7301bfe10d6a208568",
+    "hash_match": true,
+    "historical_expected_sha256": null,
+    "historical_match": null
+  },
+  {
+    "source_id": "X41",
+    "path": "/data/AI_Research/projects/gravitation-whsh/TIME_BASIS_AUDIT.md",
+    "expected_sha256": "159271f4ed953e9660c924950a9dc017547fedf4cf428600cdba784b8416083f",
+    "actual_sha256": "159271f4ed953e9660c924950a9dc017547fedf4cf428600cdba784b8416083f",
+    "hash_match": true,
+    "historical_expected_sha256": null,
+    "historical_match": null
+  },
+  {
+    "source_id": "X42",
+    "path": "/data/AI_Research/projects/gravitation-whsh/PHASE_MODEL_SPECIFICATION.md",
+    "expected_sha256": "cd5b67f7c6468151c5638ae6798f434baceeab371cb7106d585086e45dabc87c",
+    "actual_sha256": "cd5b67f7c6468151c5638ae6798f434baceeab371cb7106d585086e45dabc87c",
+    "hash_match": true,
+    "historical_expected_sha256": null,
+    "historical_match": null
+  },
+  {
+    "source_id": "X43",
+    "path": "/home/room115/gravitation-whsh/research/Lunar_tide_coastal_inland_v17b_20261103(1).pdf",
+    "expected_sha256": "3f9665b9da7172d9bd4d10e858994137736a0580b6df532c1f3ca2cc43c45482",
+    "actual_sha256": "3f9665b9da7172d9bd4d10e858994137736a0580b6df532c1f3ca2cc43c45482",
+    "hash_match": true,
+    "historical_expected_sha256": "3f9665b9da7172d9bd4d10e858994137736a0580b6df532c1f3ca2cc43c45482",
+    "historical_match": true
+  },
+  {
+    "source_id": "X44",
+    "path": "/home/room115/gravitation-whsh/research/2610.39635v1(1).pdf",
+    "expected_sha256": "6e2a3aef4285a8afb63b7af23062ea7ea89c650d40311e8aa3c44235ca867b04",
+    "actual_sha256": "6e2a3aef4285a8afb63b7af23062ea7ea89c650d40311e8aa3c44235ca867b04",
+    "hash_match": true,
+    "historical_expected_sha256": "6e2a3aef4285a8afb63b7af23062ea7ea89c650d40311e8aa3c44235ca867b04",
+    "historical_match": true
+  },
+  {
+    "source_id": "X45",
+    "path": "/home/room115/gravitation-whsh/paper/prl/main.tex",
+    "expected_sha256": "c0a8ce8e858611c0c0acc74208f9dc626f3bcfb6ecf73326b6b203a7af556ccb",
+    "actual_sha256": "c0a8ce8e858611c0c0acc74208f9dc626f3bcfb6ecf73326b6b203a7af556ccb",
+    "hash_match": true,
+    "historical_expected_sha256": "c0a8ce8e858611c0c0acc74208f9dc626f3bcfb6ecf73326b6b203a7af556ccb",
+    "historical_match": true
+  },
+  {
+    "source_id": "X46",
+    "path": "/home/room115/gravitation-whsh/paper/prl/supplementary.tex",
+    "expected_sha256": "afbfaeaec7d35adc69ff49af9e842ec6fbe4f69fcd42150393e2555f35ef33ab",
+    "actual_sha256": "afbfaeaec7d35adc69ff49af9e842ec6fbe4f69fcd42150393e2555f35ef33ab",
+    "hash_match": true,
+    "historical_expected_sha256": "afbfaeaec7d35adc69ff49af9e842ec6fbe4f69fcd42150393e2555f35ef33ab",
+    "historical_match": true
+  }
+]

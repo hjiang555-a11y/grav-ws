@@ -1,0 +1,107 @@
+[
+  {
+    "action_id": "N01",
+    "priority": "P0",
+    "topic": "版本/样本",
+    "needed_evidence": "作者同版54段源行掩膜、29操作组映射、模板版本与模拟逐次输出；对齐D03—D06。",
+    "status": "PENDING",
+    "claim_ids": [
+      "C02",
+      "C03",
+      "C04",
+      "C12"
+    ],
+    "execute": false,
+    "awaiting_human_instruction": true
+  },
+  {
+    "action_id": "N02",
+    "priority": "P0",
+    "topic": "频率链",
+    "needed_evidence": "以已提供2025关系绑定具体日期、文件、列、计数器、在线处理、二倍恢复和转换方向；2026另绑配置。无需重问已明确的2025公式。",
+    "status": "PENDING",
+    "claim_ids": [
+      "C05",
+      "C06"
+    ],
+    "execute": false,
+    "awaiting_human_instruction": true
+  },
+  {
+    "action_id": "N03",
+    "priority": "P0",
+    "topic": "授时/门核",
+    "needed_evidence": "取得独立同步/PC标签/计数门中心或终点、重启和漂移证据；BJT已确认，不再重复问时区。",
+    "status": "PENDING",
+    "claim_ids": [
+      "C10"
+    ],
+    "execute": false,
+    "awaiting_human_instruction": true
+  },
+  {
+    "action_id": "N04",
+    "priority": "P0",
+    "topic": "传递支路",
+    "needed_evidence": "记录长链round-trip监测通道接线与系数、覆盖日期及实验室支路补偿/监控边界；没有单程点或支路记录时保留不可排除范围。",
+    "status": "BLOCKED",
+    "claim_ids": [
+      "C07",
+      "C08"
+    ],
+    "execute": false,
+    "awaiting_human_instruction": true
+  },
+  {
+    "action_id": "N05",
+    "priority": "P0",
+    "topic": "四五月校正",
+    "needed_evidence": "取得带来源、日期、符号、单位、适用运行及相关不确定度的可靠校正记录；不以E4均值倒推校正，不填零或借用夏季值。",
+    "status": "BLOCKED",
+    "claim_ids": [
+      "C15"
+    ],
+    "execute": false,
+    "awaiting_human_instruction": true
+  },
+  {
+    "action_id": "N06",
+    "priority": "P1",
+    "topic": "统计定义",
+    "needed_evidence": "冻结P6残差/移位/选择流程、P8权重、P9目标/误差，逐项核对现有作者输出；另区分LS协方差、max误差与固定V条件误差。",
+    "status": "PENDING",
+    "claim_ids": [
+      "C11",
+      "C12",
+      "C13"
+    ],
+    "execute": false,
+    "awaiting_human_instruction": true
+  },
+  {
+    "action_id": "N07",
+    "priority": "P1",
+    "topic": "预测/接入技术",
+    "needed_evidence": "保留E1停止标记和跨族gain限制；E6与intake v2仍等待人工决定是否开展独立技术复审。本轮不执行或复审它们。",
+    "status": "BLOCKED",
+    "claim_ids": [
+      "C14",
+      "C17"
+    ],
+    "execute": false,
+    "awaiting_human_instruction": true
+  },
+  {
+    "action_id": "N08",
+    "priority": "P1",
+    "topic": "新颖性表述",
+    "needed_evidence": "围绕M2+N2/太阳项分离与实际可辨识性论证；披露PRL夏季数据复用，保留欧洲先有能力，不用不同A目标排名。",
+    "status": "PENDING",
+    "claim_ids": [
+      "C09",
+      "C18"
+    ],
+    "execute": false,
+    "awaiting_human_instruction": true
+  }
+]

@@ -1,0 +1,124 @@
+{
+  "created_at_utc": "2026-11-04T13:37:51.827628+00:00",
+  "source_directory": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/history_review_stage1_20261104T131126Z",
+  "files": [
+    {
+      "path": "HISTORY_REVIEW_SYNTHESIS.md",
+      "source_path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/history_review_stage1_20261104T131126Z/HISTORY_REVIEW_SYNTHESIS.md",
+      "source_sha256": "bdd0431f075c265f06724889c90fb91c9ae163739f1e17810e5cb785d5502510",
+      "published_sha256": "9bc9f11c239795e3421bafdeff162088e4606145c7415a570cbde8667016e7d3",
+      "projection": "本地链接改为包内链接，行内公式改为GitHub数学格式"
+    },
+    {
+      "path": "NEXT_ACTIONS.md",
+      "source_path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/history_review_stage1_20261104T131126Z/NEXT_ACTIONS.md",
+      "source_sha256": "d4cbd6c8f014938a509f8cb1f501e975d08fe73b248bfb515727ad97e105dbe9",
+      "published_sha256": "894f0c2efa4ab9b155b8f62bdb1725556bf84eac7336ce22b8f7b37e5641c424",
+      "projection": "本地链接改为包内链接，行内公式改为GitHub数学格式"
+    },
+    {
+      "path": "EVIDENCE_CATALOG.md",
+      "source_path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/history_review_stage1_20261104T131126Z/EVIDENCE_CATALOG.md",
+      "source_sha256": "80d679430bb00e2b3bb7b270b792c3df8914a2f06bdfa72d9fc833e9c0ee54fd",
+      "published_sha256": "291138a2be698f410dec05c778ef39f0835e5f758e3fbc1c3946fe171d129680",
+      "projection": "本地链接改为包内链接，行内公式改为GitHub数学格式"
+    },
+    {
+      "path": "DISCREPANCY_REGISTER.md",
+      "source_path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/history_review_stage1_20261104T131126Z/DISCREPANCY_REGISTER.md",
+      "source_sha256": "79f972b61c49fb7b1021f4243e97a16e237ebfa8f4463f586e35e95d95997971",
+      "published_sha256": "b75eeb6c42eaddfcaab768051f31fc0321ac28c34962119646c5d9541caf9e81",
+      "projection": "本地链接改为包内链接，行内公式改为GitHub数学格式"
+    },
+    {
+      "path": "TASK_REVIEW_SYNTHESIS.csv",
+      "source_path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/history_review_stage1_20261104T131126Z/TASK_REVIEW_SYNTHESIS.csv",
+      "source_sha256": "7dfe8a0ec837ada79458913615f445bd166f110df2ed82bc140bf593cfa4133c",
+      "published_sha256": "7dfe8a0ec837ada79458913615f445bd166f110df2ed82bc140bf593cfa4133c",
+      "projection": "逐字节复制"
+    },
+    {
+      "path": "TASK_REVIEW_SYNTHESIS.json",
+      "source_path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/history_review_stage1_20261104T131126Z/TASK_REVIEW_SYNTHESIS.json",
+      "source_sha256": "4d77b7ecce62930740a46b680604a310cea0342e476e24f2fb71cac45f1f0ea4",
+      "published_sha256": "4d77b7ecce62930740a46b680604a310cea0342e476e24f2fb71cac45f1f0ea4",
+      "projection": "逐字节复制"
+    },
+    {
+      "path": "HOLD_REGISTER.csv",
+      "source_path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/history_review_stage1_20261104T131126Z/HOLD_REGISTER.csv",
+      "source_sha256": "a83cce47877efcc88365521b974b80327bab76a498a2a942b494586a7d6636ad",
+      "published_sha256": "a83cce47877efcc88365521b974b80327bab76a498a2a942b494586a7d6636ad",
+      "projection": "逐字节复制"
+    },
+    {
+      "path": "CLAIMS.json",
+      "source_path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/history_review_stage1_20261104T131126Z/CLAIMS.json",
+      "source_sha256": "d1c3f658fbd3a6bd2e646837c1b68588d8768ce259c010746d5841f65afc4d1f",
+      "published_sha256": "d1c3f658fbd3a6bd2e646837c1b68588d8768ce259c010746d5841f65afc4d1f",
+      "projection": "逐字节复制"
+    },
+    {
+      "path": "NEXT_ACTIONS.json",
+      "source_path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/history_review_stage1_20261104T131126Z/NEXT_ACTIONS.json",
+      "source_sha256": "cd678f225ead8e7a0a6d5194e719d89ab98fc8defc5f1b056e5e8ac73fea31dd",
+      "published_sha256": "cd678f225ead8e7a0a6d5194e719d89ab98fc8defc5f1b056e5e8ac73fea31dd",
+      "projection": "逐字节复制"
+    },
+    {
+      "path": "DISCREPANCY_REGISTER.json",
+      "source_path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/history_review_stage1_20261104T131126Z/DISCREPANCY_REGISTER.json",
+      "source_sha256": "09bd5cbc9e508d69041eea5ddb3fd5e4c7cde9474c78214659d358ddf16e4371",
+      "published_sha256": "09bd5cbc9e508d69041eea5ddb3fd5e4c7cde9474c78214659d358ddf16e4371",
+      "projection": "逐字节复制"
+    },
+    {
+      "path": "summary_task_index.json",
+      "source_path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/history_review_stage1_20261104T131126Z/summary_task_index.json",
+      "source_sha256": "dedd60a72ed7685129ddb1f3ea17320459b63e8e9cff963e88e78fa55dcaea60",
+      "published_sha256": "dedd60a72ed7685129ddb1f3ea17320459b63e8e9cff963e88e78fa55dcaea60",
+      "projection": "逐字节复制"
+    },
+    {
+      "path": "supplemental_sources.json",
+      "source_path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/history_review_stage1_20261104T131126Z/supplemental_sources.json",
+      "source_sha256": "8981bdcd0b89030136fb7650f912005e41e3a3dfd7daeeb4c71c9840bc62a4fb",
+      "published_sha256": "8981bdcd0b89030136fb7650f912005e41e3a3dfd7daeeb4c71c9840bc62a4fb",
+      "projection": "逐字节复制"
+    },
+    {
+      "path": "DELIVERY_VERIFICATION.json",
+      "source_path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/history_review_stage1_20261104T131126Z/DELIVERY_VERIFICATION.json",
+      "source_sha256": "e4e38fab50e483b6d5f20ae804b736aafa77f37eb56d4b7f1ca468f1dc9cd997",
+      "published_sha256": "e4e38fab50e483b6d5f20ae804b736aafa77f37eb56d4b7f1ca468f1dc9cd997",
+      "projection": "逐字节复制"
+    },
+    {
+      "path": "evidence/run_metadata.json",
+      "source_path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/history_review_stage1_20261104T131126Z/evidence/audit_run_final/run_metadata.json",
+      "source_sha256": "498b334749933ac44fb46e357de5e23c5e503dbeb330dfa1205b653387ed49b5",
+      "published_sha256": "498b334749933ac44fb46e357de5e23c5e503dbeb330dfa1205b653387ed49b5",
+      "projection": "逐字节复制"
+    },
+    {
+      "path": "evidence/saved_result_arithmetic.json",
+      "source_path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/history_review_stage1_20261104T131126Z/evidence/audit_run_final/saved_result_arithmetic.json",
+      "source_sha256": "e71d6f4c8d66ed4eeefd37fa3346202f530b7e3fc2aac0c52cabaa5fd4be5256",
+      "published_sha256": "e71d6f4c8d66ed4eeefd37fa3346202f530b7e3fc2aac0c52cabaa5fd4be5256",
+      "projection": "逐字节复制"
+    },
+    {
+      "path": "evidence/source_checks.json",
+      "source_path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/history_review_stage1_20261104T131126Z/evidence/audit_run_final/source_checks.json",
+      "source_sha256": "0e9df59cfc5de42571c8e0c3462173cb8b343c0b612ca33b0b0bfee068b72a87",
+      "published_sha256": "0e9df59cfc5de42571c8e0c3462173cb8b343c0b612ca33b0b0bfee068b72a87",
+      "projection": "逐字节复制"
+    }
+  ],
+  "generated_files": [
+    "README.md",
+    "SOURCE_LOCATIONS.md"
+  ],
+  "scientific_content_changed": false,
+  "raw_data_included": false
+}

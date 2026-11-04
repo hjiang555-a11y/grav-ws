@@ -1,0 +1,309 @@
+{
+  "P1": {
+    "a": 0.857260242008892,
+    "u": 0.1775932570274874,
+    "u_ls": 0.1276029903928968,
+    "u_jackknife": 0.1775932570274874,
+    "rank": 77,
+    "residual_df": 3109,
+    "covariance_type": "scaled LS unless explicitly marked known working GLS",
+    "rounded_a": "0.86",
+    "rounded_u": "0.18",
+    "u_is_max_ls_jackknife": true,
+    "sqrt_saved_cov00": 0.1276029903928968,
+    "sqrt_cov00_matches_u_ls": true,
+    "covariance_dimension": 77,
+    "nominal_a_over_u_not_detection_significance": 4.82709904845209
+  },
+  "sample_counts": {
+    "segments": 54,
+    "n_before_transient": 1966077,
+    "retained_1s_rows": 1957294,
+    "n_filtered": 3186,
+    "rounded_1s_hours": 544,
+    "campaigns": 5,
+    "pre_transient_nominal_hours": "546.1325",
+    "post_transient_nominal_hours": "543.6927777777777777777777778",
+    "filtered_count_times_600_hours": "531",
+    "legacy_totals": {
+      "n_final": 1987674,
+      "post_transient_rows": 1977991,
+      "triangle1200_output_count": 3221
+    },
+    "note": "Nominal row counts and step-equivalent hours, not certified independent exposure.",
+    "old_minus_current_post_rows": 20697,
+    "old_minus_current_filtered_count": 35
+  },
+  "P6": {
+    "n": 200,
+    "seed": 20261103,
+    "stream": 400,
+    "sd": 0.1843796701911277,
+    "bias": 0.02748531280466504,
+    "bias_mcse": 0.013037611510508553,
+    "sd_mcse_gaussian_approx": 0.009242117757999853,
+    "coverage_1sigma": 0.62,
+    "coverage_count": 124,
+    "coverage_wilson95": [
+      0.5510671801561923,
+      0.6844099415132637
+    ],
+    "coverage_mcse": 0.03432200460346103,
+    "continuous_filtered_runs": 59,
+    "calibration": "fixed mask, circular within each retained filtered run; not full selection calibration",
+    "count_divided_by_n": 0.62,
+    "count_matches_saved_coverage": true
+  },
+  "P8": {
+    "after": {
+      "chi2_ls": 24.5933629164063,
+      "df": 4,
+      "p_ls": 6.0724278260087576e-05,
+      "p_primary_max_ls_jackknife": 0.060181648726108844,
+      "chi2_primary_max_ls_jackknife": 9.036985089746183,
+      "method": "campaign diurnal + semidiurnal amplitudes, fixed remainder, no solar terms; primary heterogeneity weights max(scaled LS, delete-day jackknife); pure LS also retained"
+    },
+    "before": {
+      "chi2_ls": 30.77098305499888,
+      "df": 4,
+      "p_ls": 3.4089874468464704e-06,
+      "p_primary_max_ls_jackknife": 0.004831312290168248,
+      "chi2_primary_max_ls_jackknife": 14.938112459908051,
+      "method": "campaign diurnal + semidiurnal amplitudes, fixed remainder, no solar terms; primary heterogeneity weights max(scaled LS, delete-day jackknife); pure LS also retained"
+    }
+  },
+  "P9": {
+    "amplitude_1e18": 3.916713923588229,
+    "u_ls_amplitude_1e18": 1.2801291826818137,
+    "peak_BJT_hour": 15.36522232738339,
+    "u_ls_peak_h": 0.6547540215168051,
+    "uncertainty_rule": "complete fitted scaled-LS covariance delta method; phase withheld if joint95 contains origin"
+  },
+  "conditional_GLS": {
+    "empirical": {
+      "a": 0.8691648589163024,
+      "u": 0.14119593122367938,
+      "u_ls": 0.14119593122367938,
+      "u_jackknife": null,
+      "variance_scale": 1.0
+    },
+    "adev": {
+      "a": 0.9106417421196611,
+      "u": 0.1715021747034586,
+      "u_ls": 0.1715021747034586,
+      "u_jackknife": null,
+      "variance_scale": 1.0
+    }
+  },
+  "author_same_version_evidence_scope": "local verification, not certified same-version reproduction; G08/M21 PENDING",
+  "saved_not_run": [
+    "Stage4 null-tail full-selection simulations (optional)",
+    "certification of G08/M21",
+    "L-ABS if deterministic per-segment corrections remain unavailable"
+  ],
+  "E1": {
+    "rows": 348,
+    "folds": 29,
+    "candidates": 12,
+    "candidates_summary": {
+      "campaign_NULL": {
+        "folds": 29,
+        "mean_loss": "251.4750027970067472413793103",
+        "mean_gain": "0.0",
+        "positive_gain_folds": 0
+      },
+      "campaign_FIX0": {
+        "folds": 29,
+        "mean_loss": "243.6297727574358403448275862",
+        "mean_gain": "7.845230039570905919310344828",
+        "positive_gain_folds": 23
+      },
+      "campaign_FREE": {
+        "folds": 29,
+        "mean_loss": "243.9788922753441444827586207",
+        "mean_gain": "7.496110521662600979310344828",
+        "positive_gain_folds": 23
+      },
+      "campaign_P45": {
+        "folds": 29,
+        "mean_loss": "246.1737890857461244827586207",
+        "mean_gain": "5.3012137112606224",
+        "positive_gain_folds": 22
+      },
+      "campaign_M45": {
+        "folds": 29,
+        "mean_loss": "249.1197030129832713793103448",
+        "mean_gain": "2.355299784023476842413793103",
+        "positive_gain_folds": 20
+      },
+      "campaign_P90": {
+        "folds": 29,
+        "mean_loss": "251.4200716595979993103448276",
+        "mean_gain": "0.05493113740874768373793103448",
+        "positive_gain_folds": 17
+      },
+      "linear_NULL": {
+        "folds": 29,
+        "mean_loss": "67249.25875392024214758620690",
+        "mean_gain": "0.0",
+        "positive_gain_folds": 0
+      },
+      "linear_FIX0": {
+        "folds": 29,
+        "mean_loss": "67561.78492271150166",
+        "mean_gain": "-312.5261687912609860734482759",
+        "positive_gain_folds": 20
+      },
+      "linear_FREE": {
+        "folds": 29,
+        "mean_loss": "67520.56321323504246034482759",
+        "mean_gain": "-271.3044593148012972931034483",
+        "positive_gain_folds": 19
+      },
+      "linear_P45": {
+        "folds": 29,
+        "mean_loss": "66681.92959626623795206896552",
+        "mean_gain": "567.3291576540012292237931034",
+        "positive_gain_folds": 15
+      },
+      "linear_M45": {
+        "folds": 29,
+        "mean_loss": "68092.03369607216061862068966",
+        "mean_gain": "-842.7749421519215160427586207",
+        "positive_gain_folds": 20
+      },
+      "linear_P90": {
+        "folds": 29,
+        "mean_loss": "67072.71636827497755551724138",
+        "mean_gain": "176.5423856452616743131034483",
+        "positive_gain_folds": 9
+      }
+    },
+    "interpretation_stopped": true,
+    "saved_failures": [
+      {
+        "stage": "interpretation",
+        "reason": "a fixed wrong-phase control predicts at least as well as primary; no specificity claim"
+      }
+    ]
+  },
+  "E2_E4_saved_audit": {
+    "E2_TS_ABS": {
+      "a": 0.9183671414456107,
+      "u": 0.188055307662552
+    },
+    "E4_TS_ABS": {
+      "a": 0.523285043598091,
+      "u": 0.16357417146963185
+    }
+  },
+  "current_calibration": {
+    "utc": "2026-11-04T11:58:51.965372+00:00",
+    "decision_source": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/discovery_20261104T110028Z/evidence/CALIBRATION_STATUS_UPDATE_20261104.md",
+    "source_sha256": "a55eb30db73ae0be07ac00dcff8f09c917e3029587537218c3eb01e969103020",
+    "current_primary_segment_ids": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54
+    ],
+    "early_2026_04_05_segment_ids": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38
+    ],
+    "early_2026_04_05_status": "UNDER_REVIEW_PENDING_EXPERIMENTAL_RECORDS",
+    "missing_2025_2026_01_segment_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "E4_status": "PROVISIONAL_CALIBRATION_SCENARIO_NOT_FOR_CONFIRMED_CLAIMS",
+    "new_early_absolute_fits_allowed_now": false,
+    "preserved_result_sha256": "05dc3e66127ac90e361352a60233eae4870a5d04e84031510b1743a0a3757b2b",
+    "E1_scope": "all-54 fixed-mask relative dynamics; does not certify early records or use disputed new corrections",
+    "future_ingestion": "versioned new ledger and binding before new computation; no overwrite or automatic gate acceptance"
+  },
+  "cross_review_fix_checks": [
+    {
+      "file": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/second_stage_20261104T101800Z/SOURCE_INVENTORY.md",
+      "actual_sha256": "72dd2d83d0872c06f8a8b027d275499d455208f08d93c2ad322ec9afc5db89bb",
+      "after_sha256_matches": true,
+      "original_backup_sha256_matches": true
+    },
+    {
+      "file": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/second_stage_20261104T101800Z/VERSION_COMPARISON.md",
+      "actual_sha256": "2699a298d33738135d5fcc25eecbf00252814602fed5336f0a6b6a6caab0a1af",
+      "after_sha256_matches": true,
+      "original_backup_sha256_matches": true
+    },
+    {
+      "file": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/second_stage_20261104T101800Z/SCIENTIFIC_EVIDENCE_MATRIX.md",
+      "actual_sha256": "8765f6d1b07306186c924a9dc199623bc1e79cf3b37b74705bb3b15ec454ecad",
+      "after_sha256_matches": true,
+      "original_backup_sha256_matches": true
+    },
+    {
+      "file": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/second_stage_20261104T101800Z/NATURE_ARTICLE_OUTLINE.md",
+      "actual_sha256": "732ec58170aacf07ea3f24e455f36be2903cb22a52f4710b04bad6705cf8281a",
+      "after_sha256_matches": true,
+      "original_backup_sha256_matches": true
+    },
+    {
+      "file": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/second_stage_20261104T101800Z/CRITICAL_RESEARCH_GAPS.md",
+      "actual_sha256": "deeb8217616dae3ac534571993f41ff630caee33a265a3ed3aae6435c76cb0dc",
+      "after_sha256_matches": true,
+      "original_backup_sha256_matches": true
+    },
+    {
+      "file": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/second_stage_20261104T101800Z/ARTICLE_WORKING_DRAFT.md",
+      "actual_sha256": "7cabc358b25a1b03edc9ad53b1881ec0726f8751ecb60f48bd9b57d176aeb7d8",
+      "after_sha256_matches": true,
+      "original_backup_sha256_matches": true
+    }
+  ]
+}

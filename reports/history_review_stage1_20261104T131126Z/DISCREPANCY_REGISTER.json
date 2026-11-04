@@ -1,0 +1,192 @@
+[
+  {
+    "discrepancy_id": "D01",
+    "topic": "主值显示精度",
+    "values": "作者0.86±0.18；X01/P1 0.857260242008892±0.1775932570274874",
+    "status": "VERIFIED",
+    "assessment": "同目标下舍入相符。仅这两项数值的算术核对通过，不外推全文或硬件认证。",
+    "source_ids": [
+      "X01",
+      "X25"
+    ],
+    "next_action": "已闭合显示差别；C02仍PENDING。",
+    "rerun": false,
+    "parameters_changed": false
+  },
+  {
+    "discrepancy_id": "D02",
+    "topic": "主误差与协方差",
+    "values": "u_LS=0.1276029903928968；u_JK=u=0.1775932570274874；sqrt(C00)=0.1276029903928968",
+    "status": "VERIFIED",
+    "assessment": "77×77保存矩阵是scaled LS；不可称它给出0.18误差的完整协方差。",
+    "source_ids": [
+      "X01",
+      "X28"
+    ],
+    "next_action": "保留LS、JK及max三个字段；不按较小误差选结果。",
+    "rerun": false,
+    "parameters_changed": false
+  },
+  {
+    "discrepancy_id": "D03",
+    "topic": "P6条件覆盖",
+    "values": "作者SD=.16、bias=−.01、coverage=.69；本地SD=.1843796701911277、bias=.02748531280466504、124/200=.62",
+    "status": "PENDING",
+    "assessment": "都记200次，但必须核对残差/支持/随机流/误差重估。保存Wilson95% [.5510671801561923,.6844099415132637]含名义.6827，不能断言普遍低覆盖。",
+    "source_ids": [
+      "X01",
+      "X25",
+      "X28"
+    ],
+    "next_action": "保留seed=20261103、stream=400、59连续run、固定mask；等待同版逐次输出，未重模拟。",
+    "rerun": false,
+    "parameters_changed": false
+  },
+  {
+    "discrepancy_id": "D04",
+    "topic": "P8异质性",
+    "values": "前：本地.004831312290168248≈作者.005；后：本地.060181648726108844≠作者.21；纯LS后6.0724278260087576e−5",
+    "status": "PENDING",
+    "assessment": "检验对象为campaign日潮幅度异质性（df=4），不是月潮检测p。max(LS,JK)与纯LS权重不同，不能择一迎合作者。",
+    "source_ids": [
+      "X01",
+      "X25"
+    ],
+    "next_action": "冻结权重与样本；待作者同版各campaign幅度/误差表。",
+    "rerun": false,
+    "parameters_changed": false
+  },
+  {
+    "discrepancy_id": "D05",
+    "topic": "P9目标与误差",
+    "values": "本地(3.916713923588229±1.2801291826818137)×10⁻¹⁸，峰15.36522232738339±.6547540215168051 h BJT；作者(2.8±1.3)×10⁻¹⁸，15.8±1.5 h",
+    "status": "PENDING",
+    "assessment": "本地三组潮汐联合+LS delta；作者完整潮汐联合、幅度max(LS,JK)、峰时JK。目标/误差差别已识别，未证明解释了全部中心差异。",
+    "source_ids": [
+      "S08",
+      "X01",
+      "X30"
+    ],
+    "next_action": "不得标成相同目标下作者错误，也不得改目标以匹配2.8。",
+    "rerun": false,
+    "parameters_changed": false
+  },
+  {
+    "discrepancy_id": "D06",
+    "topic": "样本、小时及窗口",
+    "values": "旧成员1987674、后1977991、3221窗；主结果前1966077、后1957294、3186窗；当前前546.1325h、后543.6927778h；3186×600s=531h",
+    "status": "VERIFIED",
+    "assessment": "当前/旧支持差20697个后处理成员与35窗。作者544h可与当前后处理取整相容；546h、旧552.1316667h和夏季1391.39h跨度不能互换。端点/块网格与同版源行闭合仍PENDING。",
+    "source_ids": [
+      "S01",
+      "S08",
+      "S09",
+      "X03",
+      "X04",
+      "X06",
+      "X40"
+    ],
+    "next_action": "仅摘要表算术闭合；不删样本、不以凑时长修掩膜。当前逐campaign后处理取整合计544h。",
+    "rerun": false,
+    "parameters_changed": false
+  },
+  {
+    "discrepancy_id": "D07",
+    "topic": "2025二倍与2026配置",
+    "values": "2025 PI fbeat≈66MHz，是约132MHz拍频二分频；旧接口已乘2；2026文稿约33.6MHz/接口因子1",
+    "status": "PENDING",
+    "assessment": "新PI链补齐关系，不自动证明每文件接口。若将已恢复数据再乘2会重复；也不能把2025反演用于2026或Freq_A。",
+    "source_ids": [
+      "S01",
+      "S10",
+      "X05",
+      "X11",
+      "X26"
+    ],
+    "next_action": "绑定文件/字段/在线修正/换配日期后再决定转换；本轮不改参数、不反演。",
+    "rerun": false,
+    "parameters_changed": false
+  },
+  {
+    "discrepancy_id": "D08",
+    "topic": "E1 gain与绝对loss",
+    "values": "campaign_NULL251.4750、FIX0243.6298(gain7.8452)；linear_NULL67249.2588、P4566681.9296(gain567.3292)",
+    "status": "VERIFIED",
+    "assessment": "CSV算术支持S19更正：跨族较大gain不代表更低绝对loss。23/29个campaign_FIX0折有正gain，只属内部固定模型诊断。",
+    "source_ids": [
+      "S19",
+      "S20",
+      "S22",
+      "X16",
+      "X18"
+    ],
+    "next_action": "保留interpretation_stopped=true及预设筛查；不得事后改主检验。",
+    "rerun": false,
+    "parameters_changed": false
+  },
+  {
+    "discrepancy_id": "D09",
+    "topic": "E4校正可靠性更新",
+    "values": "S19/S21当时PI月值有效；后续X09/X10将四五月修正标为UNDER_REVIEW。E2 TS-ABS .9183671414456107±.188055307662552；E4 .523285043598091±.16357417146963185为保存条件值",
+    "status": "BLOCKED",
+    "assessment": "这是前提变化，不是重新调参后的竞争结果；较早的算术审计不能证明后来被质疑的物理输入可靠。",
+    "source_ids": [
+      "S19",
+      "S21",
+      "S25",
+      "X09",
+      "X10",
+      "X15",
+      "X39"
+    ],
+    "next_action": "只留历史条件情景，不称五月真实偏移、设备故障、新物理或独立长周期检出。",
+    "rerun": false,
+    "parameters_changed": false
+  },
+  {
+    "discrepancy_id": "D10",
+    "topic": "光纤噪声预算边界",
+    "values": "PRL所报梳/链<0.1×10⁻¹⁸对应DDS参考量化预算；PI另有数百米无监控实验室支路",
+    "status": "BLOCKED",
+    "assessment": "预算项与全部时变链路噪声不是同一量；round-trip、one-way及未监测支路不可混同。",
+    "source_ids": [
+      "X12",
+      "X13",
+      "X45",
+      "X46"
+    ],
+    "next_action": "不能以阴性长链检验排除全部支路，不能缺测当零。",
+    "rerun": false,
+    "parameters_changed": false
+  },
+  {
+    "discrepancy_id": "D11",
+    "topic": "自测通过与结构缺口",
+    "values": "S24十项测试通过；S25反例：online_chain_corrections缺失/UNKNOWN/未说明增益仍被判STRUCTURALLY_USABLE",
+    "status": "BLOCKED",
+    "assessment": "测试覆盖不足与已有自测通过可同时为真。v2任务另待独立技术复审，不能在SUMMARY_ONLY阶段关闭。",
+    "source_ids": [
+      "S24",
+      "S25"
+    ],
+    "next_action": "保留两份意见；不运行v1/v2，不代为验收TECHNICAL_REVIEW_PENDING。",
+    "rerun": false,
+    "parameters_changed": false
+  },
+  {
+    "discrepancy_id": "D12",
+    "topic": "欧洲A与沪汉A",
+    "values": "欧洲1.42(35)、1.12(24)、合并1.00(12)；沪汉0.86±0.18",
+    "status": "VERIFIED",
+    "assessment": "欧洲为完整潮汐模型的响应；沪汉主值为M2+N2共同尺度并显式拟合太阳项。不同目标/噪声/数据，不能直接排名或相减作显著性比较。",
+    "source_ids": [
+      "X25",
+      "X32",
+      "X34",
+      "X36"
+    ],
+    "next_action": "仅文本目标核对通过；优先性、独立负荷、方法优势与期刊新颖性仍PENDING。",
+    "rerun": false,
+    "parameters_changed": false
+  }
+]

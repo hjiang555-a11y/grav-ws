@@ -1,0 +1,420 @@
+[
+  {
+    "source_id": "X01",
+    "path": "/data/AI_Research/projects/gravitation-whsh/r3_template_fix_20261104T074117Z/research/nature-v17-reproduction/outputs_r3/main_estimate.json",
+    "resolved_path": "/data/AI_Research/projects/gravitation-whsh/r3_template_fix_20261104T074117Z/research/nature-v17-reproduction/outputs_r3/main_estimate.json",
+    "sha256": "1afc144275058f39eeda185ed673e948dcd7dea42835894d3a92bfec1fd2207e",
+    "size_bytes": 626544,
+    "purpose": "主估计及P6/P8/P9保存值；不重拟合",
+    "role": "corroborating_source_only_no_additional_task_disposition"
+  },
+  {
+    "source_id": "X02",
+    "path": "/data/AI_Research/projects/gravitation-whsh/r3_template_fix_20261104T074117Z/research/nature-v17-reproduction/outputs_r3/robustness.json",
+    "resolved_path": "/data/AI_Research/projects/gravitation-whsh/r3_template_fix_20261104T074117Z/research/nature-v17-reproduction/outputs_r3/robustness.json",
+    "sha256": "05a66995b3dcee2075a7da1a57e7419a50d40d360c5efbb998cb06c1b8b1e22e",
+    "size_bytes": 61375,
+    "purpose": "稳健性与未执行分支记录",
+    "role": "corroborating_source_only_no_additional_task_disposition"
+  },
+  {
+    "source_id": "X03",
+    "path": "/data/AI_Research/projects/gravitation-whsh/r3_template_fix_20261104T074117Z/research/nature-v17-reproduction/outputs_r3/hours_by_campaign.csv",
+    "resolved_path": "/data/AI_Research/projects/gravitation-whsh/r3_template_fix_20261104T074117Z/research/nature-v17-reproduction/outputs_r3/hours_by_campaign.csv",
+    "sha256": "ae80de311df99619ab18ad59e85b46fed117d06d5ccaf4625da4068b292eae8b",
+    "size_bytes": 444,
+    "purpose": "本地主结果5个campaign样本汇总",
+    "role": "corroborating_source_only_no_additional_task_disposition"
+  },
+  {
+    "source_id": "X04",
+    "path": "/data/AI_Research/projects/gravitation-whsh/r3_template_fix_20261104T074117Z/research/nature-v17-reproduction/SEGMENT_TABLE.csv",
+    "resolved_path": "/data/AI_Research/projects/gravitation-whsh/r3_template_fix_20261104T074117Z/research/nature-v17-reproduction/SEGMENT_TABLE.csv",
+    "sha256": "cb4c1c51f42abd69bef74a0536142d1332d1273f423d5c03df87f60e01703e5d",
+    "size_bytes": 23576,
+    "purpose": "旧54段样本汇总；不可替代主结果支持",
+    "role": "corroborating_source_only_no_additional_task_disposition"
+  },
+  {
+    "source_id": "X05",
+    "path": "/data/AI_Research/projects/gravitation-whsh/r3_template_fix_20261104T074117Z/research/nature-v17-reproduction/INPUT_MANIFEST.json",
+    "resolved_path": "/data/AI_Research/projects/gravitation-whsh/r3_template_fix_20261104T074117Z/research/nature-v17-reproduction/INPUT_MANIFEST.json",
+    "sha256": "8348f7d4feacb25cd0396d07fc1ee332264887b2c11d7c441949a213eb3a45bc",
+    "size_bytes": 111150,
+    "purpose": "历史输入/配置登记；不读取登记中的原始观测",
+    "role": "corroborating_source_only_no_additional_task_disposition"
+  },
+  {
+    "source_id": "X06",
+    "path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/second_stage_20261104T101800Z/evidence/SUMMARY_ARITHMETIC.json",
+    "resolved_path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/second_stage_20261104T101800Z/evidence/SUMMARY_ARITHMETIC.json",
+    "sha256": "85ec2fd382dad1211669229116eda6728d28a736af229e69383351db76451642",
+    "size_bytes": 12641,
+    "purpose": "历史摘要算术及夏季跨度",
+    "role": "corroborating_source_only_no_additional_task_disposition"
+  },
+  {
+    "source_id": "X07",
+    "path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/second_stage_20261104T101800Z/evidence/CROSS_REVIEW_RESOLUTION.json",
+    "resolved_path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/second_stage_20261104T101800Z/evidence/CROSS_REVIEW_RESOLUTION.json",
+    "sha256": "033d1bcee8b2b71a5dee9befcaf80adcc7939995438b1d580082c8f47deec544",
+    "size_bytes": 3605,
+    "purpose": "S08/S09文档修正前后SHA",
+    "role": "corroborating_source_only_no_additional_task_disposition"
+  },
+  {
+    "source_id": "X08",
+    "path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/second_stage_20261104T101800Z/evidence/CODE_PROVENANCE_RECONCILIATION.json",
+    "resolved_path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/second_stage_20261104T101800Z/evidence/CODE_PROVENANCE_RECONCILIATION.json",
+    "sha256": "f16acf9856f6db56a53b2f9928a180ab1efe196f8b7aaf266f2ddd9fc52b5746",
+    "size_bytes": 21432,
+    "purpose": "本地运行commit对账历史证据",
+    "role": "corroborating_source_only_no_additional_task_disposition"
+  },
+  {
+    "source_id": "X09",
+    "path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/discovery_20261104T110028Z/evidence/CURRENT_CALIBRATION_STATUS.json",
+    "resolved_path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/discovery_20261104T110028Z/evidence/CURRENT_CALIBRATION_STATUS.json",
+    "sha256": "993cdf747875251720b2331902014e436efaf05002def1de11452b54926d5bdc",
+    "size_bytes": 1374,
+    "purpose": "四五月当前存疑状态",
+    "role": "corroborating_source_only_no_additional_task_disposition"
+  },
+  {
+    "source_id": "X10",
+    "path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/discovery_20261104T110028Z/evidence/ABSOLUTE_RESULT_AUDIT_STATUS_ADDENDUM.md",
+    "resolved_path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/discovery_20261104T110028Z/evidence/ABSOLUTE_RESULT_AUDIT_STATUS_ADDENDUM.md",
+    "sha256": "535f3bf6c3748898d5402a014ffa63ad2ccd6c5865ab5e42d7dc5824be804cd4",
+    "size_bytes": 1169,
+    "purpose": "S21审计适用范围更正",
+    "role": "corroborating_source_only_no_additional_task_disposition"
+  },
+  {
+    "source_id": "X11",
+    "path": "/data/AI_Research/shared/handoff/research_director_takeover_20261104T124914Z/PI_INPUT_2025_FREQUENCY_CHAIN.md",
+    "resolved_path": "/data/AI_Research/shared/handoff/research_director_takeover_20261104T124914Z/PI_INPUT_2025_FREQUENCY_CHAIN.md",
+    "sha256": "367874955fb77ef98f93d74e89f27d2b9e44857bbd9fb26d70c6fe89ba5196ae",
+    "size_bytes": 1722,
+    "purpose": "2025链PI原话；未绑定具体文件",
+    "role": "corroborating_source_only_no_additional_task_disposition"
+  },
+  {
+    "source_id": "X12",
+    "path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/discovery_20261104T110028Z/evidence/FIBER_PHYSICAL_SCOPE_UPDATE_20261104.md",
+    "resolved_path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/discovery_20261104T110028Z/evidence/FIBER_PHYSICAL_SCOPE_UPDATE_20261104.md",
+    "sha256": "194989f34f2dbec1c72e5a595132e5c12861cabeeb60a31bb639ce8c15f0eed6",
+    "size_bytes": 1847,
+    "purpose": "BJT及长链/实验室支路PI更正",
+    "role": "corroborating_source_only_no_additional_task_disposition"
+  },
+  {
+    "source_id": "X13",
+    "path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/discovery_20261104T110028Z/evidence/PRL_FIBER_SOURCE_REVIEW.md",
+    "resolved_path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/discovery_20261104T110028Z/evidence/PRL_FIBER_SOURCE_REVIEW.md",
+    "sha256": "063570302198193b72724b0ba7b7f74098fe0786adf715429d553e04e7dbe7af",
+    "size_bytes": 2420,
+    "purpose": "历史PRL链路定义核读",
+    "role": "corroborating_source_only_no_additional_task_disposition"
+  },
+  {
+    "source_id": "X14",
+    "path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/discovery_20261104T110028Z/evidence/PRL_FIBER_SOURCE_REVIEW.json",
+    "resolved_path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/discovery_20261104T110028Z/evidence/PRL_FIBER_SOURCE_REVIEW.json",
+    "sha256": "dc959a3586609141c30a6be58ea96496d1f5e02be8122a9222fd28854ae376fe",
+    "size_bytes": 2332,
+    "purpose": "PRL来源SHA登记",
+    "role": "corroborating_source_only_no_additional_task_disposition"
+  },
+  {
+    "source_id": "X15",
+    "path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/discovery_20261104T110028Z/evidence/ABSOLUTE_RESULT_AUDIT.json",
+    "resolved_path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/discovery_20261104T110028Z/evidence/ABSOLUTE_RESULT_AUDIT.json",
+    "sha256": "6036107fa7aef7028886c3b535fac58aed098381c0e4233e60a90edb100892d4",
+    "size_bytes": 134873,
+    "purpose": "S21既有数值核读；解释必须同时读X09/X10",
+    "role": "corroborating_source_only_no_additional_task_disposition"
+  },
+  {
+    "source_id": "X16",
+    "path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/discovery_20261104T110028Z/results/E1_predictive/fold_scores.csv",
+    "resolved_path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/discovery_20261104T110028Z/results/E1_predictive/fold_scores.csv",
+    "sha256": "180650ecc073d82293eeefa215b12e3a29de739f3ad4a27ff03f2c6869dabc89",
+    "size_bytes": 25308,
+    "purpose": "S19引用的保存预测损失表",
+    "role": "corroborating_source_only_no_additional_task_disposition"
+  },
+  {
+    "source_id": "X17",
+    "path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/discovery_20261104T110028Z/results/E1_predictive/conditional_calibration.json",
+    "resolved_path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/discovery_20261104T110028Z/results/E1_predictive/conditional_calibration.json",
+    "sha256": "915bac3eee01fb623f89e9ef7e5d40db908d669036eb64049eaae86df209f556",
+    "size_bytes": 694870,
+    "purpose": "S19引用的已有条件校准；不重跑",
+    "role": "corroborating_source_only_no_additional_task_disposition"
+  },
+  {
+    "source_id": "X18",
+    "path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/discovery_20261104T110028Z/results/E1_predictive/result.json",
+    "resolved_path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/discovery_20261104T110028Z/results/E1_predictive/result.json",
+    "sha256": "db73553d245ac2f115bdcf98f1dd4d3444d68fd56ae7da99de26bc4c153cfdd2",
+    "size_bytes": 15688,
+    "purpose": "保存interpretation_stopped及停止原因",
+    "role": "corroborating_source_only_no_additional_task_disposition"
+  },
+  {
+    "source_id": "X19",
+    "path": "/data/AI_Research/projects/gravitation-whsh/evidence_closure_20261103T150618Z/specifications/PHASE_MODEL_SPECIFICATION.v2.md",
+    "resolved_path": "/data/AI_Research/projects/gravitation-whsh/evidence_closure_20261103T150618Z/specifications/PHASE_MODEL_SPECIFICATION.v2.md",
+    "sha256": "13983d44700ff0dd9e37640147f1103afa35e3c5f46f653c081e051c167a24f2",
+    "size_bytes": 44431,
+    "purpose": "共同相位/有符号尺度数学定义；不是批准",
+    "role": "corroborating_source_only_no_additional_task_disposition"
+  },
+  {
+    "source_id": "X20",
+    "path": "/data/AI_Research/projects/gravitation-whsh/evidence_closure_20261103T150618Z/specifications/TIMING_SENSITIVITY_PROTOCOL.md",
+    "resolved_path": "/data/AI_Research/projects/gravitation-whsh/evidence_closure_20261103T150618Z/specifications/TIMING_SENSITIVITY_PROTOCOL.md",
+    "sha256": "82fd9d56566c38349ab67e8b3bc54f186dbdaae36f43ddef17101ca73cb78cbd",
+    "size_bytes": 14359,
+    "purpose": "同步证据/条件传播规范；不是执行授权",
+    "role": "corroborating_source_only_no_additional_task_disposition"
+  },
+  {
+    "source_id": "X21",
+    "path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/second_stage_20261104T101800Z/SCIENTIFIC_EVIDENCE_MATRIX.md",
+    "resolved_path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/second_stage_20261104T101800Z/SCIENTIFIC_EVIDENCE_MATRIX.md",
+    "sha256": "8765f6d1b07306186c924a9dc199623bc1e79cf3b37b74705bb3b15ec454ecad",
+    "size_bytes": 10243,
+    "purpose": "既有第二阶段证据矩阵，须按后续记录限定",
+    "role": "corroborating_source_only_no_additional_task_disposition"
+  },
+  {
+    "source_id": "X22",
+    "path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/second_stage_20261104T101800Z/CRITICAL_RESEARCH_GAPS.md",
+    "resolved_path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/second_stage_20261104T101800Z/CRITICAL_RESEARCH_GAPS.md",
+    "sha256": "deeb8217616dae3ac534571993f41ff630caee33a265a3ed3aae6435c76cb0dc",
+    "size_bytes": 6231,
+    "purpose": "既有缺项清单，须按后续记录更新语义",
+    "role": "corroborating_source_only_no_additional_task_disposition"
+  },
+  {
+    "source_id": "X23",
+    "path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/sources/source_manifest.json",
+    "resolved_path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/sources/source_manifest.json",
+    "sha256": "83d6b9d89f042050c448ae27f83ad03b309435bf61fc966f4d460ce00cbae324",
+    "size_bytes": 3097,
+    "purpose": "所提供PDF版本及逐页提取来源登记",
+    "role": "corroborating_source_only_no_additional_task_disposition"
+  },
+  {
+    "source_id": "X24",
+    "path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/sources/v17b/page_001.txt",
+    "resolved_path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/sources/v17b/page_001.txt",
+    "sha256": "ba330574730a78bc4018e37a9b85724ef62627bcc43dfd430714766d5c790104",
+    "size_bytes": 4494,
+    "purpose": "v17b物理PDF第1页的既有提取文本",
+    "role": "corroborating_source_only_no_additional_task_disposition"
+  },
+  {
+    "source_id": "X25",
+    "path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/sources/v17b/page_002.txt",
+    "resolved_path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/sources/v17b/page_002.txt",
+    "sha256": "ca3d4ae75292646fde97b82ee6e1a8ef692aefa3be84963dc62826eab8bf2ba8",
+    "size_bytes": 5525,
+    "purpose": "v17b物理PDF第2页的既有提取文本",
+    "role": "corroborating_source_only_no_additional_task_disposition"
+  },
+  {
+    "source_id": "X26",
+    "path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/sources/v17b/page_003.txt",
+    "resolved_path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/sources/v17b/page_003.txt",
+    "sha256": "eaab807a7cc27eaf0944bccc4d21f4f0cccbfc5bb9afcacc35966a365e6d17bf",
+    "size_bytes": 5466,
+    "purpose": "v17b物理PDF第3页的既有提取文本",
+    "role": "corroborating_source_only_no_additional_task_disposition"
+  },
+  {
+    "source_id": "X27",
+    "path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/sources/v17b/page_004.txt",
+    "resolved_path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/sources/v17b/page_004.txt",
+    "sha256": "2020254fefb87e01367ec9f01f3d9df6fd5f9f55c54c4e9dde5d67d0ffe480a9",
+    "size_bytes": 6208,
+    "purpose": "v17b物理PDF第4页的既有提取文本",
+    "role": "corroborating_source_only_no_additional_task_disposition"
+  },
+  {
+    "source_id": "X28",
+    "path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/sources/v17b/page_005.txt",
+    "resolved_path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/sources/v17b/page_005.txt",
+    "sha256": "36503de390d8709bb7ccab0793eb85a6ed93ad4282fb2c0e40cf7b336be68970",
+    "size_bytes": 6506,
+    "purpose": "v17b物理PDF第5页的既有提取文本",
+    "role": "corroborating_source_only_no_additional_task_disposition"
+  },
+  {
+    "source_id": "X29",
+    "path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/sources/v17b/page_006.txt",
+    "resolved_path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/sources/v17b/page_006.txt",
+    "sha256": "32c4d67d8de7ca14b2f19ce14d71b4bae972163cf92a5a342cd1f79a79b5eff8",
+    "size_bytes": 4771,
+    "purpose": "v17b物理PDF第6页的既有提取文本",
+    "role": "corroborating_source_only_no_additional_task_disposition"
+  },
+  {
+    "source_id": "X30",
+    "path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/sources/v17b/page_009.txt",
+    "resolved_path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/sources/v17b/page_009.txt",
+    "sha256": "5bdfa7df999cbebbabaab5b13563000cdde03f726ffc9eb97bcbf4c57fae42e5",
+    "size_bytes": 5007,
+    "purpose": "v17b物理PDF第9页的既有提取文本",
+    "role": "corroborating_source_only_no_additional_task_disposition"
+  },
+  {
+    "source_id": "X31",
+    "path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/sources/europe/page_001.txt",
+    "resolved_path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/sources/europe/page_001.txt",
+    "sha256": "74aac95833c98fb87d8e5f010d464f11b16a941074813ca07d67eff690f4da2f",
+    "size_bytes": 3963,
+    "purpose": "欧洲所供版本物理PDF第1页的既有提取文本",
+    "role": "corroborating_source_only_no_additional_task_disposition"
+  },
+  {
+    "source_id": "X32",
+    "path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/sources/europe/page_007.txt",
+    "resolved_path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/sources/europe/page_007.txt",
+    "sha256": "2608d18699322dad5ea19709a733ef2ff6b2941bd1555176ca8bbe4c98cebb60",
+    "size_bytes": 3772,
+    "purpose": "欧洲所供版本物理PDF第7页的既有提取文本",
+    "role": "corroborating_source_only_no_additional_task_disposition"
+  },
+  {
+    "source_id": "X33",
+    "path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/sources/europe/page_008.txt",
+    "resolved_path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/sources/europe/page_008.txt",
+    "sha256": "f41f7cc4754a023e5fbd1016edfc2b1ebbe58448147e16d2bfa064ffcbd66ab0",
+    "size_bytes": 2180,
+    "purpose": "欧洲所供版本物理PDF第8页的既有提取文本",
+    "role": "corroborating_source_only_no_additional_task_disposition"
+  },
+  {
+    "source_id": "X34",
+    "path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/sources/europe/page_011.txt",
+    "resolved_path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/sources/europe/page_011.txt",
+    "sha256": "d3ad0bbacf66d1f5c0c71ef306cebc77dd08cad1a452d87c4ca6041574ee98e6",
+    "size_bytes": 3069,
+    "purpose": "欧洲所供版本物理PDF第11页的既有提取文本",
+    "role": "corroborating_source_only_no_additional_task_disposition"
+  },
+  {
+    "source_id": "X35",
+    "path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/sources/europe/page_013.txt",
+    "resolved_path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/sources/europe/page_013.txt",
+    "sha256": "43351c3d7a11163c6460783ab85464e854b20dee73d9ea0bb1fef8b2aead6960",
+    "size_bytes": 3155,
+    "purpose": "欧洲所供版本物理PDF第13页的既有提取文本",
+    "role": "corroborating_source_only_no_additional_task_disposition"
+  },
+  {
+    "source_id": "X36",
+    "path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/sources/europe/page_014.txt",
+    "resolved_path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/sources/europe/page_014.txt",
+    "sha256": "7e26a5b806538c8da1447a0c53c2c41156d9dd7fdf3b5b56d419529197aa16fe",
+    "size_bytes": 3500,
+    "purpose": "欧洲所供版本物理PDF第14页的既有提取文本",
+    "role": "corroborating_source_only_no_additional_task_disposition"
+  },
+  {
+    "source_id": "X37",
+    "path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/sources/europe/page_015.txt",
+    "resolved_path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/sources/europe/page_015.txt",
+    "sha256": "432605e7aed077e39e37d1b132612676c8958b331f06683e57b8dc34e4f1a640",
+    "size_bytes": 2879,
+    "purpose": "欧洲所供版本物理PDF第15页的既有提取文本",
+    "role": "corroborating_source_only_no_additional_task_disposition"
+  },
+  {
+    "source_id": "X38",
+    "path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/second_stage_20261104T101800Z/evidence/R3B_TEST_RECHECK.log",
+    "resolved_path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/second_stage_20261104T101800Z/evidence/R3B_TEST_RECHECK.log",
+    "sha256": "906b207ec4a3bbf98f8eb50e2776c8ed684995fd8f62df4817f759895adf1766",
+    "size_bytes": 99,
+    "purpose": "S09缺项后续绑定的历史测试日志；本轮不重跑",
+    "role": "corroborating_source_only_no_additional_task_disposition"
+  },
+  {
+    "source_id": "X39",
+    "path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/discovery_20261104T110028Z/evidence/CALIBRATION_STATUS_UPDATE_20261104.md",
+    "resolved_path": "/data/AI_Research/projects/gravitation-whsh/manuscript_48h/discovery_20261104T110028Z/evidence/CALIBRATION_STATUS_UPDATE_20261104.md",
+    "sha256": "a55eb30db73ae0be07ac00dcff8f09c917e3029587537218c3eb01e969103020",
+    "size_bytes": 2298,
+    "purpose": "校正存疑的状态原始更新",
+    "role": "corroborating_source_only_no_additional_task_disposition"
+  },
+  {
+    "source_id": "X40",
+    "path": "/data/AI_Research/projects/gravitation-whsh/SAMPLE_LEDGER.md",
+    "resolved_path": "/data/AI_Research/projects/gravitation-whsh/SAMPLE_LEDGER.md",
+    "sha256": "7d7e2137d9067e4ba975a28ff79cfa985f3384c667687e7301bfe10d6a208568",
+    "size_bytes": 8019,
+    "purpose": "S01引用历史样本口径",
+    "role": "corroborating_source_only_no_additional_task_disposition"
+  },
+  {
+    "source_id": "X41",
+    "path": "/data/AI_Research/projects/gravitation-whsh/TIME_BASIS_AUDIT.md",
+    "resolved_path": "/data/AI_Research/projects/gravitation-whsh/TIME_BASIS_AUDIT.md",
+    "sha256": "159271f4ed953e9660c924950a9dc017547fedf4cf428600cdba784b8416083f",
+    "size_bytes": 6270,
+    "purpose": "S01旧时区审计，当前BJT以X12为准",
+    "role": "corroborating_source_only_no_additional_task_disposition"
+  },
+  {
+    "source_id": "X42",
+    "path": "/data/AI_Research/projects/gravitation-whsh/PHASE_MODEL_SPECIFICATION.md",
+    "resolved_path": "/data/AI_Research/projects/gravitation-whsh/PHASE_MODEL_SPECIFICATION.md",
+    "sha256": "cd5b67f7c6468151c5638ae6798f434baceeab371cb7106d585086e45dabc87c",
+    "size_bytes": 36188,
+    "purpose": "S02引用旧v1，保留版本差异",
+    "role": "corroborating_source_only_no_additional_task_disposition"
+  },
+  {
+    "source_id": "X43",
+    "path": "/home/room115/gravitation-whsh/research/Lunar_tide_coastal_inland_v17b_20261103(1).pdf",
+    "resolved_path": "/home/room115/gravitation-whsh/research/Lunar_tide_coastal_inland_v17b_20261103(1).pdf",
+    "sha256": "3f9665b9da7172d9bd4d10e858994137736a0580b6df532c1f3ca2cc43c45482",
+    "size_bytes": 887402,
+    "purpose": "v17b原PDF身份，仅哈希核验不重新提取",
+    "role": "corroborating_source_only_no_additional_task_disposition",
+    "historical_expected_sha256": "3f9665b9da7172d9bd4d10e858994137736a0580b6df532c1f3ca2cc43c45482"
+  },
+  {
+    "source_id": "X44",
+    "path": "/home/room115/gravitation-whsh/research/2610.39635v1(1).pdf",
+    "resolved_path": "/home/room115/gravitation-whsh/research/2610.39635v1(1).pdf",
+    "sha256": "6e2a3aef4285a8afb63b7af23062ea7ea89c650d40311e8aa3c44235ca867b04",
+    "size_bytes": 4986248,
+    "purpose": "europe原PDF身份，仅哈希核验不重新提取",
+    "role": "corroborating_source_only_no_additional_task_disposition",
+    "historical_expected_sha256": "6e2a3aef4285a8afb63b7af23062ea7ea89c650d40311e8aa3c44235ca867b04"
+  },
+  {
+    "source_id": "X45",
+    "path": "/home/room115/gravitation-whsh/paper/prl/main.tex",
+    "resolved_path": "/home/room115/gravitation-whsh/paper/prl/main.tex",
+    "sha256": "c0a8ce8e858611c0c0acc74208f9dc626f3bcfb6ecf73326b6b203a7af556ccb",
+    "size_bytes": 25103,
+    "purpose": "PRL main.tex装置及频率关系来源",
+    "role": "corroborating_source_only_no_additional_task_disposition",
+    "historical_expected_sha256": "c0a8ce8e858611c0c0acc74208f9dc626f3bcfb6ecf73326b6b203a7af556ccb"
+  },
+  {
+    "source_id": "X46",
+    "path": "/home/room115/gravitation-whsh/paper/prl/supplementary.tex",
+    "resolved_path": "/home/room115/gravitation-whsh/paper/prl/supplementary.tex",
+    "sha256": "afbfaeaec7d35adc69ff49af9e842ec6fbe4f69fcd42150393e2555f35ef33ab",
+    "size_bytes": 26441,
+    "purpose": "PRL supplementary.tex装置及频率关系来源",
+    "role": "corroborating_source_only_no_additional_task_disposition",
+    "historical_expected_sha256": "afbfaeaec7d35adc69ff49af9e842ec6fbe4f69fcd42150393e2555f35ef33ab"
+  }
+]
