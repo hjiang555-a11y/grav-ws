@@ -1,0 +1,36 @@
+{
+  "focus": "最后一轮统计与独立审计；关闭局部定义错误并明确解析界",
+  "numerical_changes": false,
+  "decisions": [
+    {
+      "id": "STAT-1",
+      "status": "CONFIRMED_WORDING_ERROR_FIXED",
+      "action": "Methods将sigma误写权重属局部定义错误。v61明确sigma=alpha/sqrt(n)，WLS权重=n/alpha²。实现和数值不变，ED10与Methods统一。"
+    },
+    {
+      "id": "STAT-2/AUDIT-1",
+      "status": "ACCEPTED",
+      "action": "把“约束/抑制扰动”改为指定正弦扰动诱导的估计量偏差；注明每次一个频率、同幅度、参考模型无自由日项；不声称环境幅度实测上界。"
+    },
+    {
+      "id": "STAT-3/AUDIT-3",
+      "status": "ACCEPTED_SCOPE_RETAINED",
+      "action": "明确共享天文库和物理输入、旧模板生成链未闭合、固定估计噪声权重不确定性未传播；重复计算不能替代实验标定。"
+    },
+    {
+      "id": "AUDIT-2",
+      "status": "ACCEPTED",
+      "action": "明确加权/等权对照只隔离R3内部一项变化，不把跨路线差异归因于单因素；不因使用2025就判同事结果无效。"
+    },
+    {
+      "id": "AUDIT-4",
+      "status": "ACCEPTED",
+      "action": "保留主文物理叙事和相位椭圆；处理内部细节放Methods/ED10，缩短ED10行列标签；结论突出M2与条件跨中断传递。"
+    },
+    {
+      "id": "FINAL-SCOPE",
+      "status": "TWO_ROUNDS_COMPLETE",
+      "action": "主结果、观测、拟合模型及掩码未变；不新增第三轮。作者信息、访问声明和实验物理确认仍需作者，REVIEW不自动批准。"
+    }
+  ]
+}
