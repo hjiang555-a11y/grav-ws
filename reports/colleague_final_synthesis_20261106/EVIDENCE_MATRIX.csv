@@ -1,0 +1,15 @@
+ID,status,claim,evidence_path,boundary
+E01,VERIFIED,同事远端R3 PDF/ZIP/源文件身份,sources/PACKAGE_VALIDATION.json,136清单成员逐项哈希；冻结提交816cf791；结束时分支未变
+E02,VERIFIED,42原始文件独立解析、筛选、3299箱、频率换算及噪声权重,verification/RAW_READBACK.json,依赖既有频率参考和修正账本；未认证硬件节点
+E03,VERIFIED,同事九组既有估计量的独立SVD、误差、相关系数,verification/COLLEAGUE_SVD_REPLAY.json,最大数值差4.80e-14；与原作者脚本独立实现；非独立实验
+E04,VERIFIED,我们20模型、删除协方差和64模式零/单位检验,verification/DIRECTOR_SVD_REPLAY.json,系数最大差4.82e-12；同冻结观测和理论列
+E05,VERIFIED,实际消费的加载势合成、分潮投影及当前理论网格比较,verification/PHYSICAL_SERIES_CHECK.json,共用pyTMD及固体潮/加载输入；不认证全球卷积
+E06,VERIFIED,2026逐源文件行交集和差集,verification/MEMBERSHIP_COMPARISON.json,共享1736236；我们独有837；同事独有10844；非一一配对箱
+E07,VERIFIED,我们参考模型太阳日解析界及独立QR极值扰动,verification/SOLAR_GAIN_VALIDATION.json,预定幅度、每次一频率；不是实测环境幅度界
+E08,VERIFIED,48输入及我们观测表结束时哈希未变,verification/INPUTS_FINAL.json,原始源和历史消费输入只读
+E09,VERIFIED,最终PDF/Word、图形和远端读回,round02/PUBLICATION.json,32页、4主图、10ED表；编译无警告；技术验收非作者批准
+E10,AUTHOR-REPORTED,采集与欧洲实验独立；钟和链路历史状态,round02/NATURE_ARTICLE_v61.md,采集独立与知情后分析分开；不能凭本轮计算证明历史
+E11,PENDING,钟位置、硬件节点、同步、修正账本与未监测支路,round02/NATURE_ARTICLE_v61.md,需实验记录；B2只覆盖所测通道和夏季配对支持
+E12,PENDING,历史PREM存储序列完整生成链,sources/colleague_snapshot/paper/nature/opencode-period-offset-20261105/source-data/MODEL_PROVENANCE.md,当前消费序列可重建；历史相位根因仍未闭合
+E13,PENDING,作者、单位、基金、利益冲突、数据代码访问及相关稿件披露,round02/NATURE_ARTICLE_v61.md,候选终稿供作者审阅，未代为确认或投稿
+E14,BLOCKED,原正式拟合门禁,PLAN.md,旧BLOCKED未解除；本轮仅按当前明确授权进行确认性回放和诊断
