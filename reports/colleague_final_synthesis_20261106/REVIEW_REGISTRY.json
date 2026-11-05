@@ -1,0 +1,59 @@
+{
+  "tasks": [
+    {
+      "round": 1,
+      "task_id": "5dfe5e45086e41179e8c1d2793a2d5da",
+      "agent_id": "data_agent",
+      "thread_id": "01a1a44e-270e-7373-a9e7-911d6b68061c",
+      "turn_id": "01a1adc3-7856-7551-8071-1226067593d0",
+      "status": "REVIEW",
+      "result_path": "/data/AI_Research/projects/grav-ws/manuscript_48h/colleague_final_synthesis_20261105T220759Z/round01/review/data_agent_5dfe5e45086e41179e8c1d2793a2d5da.md",
+      "result_sha256": "ef64a42d91605ae92b51191d615570b32fcc68d9624a5474ce79d2be90d7c468",
+      "remote_status": "completed",
+      "started_at": 1793916631,
+      "completed_at": 1793916672
+    },
+    {
+      "round": 1,
+      "task_id": "d6f9bbc9df414695b6561fc552db65ff",
+      "agent_id": "physics_agent",
+      "thread_id": "01a1a44e-271f-72e0-b54b-c7b12d732b27",
+      "turn_id": "01a1adc3-78c4-7852-ae35-4914d12c50e9",
+      "status": "REVIEW",
+      "result_path": "/data/AI_Research/projects/grav-ws/manuscript_48h/colleague_final_synthesis_20261105T220759Z/round01/review/physics_agent_d6f9bbc9df414695b6561fc552db65ff.md",
+      "result_sha256": "01a00000fb34d245a4167dde08b1b047445a1bccc252163361d8859c5d94197a",
+      "remote_status": "completed",
+      "started_at": 1793916631,
+      "completed_at": 1793916678
+    },
+    {
+      "round": 2,
+      "task_id": "e8faa867b13f416aa1a99b320880ee28",
+      "agent_id": "statistics_agent",
+      "thread_id": "01a1a61b-042f-72b1-8348-ca9d4df60016",
+      "turn_id": "01a1add1-9f8a-7dc1-9b43-0c1d3f144f5a",
+      "status": "REVIEW",
+      "result_path": "/data/AI_Research/projects/grav-ws/manuscript_48h/colleague_final_synthesis_20261105T220759Z/round02/review/statistics_agent_e8faa867b13f416aa1a99b320880ee28.md",
+      "result_sha256": "f39eda0e97a7348e6dfbf8c1821cd9eace9f43a0aa72683a92a8125b0184b877",
+      "remote_status": "completed",
+      "started_at": 1793917558,
+      "completed_at": 1793917616
+    },
+    {
+      "round": 2,
+      "task_id": "d0a122175c014518b3313a31e20a0396",
+      "agent_id": "audit_agent",
+      "thread_id": "01a1a61b-03ea-7622-a9bf-28a96e42a8a5",
+      "turn_id": "01a1add1-9ff9-7f10-9835-1a486019023d",
+      "status": "REVIEW",
+      "result_path": "/data/AI_Research/projects/grav-ws/manuscript_48h/colleague_final_synthesis_20261105T220759Z/round02/review/audit_agent_d0a122175c014518b3313a31e20a0396.md",
+      "result_sha256": "14f8629a022a571f4c38c171024c9be618f13363e7e2e21a133bdb578d8cb126",
+      "remote_status": "completed",
+      "started_at": 1793917558,
+      "completed_at": 1793917606
+    }
+  ],
+  "maximum_observed_concurrency": 2,
+  "automatic_approval": false,
+  "scope": "Four authorized reviews in existing Threads. Static source reviews; independent numerical execution by Director."
+}
