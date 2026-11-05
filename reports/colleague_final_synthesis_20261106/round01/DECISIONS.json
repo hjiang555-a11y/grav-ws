@@ -1,0 +1,36 @@
+{
+  "focus": "独立原始读回、物理序列与两套估计量对账；吸收可复算的构思",
+  "numerical_changes": "主拟合结果未变；新增本路线解析扰动增益、同事路线复算及成员对账。",
+  "decisions": [
+    {
+      "id": "DATA-1",
+      "status": "ACCEPTED_AND_VERIFIED",
+      "action": "42原始源哈希一致；独立解析重建3299箱、1965327成员、频率比与8期噪声权重；来源和条件写入Methods/ED10。"
+    },
+    {
+      "id": "DATA-2",
+      "status": "ACCEPTED",
+      "action": "逐文件行对账，明确2026支持/分箱/理论取样/权重/标准误不同，不合并主数值或移植显著性。"
+    },
+    {
+      "id": "PHYS-1",
+      "status": "ACCEPTED_WITH_SCOPE",
+      "action": "复算实际消费的固体/加载序列、固定相位分量和UTC，当前理论网格数值相符；全局加载卷积、硬件节点和坐标仍属待实验确认。"
+    },
+    {
+      "id": "PHYS-2",
+      "status": "ALERT_DISMISSED_WITH_EVIDENCE",
+      "action": "8个正中心值与6个A>u并不冲突；NPositivePeriods宏未在论文使用，不作为科学错误报警。证据见REVIEW_ALERT_RESOLUTION.json。"
+    },
+    {
+      "id": "SYNTHESIS-1",
+      "status": "IMPLEMENTED_AND_QR_VERIFIED",
+      "action": "吸收物理动机→相位覆盖→估计器叙事；在我们冻结设计上推导太阳日响应界并以独立QR极值扰动验证，生成自己的Fig4。"
+    },
+    {
+      "id": "SYNTHESIS-2",
+      "status": "RETAINED",
+      "action": "保留相位椭圆与协方差传播；phasor振幅与采样RMS不混称；模型来源、条件误差和跨年范围显式区分。"
+    }
+  ]
+}
