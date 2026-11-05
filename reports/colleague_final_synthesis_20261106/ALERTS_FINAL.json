@@ -1,0 +1,22 @@
+{
+  "confirmed": [
+    {
+      "id": "STAT-1",
+      "level": "RED_WORDING_ONLY",
+      "status": "FIXED_IN_V61",
+      "message": "v60 Methods confused bin standard deviation with weight; code and estimates were correct."
+    }
+  ],
+  "dismissed": [
+    {
+      "id": "R1-PHYS-2",
+      "reason": "Eight positive centres and six A>u count different events; ambiguous unused macro name, not inconsistent scientific results."
+    }
+  ],
+  "pending": [
+    "Physical calibration and unmonitored branches",
+    "Historical PREM series generation chain",
+    "Author and access statements"
+  ],
+  "major_numerical_error_found": false
+}
