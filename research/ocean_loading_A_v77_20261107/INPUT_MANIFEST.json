@@ -1,0 +1,68 @@
+[
+  {
+    "source": "/home/room115/gravitation-whsh/final_candidates/A_v77/sources/frozen_v72/bins.csv",
+    "copy": "inputs/bins.csv",
+    "sha256": "860b442aad8b1c39ad750aa27af0d8766cf210ae9b013006169d77fdb9e93d8d",
+    "bytes": 460192
+  },
+  {
+    "source": "/home/room115/gravitation-whsh/final_candidates/A_v77/sources/frozen_v72/template.csv",
+    "copy": "inputs/template.csv",
+    "sha256": "f17808f93e1f30cec01d7f99304ada954e04579c939a137bf7eb4e747677d0c7",
+    "bytes": 328179
+  },
+  {
+    "source": "/home/room115/gravitation-whsh/final_candidates/A_v77/sources/frozen_v72/constituents.csv",
+    "copy": "inputs/constituents.csv",
+    "sha256": "543f5a27949a2acd527b4af774a7d8235181e0fa93e667b953f101837c7eb708",
+    "bytes": 780
+  },
+  {
+    "source": "/home/room115/gravitation-whsh/final_candidates/A_v77/sources/frozen_v72/evidence.json",
+    "copy": "inputs/evidence.json",
+    "sha256": "e8b2d2512cdd059ca5029904d0bab9459f03a41cbacbbeb72f9c0bd4b529333d",
+    "bytes": 103694
+  },
+  {
+    "source": "/home/room115/gravitation-whsh/final_candidates/A_v77/sources/frozen_v72/zero_point_boundaries.csv",
+    "copy": "inputs/zero_point_boundaries.csv",
+    "sha256": "1881ba14f069dc08884e4e0a2264cbef7193a5bb7556fe46dadee23723617852",
+    "bytes": 8826
+  },
+  {
+    "source": "/home/room115/gravitation-whsh/final_candidates/A_v77/sources/frozen_v72/loading_phasors_18.json",
+    "copy": "inputs/loading_phasors_18.json",
+    "sha256": "ea94e69fb9bbb984502a3854992ccf801894c6c1bd5c91d8cbcd5b4be64fefdd",
+    "bytes": 3655
+  },
+  {
+    "source": "/home/room115/gravitation-whsh/final_candidates/A_v77/data/primary_rows.csv",
+    "copy": "inputs/primary_rows.csv",
+    "sha256": "ed1aef3e6dd6a44cf46a246ac5e14363f419f14d1e1e004a22b341f81118a803",
+    "bytes": 1023566
+  },
+  {
+    "source": "/home/room115/gravitation-whsh/final_candidates/A_v77/data/RESULTS.json",
+    "copy": "inputs/RESULTS.json",
+    "sha256": "7e8b30a1344c1140318f7e0b49375d3c9a316d1909f994945b44fc02fd16e152",
+    "bytes": 129750
+  },
+  {
+    "source": "/home/room115/gravitation-whsh/final_candidates/A_v77/data/design.npz",
+    "copy": "inputs/design.npz",
+    "sha256": "9adcaf43f041ee386e64aebdde1ed13ba0696045add78c89e122e7d23bd92e7b",
+    "bytes": 398766
+  },
+  {
+    "source": "/home/room115/gravitation-whsh/final_candidates/A_v77/vendor/template.py",
+    "copy": "vendor/template.py",
+    "sha256": "85cb18913151150b00f62c4927d5ffe38099fa6a06f0d9998d62b94c42831d02",
+    "bytes": 18737
+  },
+  {
+    "source": "/home/room115/gravitation-whsh/final_candidates/A_v77/sources/frozen_v72/loading_kernel_reference.py",
+    "copy": "vendor/loading_kernel_reference.py",
+    "sha256": "a1849c3b92dd33b28b09495eb64820224975083d54c37a86ade13915679b8124",
+    "bytes": 4401
+  }
+]
