@@ -1,0 +1,18 @@
+{
+  "source": "/home/room115/gravitation-whsh/1a.png",
+  "author_instruction": "Use supplied panel directly or match its appearance",
+  "sha256": "e1b7b0e24d8ec8cd0ee7fff2917ead56739629b0a30b79f2d0e4c087cff05f39",
+  "embedding": "Exact unmodified PNG; combined with computed phasor and sampling panels",
+  "field_grid_generation": "Not supplied with this image; the image background is not used for numerical fits.",
+  "figure": "figures/figure1.pdf",
+  "reuse": "Exact PNG embedding without alteration",
+  "raster_panel": "a",
+  "vector_panels": [
+    "b",
+    "c",
+    "d"
+  ],
+  "initial_review": "Author-supplied raster accepted for review; background-grid source remains an author provenance item.",
+  "numerical_panels": "Frozen v78 phasors, UTC sampling and astronomical phases",
+  "phasor_aspect": "Equal data-axis aspect; loading phase is not visually stretched."
+}
