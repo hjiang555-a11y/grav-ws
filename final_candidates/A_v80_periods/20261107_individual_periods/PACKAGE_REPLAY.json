@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "scope": "Fresh archive extraction: per-period fits and day-jackknife replicas, exact manuscript reassembly and Figure 4 rendering.",
+  "matching_files": {
+    "period_estimates/period_estimates.csv": true,
+    "period_estimates/day_jackknife_replicates.csv": true,
+    "period_estimates/row_membership.csv": true,
+    "NATURE_ARTICLE_A_v80.md": true,
+    "figures/figure4.png": true
+  }
+}
