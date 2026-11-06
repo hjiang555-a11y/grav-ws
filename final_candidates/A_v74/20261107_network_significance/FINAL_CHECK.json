@@ -1,0 +1,58 @@
+{
+  "status": "PASS",
+  "scope": "Editorial, citation provenance and document delivery validation; no new fit, raw-counter replay or scientific author approval",
+  "editorial_checks": 15,
+  "pages": 19,
+  "chinese_note_pages": 1,
+  "text_counts": {
+    "abstract": 137,
+    "main": 1924,
+    "methods": 1949,
+    "legends": [
+      [
+        "Fig. 1 | Geometry and changing lunar–solar phase.",
+        85
+      ],
+      [
+        "Fig. 2 | The full record ordered by lunar phase.",
+        105
+      ],
+      [
+        "Fig. 3 | Semidiurnal responses, phase and measured spectral structure.",
+        142
+      ],
+      [
+        "Fig. 4 | Temporal support and a simultaneous transmission control.",
+        106
+      ],
+      [
+        "Extended Data Fig. 1 | Same-data comparison of reference-level designs.",
+        66
+      ],
+      [
+        "Extended Data Fig. 2 | Conditional semidiurnal scans.",
+        52
+      ]
+    ],
+    "references": 24
+  },
+  "final_pdf_sha256": "3a2c920e1274e2d01654dad586f7aa34663846e0cc83a256877b370df1d5f0e0",
+  "final_md_sha256": "7d910e171d1ffc4c0dd8c33d7b2a324ae24394b8922f385ab7c32348a9a196f5",
+  "original_A_v72_unchanged": true,
+  "data_and_figures_unchanged": true,
+  "new_fits_run": false,
+  "new_reference_count": 4,
+  "total_reference_count": 24,
+  "new_reference_metadata_errors": 0,
+  "author_approval": false,
+  "public_submission": false,
+  "B_candidate_modified": false,
+  "pending": [
+    "Author list, affiliations, funding and declarations",
+    "Editor-accessible data and code location and licence",
+    "Author acceptance of frozen solid-tide approximation and station coordinates",
+    "Zero-transfer/relock records if eight-period offsets are preferred",
+    "Exact v68 temperature and 474-h control support",
+    "Hou overlap and submission status"
+  ]
+}
