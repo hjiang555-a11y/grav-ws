@@ -1,0 +1,47 @@
+{
+  "status": "PASS",
+  "scope": "Author-review editorial revision; no new fit, submission or author approval",
+  "base": "A_v72",
+  "pdf_pages": 16,
+  "editable_word_images": 6,
+  "editable_word_tables": 4,
+  "unchanged_analysis_files": 17,
+  "unchanged_copied_sources": 87,
+  "original_A_v72_files_preserved": 631,
+  "figures_alignment": [
+    {
+      "file": "figures/ed_figure1.alignment.json",
+      "verdict": "PASS"
+    },
+    {
+      "file": "figures/ed_figure2.alignment.json",
+      "verdict": "PASS"
+    },
+    {
+      "file": "figures/figure1.alignment.json",
+      "verdict": "PASS"
+    },
+    {
+      "file": "figures/figure2.alignment.json",
+      "verdict": "PASS"
+    },
+    {
+      "file": "figures/figure3.alignment.json",
+      "verdict": "PASS"
+    },
+    {
+      "file": "figures/figure4.alignment.json",
+      "verdict": "PASS"
+    }
+  ],
+  "visual_review": "All 16 rendered pages inspected",
+  "primary": "S54, 3299 means, unchanged physical model, Allan weights and max LS/day-jackknife errors",
+  "pending": [
+    "Author list, affiliations and contributor approval",
+    "Funding and competing-interest declarations",
+    "Permanent data/code access and related-manuscript status",
+    "Existing physical-model and reference-location decisions from A_v72"
+  ],
+  "pdf_sha256": "bbe1df3b6608f62c76316ff32895903d639fcf059851883a40d061dcb3fe1b78",
+  "md_sha256": "d4a08decd164a0e1160fa99936e36455cff9eab8cc0a9ab74a721a92b8f4a5a4"
+}
