@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "scope": "Exploratory source-identifiability analysis on frozen derived observations",
+  "checks": {
+    "ANALYSIS_CHECKS.json": "PASS",
+    "REPORT_PDF_CHECK.json": "PASS",
+    "REPLAY_CHECK.json": "PASS"
+  },
+  "main_manuscript_unchanged": true,
+  "independent_loading_detection": false,
+  "conditional_noise_simulations": 4000,
+  "author_submission": false
+}
