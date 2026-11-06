@@ -1,0 +1,198 @@
+{
+  "status": "PASS",
+  "pages": 27,
+  "changed_pages": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27
+  ],
+  "all_other_pages_pixel_identical": true,
+  "only_one_sentence_moved": true,
+  "checks": [
+    {
+      "page": 1,
+      "outside": [],
+      "missing_glyph": false
+    },
+    {
+      "page": 2,
+      "outside": [],
+      "missing_glyph": false
+    },
+    {
+      "page": 3,
+      "outside": [],
+      "missing_glyph": false
+    },
+    {
+      "page": 4,
+      "outside": [],
+      "missing_glyph": false
+    },
+    {
+      "page": 5,
+      "outside": [],
+      "missing_glyph": false
+    },
+    {
+      "page": 6,
+      "outside": [],
+      "missing_glyph": false
+    },
+    {
+      "page": 7,
+      "outside": [],
+      "missing_glyph": false
+    },
+    {
+      "page": 8,
+      "outside": [],
+      "missing_glyph": false
+    },
+    {
+      "page": 9,
+      "outside": [],
+      "missing_glyph": false
+    },
+    {
+      "page": 10,
+      "outside": [],
+      "missing_glyph": false
+    },
+    {
+      "page": 11,
+      "outside": [],
+      "missing_glyph": false
+    },
+    {
+      "page": 12,
+      "outside": [],
+      "missing_glyph": false
+    },
+    {
+      "page": 13,
+      "outside": [],
+      "missing_glyph": false
+    },
+    {
+      "page": 14,
+      "outside": [],
+      "missing_glyph": false
+    },
+    {
+      "page": 15,
+      "outside": [],
+      "missing_glyph": false
+    },
+    {
+      "page": 16,
+      "outside": [],
+      "missing_glyph": false
+    },
+    {
+      "page": 17,
+      "outside": [],
+      "missing_glyph": false
+    },
+    {
+      "page": 18,
+      "outside": [],
+      "missing_glyph": false
+    },
+    {
+      "page": 19,
+      "outside": [],
+      "missing_glyph": false
+    },
+    {
+      "page": 20,
+      "outside": [],
+      "missing_glyph": false
+    },
+    {
+      "page": 21,
+      "outside": [],
+      "missing_glyph": false
+    },
+    {
+      "page": 22,
+      "outside": [],
+      "missing_glyph": false
+    },
+    {
+      "page": 23,
+      "outside": [],
+      "missing_glyph": false
+    },
+    {
+      "page": 24,
+      "outside": [],
+      "missing_glyph": false
+    },
+    {
+      "page": 25,
+      "outside": [],
+      "missing_glyph": false
+    },
+    {
+      "page": 26,
+      "outside": [],
+      "missing_glyph": false
+    },
+    {
+      "page": 27,
+      "outside": [],
+      "missing_glyph": false
+    }
+  ],
+  "body_identical_excluding_line_number_margin": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27
+  ],
+  "body_changed_pages": [
+    6,
+    7
+  ]
+}
