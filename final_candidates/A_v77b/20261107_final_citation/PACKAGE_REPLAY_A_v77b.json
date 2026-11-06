@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "pages": 27,
+  "all_page_pixels_identical": true,
+  "manuscript_exact": true,
+  "logs": [
+    {
+      "command": [
+        "scripts/edit_v77b.py"
+      ],
+      "exit": 0,
+      "stderr": ""
+    },
+    {
+      "command": [
+        "scripts/assemble_candidate.py"
+      ],
+      "exit": 0,
+      "stderr": ""
+    },
+    {
+      "command": [
+        "render_candidate.py",
+        "NATURE_ARTICLE_A_v77b.md",
+        "render_rebuilt"
+      ],
+      "exit": 0,
+      "stderr": ""
+    }
+  ],
+  "scope": "Fresh source archive manuscript replay; saved figures/data reused, previously unchanged and verified",
+  "no_new_fits": true
+}
