@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "pdf": "render_A_v77_02/NATURE_ARTICLE_A_v77.pdf",
+  "pages": 27,
+  "pdf_sha256": "51d76f0fe28002fde35467705befc0d12f16fad85c14e85435c0c114c7d6079c",
+  "reviewed": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27
+  ],
+  "checks": [
+    "text and equation readability",
+    "figure and table bounds",
+    "captions and panel labels",
+    "no replacement glyphs",
+    "section order and page breaks"
+  ],
+  "pending": "Author placeholders retained intentionally; not a submission approval"
+}
