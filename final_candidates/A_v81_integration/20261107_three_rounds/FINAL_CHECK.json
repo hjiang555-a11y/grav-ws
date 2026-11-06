@@ -1,0 +1,83 @@
+{
+  "status": "PASS",
+  "checks": {
+    "all_frozen_inputs_results_figures_unchanged": true,
+    "exact_title": true,
+    "abstract_140_180_words": true,
+    "methods_under_3000_words": true,
+    "four_main_figures_nine_extended_items": true,
+    "original_ED_table4_preserved": true,
+    "no_unexpanded_fields": true,
+    "references_24": true,
+    "all_eight_figures_pixel_reproduced": true,
+    "bin_weight_reconstruction": true,
+    "legends_under_250_words": true,
+    "Europe_only_at_discussion_end": true,
+    "Hou_overlap_disclosed": true,
+    "distinct_estimands": true,
+    "new_table_independent_replay": true,
+    "new_table_matches_numeric_output": true,
+    "error_component_rule": true,
+    "round1_three_frozen_reviews": true,
+    "round1_response_and_humanizer": true,
+    "round1_packet_immutable": true,
+    "round2_three_frozen_reviews": true,
+    "round2_response_and_humanizer": true,
+    "round2_packet_immutable": true,
+    "round3_three_frozen_reviews": true,
+    "round3_response_and_humanizer": true,
+    "round3_packet_immutable": true,
+    "PDF_Word_build_clean": true,
+    "PDF_under_30MB": true,
+    "no_single_line_or_blank_pages": true,
+    "source_workbook_complete": true
+  },
+  "pages": 31,
+  "PDF_SHA256": "d56b3101b54e92d01c0327c9b825d70d722b6008b4e68e7507cf08ff82ef041f",
+  "counts": {
+    "abstract": 162,
+    "main": 1477,
+    "methods": 2794,
+    "legends": [
+      [
+        "Fig. 1 | A coastal\u2013inland baseline and its tidal prediction.",
+        108
+      ],
+      [
+        "Fig. 2 | Tidal variation in the measured clock rates.",
+        152
+      ],
+      [
+        "Fig. 3 | Amplitude, phase and frequency of the tidal response.",
+        190
+      ],
+      [
+        "Fig. 4 | Semidiurnal responses in eight individual observing periods.",
+        128
+      ],
+      [
+        "Extended Data Fig. 1 | Conditional semidiurnal scans.",
+        52
+      ],
+      [
+        "Extended Data Fig. 2 | Same-data comparison of reference-level designs.",
+        132
+      ],
+      [
+        "Extended Data Fig. 3 | Simultaneous summer transmission control.",
+        99
+      ],
+      [
+        "Extended Data Fig. 4 | Conditional uncertainty of the neighbouring response.",
+        118
+      ]
+    ],
+    "references": 24,
+    "main_references": 22,
+    "methods_references": 2,
+    "title_characters": 67
+  },
+  "scope": "Editorial integration and frozen-derived-data full-template sensitivity replay; no new raw-counter reduction or empirical noise calibration.",
+  "scientific_acceptance_or_author_approval": false,
+  "external_submission": false
+}
