@@ -1,0 +1,5 @@
+{
+  "status": "PASS",
+  "scope": "Fresh source-archive extraction: edit and assembly reproduce the exact Markdown; PDF/Word compiled and visually checked in the final working candidate.",
+  "manuscript_sha256": "202ed3d46b6d6188de0868c10d4219fb9b0cd27ee6a166b7c26f8eb09b11d830"
+}
