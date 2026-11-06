@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "scope": "A_v77 editorial and submission-file preparation, not journal approval",
+  "checks": {
+    "INVARIANCE_AND_FORMAT_A_v77.json": "PASS",
+    "VISUAL_REVIEW_A_v77.json": "PASS",
+    "PDF_PAGE_CHECK.json": "PASS",
+    "PACKAGE_REPLAY_A_v77.json": "PASS"
+  },
+  "pdf_sha256": "51d76f0fe28002fde35467705befc0d12f16fad85c14e85435c0c114c7d6079c",
+  "science_unchanged": true,
+  "new_fits": 0,
+  "ready_for_external_submission": false,
+  "pending": "Authors, declarations and editor-accessible data/code arrangements"
+}
