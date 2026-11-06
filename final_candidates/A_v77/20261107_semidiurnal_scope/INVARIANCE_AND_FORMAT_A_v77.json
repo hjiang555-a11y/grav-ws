@@ -1,0 +1,172 @@
+{
+  "status": "PASS",
+  "scope": "Editorial invariance and Nature technical preparation; no new fits",
+  "checks": [
+    {
+      "check": "Frozen data/template/results unchanged",
+      "passed": true,
+      "detail": "45 files; observed members, times, weights, errors, spectral tables unchanged"
+    },
+    {
+      "check": "Original A_v76 untouched",
+      "passed": true,
+      "detail": "51 original input/component files"
+    },
+    {
+      "check": "Joint model equations preserved",
+      "passed": true,
+      "detail": "54 intercepts, three coefficients, fixed remainder, same potential kernels"
+    },
+    {
+      "check": "Requested title and Nature length",
+      "passed": true,
+      "detail": "72 characters, no numerical/acronym title"
+    },
+    {
+      "check": "Both main semidiurnal values retained",
+      "passed": true,
+      "detail": "Separate coefficients in one joint model, not independent experiments"
+    },
+    {
+      "check": "Daily result moved to auxiliary Methods",
+      "passed": true,
+      "detail": "Original coefficient and uncertainty also remain in ED Table 2"
+    },
+    {
+      "check": "No daily-deficit narrative",
+      "passed": true,
+      "detail": "No new auxiliary sine fits or parameter changes"
+    },
+    {
+      "check": "K2 mixed forcing retained",
+      "passed": true,
+      "detail": "S2+K2 not claimed to be a pure solar constituent; fixed within-group structure retained"
+    },
+    {
+      "check": "Spectral and conditional evidence retained",
+      "passed": true,
+      "detail": "Same data and exact original scan; no independent significance multiplied"
+    },
+    {
+      "check": "Summary unheaded and bold",
+      "passed": true,
+      "detail": "Nature summary paragraph, 138 words"
+    },
+    {
+      "check": "Nature manuscript section order",
+      "passed": true,
+      "detail": "Main refs, figures+legends, Methods, availability, Methods refs, end notes, ED"
+    },
+    {
+      "check": "AI disclosure in Methods",
+      "passed": true,
+      "detail": "Substantive assistance retained; no invented author approval"
+    },
+    {
+      "check": "Methods has no figures or tables",
+      "passed": true,
+      "detail": "Essential displays in main figures or Extended Data"
+    },
+    {
+      "check": "Continuous references",
+      "passed": true,
+      "detail": "21 main and 2 Methods references, first-appearance order"
+    },
+    {
+      "check": "Article lengths and legends",
+      "passed": true,
+      "detail": {
+        "abstract": 138,
+        "main": 1659,
+        "methods": 1743,
+        "legends": [
+          [
+            "Fig. 1 | Geometry and changing lunar–solar phase.",
+            85
+          ],
+          [
+            "Fig. 2 | The full record ordered by lunar phase.",
+            105
+          ],
+          [
+            "Fig. 3 | Semidiurnal responses, phase and measured spectral structure.",
+            172
+          ],
+          [
+            "Fig. 4 | Consistency across observing periods and reference-level designs.",
+            134
+          ],
+          [
+            "Extended Data Fig. 1 | Conditional semidiurnal scans.",
+            52
+          ],
+          [
+            "Extended Data Fig. 2 | Same-data comparison of reference-level designs.",
+            132
+          ],
+          [
+            "Extended Data Fig. 3 | Simultaneous summer transmission control.",
+            99
+          ]
+        ],
+        "references": 23,
+        "main_references": 21,
+        "methods_references": 2,
+        "title_characters": 72
+      }
+    },
+    {
+      "check": "Four main and seven ED items",
+      "passed": true,
+      "detail": "4 main figures; 3 ED figures and 4 ED tables, under 10-item limit"
+    },
+    {
+      "check": "No unexpanded template tokens",
+      "passed": true,
+      "detail": "Author declarations/access remain explicit author tasks"
+    },
+    {
+      "check": "Extended Data accepted file exports",
+      "passed": true,
+      "detail": "RGB TIFF/JPEG, 300 ppi, under 10 MB each; editable vector originals retained"
+    },
+    {
+      "check": "Export dimensions and resolution",
+      "passed": true,
+      "detail": "Every ED raster export checked"
+    },
+    {
+      "check": "Source Data actual coefficients",
+      "passed": true,
+      "detail": "All three joint coefficients preserved; daily marked auxiliary"
+    },
+    {
+      "check": "All observed means exported",
+      "passed": true,
+      "detail": "Derived Source Data; raw counters are not modified/exported"
+    },
+    {
+      "check": "PDF and Word compile",
+      "passed": true,
+      "detail": "No compiler warnings; vector PDF and native editable Word"
+    },
+    {
+      "check": "Single initial manuscript under 30 MB",
+      "passed": true,
+      "detail": {
+        "bytes": 335115,
+        "pages": 27
+      }
+    },
+    {
+      "check": "Explicit required author items retained",
+      "passed": true,
+      "detail": "Technical preparation is complete; full external-submission readiness is NOT claimed"
+    }
+  ],
+  "ready_for_external_submission": false,
+  "pending": "Author approval/list/declarations and editor-accessible data/code routes",
+  "manuscript_sha256": "02989818ae7ebcbc1e8641008f119c32810f7adb1af587d7a2c207ab9a02948d",
+  "pdf_sha256": "51d76f0fe28002fde35467705befc0d12f16fad85c14e85435c0c114c7d6079c",
+  "result_sha256": "7e8b30a1344c1140318f7e0b49375d3c9a316d1909f994945b44fc02fd16e152"
+}
