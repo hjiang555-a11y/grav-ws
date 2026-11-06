@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "pages": 26,
+  "scope": "All-page contact sheet inspected; pages 1, 2, 3 and 6 inspected at reading resolution; unchanged figures/tables and Methods verified against baseline by content/hash.",
+  "findings": [
+    "No overlap, clipped material or missing mathematical glyphs seen in revised passages.",
+    "The initial sparse continuation page was eliminated by deleting repeated prose.",
+    "Four main figures and seven Extended Data items retained."
+  ],
+  "contact_sheet": "verification/contact_sheet_final.png"
+}
