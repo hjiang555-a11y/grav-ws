@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "pages": 31,
+  "inspection": "All 31 final pages rendered and viewed as contact sheets; front page, main figures and new table additionally checked at larger scale. Chinese revision note is one page.",
+  "checked": [
+    "No clipping or page overflow",
+    "No blank or single-line pages",
+    "Four original main plots and four original ED plots preserved",
+    "Figure captions resolve correctly including legacy ED1/ED2 filenames",
+    "Methods weight formula and title readable",
+    "Numerical tables fit page and retain editable source"
+  ],
+  "figure_regeneration": "Eight PNGs independently regenerated with identical pixels and file hashes.",
+  "scientific_approval": false
+}
