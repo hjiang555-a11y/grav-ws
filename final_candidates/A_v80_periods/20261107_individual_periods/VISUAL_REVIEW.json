@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "inspected_pages": [
+    5,
+    11,
+    15
+  ],
+  "figure": "Eight periods in each of two panels; full linear error ranges; all numeric labels visible.",
+  "raster_note": "PNG is a 600-dpi preview; submission figure is vector PDF/SVG.",
+  "other_figures": "Unchanged hashes relative to v79"
+}
