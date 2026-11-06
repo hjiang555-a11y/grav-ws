@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "scope": "Targeted editorial revision, invariant data, final artifact and visual verification; no new fit or raw-counter replay.",
+  "pdf_sha256": "5969c1c909ff6d065755dbefc9962e53da7ff350e2772ed4181d2b5e24ce2972",
+  "manuscript_sha256": "036ac486398fa3b8b068526ef7c339f378abf1b4f5441dc8c36b9fb13e70b029",
+  "checks": 26,
+  "pages": 19,
+  "numerical_inputs_unchanged": 45,
+  "original_source_files_unchanged": 109,
+  "results_sha256": "7e8b30a1344c1140318f7e0b49375d3c9a316d1909f994945b44fc02fd16e152",
+  "external_submission": false,
+  "pending": "Author declarations/access routes and explicitly labelled alternative-chain provenance remain author items."
+}
