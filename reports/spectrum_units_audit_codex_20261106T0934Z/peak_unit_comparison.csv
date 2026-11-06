@@ -1,0 +1,3 @@
+peak,frequency_uHz,fractional_PSD_per_Hz,potential_PSD_per_Hz,potential_PSD_per_uHz,potential_ASD_per_sqrtHz,single_frequency_amplitude_m2_sminus2,warning
+M2-near local maximum,22.361111111109977,2.3576427083880345e-29,190441.1528356343,0.1904411528356343,436.395637965865,0.4775647720816936,Single-frequency scan amplitude; not a separated physical constituent estimate
+S2-near local maximum,23.14715104193841,8.421113431637615e-30,68022.45922908357,0.06802245922908357,260.81115625886014,0.2810491481508373,Single-frequency scan amplitude; not a separated physical constituent estimate
