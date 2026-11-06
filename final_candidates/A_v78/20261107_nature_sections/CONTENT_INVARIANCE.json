@@ -1,0 +1,67 @@
+{
+  "status": "PASS",
+  "scope": "Editorial invariance and document build; no fits rerun",
+  "checks": {
+    "live_originals_unchanged": true,
+    "frozen_data_and_figures_byte_identical": true,
+    "preserved_input_manuscript": true,
+    "preserved_input_template": true,
+    "results_verbatim": true,
+    "references_captions_methods_endnotes_verbatim": true,
+    "title_unchanged": true,
+    "reference_order_unchanged": true,
+    "single_Europe_citation_at_Discussion_end": true,
+    "two_primary_values_retained": true,
+    "summary_and_Methods_lengths": true,
+    "PDF_Word_build_without_warnings": true,
+    "no_unexpanded_numeric_tokens": true,
+    "no_replacement_glyphs": true,
+    "PDF_below_initial_submission_limit": true,
+    "Word_summary_double_spaced": true
+  },
+  "counts": {
+    "abstract": 132,
+    "main": 1534,
+    "methods": 1743,
+    "legends": [
+      [
+        "Fig. 1 | Geometry and changing lunar–solar phase.",
+        85
+      ],
+      [
+        "Fig. 2 | The full record ordered by lunar phase.",
+        105
+      ],
+      [
+        "Fig. 3 | Semidiurnal responses, phase and measured spectral structure.",
+        172
+      ],
+      [
+        "Fig. 4 | Consistency across observing periods and reference-level designs.",
+        134
+      ],
+      [
+        "Extended Data Fig. 1 | Conditional semidiurnal scans.",
+        52
+      ],
+      [
+        "Extended Data Fig. 2 | Same-data comparison of reference-level designs.",
+        132
+      ],
+      [
+        "Extended Data Fig. 3 | Simultaneous summer transmission control.",
+        99
+      ]
+    ],
+    "references": 23,
+    "main_references": 21,
+    "methods_references": 2,
+    "title_characters": 72
+  },
+  "PDF_pages": 26,
+  "PDF_bytes": 333957,
+  "manuscript_sha256": "202ed3d46b6d6188de0868c10d4219fb9b0cd27ee6a166b7c26f8eb09b11d830",
+  "PDF_sha256": "965b40d3f63fca3ea37c8dce41128c20d0525542f994aaf2ed1d62255719e8a3",
+  "results_sha256": "7e8b30a1344c1140318f7e0b49375d3c9a316d1909f994945b44fc02fd16e152",
+  "ready_for_external_submission": false
+}
