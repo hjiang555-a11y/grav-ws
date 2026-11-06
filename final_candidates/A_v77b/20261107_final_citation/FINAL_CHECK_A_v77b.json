@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "checks": {
+    "INVARIANCE_AND_FORMAT_A_v77b.json": "PASS",
+    "VISUAL_REVIEW_A_v77b.json": "PASS",
+    "CITATION_MOVE_AND_PAGES.json": "PASS",
+    "PACKAGE_REPLAY_A_v77b.json": "PASS"
+  },
+  "only_one_existing_sentence_moved": true,
+  "science_unchanged": true,
+  "pages": 27,
+  "ready_for_external_submission": false,
+  "pending": "Genuine author declarations and editor-accessible data/code arrangements",
+  "pdf_sha256": "e07f59881176628e9edfbad756b8fc7f9593b2dca0637ec09cdc6c1d386e6ac4"
+}
