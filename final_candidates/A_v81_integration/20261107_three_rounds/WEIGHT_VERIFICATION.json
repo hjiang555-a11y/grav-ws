@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "scope": "Reconstruction of 3299 saved bin uncertainties and weights from archived alpha and membership counts. Static audit of raw-noise source; no new raw-counter replay.",
+  "n_rows": 3299,
+  "n_periods": 8,
+  "max_abs_sigma_diff": 7.105427357601002e-15,
+  "max_relative_weight_diff": 5.551115123125783e-16,
+  "formula": "sigma_i = alpha_p / sqrt(n_i); alpha is the one-second fractional-rate coefficient in units 1e-18, equivalently Allan white-frequency-noise coefficient normalized at 1 s.",
+  "alpha_algorithm": "Eligible original segments have >=8192 retained nominal one-second members. Subtract segment-centred fixed unit tide; overlapping Allan deviation at 256,512,1024,2048,4096 nominal seconds; length-weighted arithmetic average of deviations across eligible segments at each tau; geometric average of deviation*sqrt(tau/1s) across five taus.",
+  "source_hashes": {
+    "sources/noise_definition.py": "da340da4ef4601bdb8599b1d35a7caf19f53edbae452832011e9f5b760208d6d",
+    "sources/frozen_v72/evidence.json": "e8b2d2512cdd059ca5029904d0bab9459f03a41cbacbbeb72f9c0bd4b529333d",
+    "data/primary_rows.csv": "ed1aef3e6dd6a44cf46a246ac5e14363f419f14d1e1e004a22b341f81118a803"
+  },
+  "software": {
+    "python": "3.12.3",
+    "numpy": "2.5.4",
+    "pandas": "3.1.0"
+  }
+}
