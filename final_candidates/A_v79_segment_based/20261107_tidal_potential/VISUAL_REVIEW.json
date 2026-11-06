@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "pages": 29,
+  "full_contact_sheet": "verification/contact_final.png",
+  "scope": "All-page layout inspected; revised first-page title, core main text and figure pages checked at readable scale. Main Figure 1 retains the original 1080\u00d7825 author-supplied raster; numerical/vector panels and other figures audited separately.",
+  "figure1_manuscript_page": 8,
+  "new_figures_alignment_fonts_and_collisions": "PASS; raster labels manually inspected, not measured by vector font auditor",
+  "pending": "Human author/availability confirmation and geographical background-grid provenance for final production"
+}
