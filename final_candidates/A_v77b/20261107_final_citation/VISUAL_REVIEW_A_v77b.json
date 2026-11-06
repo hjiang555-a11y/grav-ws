@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "pages": 27,
+  "pdf": "render_A_v77b_01/NATURE_ARTICLE_A_v77b.pdf",
+  "newly_viewed_pages": [
+    6,
+    7
+  ],
+  "other_pages": "Body pixels identical to visually reviewed A_v77; only line numbering changed",
+  "pdf_sha256": "e07f59881176628e9edfbad756b8fc7f9593b2dca0637ec09cdc6c1d386e6ac4"
+}
