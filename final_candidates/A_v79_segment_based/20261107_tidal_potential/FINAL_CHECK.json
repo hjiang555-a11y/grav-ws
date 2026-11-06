@@ -1,0 +1,86 @@
+{
+  "status": "PASS",
+  "checks": {
+    "original_v78_unchanged": true,
+    "observations_templates_weights_spectrum_and_preserved_figures_unchanged": true,
+    "joint_coefficients_match_v78": true,
+    "phase_relaxed_estimate_and_SE_replayed": true,
+    "overall_amplitude_independent_full_QR": true,
+    "unit_injection_and_arbitrary_segment_levels": true,
+    "segment_level_shift_invariance": true,
+    "representative_segment_objective_longest": true,
+    "display_all_selected_rows_and_members": true,
+    "all_frozen_sample_counts": true,
+    "UTC_seconds_and_design_times_consistent": true,
+    "potential_conversion_exact": true,
+    "Source_Data_has_complete_observations": true,
+    "figure1_alignment": true,
+    "figure2_alignment": true,
+    "figure3_alignment": true,
+    "figure4_alignment": true,
+    "extended4_alignment": true,
+    "new_figure_font_and_collision_audits": true,
+    "latest_detection_title": true,
+    "three_distinct_estimates_in_summary": true,
+    "fixed_internal_group_constraint_in_summary": true,
+    "Europe_only_Discussion_final_sentence": true,
+    "no_unverified_alternative_estimates_in_paper": true,
+    "no_unexpanded_numeric_tokens": true,
+    "continuous_first_use_references": true,
+    "Nature_summary_Methods_and_legend_lengths": true,
+    "display_item_budget": true,
+    "PDF_Word_compiled_without_warnings": true,
+    "Word_summary_double_spaced": true,
+    "PDF_glyphs_and_size": true
+  },
+  "pages": 29,
+  "counts": {
+    "abstract": 130,
+    "main": 1471,
+    "methods": 2363,
+    "legends": [
+      [
+        "Fig. 1 | A coastal\u2013inland baseline and its tidal prediction.",
+        107
+      ],
+      [
+        "Fig. 2 | Tidal variation in the measured clock rates.",
+        152
+      ],
+      [
+        "Fig. 3 | Amplitude, phase and frequency of the tidal response.",
+        152
+      ],
+      [
+        "Fig. 4 | Period support and reference-level sensitivity.",
+        99
+      ],
+      [
+        "Extended Data Fig. 1 | Conditional semidiurnal scans.",
+        52
+      ],
+      [
+        "Extended Data Fig. 2 | Same-data comparison of reference-level designs.",
+        132
+      ],
+      [
+        "Extended Data Fig. 3 | Simultaneous summer transmission control.",
+        99
+      ],
+      [
+        "Extended Data Fig. 4 | Conditional uncertainty of the neighbouring response.",
+        118
+      ]
+    ],
+    "references": 24,
+    "main_references": 22,
+    "methods_references": 2,
+    "title_characters": 71
+  },
+  "manuscript_SHA256": "fa44c492fdd998f914f65dfa9c576de54aade27279f2545e1455bd3814f397d5",
+  "PDF_SHA256": "42934a249298ed9a485485766540abc79ab7bf9eceabf044e60781ada24f5d85",
+  "original_workspace_check": "Performed against the existing baseline",
+  "scope": "Verified frozen derived observations; independent segment/QR and phase/full response replay; not a new independent raw-counter reconstruction.",
+  "author_approval": false,
+  "external_submission": false
+}
