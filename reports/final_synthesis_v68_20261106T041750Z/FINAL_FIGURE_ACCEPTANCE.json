@@ -1,0 +1,41 @@
+{
+  "stage": "FINAL_RELEASE_FIGURES_AFTER_UNIT_LABEL_CORRECTIONS",
+  "old_summary_scope": "verification/FIGURE_AUDIT_SUMMARY.json is the initial audit before unit-label fixes; its Fig.3/4 small-superscript failures were corrected. Keep it as history, not final acceptance.",
+  "figures": [
+    {
+      "figure": 1,
+      "sha256": "0e9aa3c247062d2900fab3f49d96931cd5f0396661c39c497d33980a07233846",
+      "visible_min_font_pt": 5.099999904632568,
+      "visible_font_below_5pt": false,
+      "final_status": "PASS_WITH_DOCUMENTED_WARNINGS",
+      "evidence": "reports/FIGURE_QA.md"
+    },
+    {
+      "figure": 2,
+      "sha256": "11fa89f99434e03fc34279f7d053b5eb493976e4c4dc77fc820ca6cee8ee339d",
+      "visible_min_font_pt": 6.133002758026123,
+      "visible_font_below_5pt": false,
+      "final_status": "PASS_WITH_DOCUMENTED_WARNINGS",
+      "evidence": "reports/FIGURE_QA.md; verification/FIG2_CLIP_PROOF.json"
+    },
+    {
+      "figure": 3,
+      "sha256": "87a1b324b26ea66a16b1718912de37d33e2a8bcfe8563e0453d54c6c12e730a1",
+      "visible_min_font_pt": 5.871364593505859,
+      "visible_font_below_5pt": false,
+      "final_status": "PASS",
+      "evidence": "verification/fig3_font_final.log; verification/fig3_collisions_final.json"
+    },
+    {
+      "figure": 4,
+      "sha256": "ba8d278a3f8e116ff28076f67ed1ef0ff4a2f41d716b0ec2390937a1992c9acc",
+      "visible_min_font_pt": 5.382084369659424,
+      "visible_font_below_5pt": false,
+      "final_status": "PASS",
+      "evidence": "verification/fig4_font_final.log; verification/fig4_collisions_final.json"
+    }
+  ],
+  "scientific_replay_complete": false,
+  "primary_input_gap": "data/PRIMARY_INPUT_CONTRACT.json",
+  "scope": "This final audit supplements the frozen review package; no scientific values changed."
+}
