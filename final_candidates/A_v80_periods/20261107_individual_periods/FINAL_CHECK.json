@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "checks": {
+    "baseline_v79_untouched": true,
+    "frozen_inputs_unchanged": true,
+    "other_figures_unchanged": true,
+    "abstract_unchanged": true,
+    "title_unchanged": true,
+    "independent_QR": true,
+    "eight_periods_all_rows_once": true,
+    "error_rule": true,
+    "figure_eight_periods_each_group": true,
+    "no_deletion_or_grouping_points": true,
+    "figure_collision_audit": true,
+    "source_preflight": true,
+    "font_floor": true,
+    "PDF_Word_no_build_warnings": true,
+    "reference_order_preserved": true,
+    "Europe_one_sentence_at_end": true,
+    "no_stale_Fig4_callouts": true,
+    "source_workbook_complete": true
+  },
+  "pages": 29,
+  "PDF_SHA256": "3d1cc442fd6f2f10460e19ece2059e2244b128c6655a4a32182df64492406871",
+  "scope": "Eight individual-period estimates and local revision; frozen full-record observations/results unchanged. No raw-counter reconstruction.",
+  "external_submission": false
+}
