@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "scope": "Fresh source extraction: segment reduction, full-template fit and 80000 null simulations, text assembly, PDF and Word rebuild.",
+  "scripts": [
+    {
+      "script": "segment_reduce.py",
+      "status": "PASS"
+    },
+    {
+      "script": "full_tide_detection.py",
+      "status": "PASS"
+    },
+    {
+      "script": "write_manuscript.py",
+      "status": "PASS"
+    },
+    {
+      "script": "assemble_candidate.py",
+      "status": "PASS"
+    }
+  ],
+  "manuscript_SHA256": "fa44c492fdd998f914f65dfa9c576de54aade27279f2545e1455bd3814f397d5",
+  "render_status": "BUILT_FOR_REVIEW",
+  "PDF_pages": 29,
+  "all_page_extracted_text_identical": true,
+  "pipeline_SHA256": {
+    "scripts/segment_reduce.py": "c7263245bef4d2f7381f8fd4fcd8ee4831153e98beb16ce41713f596c61436ee",
+    "scripts/full_tide_detection.py": "5e29381be8744f4490ea00ec351db515c80319ca42d914912475fd6630b69e47",
+    "scripts/write_manuscript.py": "e313345433fb5d8d72889876ddc92b4f764c50bd6ccf5fce84f858dabd09f366",
+    "scripts/assemble_candidate.py": "e1953545f8e9a67ce60f68102135136783f8d561b4aeef5835f65fadf127d988",
+    "render_candidate.py": "cd714896eb752ebba3fc7d7eb3e4f4b82e78ecdfcc030c0df5632a3b8bf32f23"
+  }
+}
