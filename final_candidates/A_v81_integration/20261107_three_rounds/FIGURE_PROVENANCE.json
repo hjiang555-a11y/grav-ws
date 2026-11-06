@@ -1,0 +1,66 @@
+[
+  {
+    "file": "figures/figure1.pdf",
+    "sha256": "b3c17abc2f8b9f81243396d03d0c740b4ffbb0705285e6d44da3f71d3b79840d",
+    "PNG_sha256": "e6712a45475d2d82162499a085bf72b2d723d1c2dc035b0d80ee83441f71784c",
+    "source": "scripts/draw_figure1.py",
+    "source_sha256": "2cef5035834e7366c55838044036536855448205319c1c95c148c0d7fa313820",
+    "replay": "PNG byte-for-byte identical in fresh sandbox"
+  },
+  {
+    "file": "figures/figure2.pdf",
+    "sha256": "07cfc8da9b37ce4f0a7ae36cac4aa223dced8b56e3090c257172178cdcf7ebf1",
+    "PNG_sha256": "e15d0f8e54144f0ee6a1f168db2aea1ba3c6eeaf2108157189fb1def77de793c",
+    "source": "scripts/draw_segments.py",
+    "source_sha256": "884b5214ec2b17176e596a576d689d2b21ba0b998a56f1f439881c3cd1de47a3",
+    "replay": "PNG byte-for-byte identical in fresh sandbox"
+  },
+  {
+    "file": "figures/figure3.pdf",
+    "sha256": "3d88a7c188c7e69e694a2ad4c3111523c00e9906cd1646ef96fa42ad71dc2053",
+    "PNG_sha256": "bbc0d0fb67ab29b99cb8acfdcdd1d03d5a9b8d62b3c6454b924ab47b96558113",
+    "source": "scripts/draw_segments.py",
+    "source_sha256": "884b5214ec2b17176e596a576d689d2b21ba0b998a56f1f439881c3cd1de47a3",
+    "replay": "PNG byte-for-byte identical in fresh sandbox"
+  },
+  {
+    "file": "figures/figure4.pdf",
+    "sha256": "7f0378de00359ca11fae03c24dd6edaeb1ec076cb65ca9de28e87a6d262bf851",
+    "PNG_sha256": "a348d666db0f3f1315ea57466cb9233307b1890143564f0dce40188351cf50f3",
+    "source": "scripts/draw_periods.py",
+    "source_sha256": "363c81f66a215262510c8ba272c46973a2edcd0c11513a58386b8115576f78af",
+    "replay": "PNG byte-for-byte identical in fresh sandbox"
+  },
+  {
+    "file": "figures/ed_figure1.pdf",
+    "sha256": "9482db147b644fcc48a9ffc89512cb37bc40e2d5907a4ba1db5c073ff236a50a",
+    "PNG_sha256": "e51978a248d7c7aca19e14a2bd08f597ab1f7e58e4986d2119bbef9f8daa1f55",
+    "source": "scripts/draw_extended.py",
+    "source_sha256": "079f1c53ab3e3fe111c951b21a8ed01f36edfca7f2168553027c8cd4dc6e2d8c",
+    "replay": "PNG byte-for-byte identical in fresh sandbox"
+  },
+  {
+    "file": "figures/ed_figure2.pdf",
+    "sha256": "a7c9bdba84c4369fe779ca57b83c6fae9c2afc8e06e37bb11fa07d9d346ca5bf",
+    "PNG_sha256": "f1549627408bcdf11a15d52351831a5fe11656323721e8b1a8cacb2105f3d9de",
+    "source": "scripts/draw_extended.py",
+    "source_sha256": "079f1c53ab3e3fe111c951b21a8ed01f36edfca7f2168553027c8cd4dc6e2d8c",
+    "replay": "PNG byte-for-byte identical in fresh sandbox"
+  },
+  {
+    "file": "figures/ed_figure3.pdf",
+    "sha256": "b16548cda20300ac742afc042dde7e76d962ec6de16e9af909fdda7b4a901ba3",
+    "PNG_sha256": "57044ae4a4295e970d43f1f8d27b9ad372d37e70b5900c5a9f501e1b23b4eb3f",
+    "source": "scripts/draw_extended.py",
+    "source_sha256": "079f1c53ab3e3fe111c951b21a8ed01f36edfca7f2168553027c8cd4dc6e2d8c",
+    "replay": "PNG byte-for-byte identical in fresh sandbox"
+  },
+  {
+    "file": "figures/extended4.pdf",
+    "sha256": "4e75241f1fb8f25e52cfc6d7dc80ea7aa922b0157b250d7de115a232382894b7",
+    "PNG_sha256": "9d9efe28f15ffcd842381d4c66f1617dd113b0484e946fbe62abd0a9e97b7f83",
+    "source": "scripts/draw_segments.py",
+    "source_sha256": "884b5214ec2b17176e596a576d689d2b21ba0b998a56f1f439881c3cd1de47a3",
+    "replay": "PNG byte-for-byte identical in fresh sandbox"
+  }
+]
