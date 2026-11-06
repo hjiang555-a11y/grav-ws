@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "scope": "Fresh source-archive extraction: three-group segment/QR replay; eight separate periods and day deletions; three complete-template fits and day deletions; all bin weights; exact manuscript reassembly.",
+  "matching_files": {
+    "NATURE_ARTICLE_A_v81.md": true,
+    "full_sensitivity/table.csv": true,
+    "full_sensitivity/day_replicates.csv": true,
+    "period_estimates/period_estimates.csv": true,
+    "period_estimates/day_jackknife_replicates.csv": true,
+    "noise_weights/period_coefficients.csv": true,
+    "noise_weights/bin_weights.csv": true
+  },
+  "archive_SHA256": "86ff9d36eba68f7c24d40b5da60f8aaad952ed3e737d2c7b7abd262e6392e2ff"
+}
