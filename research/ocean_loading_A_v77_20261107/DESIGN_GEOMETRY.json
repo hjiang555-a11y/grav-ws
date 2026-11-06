@@ -1,0 +1,427 @@
+{
+  "status": "PASS",
+  "scope": "Design-only, before any new observation fit",
+  "checks": {
+    "rows": 3299,
+    "members": 1965327,
+    "segment_count": 54,
+    "period_count": 8,
+    "group_closure_max_e18": 1.7763568394002505e-15,
+    "frozen_three_max_e18": 0.0,
+    "fixed_remainder_max_e18": 0.0,
+    "time_max_seconds": 0.0
+  },
+  "conditional_lunar_model": "[solid M2+N2, loading M2+N2]; project [combined S2+K2, combined K1+O1+P1+Q1, 54 segment constants]",
+  "geometries": {
+    "S54_Allan": {
+      "n": 3299,
+      "n_intercepts": 54,
+      "correlation": 0.9410830959399249,
+      "rank": 2,
+      "condition_column_normalized": 5.739870642155119,
+      "condition_physical_units": 8.212470551847632,
+      "condition_gram": 67.44467256496479,
+      "variance_inflation": 8.744116895273015,
+      "ocean_norm_fraction_after_solid": 0.11436260653612607,
+      "ocean_orthogonal_rms_e18": 0.2976513525233278,
+      "projected_template_rms_e18": [
+        2.1142863230824984,
+        0.8801685324651813
+      ],
+      "gram": [
+        [
+          33.61831358687284,
+          13.170611330233658
+        ],
+        [
+          13.170611330233658,
+          5.826127686898493
+        ]
+      ],
+      "unscaled_pair_covariance": [
+        [
+          0.2600998075848573,
+          -0.5879846197796523
+        ],
+        [
+          -0.5879846197796523,
+          1.5008453925471552
+        ]
+      ],
+      "covariance_correlation": -0.941083095939925,
+      "singular_values": [
+        6.234432174589269,
+        0.759142104100045
+      ]
+    },
+    "P8_Allan": {
+      "n": 3299,
+      "n_intercepts": 8,
+      "correlation": 0.9393299326627287,
+      "rank": 2,
+      "condition_column_normalized": 5.653776180859512,
+      "condition_physical_units": 8.047896949835827,
+      "condition_gram": 64.76864531517654,
+      "variance_inflation": 8.499117284801503,
+      "ocean_norm_fraction_after_solid": 0.11765927760383355,
+      "ocean_orthogonal_rms_e18": 0.3262296508462096,
+      "projected_template_rms_e18": [
+        2.2670024903375046,
+        0.9510653130135448
+      ],
+      "gram": [
+        [
+          38.65025089514891,
+          15.23101425249676
+        ],
+        [
+          15.23101425249676,
+          6.802507167288269
+        ]
+      ],
+      "unscaled_pair_covariance": [
+        [
+          0.21989811418969157,
+          -0.49235836566644814
+        ],
+        [
+          -0.49235836566644814,
+          1.2494095303084767
+        ]
+      ],
+      "covariance_correlation": -0.9393299326627299,
+      "singular_values": [
+        6.69041533415346,
+        0.8313246772238977
+      ]
+    },
+    "G29_Allan": {
+      "n": 3299,
+      "n_intercepts": 29,
+      "correlation": 0.9396887391794566,
+      "rank": 2,
+      "condition_column_normalized": 5.6710936417192785,
+      "condition_physical_units": 8.08676523373162,
+      "condition_gram": 65.39577194549054,
+      "variance_inflation": 8.548099090160502,
+      "ocean_norm_fraction_after_solid": 0.11698507345932319,
+      "ocean_orthogonal_rms_e18": 0.3210308156254911,
+      "projected_template_rms_e18": [
+        2.243040354037199,
+        0.9386020450166863
+      ],
+      "gram": [
+        [
+          37.83750548641848,
+          14.87821836878674
+        ],
+        [
+          14.87821836878674,
+          6.625387977081601
+        ]
+      ],
+      "unscaled_pair_covariance": [
+        [
+          0.22591603173282,
+          -0.5073254675435971
+        ],
+        [
+          -0.5073254675435971,
+          1.2902035503022415
+        ]
+      ],
+      "covariance_correlation": -0.9396887391794563,
+      "singular_values": [
+        6.617645270997268,
+        0.8183303310690484
+      ]
+    },
+    "S54_equal": {
+      "n": 3299,
+      "n_intercepts": 54,
+      "correlation": 0.9401747488457202,
+      "rank": 2,
+      "condition_column_normalized": 5.694795835039756,
+      "condition_physical_units": 8.224640658982432,
+      "condition_gram": 67.64471396938647,
+      "variance_inflation": 8.615383645899907,
+      "ocean_norm_fraction_after_solid": 0.11607144163288696,
+      "ocean_orthogonal_rms_e18": 0.3001161576664341,
+      "projected_template_rms_e18": [
+        2.1426813477803157,
+        0.8809001589798795
+      ],
+      "gram": [
+        [
+          15145.983998456592,
+          5854.302721651621
+        ],
+        [
+          5854.302721651621,
+          2559.974812209479
+        ]
+      ],
+      "unscaled_pair_covariance": [
+        [
+          0.0005688229729265267,
+          -0.0013008182200306892
+        ],
+        [
+          -0.0013008182200306894,
+          0.0033654173489558142
+        ]
+      ],
+      "covariance_correlation": -0.9401747488457185,
+      "singular_values": [
+        132.09096327720914,
+        16.060393244408527
+      ]
+    },
+    "early": {
+      "n": 1651,
+      "n_intercepts": 38,
+      "correlation": 0.9589096113137691,
+      "rank": 2,
+      "condition_column_normalized": 6.904576946033663,
+      "condition_physical_units": 9.064502650284513,
+      "condition_gram": 82.16520829701601,
+      "variance_inflation": 12.423539739298276,
+      "ocean_norm_fraction_after_solid": 0.08049235733007631,
+      "ocean_orthogonal_rms_e18": 0.2316636074186767,
+      "projected_template_rms_e18": [
+        1.7429286301455016,
+        0.8165456914294459
+      ],
+      "gram": [
+        [
+          12.414012882664831,
+          5.576872954971027
+        ],
+        [
+          5.576872954971027,
+          2.724670358417296
+        ]
+      ],
+      "unscaled_pair_covariance": [
+        [
+          1.0007674276419367,
+          -2.048377259359263
+        ],
+        [
+          -2.048377259359263,
+          4.559648729953124
+        ]
+      ],
+      "covariance_correlation": -0.9589096113137692,
+      "singular_values": [
+        3.8673830678722063,
+        0.4266514355038352
+      ]
+    },
+    "summer": {
+      "n": 1648,
+      "n_intercepts": 16,
+      "correlation": 0.9410298926464287,
+      "rank": 2,
+      "condition_column_normalized": 5.737202152392047,
+      "condition_physical_units": 8.30944606171136,
+      "condition_gram": 69.04689385249048,
+      "variance_inflation": 8.73646734290399,
+      "ocean_norm_fraction_after_solid": 0.11446274114585098,
+      "ocean_orthogonal_rms_e18": 0.30602692643800716,
+      "projected_template_rms_e18": [
+        2.2094239679102796,
+        0.9045395682475863
+      ],
+      "gram": [
+        [
+          16.763325229551373,
+          6.458209049383443
+        ],
+        [
+          6.458209049383443,
+          2.8096821210445513
+        ]
+      ],
+      "unscaled_pair_covariance": [
+        [
+          0.5211655338824337,
+          -1.1979276737166944
+        ],
+        [
+          -1.1979276737166944,
+          3.1094148613708903
+        ]
+      ],
+      "covariance_correlation": -0.9410298926464288,
+      "singular_values": [
+        4.392445805192904,
+        0.5286087390870269
+      ]
+    },
+    "six_band_lunar": {
+      "n": 3299,
+      "n_intercepts": 54,
+      "correlation": 0.9460335836757243,
+      "rank": 2,
+      "condition_column_normalized": 6.00500503267421,
+      "condition_physical_units": 8.60073938692649,
+      "condition_gram": 73.97271800182921,
+      "variance_inflation": 9.521954233811542,
+      "ocean_norm_fraction_after_solid": 0.10502045855766629,
+      "ocean_orthogonal_rms_e18": 0.28418323970908976,
+      "projected_template_rms_e18": [
+        2.1133539101371213,
+        0.876923090623862
+      ],
+      "gram": [
+        [
+          33.588668369450815,
+          13.185257462023934
+        ],
+        [
+          13.185257462023934,
+          5.783241586077903
+        ]
+      ],
+      "unscaled_pair_covariance": [
+        [
+          0.2834871013366016,
+          -0.6463244467054865
+        ],
+        [
+          -0.6463244467054866,
+          1.6464735377360633
+        ]
+      ],
+      "covariance_correlation": -0.946033583675727,
+      "singular_values": [
+        6.232716913805173,
+        0.7246722210045315
+      ]
+    },
+    "six_band_near12": {
+      "n": 3299,
+      "n_intercepts": 54,
+      "correlation": 0.6038554923262109,
+      "rank": 2,
+      "condition_column_normalized": 2.0121288976481924,
+      "condition_physical_units": 3.3593793490005694,
+      "condition_gram": 11.28542961049149,
+      "variance_inflation": 1.5739144595341372,
+      "ocean_norm_fraction_after_solid": 0.6353585443874694,
+      "ocean_orthogonal_rms_e18": 0.3216082468542911,
+      "projected_template_rms_e18": [
+        1.015892301169709,
+        0.4034760302992895
+      ],
+      "gram": [
+        [
+          7.761464246067768,
+          1.8614301848746568
+        ],
+        [
+          1.8614301848746568,
+          1.2242885887182897
+        ]
+      ],
+      "unscaled_pair_covariance": [
+        [
+          0.20278576433970394,
+          -0.3083190893741642
+        ],
+        [
+          -0.3083190893741642,
+          1.2855747199129501
+        ]
+      ],
+      "covariance_correlation": -0.6038554923262106,
+      "singular_values": [
+        2.8730362685548916,
+        0.8552282937053932
+      ]
+    },
+    "six_band_diurnal": {
+      "n": 3299,
+      "n_intercepts": 54,
+      "correlation": -0.11828458878954662,
+      "rank": 2,
+      "condition_column_normalized": 1.1261907451642985,
+      "condition_physical_units": 1.4438412878041147,
+      "condition_gram": 2.084677664367844,
+      "variance_inflation": 1.0141897765706385,
+      "ocean_norm_fraction_after_solid": 0.9860087560548879,
+      "ocean_orthogonal_rms_e18": 0.6060074143953433,
+      "projected_template_rms_e18": [
+        0.8632287903705609,
+        0.6102918241337049
+      ],
+      "gram": [
+        [
+          5.604026186839258,
+          -0.46864064907607994
+        ],
+        [
+          -0.46864064907607994,
+          2.80106654731821
+        ]
+      ],
+      "unscaled_pair_covariance": [
+        [
+          0.18097520296254263,
+          0.030278586799104112
+        ],
+        [
+          0.030278586799104112,
+          0.36207271745886993
+        ]
+      ],
+      "covariance_correlation": 0.1182845887895466,
+      "singular_values": [
+        2.3833389850821014,
+        1.650693192675515
+      ]
+    },
+    "common_all_bands": {
+      "n": 3299,
+      "n_intercepts": 54,
+      "correlation": 0.7388859132506411,
+      "rank": 2,
+      "condition_column_normalized": 2.5805982213624654,
+      "condition_physical_units": 3.6717108822563733,
+      "condition_gram": 13.481460802879885,
+      "variance_inflation": 2.202412223174723,
+      "ocean_norm_fraction_after_solid": 0.454047607199766,
+      "ocean_orthogonal_rms_e18": 0.8951794551626171,
+      "projected_template_rms_e18": [
+        2.9278488697740723,
+        1.3284934291487918
+      ],
+      "gram": [
+        [
+          64.46821327595063,
+          21.613931765748042
+        ],
+        [
+          21.613931765748042,
+          13.272940404709864
+        ]
+      ],
+      "unscaled_pair_covariance": [
+        [
+          0.03416276194513865,
+          -0.05563135093635352
+        ],
+        [
+          -0.05563135093635351,
+          0.1659325029737351
+        ]
+      ],
+      "covariance_correlation": -0.7388859132506419,
+      "singular_values": [
+        8.507222287856584,
+        2.3169640967560734
+      ]
+    }
+  }
+}
