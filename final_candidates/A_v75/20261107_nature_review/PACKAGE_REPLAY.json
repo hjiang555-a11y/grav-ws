@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "steps": [
+    {
+      "script": "revise_for_nature.py",
+      "exit": 0
+    },
+    {
+      "script": "assemble_candidate.py",
+      "exit": 0
+    }
+  ],
+  "source_files": 133,
+  "source_manifest": "PASS",
+  "text_byte_identity": true,
+  "pages": 19,
+  "pixel_identical": true,
+  "render": [
+    {
+      "format": "pdf",
+      "exit": 0,
+      "warnings": ""
+    },
+    {
+      "format": "docx",
+      "exit": 0,
+      "warnings": ""
+    }
+  ],
+  "scope": "Clean source archive extraction, manuscript assembly and rendering; not a new scientific fit",
+  "source_zip_sha256": "5a2f3b03e82cb6b1c3b25928e1e0c1ab08d1c6a20e264728a7117cb01f77070a"
+}
