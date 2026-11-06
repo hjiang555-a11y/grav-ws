@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "scope": "Internal Nature review, editorial revision, numerical/text preservation and document delivery; not a new fit or external peer review",
+  "review_rounds": [
+    "Internal review of A_v74",
+    "Internal post-revision review of A_v75"
+  ],
+  "checks": 15,
+  "pages": 19,
+  "final_pdf_sha256": "684f45f138df2f183ea78c2722ea2e8c2495ed6881861532c41e5067efd001f4",
+  "final_md_sha256": "8cc03b9f9e311a92535334362248f3d178db9f7cde96a8c5819429e35bffd995",
+  "counts": {
+    "abstract": 128,
+    "main": 2027,
+    "methods": 1949,
+    "legends": [
+      [
+        "Fig. 1 | Geometry and changing lunar\u2013solar phase.",
+        85
+      ],
+      [
+        "Fig. 2 | The full record ordered by lunar phase.",
+        105
+      ],
+      [
+        "Fig. 3 | Semidiurnal responses, phase and measured spectral structure.",
+        142
+      ],
+      [
+        "Fig. 4 | Temporal support and a simultaneous transmission control.",
+        106
+      ],
+      [
+        "Extended Data Fig. 1 | Same-data comparison of reference-level designs.",
+        66
+      ],
+      [
+        "Extended Data Fig. 2 | Conditional semidiurnal scans.",
+        52
+      ]
+    ],
+    "references": 24
+  },
+  "new_fit_run": false,
+  "scientific_author_approval": false,
+  "external_submission": false,
+  "pending": [
+    "Author acceptance of frozen solid-tide approximation and station coordinates",
+    "Exact v68 temperature and 474-h control support",
+    "Author/affiliation/funding/conflict/correspondence statements",
+    "Editor-accessible data/code and licence",
+    "Hou sample-overlap and manuscript-status disclosure"
+  ]
+}
