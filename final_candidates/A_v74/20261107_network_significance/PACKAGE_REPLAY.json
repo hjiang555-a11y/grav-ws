@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "source_files": 128,
+  "manifest_hash_check": "PASS",
+  "steps": [
+    {
+      "script": "revise_from_v72.py",
+      "exit": 0
+    },
+    {
+      "script": "add_network_context.py",
+      "exit": 0
+    },
+    {
+      "script": "assemble_candidate.py",
+      "exit": 0
+    }
+  ],
+  "manuscript_byte_identity": true,
+  "scope": "Full export manifest check, script assembly and PDF/Word rebuild from the delivered archive. No numerical refit.",
+  "render": [
+    {
+      "format": "pdf",
+      "exit": 0,
+      "warnings": ""
+    },
+    {
+      "format": "docx",
+      "exit": 0,
+      "warnings": ""
+    }
+  ],
+  "pages": 19,
+  "rendered_pages_identical": true,
+  "source_zip_sha256": "02568c413162e40ad7adc966ab727982f0c0ae4f76c208505a7a36a3d6c966cc"
+}
