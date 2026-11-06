@@ -1,0 +1,80 @@
+{
+  "status": "PASS",
+  "temporary_directory": "/tmp/A_v77_source_replay_m396wjyw",
+  "pages": 27,
+  "manuscript_exact": true,
+  "page_pixels_identical": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "logs": [
+    {
+      "command": [
+        "scripts/edit_v77.py"
+      ],
+      "exit": 0,
+      "stdout": "{\"targeted_edits\": 11, \"title_characters\": 72, \"daily_display\": \"Methods + ED Table 2\", \"observation_fit_rerun\": false}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "scripts/draw_candidate.py"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "scripts/assemble_candidate.py"
+      ],
+      "exit": 0,
+      "stdout": "{\n  \"abstract\": 138,\n  \"main\": 1659,\n  \"methods\": 1743,\n  \"legends\": [\n    [\n      \"Fig. 1 | Geometry and changing lunar\\u2013solar phase.\",\n      85\n    ],\n    [\n      \"Fig. 2 | The full record ordered by lunar phase.\",\n      105\n    ],\n    [\n      \"Fig. 3 | Semidiurnal responses, phase and measured spectral structure.\",\n      172\n    ],\n    [\n      \"Fig. 4 | Consistency across observing periods and reference-level designs.\",\n      134\n    ],\n    [\n      \"Extended Data Fig. 1 | Conditional semidiurnal scans.\",\n      52\n    ],\n    [\n      \"Extended Data Fig. 2 | Same-data comparison of reference-level designs.\",\n      132\n    ],\n    [\n      \"Extended Data Fig. 3 | Simultaneous summer transmission control.\",\n      99\n    ]\n  ],\n  \"references\": 23,\n  \"main_references\": 21,\n  \"methods_references\": 2,\n  \"title_characters\": 72\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "scripts/export_nature_assets.py"
+      ],
+      "exit": 0,
+      "stdout": "{\"assets\": 31, \"extended_data_items\": 7, \"new_fits\": 0}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "render_candidate.py",
+        "NATURE_ARTICLE_A_v77.md",
+        "render_rebuilt"
+      ],
+      "exit": 0,
+      "stdout": "{\"source\": \"/tmp/A_v77_source_replay_m396wjyw/NATURE_ARTICLE_A_v77.md\", \"source_sha256\": \"02989818ae7ebcbc1e8641008f119c32810f7adb1af587d7a2c207ab9a02948d\", \"builds\": [{\"format\": \"pdf\", \"exit\": 0, \"warnings\": \"\"}, {\"format\": \"docx\", \"exit\": 0, \"warnings\": \"\"}], \"total_figure_files\": 7, \"status\": \"BUILT_FOR_REVIEW\", \"scientific_or_author_approval\": false, \"format\": \"Author-choice candidate A; double-spaced text and vector PDF figures\"}\n",
+      "stderr": ""
+    }
+  ],
+  "no_new_fits": true
+}
