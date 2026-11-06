@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "scope": "Fresh extraction; edit, draw, assemble and PDF/Word build only",
+  "manuscript_identical": true,
+  "pages": 19,
+  "pixel_identical_pages": 19,
+  "frozen_data_and_sources_unchanged": true,
+  "numerical_fit_rerun": false,
+  "source_zip_sha256": "2c1a2d7317b0ba236b937c699c0a0a7b6236fecbf4cbe9c4fa5046fc23d97480"
+}
