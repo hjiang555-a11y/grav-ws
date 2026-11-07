@@ -1,0 +1,17 @@
+{
+  "status": "AUTHOR_REVIEW_COMPUTATION_INTEGRATED",
+  "base": "/home/room115/gravitation-whsh/final_candidates/A_v85b_spectrum_range_20261107",
+  "analysis": "/home/room115/gravitation-whsh/research/v85_physics_noise_closure_20261107T0439Z",
+  "abstract": "Previously approved text retained verbatim; correction proposal supplied separately for author decision",
+  "frozen_sections": [
+    "title",
+    "abstract",
+    "introduction",
+    "Results1"
+  ],
+  "new_fits": true,
+  "raw_data_modified": false,
+  "submitted": false,
+  "current_phase": "WRITING_ONLY_NO_FURTHER_COMPUTATION",
+  "latest_user_scope": "Four existing main figures; 1500\u20132300 main words; about 160\u2013190 summary words; no new fitting, simulation, data processing or correctness checks."
+}
