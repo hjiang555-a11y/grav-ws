@@ -1,0 +1,27 @@
+{
+  "status": "INTRODUCTION_DRAFT5_AWAITING_AUTHOR_CONFIRMATION",
+  "baseline": "A_v83 existing results; Introduction draft4; author-requested gravity-first three-paragraph structure",
+  "paragraph_word_counts_whitespace": [
+    137,
+    165,
+    131
+  ],
+  "word_count_whitespace": 433,
+  "references": 22,
+  "figure_1_placement": "Results; not moved or changed",
+  "abstract_modified": false,
+  "new_fits": false,
+  "data_processing": false,
+  "data_correctness_checks": false,
+  "simulations": false,
+  "literature_checked": true,
+  "next_step": "Author confirmation before Results drafting",
+  "author_approval": "Pending Introduction confirmation",
+  "paragraph_order": [
+    "Established gravimetry and further scientific needs",
+    "Optical clocks, links and conditions for dynamic sensing",
+    "Shanghai–Wuhan experiment"
+  ],
+  "references_retained_from_draft4": 21,
+  "references_added": 1
+}
