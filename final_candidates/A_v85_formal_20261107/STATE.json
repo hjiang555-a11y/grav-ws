@@ -1,0 +1,23 @@
+{
+  "status": "FULL_ARTICLE_FOR_AUTHOR_REVIEW",
+  "version": "A_v85",
+  "title": "Tidal potential measured on a coastal–inland optical-clock baseline",
+  "frozen_sections": [
+    "title",
+    "author-approved abstract",
+    "approved introduction",
+    "latest Results 1",
+    "Figure 1 caption"
+  ],
+  "new_fits": false,
+  "simulations_run": false,
+  "experimental_data_processing": false,
+  "experimental_correctness_checks": false,
+  "display_only_change": "Figure 3c logarithmic axes from existing plotting outputs",
+  "main_words_including_headings": 2329,
+  "abstract_words": 195,
+  "methods_words": 2952,
+  "pdf_pages": 35,
+  "changes_pending_author_confirmation": "See FROZEN_TEXT_SUGGESTIONS_ZH.md",
+  "journal_submission": false
+}
