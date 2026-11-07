@@ -1,0 +1,22 @@
+# Tidal potential measured on a coastal–inland optical-clock baseline
+
+## Introduction
+
+Earth’s gravitational potential varies as the Moon and Sun move and as matter is redistributed within the solid Earth, oceans and atmosphere. These variations carry information about astronomical forcing and the response of the Earth system. Measuring their evolution is important for understanding the changing gravitational environment and for maintaining precise geodetic and time references.^1^ A clock offers a way to sense this environment through the passage of time: a change in potential changes its rate relative to a clock elsewhere. Comparisons between distant clocks can therefore measure variations in the potential difference between their locations.^2^
+
+Advances in optical clocks and phase-stabilized fiber links have made such comparisons possible over hundreds of kilometres, while coordinated international measurements have begun to connect individual clocks into networks.^3,4^ Experiments have established measurements of static potential differences using clock frequency ratios, including agreement with conventional levelling and gravimetry.^5^ These developments provide an experimental basis for using clock networks to monitor Earth’s gravitational potential.^6^ Extending this capability to a changing potential requires the comparison to resolve small variations on the timescale of the geophysical signal. Tides provide a predictable signal with which to test that dynamic capability.
+
+The tidal signal combines the direct gravitational action of the Moon and Sun with deformation of the solid Earth and ocean mass redistribution. Its amplitude and phase differ between locations, so the geographic arrangement of a clock baseline determines the variation seen in their frequency ratio.^1^ Within this combined signal, the principal lunar semidiurnal tide M₂ has a period of about 12.42 hours, whereas the principal solar tide S₂ has a period of 12 hours. These two nearly twice-daily rhythms are difficult to separate in short observations. A corresponding lunar maximum arrives about 50 minutes later on successive solar days, progressively changing its phase relative to the solar tide. Measurements on different dates can thus distinguish the two contributions even though their periods are close.
+
+Here we measure tidal variations in the potential difference between a strontium clock in Shanghai and a ytterbium clock in Wuhan, separated by 692 km and connected by a 1,350-km fiber link (Fig. 1). Shanghai’s coastal location and Wuhan’s inland position give the two clocks different sensitivities to ocean loading, which contributes substantially to their combined tidal prediction. We use 545.9 hours of observations spanning 353 days. Although clock operation is interrupted, astronomical phase remains defined at every observation time. Each observing segment can therefore retain its own frequency reference level while its measured variations contribute to the common tidal response. This allows us to test the combined solid-Earth and ocean-loading prediction and to distinguish neighbouring semidiurnal responses within the same clock record.
+
+\clearpage
+
+## References
+
+1. Voigt, C., Denker, H. & Timmen, L. Time-variable gravity potential components for optical clock comparisons and the definition of international time scales. *Metrologia* **53**, 1365–1383 (2016). <https://doi.org/10.1088/0026-1394/53/6/1365>
+2. Mehlstäubler, T. E., Grosche, G., Lisdat, C., Schmidt, P. O. & Denker, H. Atomic clocks for geodesy. *Rep. Prog. Phys.* **81**, 064401 (2018). <https://doi.org/10.1088/1361-6633/aab409>
+3. Lisdat, C. et al. A clock network for geodesy and fundamental science. *Nat. Commun.* **7**, 12443 (2016). <https://doi.org/10.1038/ncomms12443>
+4. Lindvall, T. et al. Coordinated international comparisons between optical clocks connected via fiber and satellite links. *Optica* **12**, 843–852 (2025). <https://doi.org/10.1364/OPTICA.561754>
+5. Takano, T. et al. Geopotential measurements with synchronously linked optical lattice clocks. *Nat. Photon.* **10**, 662–666 (2016). <https://doi.org/10.1038/nphoton.2016.159>
+6. Schröder, S., Stellmer, S. & Kusche, J. Potential and scientific requirements of optical clock networks for validating satellite-derived time-variable gravity data. *Geophys. J. Int.* **226**, 764–779 (2021). <https://doi.org/10.1093/gji/ggab132>
