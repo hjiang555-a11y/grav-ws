@@ -1,0 +1,19 @@
+{
+  "status": "INTRODUCTION_DRAFT8_AWAITING_AUTHOR_CONFIRMATION",
+  "baseline": "A_v83 existing results; Author-supplied Introduction and subsequent explicit corrections; draft7 bibliography",
+  "paragraph_word_counts_whitespace": [
+    126,
+    143,
+    83
+  ],
+  "word_count_whitespace": 352,
+  "references": 19,
+  "figure_1_placement": "Results; not moved or changed",
+  "abstract_modified": false,
+  "new_fits": false,
+  "data_processing": false,
+  "data_correctness_checks": false,
+  "simulations": false,
+  "literature_checked": true,
+  "next_step": "Author confirmation before Results drafting"
+}
