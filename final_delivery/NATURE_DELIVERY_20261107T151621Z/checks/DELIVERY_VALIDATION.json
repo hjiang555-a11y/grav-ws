@@ -1,0 +1,17 @@
+{
+  "science_baseline": "nature_focused_humanized_20261107T145113Z",
+  "combined_identical_to_selected_pdf": true,
+  "combined_sha256": "6914c2afe9e9d5112f64d0d2c3f80bdd3f9570d79709d0041286b8235bc6f630",
+  "combined_pages": 46,
+  "main_pages": 39,
+  "si_pages": 7,
+  "main_pages_text_identical_to_original": true,
+  "supplementary_methods_body_exact_match": true,
+  "editable_formats_present": true,
+  "zip_integrity_and_path_checks": "passed",
+  "scientific_reanalysis_for_document_split": false,
+  "submission_compliance_claimed": false,
+  "author_items": "See the separate red author checklist; these files preserve the selected scientific version.",
+  "main_page_content_streams_identical": true,
+  "text_extraction_note": "pypdf limits recursive Form XObject extraction on complex figures; exact page-content-stream equality and unchanged figure hashes additionally verified."
+}

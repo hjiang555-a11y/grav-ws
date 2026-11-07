@@ -1,0 +1,110 @@
+{
+  "status": "PASS",
+  "run_directory": "/tmp/grav_portable_verify_9l9kll1j/relocated_data_code",
+  "software": {
+    "python": "3.12.3",
+    "numpy": "2.5.4",
+    "pandas": "3.1.0",
+    "scipy": "1.18.1"
+  },
+  "threads": 1,
+  "randomness": "None",
+  "steps": [
+    {
+      "script": "scripts/reproduce_amplitude_scan.py",
+      "returncode": 0,
+      "elapsed_seconds": 1.255592724075541
+    },
+    {
+      "script": "scripts/build_results_library.py",
+      "returncode": 0,
+      "elapsed_seconds": 0.5770897588226944
+    },
+    {
+      "script": "scripts/calculate_signal_to_noise.py",
+      "returncode": 0,
+      "elapsed_seconds": 0.24089949415065348
+    },
+    {
+      "script": "constituent_snr/scripts/constituent_snr.py",
+      "returncode": 0,
+      "elapsed_seconds": 0.32376513397321105
+    },
+    {
+      "script": "scripts/assemble_snr_table.py",
+      "returncode": 0,
+      "elapsed_seconds": 0.18246140191331506
+    }
+  ],
+  "comparisons": [
+    {
+      "file": "SNR_TABLE.csv",
+      "n_rows": 4,
+      "numeric_max_abs_difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "file": "constituent_snr.csv",
+      "n_rows": 8,
+      "numeric_max_abs_difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "file": "results_library/eight_constituent_amplitudes.csv",
+      "n_rows": 16,
+      "numeric_max_abs_difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "file": "results_library/exploratory_solid_loading_delete_day.csv",
+      "n_rows": 43,
+      "numeric_max_abs_difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "file": "results_library/exploratory_solid_loading_fit.csv",
+      "n_rows": 2,
+      "numeric_max_abs_difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "file": "results_library/harmonic_pair_identifiability.csv",
+      "n_rows": 28,
+      "numeric_max_abs_difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "file": "results_library/model_spectral_projections.csv",
+      "n_rows": 24,
+      "numeric_max_abs_difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "file": "results_library/physical_model_phasors.csv",
+      "n_rows": 24,
+      "numeric_max_abs_difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "file": "results_library/signal_to_noise/optimal_common_white_predictions.csv",
+      "n_rows": 6,
+      "numeric_max_abs_difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "file": "results_library/signal_to_noise/reported_signal_to_noise.csv",
+      "n_rows": 11,
+      "numeric_max_abs_difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "file": "results_library/signal_to_noise/same_estimator_noise_predictions.csv",
+      "n_rows": 6,
+      "numeric_max_abs_difference": 0.0,
+      "status": "PASS"
+    }
+  ],
+  "scope": "Reproduced numerical auxiliary analyses from frozen processed means, templates, and frequency grid; no primary v29 reconstruction or raw preprocessing",
+  "tables_exported": 12,
+  "relocation_check": "Copied to fresh unrelated temporary directory, invoked from /tmp; all five steps and frozen comparisons passed."
+}

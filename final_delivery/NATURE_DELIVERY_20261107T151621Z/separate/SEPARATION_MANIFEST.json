@@ -1,0 +1,37 @@
+{
+  "source": "/data/AI_Research/projects/grav-ws/manuscript_48h/nature_focused_humanized_20261107T145113Z",
+  "source_sha256": "6914c2afe9e9d5112f64d0d2c3f80bdd3f9570d79709d0041286b8235bc6f630",
+  "main_source_pages": [
+    1,
+    39
+  ],
+  "main_pages": 39,
+  "si_pages": 7,
+  "si_reference_numbers": [
+    20,
+    21,
+    22,
+    23,
+    25,
+    29,
+    30
+  ],
+  "supplementary_methods_body_exact_match": true,
+  "figure_count": 42,
+  "figures_all_identical": true,
+  "main_pdf_page_content_streams_identical_to_source": true,
+  "main_tex_recompiled_successfully": true,
+  "guide_summary_words": 33,
+  "final_artifact_sha256": {
+    "NATURE_ARTICLE_MAIN.docx": "919639f8c6aef3f83c8ce2fc8d1bd835d78e47d86647ddc76326b128fb8705c3",
+    "NATURE_ARTICLE_MAIN.md": "84f9afbf3255eecdd4a63286163af23bbf24f84daa598c284ffb393409128bc3",
+    "NATURE_ARTICLE_MAIN.pdf": "e9a2c6b2ead70276bc7b1fa0f4e9ea8ba22869611b798a710cd4b7169b65c51e",
+    "NATURE_ARTICLE_MAIN.tex": "1ff4d790081a11dffb9a7c92074cb5036145c0fdc9c5d73051878b5faa5d8297",
+    "READING_GUIDE_ZH.docx": "35e0bfb7d2aeac605321524953343db14140bc82d4495cb9029e22ffb1889922",
+    "SIGuide.docx": "82f9b921281981a5d1eadf9b83c5ec830b9dee4accd21b5c23b7ab6c662c74a6",
+    "SUPPLEMENTARY_INFORMATION.docx": "92ed12f3d22040bdfd835688ce94aeaf59eef3a296f28e9b3a6bb2359509549f",
+    "SUPPLEMENTARY_INFORMATION.md": "e31c2284690082d3f5ab01e1a2ce2c9441c0eab6aae2ca96f39f9718248ce574",
+    "SUPPLEMENTARY_INFORMATION.pdf": "59ca02b6f377c27bc49c2af369f1401b2dd1e2723fc65f15d1051d59415463d9",
+    "SUPPLEMENTARY_INFORMATION.tex": "dbb8200e1af06c976d48d68a95a8a9a3434c0524004ed25b9ab5160ccfe177e9"
+  }
+}

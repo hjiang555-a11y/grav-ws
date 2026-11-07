@@ -1,0 +1,3342 @@
+{
+  "schema_version": 1,
+  "scope": "Derived results only. Original one-second data and v29 reconstruction are not included.",
+  "tables": {
+    "eight_constituent_amplitudes": {
+      "file": "results_library/eight_constituent_amplitudes.csv",
+      "rows": [
+        {
+          "target": "Q1",
+          "selection": "exact_astronomical_frequency",
+          "status": "EXTRACTED_EXISTING_SCAN",
+          "target_frequency_uHz": 10.338472912192374,
+          "found": true,
+          "nuisance": "S54 constants only; one free cosine/sine pair; equal weights",
+          "amplitude_uncertainty": null,
+          "uncertainty_status": "Not estimated for this scan; no noise significance or CI inferred.",
+          "frequency_uHz": 10.338472912192374,
+          "observed_cos_1e18": -1.692330956755428,
+          "observed_sin_1e18": 0.8485311580606568,
+          "observed_peak_amplitude_1e18": 1.893142676449005,
+          "observed_peak_amplitude_cm": 1.7350183646262716,
+          "observed_delta_rss_1e36": 3284.999546961578,
+          "observed_nominal_fractional_PSD_per_uHz": 1.970999728176947e-36,
+          "after_unit_physical_prediction_cos_1e18": -1.5193808536180893,
+          "after_unit_physical_prediction_sin_1e18": 0.3829969990572982,
+          "after_unit_physical_prediction_peak_amplitude_1e18": 1.5669093399517822,
+          "after_unit_physical_prediction_peak_amplitude_cm": 1.4360335934215587,
+          "after_unit_physical_prediction_delta_rss_1e36": 2244.8833210301655,
+          "after_unit_physical_prediction_nominal_fractional_PSD_per_uHz": 1.3469299926180993e-36,
+          "source_csv_zero_based_row": 1956
+        },
+        {
+          "target": "Q1",
+          "selection": "local_observed_amplitude_peak",
+          "status": "EXTRACTED_EXISTING_SCAN",
+          "target_frequency_uHz": 10.338472912192374,
+          "found": true,
+          "nuisance": "S54 constants only; one free cosine/sine pair; equal weights",
+          "amplitude_uncertainty": null,
+          "uncertainty_status": "Not estimated for this scan; no noise significance or CI inferred.",
+          "frequency_uHz": 10.341250502191832,
+          "observed_cos_1e18": -1.8513353230536638,
+          "observed_sin_1e18": 0.41485471493176307,
+          "observed_peak_amplitude_1e18": 1.8972471934061013,
+          "observed_peak_amplitude_cm": 1.7387800527373019,
+          "observed_delta_rss_1e36": 3266.2037593463683,
+          "observed_nominal_fractional_PSD_per_uHz": 1.959722255607821e-36,
+          "after_unit_physical_prediction_cos_1e18": -1.5250243285138303,
+          "after_unit_physical_prediction_sin_1e18": -0.10835429099708387,
+          "after_unit_physical_prediction_peak_amplitude_1e18": 1.5288688154765078,
+          "after_unit_physical_prediction_peak_amplitude_cm": 1.4011703951081516,
+          "after_unit_physical_prediction_delta_rss_1e36": 2120.6891949516153,
+          "after_unit_physical_prediction_nominal_fractional_PSD_per_uHz": 1.2724135169709693e-36,
+          "source_csv_zero_based_row": 1958
+        },
+        {
+          "target": "O1",
+          "selection": "exact_astronomical_frequency",
+          "status": "EXTRACTED_EXISTING_SCAN",
+          "target_frequency_uHz": 10.758515123810993,
+          "found": true,
+          "nuisance": "S54 constants only; one free cosine/sine pair; equal weights",
+          "amplitude_uncertainty": null,
+          "uncertainty_status": "Not estimated for this scan; no noise significance or CI inferred.",
+          "frequency_uHz": 10.758515123810993,
+          "observed_cos_1e18": -1.1613490665397201,
+          "observed_sin_1e18": 0.09925766422762536,
+          "observed_peak_amplitude_1e18": 1.1655830035911656,
+          "observed_peak_amplitude_cm": 1.0682279481017216,
+          "observed_delta_rss_1e36": 1234.947190614943,
+          "observed_nominal_fractional_PSD_per_uHz": 7.40968314368966e-37,
+          "after_unit_physical_prediction_cos_1e18": 0.0722893001981546,
+          "after_unit_physical_prediction_sin_1e18": -1.177953119938366,
+          "after_unit_physical_prediction_peak_amplitude_1e18": 1.180169180963335,
+          "after_unit_physical_prediction_peak_amplitude_cm": 1.081595818323674,
+          "after_unit_physical_prediction_delta_rss_1e36": 1395.295551682157,
+          "after_unit_physical_prediction_nominal_fractional_PSD_per_uHz": 8.371773310092943e-37,
+          "source_csv_zero_based_row": 2111
+        },
+        {
+          "target": "O1",
+          "selection": "local_observed_amplitude_peak",
+          "status": "EXTRACTED_EXISTING_SCAN",
+          "target_frequency_uHz": 10.758515123810993,
+          "found": true,
+          "nuisance": "S54 constants only; one free cosine/sine pair; equal weights",
+          "amplitude_uncertainty": null,
+          "uncertainty_status": "Not estimated for this scan; no noise significance or CI inferred.",
+          "frequency_uHz": 10.78066865796745,
+          "observed_cos_1e18": -1.6107966823084918,
+          "observed_sin_1e18": -1.189081224913822,
+          "observed_peak_amplitude_1e18": 2.0021438787406365,
+          "observed_peak_amplitude_cm": 1.8349152662676511,
+          "observed_delta_rss_1e36": 4180.191883290911,
+          "observed_nominal_fractional_PSD_per_uHz": 2.508115129974547e-36,
+          "after_unit_physical_prediction_cos_1e18": -2.0994072998317734,
+          "after_unit_physical_prediction_sin_1e18": -0.5321621572715717,
+          "after_unit_physical_prediction_peak_amplitude_1e18": 2.165804139856342,
+          "after_unit_physical_prediction_peak_amplitude_cm": 1.9849058412664125,
+          "after_unit_physical_prediction_delta_rss_1e36": 4623.685093667396,
+          "after_unit_physical_prediction_nominal_fractional_PSD_per_uHz": 2.774211056200438e-36,
+          "source_csv_zero_based_row": 2120
+        },
+        {
+          "target": "P1",
+          "selection": "exact_astronomical_frequency",
+          "status": "EXTRACTED_EXISTING_SCAN",
+          "target_frequency_uHz": 11.542385308635993,
+          "found": true,
+          "nuisance": "S54 constants only; one free cosine/sine pair; equal weights",
+          "amplitude_uncertainty": null,
+          "uncertainty_status": "Not estimated for this scan; no noise significance or CI inferred.",
+          "frequency_uHz": 11.542385308635993,
+          "observed_cos_1e18": -1.219369840942529,
+          "observed_sin_1e18": -1.7097112424247491,
+          "observed_peak_amplitude_1e18": 2.0999941289141235,
+          "observed_peak_amplitude_cm": 1.9245925965324353,
+          "observed_delta_rss_1e36": 4786.568695905319,
+          "observed_nominal_fractional_PSD_per_uHz": 2.8719412175431913e-36,
+          "after_unit_physical_prediction_cos_1e18": -1.0353671233165167,
+          "after_unit_physical_prediction_sin_1e18": -2.8075868777493733,
+          "after_unit_physical_prediction_peak_amplitude_1e18": 2.9924119295570244,
+          "after_unit_physical_prediction_peak_amplitude_cm": 2.742471403183767,
+          "after_unit_physical_prediction_delta_rss_1e36": 9596.958111120162,
+          "after_unit_physical_prediction_nominal_fractional_PSD_per_uHz": 5.758174866672098e-36,
+          "source_csv_zero_based_row": 2400
+        },
+        {
+          "target": "P1",
+          "selection": "local_observed_amplitude_peak",
+          "status": "EXTRACTED_EXISTING_SCAN",
+          "target_frequency_uHz": 11.542385308635993,
+          "found": true,
+          "nuisance": "S54 constants only; one free cosine/sine pair; equal weights",
+          "amplitude_uncertainty": null,
+          "uncertainty_status": "Not estimated for this scan; no noise significance or CI inferred.",
+          "frequency_uHz": 11.53941553564212,
+          "observed_cos_1e18": -1.6146009471062999,
+          "observed_sin_1e18": -1.4803133505499597,
+          "observed_peak_amplitude_1e18": 2.190493970366732,
+          "observed_peak_amplitude_cm": 2.0075334592943292,
+          "observed_delta_rss_1e36": 5062.154485636104,
+          "observed_nominal_fractional_PSD_per_uHz": 3.037292691381663e-36,
+          "after_unit_physical_prediction_cos_1e18": -2.0523449738824464,
+          "after_unit_physical_prediction_sin_1e18": -2.197497776324318,
+          "after_unit_physical_prediction_peak_amplitude_1e18": 3.0068449193084206,
+          "after_unit_physical_prediction_peak_amplitude_cm": 2.7556988807461584,
+          "after_unit_physical_prediction_delta_rss_1e36": 9474.327832025268,
+          "after_unit_physical_prediction_nominal_fractional_PSD_per_uHz": 5.684596699215161e-36,
+          "source_csv_zero_based_row": 2398
+        },
+        {
+          "target": "K1",
+          "selection": "exact_astronomical_frequency",
+          "status": "EXTRACTED_EXISTING_SCAN",
+          "target_frequency_uHz": 11.605762839512192,
+          "found": true,
+          "nuisance": "S54 constants only; one free cosine/sine pair; equal weights",
+          "amplitude_uncertainty": null,
+          "uncertainty_status": "Not estimated for this scan; no noise significance or CI inferred.",
+          "frequency_uHz": 11.605762839512192,
+          "observed_cos_1e18": 0.5141412037212045,
+          "observed_sin_1e18": -2.3619761538708746,
+          "observed_peak_amplitude_1e18": 2.4172861909212444,
+          "observed_peak_amplitude_cm": 2.2153829111668757,
+          "observed_delta_rss_1e36": 6047.2309840901935,
+          "observed_nominal_fractional_PSD_per_uHz": 3.628338590454116e-36,
+          "after_unit_physical_prediction_cos_1e18": -0.8116099515331558,
+          "after_unit_physical_prediction_sin_1e18": -1.1375570499715213,
+          "after_unit_physical_prediction_peak_amplitude_1e18": 1.397407154471295,
+          "after_unit_physical_prediction_peak_amplitude_cm": 1.2806890394629729,
+          "after_unit_physical_prediction_delta_rss_1e36": 1877.4834716721748,
+          "after_unit_physical_prediction_nominal_fractional_PSD_per_uHz": 1.126490083003305e-36,
+          "source_csv_zero_based_row": 2424
+        },
+        {
+          "target": "K1",
+          "selection": "local_observed_amplitude_peak",
+          "status": "EXTRACTED_EXISTING_SCAN",
+          "target_frequency_uHz": 11.605762839512192,
+          "found": true,
+          "nuisance": "S54 constants only; one free cosine/sine pair; equal weights",
+          "amplitude_uncertainty": null,
+          "uncertainty_status": "Not estimated for this scan; no noise significance or CI inferred.",
+          "frequency_uHz": 11.607648168526532,
+          "observed_cos_1e18": 1.0909083848181163,
+          "observed_sin_1e18": -2.2072271696313286,
+          "observed_peak_amplitude_1e18": 2.462099283624687,
+          "observed_peak_amplitude_cm": 2.2564530004862986,
+          "observed_delta_rss_1e36": 6266.108057393552,
+          "observed_nominal_fractional_PSD_per_uHz": 3.7596648344361315e-36,
+          "after_unit_physical_prediction_cos_1e18": -0.47046598964521164,
+          "after_unit_physical_prediction_sin_1e18": -1.5310672264425995,
+          "after_unit_physical_prediction_peak_amplitude_1e18": 1.601719419654854,
+          "after_unit_physical_prediction_peak_amplitude_cm": 1.4679361691282244,
+          "after_unit_physical_prediction_delta_rss_1e36": 2500.8988833005574,
+          "after_unit_physical_prediction_nominal_fractional_PSD_per_uHz": 1.5005393299803346e-36,
+          "source_csv_zero_based_row": 2425
+        },
+        {
+          "target": "N2",
+          "selection": "exact_astronomical_frequency",
+          "status": "EXTRACTED_EXISTING_SCAN",
+          "target_frequency_uHz": 21.94423575170456,
+          "found": true,
+          "nuisance": "S54 constants only; one free cosine/sine pair; equal weights",
+          "amplitude_uncertainty": null,
+          "uncertainty_status": "Not estimated for this scan; no noise significance or CI inferred.",
+          "frequency_uHz": 21.94423575170456,
+          "observed_cos_1e18": -3.1143526665712007,
+          "observed_sin_1e18": 0.6464143450835653,
+          "observed_peak_amplitude_1e18": 3.180730110730705,
+          "observed_peak_amplitude_cm": 2.9150603510713164,
+          "observed_delta_rss_1e36": 14155.828633534844,
+          "observed_nominal_fractional_PSD_per_uHz": 8.493497180120906e-36,
+          "after_unit_physical_prediction_cos_1e18": -0.5156543357059092,
+          "after_unit_physical_prediction_sin_1e18": 0.9932119557220478,
+          "after_unit_physical_prediction_peak_amplitude_1e18": 1.1190931073514472,
+          "after_unit_physical_prediction_peak_amplitude_cm": 1.0256211098803267,
+          "after_unit_physical_prediction_delta_rss_1e36": 1751.1072040829022,
+          "after_unit_physical_prediction_nominal_fractional_PSD_per_uHz": 1.0506643224497415e-36,
+          "source_csv_zero_based_row": 6213
+        },
+        {
+          "target": "N2",
+          "selection": "local_observed_amplitude_peak",
+          "status": "EXTRACTED_EXISTING_SCAN",
+          "target_frequency_uHz": 21.94423575170456,
+          "found": true,
+          "nuisance": "S54 constants only; one free cosine/sine pair; equal weights",
+          "amplitude_uncertainty": null,
+          "uncertainty_status": "Not estimated for this scan; no noise significance or CI inferred.",
+          "frequency_uHz": 21.940798092542,
+          "observed_cos_1e18": -2.9058833207187575,
+          "observed_sin_1e18": 1.5453171049556054,
+          "observed_peak_amplitude_1e18": 3.2912251257700142,
+          "observed_peak_amplitude_cm": 3.016326295090101,
+          "observed_delta_rss_1e36": 15293.889048660556,
+          "observed_nominal_fractional_PSD_per_uHz": 9.176333429196333e-36,
+          "after_unit_physical_prediction_cos_1e18": -0.4580947624697001,
+          "after_unit_physical_prediction_sin_1e18": 0.979985557498379,
+          "after_unit_physical_prediction_peak_amplitude_1e18": 1.0817682304022336,
+          "after_unit_physical_prediction_peak_amplitude_cm": 0.991413784796001,
+          "after_unit_physical_prediction_delta_rss_1e36": 1648.3590085988365,
+          "after_unit_physical_prediction_nominal_fractional_PSD_per_uHz": 9.890154051593018e-37,
+          "source_csv_zero_based_row": 6211
+        },
+        {
+          "target": "M2",
+          "selection": "exact_astronomical_frequency",
+          "status": "EXTRACTED_EXISTING_SCAN",
+          "target_frequency_uHz": 22.364277963323186,
+          "found": true,
+          "nuisance": "S54 constants only; one free cosine/sine pair; equal weights",
+          "amplitude_uncertainty": null,
+          "uncertainty_status": "Not estimated for this scan; no noise significance or CI inferred.",
+          "frequency_uHz": 22.364277963323183,
+          "observed_cos_1e18": -2.34384114249292,
+          "observed_sin_1e18": -4.599097903649731,
+          "observed_peak_amplitude_1e18": 5.161907867116369,
+          "observed_peak_amplitude_cm": 4.730760685589021,
+          "observed_delta_rss_1e36": 37042.43295783431,
+          "observed_nominal_fractional_PSD_per_uHz": 2.2225459774700586e-35,
+          "after_unit_physical_prediction_cos_1e18": -0.5853160348610464,
+          "after_unit_physical_prediction_sin_1e18": 0.733744653292163,
+          "after_unit_physical_prediction_peak_amplitude_1e18": 0.9386032585178331,
+          "after_unit_physical_prediction_peak_amplitude_cm": 0.8602066346531736,
+          "after_unit_physical_prediction_delta_rss_1e36": 1237.188878408242,
+          "after_unit_physical_prediction_nominal_fractional_PSD_per_uHz": 7.423133270449452e-37,
+          "source_csv_zero_based_row": 6368
+        },
+        {
+          "target": "M2",
+          "selection": "local_observed_amplitude_peak",
+          "status": "EXTRACTED_EXISTING_SCAN",
+          "target_frequency_uHz": 22.364277963323186,
+          "found": true,
+          "nuisance": "S54 constants only; one free cosine/sine pair; equal weights",
+          "amplitude_uncertainty": null,
+          "uncertainty_status": "Not estimated for this scan; no noise significance or CI inferred.",
+          "frequency_uHz": 22.36111111110998,
+          "observed_cos_1e18": -3.994723006169453,
+          "observed_sin_1e18": -3.5038258520787444,
+          "observed_peak_amplitude_1e18": 5.313624704259311,
+          "observed_peak_amplitude_cm": 4.869805408388132,
+          "observed_delta_rss_1e36": 39294.04513980355,
+          "observed_nominal_fractional_PSD_per_uHz": 2.357642708388213e-35,
+          "after_unit_physical_prediction_cos_1e18": -0.2511989627823201,
+          "after_unit_physical_prediction_sin_1e18": 0.7308056428436615,
+          "after_unit_physical_prediction_peak_amplitude_1e18": 0.7727728039437275,
+          "after_unit_physical_prediction_peak_amplitude_cm": 0.7082271311114361,
+          "after_unit_physical_prediction_delta_rss_1e36": 842.6399235196468,
+          "after_unit_physical_prediction_nominal_fractional_PSD_per_uHz": 5.055839541117881e-37,
+          "source_csv_zero_based_row": 6366
+        },
+        {
+          "target": "S2",
+          "selection": "exact_astronomical_frequency",
+          "status": "EXTRACTED_EXISTING_SCAN",
+          "target_frequency_uHz": 23.14814814814818,
+          "found": true,
+          "nuisance": "S54 constants only; one free cosine/sine pair; equal weights",
+          "amplitude_uncertainty": null,
+          "uncertainty_status": "Not estimated for this scan; no noise significance or CI inferred.",
+          "frequency_uHz": 23.14814814814818,
+          "observed_cos_1e18": -0.16681816819681275,
+          "observed_sin_1e18": -3.127612787563944,
+          "observed_peak_amplitude_1e18": 3.1320584365835265,
+          "observed_peak_amplitude_cm": 2.8704539674463603,
+          "observed_delta_rss_1e36": 14034.494223225318,
+          "observed_nominal_fractional_PSD_per_uHz": 8.420696533935191e-36,
+          "after_unit_physical_prediction_cos_1e18": -1.0723918206405743,
+          "after_unit_physical_prediction_sin_1e18": 0.28787284707411087,
+          "after_unit_physical_prediction_peak_amplitude_1e18": 1.1103580472349268,
+          "after_unit_physical_prediction_peak_amplitude_cm": 1.0176156436749455,
+          "after_unit_physical_prediction_delta_rss_1e36": 1705.0083686860864,
+          "after_unit_physical_prediction_nominal_fractional_PSD_per_uHz": 1.0230050212116518e-36,
+          "source_csv_zero_based_row": 6656
+        },
+        {
+          "target": "S2",
+          "selection": "local_observed_amplitude_peak",
+          "status": "EXTRACTED_EXISTING_SCAN",
+          "target_frequency_uHz": 23.14814814814818,
+          "found": true,
+          "nuisance": "S54 constants only; one free cosine/sine pair; equal weights",
+          "amplitude_uncertainty": null,
+          "uncertainty_status": "Not estimated for this scan; no noise significance or CI inferred.",
+          "frequency_uHz": 23.14814814814818,
+          "observed_cos_1e18": -0.16681816819681275,
+          "observed_sin_1e18": -3.127612787563944,
+          "observed_peak_amplitude_1e18": 3.1320584365835265,
+          "observed_peak_amplitude_cm": 2.8704539674463603,
+          "observed_delta_rss_1e36": 14034.494223225318,
+          "observed_nominal_fractional_PSD_per_uHz": 8.420696533935191e-36,
+          "after_unit_physical_prediction_cos_1e18": -1.0723918206405743,
+          "after_unit_physical_prediction_sin_1e18": 0.28787284707411087,
+          "after_unit_physical_prediction_peak_amplitude_1e18": 1.1103580472349268,
+          "after_unit_physical_prediction_peak_amplitude_cm": 1.0176156436749455,
+          "after_unit_physical_prediction_delta_rss_1e36": 1705.0083686860864,
+          "after_unit_physical_prediction_nominal_fractional_PSD_per_uHz": 1.0230050212116518e-36,
+          "source_csv_zero_based_row": 6656
+        },
+        {
+          "target": "K2",
+          "selection": "exact_astronomical_frequency",
+          "status": "EXTRACTED_EXISTING_SCAN",
+          "target_frequency_uHz": 23.211525679024383,
+          "found": true,
+          "nuisance": "S54 constants only; one free cosine/sine pair; equal weights",
+          "amplitude_uncertainty": null,
+          "uncertainty_status": "Not estimated for this scan; no noise significance or CI inferred.",
+          "frequency_uHz": 23.211525679024383,
+          "observed_cos_1e18": 0.7210959325215797,
+          "observed_sin_1e18": -1.820301523013357,
+          "observed_peak_amplitude_1e18": 1.95792670408877,
+          "observed_peak_amplitude_cm": 1.794391321079972,
+          "observed_delta_rss_1e36": 5533.446404040535,
+          "observed_nominal_fractional_PSD_per_uHz": 3.320067842424321e-36,
+          "after_unit_physical_prediction_cos_1e18": 0.8717080901477351,
+          "after_unit_physical_prediction_sin_1e18": -0.5616273207663411,
+          "after_unit_physical_prediction_peak_amplitude_1e18": 1.036966847040054,
+          "after_unit_physical_prediction_peak_amplitude_cm": 0.9503544267977728,
+          "after_unit_physical_prediction_delta_rss_1e36": 1537.0128991864203,
+          "after_unit_physical_prediction_nominal_fractional_PSD_per_uHz": 9.222077395118522e-37,
+          "source_csv_zero_based_row": 6680
+        },
+        {
+          "target": "K2",
+          "selection": "local_observed_amplitude_peak",
+          "status": "EXTRACTED_EXISTING_SCAN",
+          "target_frequency_uHz": 23.211525679024383,
+          "found": true,
+          "nuisance": "S54 constants only; one free cosine/sine pair; equal weights",
+          "amplitude_uncertainty": null,
+          "uncertainty_status": "Not estimated for this scan; no noise significance or CI inferred.",
+          "frequency_uHz": 23.18536131635369,
+          "observed_cos_1e18": -1.6452236932913513,
+          "observed_sin_1e18": -2.2621012976256343,
+          "observed_peak_amplitude_1e18": 2.7971169588858475,
+          "observed_peak_amplitude_cm": 2.5634884005559835,
+          "observed_delta_rss_1e36": 11264.389930175716,
+          "observed_nominal_fractional_PSD_per_uHz": 6.75863395810543e-36,
+          "after_unit_physical_prediction_cos_1e18": -0.9396268271848199,
+          "after_unit_physical_prediction_sin_1e18": -0.07285006454387187,
+          "after_unit_physical_prediction_peak_amplitude_1e18": 0.9424466596415193,
+          "after_unit_physical_prediction_peak_amplitude_cm": 0.8637290165714392,
+          "after_unit_physical_prediction_delta_rss_1e36": 1247.8524322042156,
+          "after_unit_physical_prediction_nominal_fractional_PSD_per_uHz": 7.4871145932252944e-37,
+          "source_csv_zero_based_row": 6670
+        }
+      ]
+    },
+    "exploratory_solid_loading_delete_day": {
+      "file": "results_library/exploratory_solid_loading_delete_day.csv",
+      "rows": [
+        {
+          "deleted_UTC_day": "2025-09-06",
+          "retained_n": 3251,
+          "retained_segments": 54,
+          "A_solid": 1.1319760636350706,
+          "A_loading": 0.37743670768274135
+        },
+        {
+          "deleted_UTC_day": "2025-09-07",
+          "retained_n": 3186,
+          "retained_segments": 53,
+          "A_solid": 1.0506848100536696,
+          "A_loading": 0.6371290430031873
+        },
+        {
+          "deleted_UTC_day": "2025-09-08",
+          "retained_n": 3297,
+          "retained_segments": 54,
+          "A_solid": 1.1055217041570213,
+          "A_loading": 0.45388272055668016
+        },
+        {
+          "deleted_UTC_day": "2025-10-07",
+          "retained_n": 3251,
+          "retained_segments": 54,
+          "A_solid": 1.0600099864553136,
+          "A_loading": 0.5295195363547629
+        },
+        {
+          "deleted_UTC_day": "2025-10-08",
+          "retained_n": 3154,
+          "retained_segments": 54,
+          "A_solid": 0.8829312317563582,
+          "A_loading": 0.7403073675552525
+        },
+        {
+          "deleted_UTC_day": "2025-10-09",
+          "retained_n": 3289,
+          "retained_segments": 54,
+          "A_solid": 1.0816042033730053,
+          "A_loading": 0.4907331391993446
+        },
+        {
+          "deleted_UTC_day": "2026-01-06",
+          "retained_n": 3257,
+          "retained_segments": 54,
+          "A_solid": 1.0788871150045867,
+          "A_loading": 0.48698753438507547
+        },
+        {
+          "deleted_UTC_day": "2026-01-07",
+          "retained_n": 3164,
+          "retained_segments": 53,
+          "A_solid": 1.1129488286887634,
+          "A_loading": 0.3844127273581639
+        },
+        {
+          "deleted_UTC_day": "2026-01-08",
+          "retained_n": 3176,
+          "retained_segments": 52,
+          "A_solid": 1.0928406668248831,
+          "A_loading": 0.41564956163833633
+        },
+        {
+          "deleted_UTC_day": "2026-01-09",
+          "retained_n": 3190,
+          "retained_segments": 51,
+          "A_solid": 1.0848655751829237,
+          "A_loading": 0.4912540338039893
+        },
+        {
+          "deleted_UTC_day": "2026-04-15",
+          "retained_n": 3212,
+          "retained_segments": 52,
+          "A_solid": 1.0680419949523547,
+          "A_loading": 0.5243473811179155
+        },
+        {
+          "deleted_UTC_day": "2026-04-16",
+          "retained_n": 3174,
+          "retained_segments": 53,
+          "A_solid": 1.104323226355718,
+          "A_loading": 0.39708985429536037
+        },
+        {
+          "deleted_UTC_day": "2026-04-17",
+          "retained_n": 3212,
+          "retained_segments": 52,
+          "A_solid": 1.0240633285656986,
+          "A_loading": 0.572989029138424
+        },
+        {
+          "deleted_UTC_day": "2026-04-18",
+          "retained_n": 3203,
+          "retained_segments": 51,
+          "A_solid": 1.0691791377501407,
+          "A_loading": 0.49029167568458326
+        },
+        {
+          "deleted_UTC_day": "2026-04-19",
+          "retained_n": 3247,
+          "retained_segments": 53,
+          "A_solid": 1.1036237336881556,
+          "A_loading": 0.4727388491328828
+        },
+        {
+          "deleted_UTC_day": "2026-05-15",
+          "retained_n": 3259,
+          "retained_segments": 53,
+          "A_solid": 1.037959012246256,
+          "A_loading": 0.5635188389811503
+        },
+        {
+          "deleted_UTC_day": "2026-05-16",
+          "retained_n": 3168,
+          "retained_segments": 52,
+          "A_solid": 1.0675735430522406,
+          "A_loading": 0.5574292313552202
+        },
+        {
+          "deleted_UTC_day": "2026-05-17",
+          "retained_n": 3174,
+          "retained_segments": 52,
+          "A_solid": 0.9838804831565985,
+          "A_loading": 0.5683666748962733
+        },
+        {
+          "deleted_UTC_day": "2026-05-18",
+          "retained_n": 3229,
+          "retained_segments": 51,
+          "A_solid": 1.0773891191451443,
+          "A_loading": 0.5018711064834881
+        },
+        {
+          "deleted_UTC_day": "2026-05-19",
+          "retained_n": 3236,
+          "retained_segments": 51,
+          "A_solid": 1.0861398548313077,
+          "A_loading": 0.462658570823904
+        },
+        {
+          "deleted_UTC_day": "2026-06-29",
+          "retained_n": 3185,
+          "retained_segments": 53,
+          "A_solid": 1.109781753591752,
+          "A_loading": 0.40179608524691096
+        },
+        {
+          "deleted_UTC_day": "2026-06-30",
+          "retained_n": 3250,
+          "retained_segments": 53,
+          "A_solid": 1.077022677503369,
+          "A_loading": 0.5014678028796908
+        },
+        {
+          "deleted_UTC_day": "2026-07-01",
+          "retained_n": 3227,
+          "retained_segments": 53,
+          "A_solid": 1.0961185761096564,
+          "A_loading": 0.39412416985391324
+        },
+        {
+          "deleted_UTC_day": "2026-07-02",
+          "retained_n": 3192,
+          "retained_segments": 53,
+          "A_solid": 1.0599012406023245,
+          "A_loading": 0.5731675103394718
+        },
+        {
+          "deleted_UTC_day": "2026-07-03",
+          "retained_n": 3266,
+          "retained_segments": 53,
+          "A_solid": 1.0858225719570334,
+          "A_loading": 0.4628965657479043
+        },
+        {
+          "deleted_UTC_day": "2026-07-04",
+          "retained_n": 3224,
+          "retained_segments": 54,
+          "A_solid": 1.0896749974982844,
+          "A_loading": 0.5106017753676341
+        },
+        {
+          "deleted_UTC_day": "2026-07-05",
+          "retained_n": 3221,
+          "retained_segments": 53,
+          "A_solid": 1.0915692666081673,
+          "A_loading": 0.4709118915272643
+        },
+        {
+          "deleted_UTC_day": "2026-07-06",
+          "retained_n": 3237,
+          "retained_segments": 54,
+          "A_solid": 1.0849098408984579,
+          "A_loading": 0.5632288178835037
+        },
+        {
+          "deleted_UTC_day": "2026-07-07",
+          "retained_n": 3288,
+          "retained_segments": 54,
+          "A_solid": 1.0801556590643149,
+          "A_loading": 0.5024921975198395
+        },
+        {
+          "deleted_UTC_day": "2026-08-07",
+          "retained_n": 3240,
+          "retained_segments": 54,
+          "A_solid": 1.0784994031217123,
+          "A_loading": 0.4890696212862299
+        },
+        {
+          "deleted_UTC_day": "2026-08-08",
+          "retained_n": 3213,
+          "retained_segments": 54,
+          "A_solid": 1.0802351435363218,
+          "A_loading": 0.5131088041768614
+        },
+        {
+          "deleted_UTC_day": "2026-08-09",
+          "retained_n": 3287,
+          "retained_segments": 54,
+          "A_solid": 1.0751897084865756,
+          "A_loading": 0.5375290719622796
+        },
+        {
+          "deleted_UTC_day": "2026-08-10",
+          "retained_n": 3216,
+          "retained_segments": 53,
+          "A_solid": 1.2766835892683785,
+          "A_loading": 0.1964401818464365
+        },
+        {
+          "deleted_UTC_day": "2026-08-11",
+          "retained_n": 3155,
+          "retained_segments": 54,
+          "A_solid": 1.0849349685498741,
+          "A_loading": 0.5567781908321588
+        },
+        {
+          "deleted_UTC_day": "2026-08-12",
+          "retained_n": 3203,
+          "retained_segments": 54,
+          "A_solid": 1.0949758239653258,
+          "A_loading": 0.454188714733125
+        },
+        {
+          "deleted_UTC_day": "2026-08-13",
+          "retained_n": 3220,
+          "retained_segments": 54,
+          "A_solid": 1.1072603136194403,
+          "A_loading": 0.3815718036937484
+        },
+        {
+          "deleted_UTC_day": "2026-08-14",
+          "retained_n": 3263,
+          "retained_segments": 54,
+          "A_solid": 1.0973745752539112,
+          "A_loading": 0.4665263434387044
+        },
+        {
+          "deleted_UTC_day": "2026-08-20",
+          "retained_n": 3255,
+          "retained_segments": 54,
+          "A_solid": 1.095484962523627,
+          "A_loading": 0.47578547927398124
+        },
+        {
+          "deleted_UTC_day": "2026-08-21",
+          "retained_n": 3195,
+          "retained_segments": 54,
+          "A_solid": 1.135390836527322,
+          "A_loading": 0.3837873952239146
+        },
+        {
+          "deleted_UTC_day": "2026-08-22",
+          "retained_n": 3155,
+          "retained_segments": 54,
+          "A_solid": 1.0836080337521414,
+          "A_loading": 0.5163269520890537
+        },
+        {
+          "deleted_UTC_day": "2026-08-23",
+          "retained_n": 3249,
+          "retained_segments": 54,
+          "A_solid": 1.1116977179335972,
+          "A_loading": 0.4495647495268652
+        },
+        {
+          "deleted_UTC_day": "2026-08-25",
+          "retained_n": 3198,
+          "retained_segments": 54,
+          "A_solid": 1.0920414568191208,
+          "A_loading": 0.4557356756722144
+        },
+        {
+          "deleted_UTC_day": "2026-08-26",
+          "retained_n": 3290,
+          "retained_segments": 54,
+          "A_solid": 1.0905247665848246,
+          "A_loading": 0.47290173584449263
+        }
+      ]
+    },
+    "exploratory_solid_loading_fit": {
+      "file": "results_library/exploratory_solid_loading_fit.csv",
+      "rows": [
+        {
+          "coefficient": "A_solid",
+          "estimate": 1.082321175789363,
+          "scaled_LS_SE": 0.20174496181580676,
+          "UTC_day_delete_one_SE": 0.322408920985309,
+          "status": "NEW_AUXILIARY_EXPLORATORY"
+        },
+        {
+          "coefficient": "A_loading",
+          "estimate": 0.48608503417469034,
+          "scaled_LS_SE": 0.45100016293168743,
+          "UTC_day_delete_one_SE": 0.5437692057086396,
+          "status": "NEW_AUXILIARY_EXPLORATORY"
+        }
+      ]
+    },
+    "harmonic_pair_identifiability": {
+      "file": "results_library/harmonic_pair_identifiability.csv",
+      "rows": [
+        {
+          "first": "Q1",
+          "second": "O1",
+          "max_canonical_correlation": 0.23419296367224804,
+          "min_canonical_correlation": 0.007600567713168843,
+          "least_retained_target_energy_fraction_after_other_pair": 0.9451536557664091,
+          "status": "NEW_DESIGN_GEOMETRY",
+          "nuisance": "S54 constants only, equal weights"
+        },
+        {
+          "first": "Q1",
+          "second": "P1",
+          "max_canonical_correlation": 0.36398724418941036,
+          "min_canonical_correlation": 0.2529432832063693,
+          "least_retained_target_energy_fraction_after_other_pair": 0.8675132860673985,
+          "status": "NEW_DESIGN_GEOMETRY",
+          "nuisance": "S54 constants only, equal weights"
+        },
+        {
+          "first": "Q1",
+          "second": "K1",
+          "max_canonical_correlation": 0.3220475052870795,
+          "min_canonical_correlation": 0.212444476413165,
+          "least_retained_target_energy_fraction_after_other_pair": 0.8962854043383686,
+          "status": "NEW_DESIGN_GEOMETRY",
+          "nuisance": "S54 constants only, equal weights"
+        },
+        {
+          "first": "Q1",
+          "second": "N2",
+          "max_canonical_correlation": 0.08785352823900684,
+          "min_canonical_correlation": 0.01581928199120471,
+          "least_retained_target_energy_fraction_after_other_pair": 0.992281757575958,
+          "status": "NEW_DESIGN_GEOMETRY",
+          "nuisance": "S54 constants only, equal weights"
+        },
+        {
+          "first": "Q1",
+          "second": "M2",
+          "max_canonical_correlation": 0.033409066870356094,
+          "min_canonical_correlation": 0.002854989082900625,
+          "least_retained_target_energy_fraction_after_other_pair": 0.998883834250852,
+          "status": "NEW_DESIGN_GEOMETRY",
+          "nuisance": "S54 constants only, equal weights"
+        },
+        {
+          "first": "Q1",
+          "second": "S2",
+          "max_canonical_correlation": 0.08482678573361783,
+          "min_canonical_correlation": 0.0030859404022926225,
+          "least_retained_target_energy_fraction_after_other_pair": 0.9928044164221029,
+          "status": "NEW_DESIGN_GEOMETRY",
+          "nuisance": "S54 constants only, equal weights"
+        },
+        {
+          "first": "Q1",
+          "second": "K2",
+          "max_canonical_correlation": 0.05989247260777809,
+          "min_canonical_correlation": 0.016976442207567104,
+          "least_retained_target_energy_fraction_after_other_pair": 0.9964128917249265,
+          "status": "NEW_DESIGN_GEOMETRY",
+          "nuisance": "S54 constants only, equal weights"
+        },
+        {
+          "first": "O1",
+          "second": "P1",
+          "max_canonical_correlation": 0.42515160744497993,
+          "min_canonical_correlation": 0.19497057193066855,
+          "least_retained_target_energy_fraction_after_other_pair": 0.8192461106869497,
+          "status": "NEW_DESIGN_GEOMETRY",
+          "nuisance": "S54 constants only, equal weights"
+        },
+        {
+          "first": "O1",
+          "second": "K1",
+          "max_canonical_correlation": 0.2391444313295406,
+          "min_canonical_correlation": 0.07260235436946928,
+          "least_retained_target_energy_fraction_after_other_pair": 0.9428099409640707,
+          "status": "NEW_DESIGN_GEOMETRY",
+          "nuisance": "S54 constants only, equal weights"
+        },
+        {
+          "first": "O1",
+          "second": "N2",
+          "max_canonical_correlation": 0.15982526882736842,
+          "min_canonical_correlation": 0.12347418343342319,
+          "least_retained_target_energy_fraction_after_other_pair": 0.9744558834442594,
+          "status": "NEW_DESIGN_GEOMETRY",
+          "nuisance": "S54 constants only, equal weights"
+        },
+        {
+          "first": "O1",
+          "second": "M2",
+          "max_canonical_correlation": 0.09527941783264231,
+          "min_canonical_correlation": 0.00846875048432992,
+          "least_retained_target_energy_fraction_after_other_pair": 0.9909218325374728,
+          "status": "NEW_DESIGN_GEOMETRY",
+          "nuisance": "S54 constants only, equal weights"
+        },
+        {
+          "first": "O1",
+          "second": "S2",
+          "max_canonical_correlation": 0.06386491098106437,
+          "min_canonical_correlation": 0.023406531668000507,
+          "least_retained_target_energy_fraction_after_other_pair": 0.9959212731453807,
+          "status": "NEW_DESIGN_GEOMETRY",
+          "nuisance": "S54 constants only, equal weights"
+        },
+        {
+          "first": "O1",
+          "second": "K2",
+          "max_canonical_correlation": 0.10343518057492523,
+          "min_canonical_correlation": 0.01218616918317348,
+          "least_retained_target_energy_fraction_after_other_pair": 0.9893011634194326,
+          "status": "NEW_DESIGN_GEOMETRY",
+          "nuisance": "S54 constants only, equal weights"
+        },
+        {
+          "first": "P1",
+          "second": "K1",
+          "max_canonical_correlation": 0.49720778042371305,
+          "min_canonical_correlation": 0.28666913433590624,
+          "least_retained_target_energy_fraction_after_other_pair": 0.7527844230861247,
+          "status": "NEW_DESIGN_GEOMETRY",
+          "nuisance": "S54 constants only, equal weights"
+        },
+        {
+          "first": "P1",
+          "second": "N2",
+          "max_canonical_correlation": 0.05899736786066732,
+          "min_canonical_correlation": 0.021140752003436857,
+          "least_retained_target_energy_fraction_after_other_pair": 0.9965193105855131,
+          "status": "NEW_DESIGN_GEOMETRY",
+          "nuisance": "S54 constants only, equal weights"
+        },
+        {
+          "first": "P1",
+          "second": "M2",
+          "max_canonical_correlation": 0.0874065166015403,
+          "min_canonical_correlation": 0.04017546594106262,
+          "least_retained_target_energy_fraction_after_other_pair": 0.9923601008555847,
+          "status": "NEW_DESIGN_GEOMETRY",
+          "nuisance": "S54 constants only, equal weights"
+        },
+        {
+          "first": "P1",
+          "second": "S2",
+          "max_canonical_correlation": 0.08999119628048492,
+          "min_canonical_correlation": 0.008482500425810509,
+          "least_retained_target_energy_fraction_after_other_pair": 0.9919015845920073,
+          "status": "NEW_DESIGN_GEOMETRY",
+          "nuisance": "S54 constants only, equal weights"
+        },
+        {
+          "first": "P1",
+          "second": "K2",
+          "max_canonical_correlation": 0.1125929141644048,
+          "min_canonical_correlation": 0.10147658402754155,
+          "least_retained_target_energy_fraction_after_other_pair": 0.9873228356799669,
+          "status": "NEW_DESIGN_GEOMETRY",
+          "nuisance": "S54 constants only, equal weights"
+        },
+        {
+          "first": "K1",
+          "second": "N2",
+          "max_canonical_correlation": 0.1187516572878107,
+          "min_canonical_correlation": 0.0339442793722481,
+          "least_retained_target_energy_fraction_after_other_pair": 0.9858980438913983,
+          "status": "NEW_DESIGN_GEOMETRY",
+          "nuisance": "S54 constants only, equal weights"
+        },
+        {
+          "first": "K1",
+          "second": "M2",
+          "max_canonical_correlation": 0.20535121836989814,
+          "min_canonical_correlation": 0.10804497131165006,
+          "least_retained_target_energy_fraction_after_other_pair": 0.9578308771139984,
+          "status": "NEW_DESIGN_GEOMETRY",
+          "nuisance": "S54 constants only, equal weights"
+        },
+        {
+          "first": "K1",
+          "second": "S2",
+          "max_canonical_correlation": 0.1584055189974667,
+          "min_canonical_correlation": 0.13343415655436738,
+          "least_retained_target_energy_fraction_after_other_pair": 0.9749076915511432,
+          "status": "NEW_DESIGN_GEOMETRY",
+          "nuisance": "S54 constants only, equal weights"
+        },
+        {
+          "first": "K1",
+          "second": "K2",
+          "max_canonical_correlation": 0.07910563206797915,
+          "min_canonical_correlation": 0.016331434416329466,
+          "least_retained_target_energy_fraction_after_other_pair": 0.9937422989751256,
+          "status": "NEW_DESIGN_GEOMETRY",
+          "nuisance": "S54 constants only, equal weights"
+        },
+        {
+          "first": "N2",
+          "second": "M2",
+          "max_canonical_correlation": 0.23015361331449047,
+          "min_canonical_correlation": 0.14389489338160194,
+          "least_retained_target_energy_fraction_after_other_pair": 0.947029314278284,
+          "status": "NEW_DESIGN_GEOMETRY",
+          "nuisance": "S54 constants only, equal weights"
+        },
+        {
+          "first": "N2",
+          "second": "S2",
+          "max_canonical_correlation": 0.3230240348262768,
+          "min_canonical_correlation": 0.2601350220982133,
+          "least_retained_target_energy_fraction_after_other_pair": 0.8956554729245523,
+          "status": "NEW_DESIGN_GEOMETRY",
+          "nuisance": "S54 constants only, equal weights"
+        },
+        {
+          "first": "N2",
+          "second": "K2",
+          "max_canonical_correlation": 0.2587258948070134,
+          "min_canonical_correlation": 0.17881591094282692,
+          "least_retained_target_energy_fraction_after_other_pair": 0.9330609113563102,
+          "status": "NEW_DESIGN_GEOMETRY",
+          "nuisance": "S54 constants only, equal weights"
+        },
+        {
+          "first": "M2",
+          "second": "S2",
+          "max_canonical_correlation": 0.3356860146600592,
+          "min_canonical_correlation": 0.2807081355045607,
+          "least_retained_target_energy_fraction_after_other_pair": 0.8873148995616466,
+          "status": "NEW_DESIGN_GEOMETRY",
+          "nuisance": "S54 constants only, equal weights"
+        },
+        {
+          "first": "M2",
+          "second": "K2",
+          "max_canonical_correlation": 0.10473093024649077,
+          "min_canonical_correlation": 0.03813057872691699,
+          "least_retained_target_energy_fraction_after_other_pair": 0.9890314322497047,
+          "status": "NEW_DESIGN_GEOMETRY",
+          "nuisance": "S54 constants only, equal weights"
+        },
+        {
+          "first": "S2",
+          "second": "K2",
+          "max_canonical_correlation": 0.3091709935745046,
+          "min_canonical_correlation": 0.26405200726057193,
+          "least_retained_target_energy_fraction_after_other_pair": 0.9044132967321536,
+          "status": "NEW_DESIGN_GEOMETRY",
+          "nuisance": "S54 constants only, equal weights"
+        }
+      ]
+    },
+    "model_spectral_projections": {
+      "file": "results_library/model_spectral_projections.csv",
+      "rows": [
+        {
+          "target": "Q1",
+          "frequency_uHz": 10.338472912192374,
+          "template": "full_solid_template",
+          "status": "NEW_MODEL_PROJECTION",
+          "cos_1e18": -0.08994098771373989,
+          "sin_1e18": 0.36739792109010927,
+          "peak_amplitude_1e18": 0.3782467629633561,
+          "peak_amplitude_cm": 0.3466537880456158,
+          "interpretation": "Projection of complete frozen template, includes sampling leakage; not a pure constituent phasor or observed independent loading."
+        },
+        {
+          "target": "Q1",
+          "frequency_uHz": 10.338472912192374,
+          "template": "full_loading_template",
+          "status": "NEW_MODEL_PROJECTION",
+          "cos_1e18": -0.08300911542359699,
+          "sin_1e18": 0.09813623791325085,
+          "peak_amplitude_1e18": 0.12853495413767502,
+          "peak_amplitude_cm": 0.11779910130364069,
+          "interpretation": "Projection of complete frozen template, includes sampling leakage; not a pure constituent phasor or observed independent loading."
+        },
+        {
+          "target": "Q1",
+          "frequency_uHz": 10.338472912192374,
+          "template": "full_total_template",
+          "status": "NEW_MODEL_PROJECTION",
+          "cos_1e18": -0.172950103137336,
+          "sin_1e18": 0.4655341590033603,
+          "peak_amplitude_1e18": 0.4966223830781101,
+          "peak_amplitude_cm": 0.4551421113918323,
+          "interpretation": "Projection of complete frozen template, includes sampling leakage; not a pure constituent phasor or observed independent loading."
+        },
+        {
+          "target": "O1",
+          "frequency_uHz": 10.758515123810993,
+          "template": "full_solid_template",
+          "status": "NEW_MODEL_PROJECTION",
+          "cos_1e18": -1.6353309223956352,
+          "sin_1e18": 0.7564107059849418,
+          "peak_amplitude_1e18": 1.8017947668566465,
+          "peak_amplitude_cm": 1.6513002684232723,
+          "interpretation": "Projection of complete frozen template, includes sampling leakage; not a pure constituent phasor or observed independent loading."
+        },
+        {
+          "target": "O1",
+          "frequency_uHz": 10.758515123810993,
+          "template": "full_loading_template",
+          "status": "NEW_MODEL_PROJECTION",
+          "cos_1e18": 0.40169255565781326,
+          "sin_1e18": 0.5208000781810811,
+          "peak_amplitude_1e18": 0.6577154633307062,
+          "peak_amplitude_cm": 0.6027799287256685,
+          "interpretation": "Projection of complete frozen template, includes sampling leakage; not a pure constituent phasor or observed independent loading."
+        },
+        {
+          "target": "O1",
+          "frequency_uHz": 10.758515123810993,
+          "template": "full_total_template",
+          "status": "NEW_MODEL_PROJECTION",
+          "cos_1e18": -1.2336383667378226,
+          "sin_1e18": 1.277210784166023,
+          "peak_amplitude_1e18": 1.7757057771707423,
+          "peak_amplitude_cm": 1.6273903556720088,
+          "interpretation": "Projection of complete frozen template, includes sampling leakage; not a pure constituent phasor or observed independent loading."
+        },
+        {
+          "target": "P1",
+          "frequency_uHz": 11.542385308635993,
+          "template": "full_solid_template",
+          "status": "NEW_MODEL_PROJECTION",
+          "cos_1e18": -0.6607973221521639,
+          "sin_1e18": 0.6987298299489298,
+          "peak_amplitude_1e18": 0.9617049839862176,
+          "peak_amplitude_cm": 0.8813787937518128,
+          "interpretation": "Projection of complete frozen template, includes sampling leakage; not a pure constituent phasor or observed independent loading."
+        },
+        {
+          "target": "P1",
+          "frequency_uHz": 11.542385308635993,
+          "template": "full_loading_template",
+          "status": "NEW_MODEL_PROJECTION",
+          "cos_1e18": 0.47679460452624495,
+          "sin_1e18": 0.39914580537565636,
+          "peak_amplitude_1e18": 0.6218122456612765,
+          "peak_amplitude_cm": 0.5698755191528632,
+          "interpretation": "Projection of complete frozen template, includes sampling leakage; not a pure constituent phasor or observed independent loading."
+        },
+        {
+          "target": "P1",
+          "frequency_uHz": 11.542385308635993,
+          "template": "full_total_template",
+          "status": "NEW_MODEL_PROJECTION",
+          "cos_1e18": -0.18400271762591855,
+          "sin_1e18": 1.097875635324585,
+          "peak_amplitude_1e18": 1.1131881739998342,
+          "peak_amplitude_cm": 1.020209384744977,
+          "interpretation": "Projection of complete frozen template, includes sampling leakage; not a pure constituent phasor or observed independent loading."
+        },
+        {
+          "target": "K1",
+          "frequency_uHz": 11.605762839512192,
+          "template": "full_solid_template",
+          "status": "NEW_MODEL_PROJECTION",
+          "cos_1e18": 0.8358566714953268,
+          "sin_1e18": -0.1317013318168336,
+          "peak_amplitude_1e18": 0.8461687869955818,
+          "peak_amplitude_cm": 0.775492731358548,
+          "interpretation": "Projection of complete frozen template, includes sampling leakage; not a pure constituent phasor or observed independent loading."
+        },
+        {
+          "target": "K1",
+          "frequency_uHz": 11.605762839512192,
+          "template": "full_loading_template",
+          "status": "NEW_MODEL_PROJECTION",
+          "cos_1e18": 0.4898944837591279,
+          "sin_1e18": -1.092717772082375,
+          "peak_amplitude_1e18": 1.1975093881228205,
+          "peak_amplitude_cm": 1.0974876886208265,
+          "interpretation": "Projection of complete frozen template, includes sampling leakage; not a pure constituent phasor or observed independent loading."
+        },
+        {
+          "target": "K1",
+          "frequency_uHz": 11.605762839512192,
+          "template": "full_total_template",
+          "status": "NEW_MODEL_PROJECTION",
+          "cos_1e18": 1.3257511552544543,
+          "sin_1e18": -1.224419103899208,
+          "peak_amplitude_1e18": 1.804665694152759,
+          "peak_amplitude_cm": 1.6539314021694118,
+          "interpretation": "Projection of complete frozen template, includes sampling leakage; not a pure constituent phasor or observed independent loading."
+        },
+        {
+          "target": "N2",
+          "frequency_uHz": 21.94423575170456,
+          "template": "full_solid_template",
+          "status": "NEW_MODEL_PROJECTION",
+          "cos_1e18": -2.022489431148276,
+          "sin_1e18": -0.07008379889893938,
+          "peak_amplitude_1e18": 2.023703347325043,
+          "peak_amplitude_cm": 1.85467398513806,
+          "interpretation": "Projection of complete frozen template, includes sampling leakage; not a pure constituent phasor or observed independent loading."
+        },
+        {
+          "target": "N2",
+          "frequency_uHz": 21.94423575170456,
+          "template": "full_loading_template",
+          "status": "NEW_MODEL_PROJECTION",
+          "cos_1e18": -0.5762088997170226,
+          "sin_1e18": -0.27671381173988235,
+          "peak_amplitude_1e18": 0.6392082835201034,
+          "peak_amplitude_cm": 0.5858185569028823,
+          "interpretation": "Projection of complete frozen template, includes sampling leakage; not a pure constituent phasor or observed independent loading."
+        },
+        {
+          "target": "N2",
+          "frequency_uHz": 21.94423575170456,
+          "template": "full_total_template",
+          "status": "NEW_MODEL_PROJECTION",
+          "cos_1e18": -2.598698330865297,
+          "sin_1e18": -0.346797610638822,
+          "peak_amplitude_1e18": 2.621736370725874,
+          "peak_amplitude_cm": 2.4027564361658147,
+          "interpretation": "Projection of complete frozen template, includes sampling leakage; not a pure constituent phasor or observed independent loading."
+        },
+        {
+          "target": "M2",
+          "frequency_uHz": 22.364277963323186,
+          "template": "full_solid_template",
+          "status": "NEW_MODEL_PROJECTION",
+          "cos_1e18": -1.622196796321981,
+          "sin_1e18": -3.6895962370979305,
+          "peak_amplitude_1e18": 4.030464345308678,
+          "peak_amplitude_cm": 3.6938207268132057,
+          "interpretation": "Projection of complete frozen template, includes sampling leakage; not a pure constituent phasor or observed independent loading."
+        },
+        {
+          "target": "M2",
+          "frequency_uHz": 22.364277963323186,
+          "template": "full_loading_template",
+          "status": "NEW_MODEL_PROJECTION",
+          "cos_1e18": -0.13632831130579456,
+          "sin_1e18": -1.643246319845026,
+          "peak_amplitude_1e18": 1.6488917114679518,
+          "peak_amplitude_cm": 1.5111684059878108,
+          "interpretation": "Projection of complete frozen template, includes sampling leakage; not a pure constituent phasor or observed independent loading."
+        },
+        {
+          "target": "M2",
+          "frequency_uHz": 22.364277963323186,
+          "template": "full_total_template",
+          "status": "NEW_MODEL_PROJECTION",
+          "cos_1e18": -1.7585251076277788,
+          "sin_1e18": -5.332842556942957,
+          "peak_amplitude_1e18": 5.6153023330270635,
+          "peak_amplitude_cm": 5.146285481771052,
+          "interpretation": "Projection of complete frozen template, includes sampling leakage; not a pure constituent phasor or observed independent loading."
+        },
+        {
+          "target": "S2",
+          "frequency_uHz": 23.14814814814818,
+          "template": "full_solid_template",
+          "status": "NEW_MODEL_PROJECTION",
+          "cos_1e18": 0.11267007876435071,
+          "sin_1e18": -2.620408781417262,
+          "peak_amplitude_1e18": 2.6228299083961706,
+          "peak_amplitude_cm": 2.403758636350713,
+          "interpretation": "Projection of complete frozen template, includes sampling leakage; not a pure constituent phasor or observed independent loading."
+        },
+        {
+          "target": "S2",
+          "frequency_uHz": 23.14814814814818,
+          "template": "full_loading_template",
+          "status": "NEW_MODEL_PROJECTION",
+          "cos_1e18": 0.7929035736800345,
+          "sin_1e18": -0.7950768532207235,
+          "peak_amplitude_1e18": 1.1228727798294595,
+          "peak_amplitude_cm": 1.0290850860735659,
+          "interpretation": "Projection of complete frozen template, includes sampling leakage; not a pure constituent phasor or observed independent loading."
+        },
+        {
+          "target": "S2",
+          "frequency_uHz": 23.14814814814818,
+          "template": "full_total_template",
+          "status": "NEW_MODEL_PROJECTION",
+          "cos_1e18": 0.9055736524443849,
+          "sin_1e18": -3.4154856346379847,
+          "peak_amplitude_1e18": 3.5334976666781457,
+          "peak_amplitude_cm": 3.2383630770767238,
+          "interpretation": "Projection of complete frozen template, includes sampling leakage; not a pure constituent phasor or observed independent loading."
+        },
+        {
+          "target": "K2",
+          "frequency_uHz": 23.211525679024383,
+          "template": "full_solid_template",
+          "status": "NEW_MODEL_PROJECTION",
+          "cos_1e18": -0.2927575027335297,
+          "sin_1e18": -0.8764619397162314,
+          "peak_amplitude_1e18": 0.9240630320372694,
+          "peak_amplitude_cm": 0.8468808772850482,
+          "interpretation": "Projection of complete frozen template, includes sampling leakage; not a pure constituent phasor or observed independent loading."
+        },
+        {
+          "target": "K2",
+          "frequency_uHz": 23.211525679024383,
+          "template": "full_loading_template",
+          "status": "NEW_MODEL_PROJECTION",
+          "cos_1e18": 0.14214534510747145,
+          "sin_1e18": -0.3822122625309588,
+          "peak_amplitude_1e18": 0.40778856379839384,
+          "peak_amplitude_cm": 0.37372811667945294,
+          "interpretation": "Projection of complete frozen template, includes sampling leakage; not a pure constituent phasor or observed independent loading."
+        },
+        {
+          "target": "K2",
+          "frequency_uHz": 23.211525679024383,
+          "template": "full_total_template",
+          "status": "NEW_MODEL_PROJECTION",
+          "cos_1e18": -0.15061215762605973,
+          "sin_1e18": -1.258674202247191,
+          "peak_amplitude_1e18": 1.267653252836666,
+          "peak_amplitude_cm": 1.1617728029750487,
+          "interpretation": "Projection of complete frozen template, includes sampling leakage; not a pure constituent phasor or observed independent loading."
+        }
+      ]
+    },
+    "physical_model_phasors": {
+      "file": "results_library/physical_model_phasors.csv",
+      "rows": [
+        {
+          "target": "Q1",
+          "component": "solid",
+          "status": "FROZEN_PHASOR_MAGNITUDE",
+          "stored_real_1e18": -0.15242737117393546,
+          "stored_imag_1e18": 0.06351273812536372,
+          "modulus_1e18": 0.16513016498259098,
+          "modulus_cm": 0.15133770547920927,
+          "stored_complex_argument_deg": 157.37970796410949,
+          "interpretation": "Stored physical constituent phasor, prior to sampled-time projection and nodal synthesis; not fitted data amplitude."
+        },
+        {
+          "target": "Q1",
+          "component": "loading",
+          "status": "FROZEN_PHASOR_MAGNITUDE",
+          "stored_real_1e18": 0.08675267665320657,
+          "stored_imag_1e18": 0.05977693356332307,
+          "modulus_1e18": 0.10535325667832843,
+          "modulus_cm": 0.09655364985641061,
+          "stored_complex_argument_deg": 34.56878507588245,
+          "interpretation": "Stored physical constituent phasor, prior to sampled-time projection and nodal synthesis; not fitted data amplitude."
+        },
+        {
+          "target": "Q1",
+          "component": "total",
+          "status": "FROZEN_PHASOR_MAGNITUDE",
+          "stored_real_1e18": -0.06567469452072888,
+          "stored_imag_1e18": 0.12328967168868679,
+          "modulus_1e18": 0.13969076077355735,
+          "modulus_cm": 0.1280231217254828,
+          "stored_complex_argument_deg": 118.04360780466862,
+          "interpretation": "Stored physical constituent phasor, prior to sampled-time projection and nodal synthesis; not fitted data amplitude."
+        },
+        {
+          "target": "O1",
+          "component": "solid",
+          "status": "FROZEN_PHASOR_MAGNITUDE",
+          "stored_real_1e18": -0.7803642481977013,
+          "stored_imag_1e18": 0.3230072504661206,
+          "modulus_1e18": 0.8445721068794818,
+          "modulus_cm": 0.7740294135862904,
+          "stored_complex_argument_deg": 157.5144283107918,
+          "interpretation": "Stored physical constituent phasor, prior to sampled-time projection and nodal synthesis; not fitted data amplitude."
+        },
+        {
+          "target": "O1",
+          "component": "loading",
+          "status": "FROZEN_PHASOR_MAGNITUDE",
+          "stored_real_1e18": 0.3671292694032776,
+          "stored_imag_1e18": 0.3907796434670989,
+          "modulus_1e18": 0.5361833923210018,
+          "modulus_cm": 0.4913987963281806,
+          "stored_complex_argument_deg": 46.78732170191837,
+          "interpretation": "Stored physical constituent phasor, prior to sampled-time projection and nodal synthesis; not fitted data amplitude."
+        },
+        {
+          "target": "O1",
+          "component": "total",
+          "status": "FROZEN_PHASOR_MAGNITUDE",
+          "stored_real_1e18": -0.4132349787944237,
+          "stored_imag_1e18": 0.7137868939332195,
+          "modulus_1e18": 0.824775652920272,
+          "modulus_cm": 0.7558864539451644,
+          "stored_complex_argument_deg": 120.06797771326791,
+          "interpretation": "Stored physical constituent phasor, prior to sampled-time projection and nodal synthesis; not fitted data amplitude."
+        },
+        {
+          "target": "P1",
+          "component": "solid",
+          "status": "FROZEN_PHASOR_MAGNITUDE",
+          "stored_real_1e18": -0.3450511004009236,
+          "stored_imag_1e18": 0.145663044823805,
+          "modulus_1e18": 0.37453702689484536,
+          "modulus_cm": 0.3432539068391684,
+          "stored_complex_argument_deg": 157.11299945099967,
+          "interpretation": "Stored physical constituent phasor, prior to sampled-time projection and nodal synthesis; not fitted data amplitude."
+        },
+        {
+          "target": "P1",
+          "component": "loading",
+          "status": "FROZEN_PHASOR_MAGNITUDE",
+          "stored_real_1e18": 0.09393321436314897,
+          "stored_imag_1e18": 0.23566935494607116,
+          "modulus_1e18": 0.2536996129703208,
+          "modulus_cm": 0.2325094104516855,
+          "stored_complex_argument_deg": 68.26873699906221,
+          "interpretation": "Stored physical constituent phasor, prior to sampled-time projection and nodal synthesis; not fitted data amplitude."
+        },
+        {
+          "target": "P1",
+          "component": "total",
+          "status": "FROZEN_PHASOR_MAGNITUDE",
+          "stored_real_1e18": -0.25111788603777463,
+          "stored_imag_1e18": 0.38133239976987615,
+          "modulus_1e18": 0.45659017926619205,
+          "modulus_cm": 0.41845358830575385,
+          "stored_complex_argument_deg": 123.36600439112847,
+          "interpretation": "Stored physical constituent phasor, prior to sampled-time projection and nodal synthesis; not fitted data amplitude."
+        },
+        {
+          "target": "K1",
+          "component": "solid",
+          "status": "FROZEN_PHASOR_MAGNITUDE",
+          "stored_real_1e18": -0.9459504197518674,
+          "stored_imag_1e18": 0.39963340904504696,
+          "modulus_1e18": 1.0269026527639804,
+          "modulus_cm": 0.9411308420614619,
+          "stored_complex_argument_deg": 157.09751713249386,
+          "interpretation": "Stored physical constituent phasor, prior to sampled-time projection and nodal synthesis; not fitted data amplitude."
+        },
+        {
+          "target": "K1",
+          "component": "loading",
+          "status": "FROZEN_PHASOR_MAGNITUDE",
+          "stored_real_1e18": 0.25352709607013146,
+          "stored_imag_1e18": 0.7451361431556209,
+          "modulus_1e18": 0.7870856753102471,
+          "modulus_cm": 0.7213445231497505,
+          "stored_complex_argument_deg": 71.20950550000912,
+          "interpretation": "Stored physical constituent phasor, prior to sampled-time projection and nodal synthesis; not fitted data amplitude."
+        },
+        {
+          "target": "K1",
+          "component": "total",
+          "status": "FROZEN_PHASOR_MAGNITUDE",
+          "stored_real_1e18": -0.692423323681736,
+          "stored_imag_1e18": 1.144769552200668,
+          "modulus_1e18": 1.3378891534145048,
+          "modulus_cm": 1.22614226591864,
+          "stored_complex_argument_deg": 121.1679929190693,
+          "interpretation": "Stored physical constituent phasor, prior to sampled-time projection and nodal synthesis; not fitted data amplitude."
+        },
+        {
+          "target": "N2",
+          "component": "solid",
+          "status": "FROZEN_PHASOR_MAGNITUDE",
+          "stored_real_1e18": 0.5778635129518225,
+          "stored_imag_1e18": 0.3481499089862101,
+          "modulus_1e18": 0.6746366419993266,
+          "modulus_cm": 0.6182877697914286,
+          "stored_complex_argument_deg": 31.068028175611403,
+          "interpretation": "Stored physical constituent phasor, prior to sampled-time projection and nodal synthesis; not fitted data amplitude."
+        },
+        {
+          "target": "N2",
+          "component": "loading",
+          "status": "FROZEN_PHASOR_MAGNITUDE",
+          "stored_real_1e18": 0.2695228013675539,
+          "stored_imag_1e18": 0.16145440471545736,
+          "modulus_1e18": 0.3141815800759755,
+          "modulus_cm": 0.28793963499971875,
+          "stored_complex_argument_deg": 30.923211748274937,
+          "interpretation": "Stored physical constituent phasor, prior to sampled-time projection and nodal synthesis; not fitted data amplitude."
+        },
+        {
+          "target": "N2",
+          "component": "total",
+          "status": "FROZEN_PHASOR_MAGNITUDE",
+          "stored_real_1e18": 0.8473863143193764,
+          "stored_imag_1e18": 0.5096043137016675,
+          "modulus_1e18": 0.9888175373844886,
+          "modulus_cm": 0.9062267772889785,
+          "stored_complex_argument_deg": 31.022015024864924,
+          "interpretation": "Stored physical constituent phasor, prior to sampled-time projection and nodal synthesis; not fitted data amplitude."
+        },
+        {
+          "target": "M2",
+          "component": "solid",
+          "status": "FROZEN_PHASOR_MAGNITUDE",
+          "stored_real_1e18": 2.921515190746407,
+          "stored_imag_1e18": 1.7922045370636301,
+          "modulus_1e18": 3.427425872638747,
+          "modulus_cm": 3.1411509055290345,
+          "stored_complex_argument_deg": 31.527049160023218,
+          "interpretation": "Stored physical constituent phasor, prior to sampled-time projection and nodal synthesis; not fitted data amplitude."
+        },
+        {
+          "target": "M2",
+          "component": "loading",
+          "status": "FROZEN_PHASOR_MAGNITUDE",
+          "stored_real_1e18": 0.8849762316067291,
+          "stored_imag_1e18": 1.1071959817007042,
+          "modulus_1e18": 1.4174152081881417,
+          "modulus_cm": 1.2990259250400669,
+          "stored_complex_argument_deg": 51.36482980260334,
+          "interpretation": "Stored physical constituent phasor, prior to sampled-time projection and nodal synthesis; not fitted data amplitude."
+        },
+        {
+          "target": "M2",
+          "component": "total",
+          "status": "FROZEN_PHASOR_MAGNITUDE",
+          "stored_real_1e18": 3.806491422353136,
+          "stored_imag_1e18": 2.8994005187643346,
+          "modulus_1e18": 4.784966072675844,
+          "modulus_cm": 4.385302868866929,
+          "stored_complex_argument_deg": 37.29648649726858,
+          "interpretation": "Stored physical constituent phasor, prior to sampled-time projection and nodal synthesis; not fitted data amplitude."
+        },
+        {
+          "target": "S2",
+          "component": "solid",
+          "status": "FROZEN_PHASOR_MAGNITUDE",
+          "stored_real_1e18": 1.3650772662556634,
+          "stored_imag_1e18": 0.8326527378617604,
+          "modulus_1e18": 1.598982965736884,
+          "modulus_cm": 1.465428276901878,
+          "stored_complex_argument_deg": 31.38183300682039,
+          "interpretation": "Stored physical constituent phasor, prior to sampled-time projection and nodal synthesis; not fitted data amplitude."
+        },
+        {
+          "target": "S2",
+          "component": "loading",
+          "status": "FROZEN_PHASOR_MAGNITUDE",
+          "stored_real_1e18": 0.07356980935647117,
+          "stored_imag_1e18": 0.6283764022441805,
+          "modulus_1e18": 0.6326684911911511,
+          "modulus_cm": 0.5798249992419999,
+          "stored_complex_argument_deg": 83.32225678204969,
+          "interpretation": "Stored physical constituent phasor, prior to sampled-time projection and nodal synthesis; not fitted data amplitude."
+        },
+        {
+          "target": "S2",
+          "component": "total",
+          "status": "FROZEN_PHASOR_MAGNITUDE",
+          "stored_real_1e18": 1.4386470756121346,
+          "stored_imag_1e18": 1.461029140105941,
+          "modulus_1e18": 2.0504417954202094,
+          "modulus_cm": 1.8791791104325453,
+          "stored_complex_argument_deg": 45.4422467438873,
+          "interpretation": "Stored physical constituent phasor, prior to sampled-time projection and nodal synthesis; not fitted data amplitude."
+        },
+        {
+          "target": "K2",
+          "component": "solid",
+          "status": "FROZEN_PHASOR_MAGNITUDE",
+          "stored_real_1e18": 0.37001992911555087,
+          "stored_imag_1e18": 0.22715285344008618,
+          "modulus_1e18": 0.4341810299502393,
+          "modulus_cm": 0.3979161580938067,
+          "stored_complex_argument_deg": 31.545496109727416,
+          "interpretation": "Stored physical constituent phasor, prior to sampled-time projection and nodal synthesis; not fitted data amplitude."
+        },
+        {
+          "target": "K2",
+          "component": "loading",
+          "status": "FROZEN_PHASOR_MAGNITUDE",
+          "stored_real_1e18": 0.04777352351218901,
+          "stored_imag_1e18": 0.17614240150765365,
+          "modulus_1e18": 0.18250604142781998,
+          "modulus_cm": 0.1672622657931194,
+          "stored_complex_argument_deg": 74.82523862704605,
+          "interpretation": "Stored physical constituent phasor, prior to sampled-time projection and nodal synthesis; not fitted data amplitude."
+        },
+        {
+          "target": "K2",
+          "component": "total",
+          "status": "FROZEN_PHASOR_MAGNITUDE",
+          "stored_real_1e18": 0.41779345262773987,
+          "stored_imag_1e18": 0.4032952549477398,
+          "modulus_1e18": 0.5806878952776353,
+          "modulus_cm": 0.5321860707892682,
+          "stored_complex_argument_deg": 43.98841718831447,
+          "interpretation": "Stored physical constituent phasor, prior to sampled-time projection and nodal synthesis; not fitted data amplitude."
+        }
+      ]
+    },
+    "snr_optimal_common_white_predictions": {
+      "file": "results_library/signal_to_noise/optimal_common_white_predictions.csv",
+      "rows": [
+        {
+          "signal": "full_nonoverlap",
+          "status": "OPTIMAL_COMMON_WHITE_DESIGN",
+          "weighting": "W=n/alpha²",
+          "reference_A": 0.9551118452023367,
+          "refitted_A_with_optimal_white_weights": 0.9205184951304111,
+          "unit_response_SE": 0.09388576028096243,
+          "unit_response_rho": 10.65124249947384,
+          "rho_at_reference_A": 10.173127877370007,
+          "rho_at_refitted_A": 9.804665716884736,
+          "projected_information": 113.44896678259774,
+          "eta_total": 0.8985265125625157,
+          "eta_offset_only": 0.8985265125625157,
+          "eta_other_templates_given_offsets": 1.0,
+          "definition": "rho=|A| sqrt(s^T W R_N s), all other fitted columns in N.",
+          "not_same_estimator_warning": "White-optimal weights may differ from existing estimator; use same-estimator table for comparison with reported errors."
+        },
+        {
+          "signal": "lunar_group_nonoverlap",
+          "status": "OPTIMAL_COMMON_WHITE_DESIGN",
+          "weighting": "W=n/alpha²",
+          "reference_A": 1.0004025676842117,
+          "refitted_A_with_optimal_white_weights": 0.9554417626074672,
+          "unit_response_SE": 0.12913968201015455,
+          "unit_response_rho": 7.743553216441772,
+          "rho_at_reference_A": 7.746670520727686,
+          "rho_at_refitted_A": 7.398514133961849,
+          "projected_information": 59.96261641586572,
+          "eta_total": 0.8670122843210214,
+          "eta_offset_only": 0.9199632900427734,
+          "eta_other_templates_given_offsets": 0.9424422623219127,
+          "definition": "rho=|A| sqrt(s^T W R_N s), all other fitted columns in N.",
+          "not_same_estimator_warning": "White-optimal weights may differ from existing estimator; use same-estimator table for comparison with reported errors."
+        },
+        {
+          "signal": "near12_group_nonoverlap",
+          "status": "OPTIMAL_COMMON_WHITE_DESIGN",
+          "weighting": "W=n/alpha²",
+          "reference_A": 0.925120437651621,
+          "refitted_A_with_optimal_white_weights": 0.9709654803784257,
+          "unit_response_SE": 0.28554905181024726,
+          "unit_response_rho": 3.502025286585504,
+          "rho_at_reference_A": 3.2397951657930246,
+          "rho_at_refitted_A": 3.4003456646868875,
+          "projected_information": 12.264181107884278,
+          "eta_total": 0.8832341803895171,
+          "eta_offset_only": 0.9332712589020822,
+          "eta_other_templates_given_offsets": 0.9463852786258202,
+          "definition": "rho=|A| sqrt(s^T W R_N s), all other fitted columns in N.",
+          "not_same_estimator_warning": "White-optimal weights may differ from existing estimator; use same-estimator table for comparison with reported errors."
+        },
+        {
+          "signal": "diurnal_group_nonoverlap",
+          "status": "OPTIMAL_COMMON_WHITE_DESIGN",
+          "weighting": "W=n/alpha²",
+          "reference_A": 0.5791945678551199,
+          "refitted_A_with_optimal_white_weights": 0.43923839888583954,
+          "unit_response_SE": 0.369034344307939,
+          "unit_response_rho": 2.7097748906685895,
+          "rho_at_reference_A": 1.5694868967854483,
+          "rho_at_refitted_A": 1.1902371843183222,
+          "projected_information": 7.342879958097966,
+          "eta_total": 0.7493029505323974,
+          "eta_offset_only": 0.7534723007816174,
+          "eta_other_templates_given_offsets": 0.9944664850388063,
+          "definition": "rho=|A| sqrt(s^T W R_N s), all other fitted columns in N.",
+          "not_same_estimator_warning": "White-optimal weights may differ from existing estimator; use same-estimator table for comparison with reported errors."
+        },
+        {
+          "signal": "solid_new_auxiliary",
+          "status": "OPTIMAL_COMMON_WHITE_DESIGN",
+          "weighting": "W=n/alpha²",
+          "reference_A": 1.082321175789363,
+          "refitted_A_with_optimal_white_weights": 1.0778134783956823,
+          "unit_response_SE": 0.1852009029659837,
+          "unit_response_rho": 5.399541708409879,
+          "rho_at_reference_A": 5.844038330569886,
+          "rho_at_refitted_A": 5.8196988304838175,
+          "projected_information": 29.15505066085788,
+          "eta_total": 0.614824081427916,
+          "eta_offset_only": 0.8918615672882927,
+          "eta_other_templates_given_offsets": 0.6893716513620944,
+          "definition": "rho=|A| sqrt(s^T W R_N s), all other fitted columns in N.",
+          "not_same_estimator_warning": "White-optimal weights may differ from existing estimator; use same-estimator table for comparison with reported errors."
+        },
+        {
+          "signal": "loading_new_auxiliary",
+          "status": "OPTIMAL_COMMON_WHITE_DESIGN",
+          "weighting": "W=n/alpha²",
+          "reference_A": 0.48608503417469034,
+          "refitted_A_with_optimal_white_weights": 0.5236270591841654,
+          "unit_response_SE": 0.4136044069295593,
+          "unit_response_rho": 2.4177692095295042,
+          "rho_at_reference_A": 1.1752414288406632,
+          "rho_at_refitted_A": 1.2660093809719586,
+          "projected_information": 5.845607950548923,
+          "eta_total": 0.6145718892277467,
+          "eta_offset_only": 0.8914957382036893,
+          "eta_other_templates_given_offsets": 0.6893716513620944,
+          "definition": "rho=|A| sqrt(s^T W R_N s), all other fitted columns in N.",
+          "not_same_estimator_warning": "White-optimal weights may differ from existing estimator; use same-estimator table for comparison with reported errors."
+        }
+      ]
+    },
+    "snr_reported_signal_to_noise": {
+      "file": "results_library/signal_to_noise/reported_signal_to_noise.csv",
+      "rows": [
+        {
+          "signal": "full_nonoverlap",
+          "A": 0.9551118452023367,
+          "u_reported": 0.10818213987308602,
+          "rho_absolute_A_over_u": 8.828738702366463,
+          "route": "600s_nonoverlap_period_weight",
+          "uncertainty_definition": "Larger of scaled LS and UTC-day jackknife",
+          "status": "EXISTING_REPRODUCIBLE_FIT"
+        },
+        {
+          "signal": "lunar_group_nonoverlap",
+          "A": 1.0004025676842117,
+          "u_reported": 0.13195555541744305,
+          "rho_absolute_A_over_u": 7.581359985333134,
+          "route": "600s_nonoverlap_period_weight",
+          "uncertainty_definition": "Larger of scaled LS and UTC-day jackknife",
+          "status": "EXISTING_REPRODUCIBLE_FIT"
+        },
+        {
+          "signal": "near12_group_nonoverlap",
+          "A": 0.925120437651621,
+          "u_reported": 0.36492910598006817,
+          "rho_absolute_A_over_u": 2.5350689284349643,
+          "route": "600s_nonoverlap_period_weight",
+          "uncertainty_definition": "Larger of scaled LS and UTC-day jackknife",
+          "status": "EXISTING_REPRODUCIBLE_FIT"
+        },
+        {
+          "signal": "diurnal_group_nonoverlap",
+          "A": 0.5791945678551199,
+          "u_reported": 0.5380686008315687,
+          "rho_absolute_A_over_u": 1.0764325719062444,
+          "route": "600s_nonoverlap_period_weight",
+          "uncertainty_definition": "Larger of scaled LS and UTC-day jackknife",
+          "status": "EXISTING_REPRODUCIBLE_FIT"
+        },
+        {
+          "signal": "full_triangular",
+          "A": 0.9,
+          "u_reported": 0.12,
+          "rho_absolute_A_over_u": 7.500000000000001,
+          "route": "v29_triangular_author_report",
+          "uncertainty_definition": "Residual calibrated for full/lunar; max scaled LS/day jackknife for near12/diurnal",
+          "status": "LEGACY_REPORTED_RATIO_ONLY_NO_DESIGN_RECONSTRUCTION"
+        },
+        {
+          "signal": "lunar_group_triangular",
+          "A": 0.97,
+          "u_reported": 0.14,
+          "rho_absolute_A_over_u": 6.928571428571428,
+          "route": "v29_triangular_author_report",
+          "uncertainty_definition": "Residual calibrated for full/lunar; max scaled LS/day jackknife for near12/diurnal",
+          "status": "LEGACY_REPORTED_RATIO_ONLY_NO_DESIGN_RECONSTRUCTION"
+        },
+        {
+          "signal": "near12_group_triangular",
+          "A": 0.9,
+          "u_reported": 0.29,
+          "rho_absolute_A_over_u": 3.1034482758620694,
+          "route": "v29_triangular_author_report",
+          "uncertainty_definition": "Residual calibrated for full/lunar; max scaled LS/day jackknife for near12/diurnal",
+          "status": "LEGACY_REPORTED_RATIO_ONLY_NO_DESIGN_RECONSTRUCTION"
+        },
+        {
+          "signal": "diurnal_twoband_triangular",
+          "A": 0.36,
+          "u_reported": 0.5,
+          "rho_absolute_A_over_u": 0.72,
+          "route": "v29_triangular_author_report",
+          "uncertainty_definition": "Residual calibrated for full/lunar; max scaled LS/day jackknife for near12/diurnal",
+          "status": "LEGACY_REPORTED_RATIO_ONLY_NO_DESIGN_RECONSTRUCTION"
+        },
+        {
+          "signal": "loading_v29",
+          "A": 0.89,
+          "u_reported": 0.55,
+          "rho_absolute_A_over_u": 1.6181818181818182,
+          "route": "v29_triangular_author_report",
+          "uncertainty_definition": "Specific error provenance unresolved",
+          "status": "LEGACY_AUTHOR_REPORTED_NOT_REPRODUCED"
+        },
+        {
+          "signal": "solid_new_auxiliary",
+          "A": 1.082321175789363,
+          "u_reported": 0.322408920985309,
+          "rho_absolute_A_over_u": 3.3569827177290805,
+          "route": "600s_nonoverlap_equal_weight_two_full_templates",
+          "uncertainty_definition": "43-day delete-one jackknife, all parameters refit",
+          "status": "NEW_AUXILIARY_EXPLORATORY"
+        },
+        {
+          "signal": "loading_new_auxiliary",
+          "A": 0.48608503417469034,
+          "u_reported": 0.5437692057086396,
+          "rho_absolute_A_over_u": 0.8939179142026343,
+          "route": "600s_nonoverlap_equal_weight_two_full_templates",
+          "uncertainty_definition": "43-day delete-one jackknife, all parameters refit",
+          "status": "NEW_AUXILIARY_EXPLORATORY"
+        }
+      ]
+    },
+    "snr_same_estimator_noise_predictions": {
+      "file": "results_library/signal_to_noise/same_estimator_noise_predictions.csv",
+      "rows": [
+        {
+          "signal": "full_nonoverlap",
+          "status": "SAME_ESTIMATOR_NOISE_PREDICTION",
+          "fitted_weighting": "existing_period_noise",
+          "reference_A": 0.9551118452023367,
+          "assumed_white_alpha_1e18_sqrt_s": 540.0,
+          "T_retained_member_s": 1965327.0,
+          "member_weighted_template_RMS_1e18": 4.566103230221934,
+          "u_white_same_estimator": 0.09751701839485616,
+          "rho_white_same_estimator": 9.794309351573828,
+          "unit_response_rho_white": 10.254620336636012,
+          "eta_actual_white": 0.8650679250975057,
+          "u_periodnoise_same_estimator": 0.09092073205826899,
+          "rho_periodnoise_same_estimator": 10.504885118943253,
+          "definition": "h is row of existing full LS estimator; u_white²=alpha² sum(h²/n), u_period²=sum(h² sigma²).",
+          "noise_scope": "Finite-design conditional prediction; no residual scale/jackknife calibration or model uncertainty included."
+        },
+        {
+          "signal": "lunar_group_nonoverlap",
+          "status": "SAME_ESTIMATOR_NOISE_PREDICTION",
+          "fitted_weighting": "existing_period_noise",
+          "reference_A": 1.0004025676842117,
+          "assumed_white_alpha_1e18_sqrt_s": 540.0,
+          "T_retained_member_s": 1965327.0,
+          "member_weighted_template_RMS_1e18": 3.4402609512102496,
+          "u_white_same_estimator": 0.13332413583002015,
+          "rho_white_same_estimator": 7.503536861170146,
+          "unit_response_rho_white": 7.500517395251951,
+          "eta_actual_white": 0.8398006107376057,
+          "u_periodnoise_same_estimator": 0.12329184991558659,
+          "rho_periodnoise_same_estimator": 8.114101364925181,
+          "definition": "h is row of existing full LS estimator; u_white²=alpha² sum(h²/n), u_period²=sum(h² sigma²).",
+          "noise_scope": "Finite-design conditional prediction; no residual scale/jackknife calibration or model uncertainty included."
+        },
+        {
+          "signal": "near12_group_nonoverlap",
+          "status": "SAME_ESTIMATOR_NOISE_PREDICTION",
+          "fitted_weighting": "existing_period_noise",
+          "reference_A": 0.925120437651621,
+          "assumed_white_alpha_1e18_sqrt_s": 540.0,
+          "T_retained_member_s": 1965327.0,
+          "member_weighted_template_RMS_1e18": 1.52728385067961,
+          "u_white_same_estimator": 0.29477493986327824,
+          "rho_white_same_estimator": 3.1383958150604934,
+          "unit_response_rho_white": 3.3924186379745085,
+          "eta_actual_white": 0.8555906511374589,
+          "u_periodnoise_same_estimator": 0.27966378362051275,
+          "rho_periodnoise_same_estimator": 3.307973687815634,
+          "definition": "h is row of existing full LS estimator; u_white²=alpha² sum(h²/n), u_period²=sum(h² sigma²).",
+          "noise_scope": "Finite-design conditional prediction; no residual scale/jackknife calibration or model uncertainty included."
+        },
+        {
+          "signal": "diurnal_group_nonoverlap",
+          "status": "SAME_ESTIMATOR_NOISE_PREDICTION",
+          "fitted_weighting": "existing_period_noise",
+          "reference_A": 0.5791945678551199,
+          "assumed_white_alpha_1e18_sqrt_s": 540.0,
+          "T_retained_member_s": 1965327.0,
+          "member_weighted_template_RMS_1e18": 1.3930032221551136,
+          "u_white_same_estimator": 0.37356719248564707,
+          "rho_white_same_estimator": 1.550442810572487,
+          "unit_response_rho_white": 2.676894599191607,
+          "eta_actual_white": 0.7402109408961322,
+          "u_periodnoise_same_estimator": 0.363140082195106,
+          "rho_periodnoise_same_estimator": 1.5949618239716465,
+          "definition": "h is row of existing full LS estimator; u_white²=alpha² sum(h²/n), u_period²=sum(h² sigma²).",
+          "noise_scope": "Finite-design conditional prediction; no residual scale/jackknife calibration or model uncertainty included."
+        },
+        {
+          "signal": "solid_new_auxiliary",
+          "status": "SAME_ESTIMATOR_NOISE_PREDICTION",
+          "fitted_weighting": "equal_weight",
+          "reference_A": 1.082321175789363,
+          "assumed_white_alpha_1e18_sqrt_s": 540.0,
+          "T_retained_member_s": 1965327.0,
+          "member_weighted_template_RMS_1e18": 3.382847188746186,
+          "u_white_same_estimator": 0.18623067108745606,
+          "rho_white_same_estimator": 5.811723544083093,
+          "unit_response_rho_white": 5.369684779422765,
+          "eta_actual_white": 0.6114243930969285,
+          "u_periodnoise_same_estimator": 0.20193221397488662,
+          "rho_periodnoise_same_estimator": 5.359824242426056,
+          "definition": "h is row of existing full LS estimator; u_white²=alpha² sum(h²/n), u_period²=sum(h² sigma²).",
+          "noise_scope": "Finite-design conditional prediction; no residual scale/jackknife calibration or model uncertainty included."
+        },
+        {
+          "signal": "loading_new_auxiliary",
+          "status": "SAME_ESTIMATOR_NOISE_PREDICTION",
+          "fitted_weighting": "equal_weight",
+          "reference_A": 0.48608503417469034,
+          "assumed_white_alpha_1e18_sqrt_s": 540.0,
+          "T_retained_member_s": 1965327.0,
+          "member_weighted_template_RMS_1e18": 1.5153693553783365,
+          "u_white_same_estimator": 0.4156451833170112,
+          "rho_white_same_estimator": 1.1694711106611209,
+          "unit_response_rho_white": 2.405898203894987,
+          "eta_actual_white": 0.6115544025581825,
+          "u_periodnoise_same_estimator": 0.43374127219089265,
+          "rho_periodnoise_same_estimator": 1.1206796893442983,
+          "definition": "h is row of existing full LS estimator; u_white²=alpha² sum(h²/n), u_period²=sum(h² sigma²).",
+          "noise_scope": "Finite-design conditional prediction; no residual scale/jackknife calibration or model uncertainty included."
+        }
+      ]
+    },
+    "constituent_constituent_snr": {
+      "file": "constituent_snr/results/constituent_snr.csv",
+      "rows": [
+        {
+          "constituent": "M2",
+          "covariance_model": "actual_period_noise",
+          "frequency_uHz": 22.364277963323186,
+          "cos_1e18": -1.6671638561747675,
+          "sin_1e18": -4.184843206155144,
+          "amplitude_1e18": 4.504702874046011,
+          "amplitude_cm": 4.128448590211213,
+          "amplitude_SE_local_delta_1e18": 0.6153237820801949,
+          "amplitude_SE_local_delta_cm": 0.5639290030178504,
+          "rho_amplitude_over_SE": 7.320865868075475,
+          "J_cos": -0.37009407785365495,
+          "J_sin": -0.9289942806808085,
+          "target_pair_covariance_e36": "[[0.38692402240668344, 0.00250670091133454], [0.00250670091133454, 0.37530873043062896]]",
+          "scope": "Local scalar delta propagation in the same M2/S2/N2/K2 + S54 equal-weight joint estimator; not a calibrated CI or Gaussian detection significance.",
+          "direct_phase_aligned_operator_SE_1e18": 0.6153237820801949,
+          "T_retained_member_s": null,
+          "phase_matched_unit_member_RMS": null,
+          "eta_actual_white": null
+        },
+        {
+          "constituent": "M2",
+          "covariance_model": "common_alpha540_white",
+          "frequency_uHz": 22.364277963323186,
+          "cos_1e18": -1.6671638561747675,
+          "sin_1e18": -4.184843206155144,
+          "amplitude_1e18": 4.504702874046011,
+          "amplitude_cm": 4.128448590211213,
+          "amplitude_SE_local_delta_1e18": 0.6280055428385244,
+          "amplitude_SE_local_delta_cm": 0.5755515225908443,
+          "rho_amplitude_over_SE": 7.173030438051851,
+          "J_cos": -0.37009407785365495,
+          "J_sin": -0.9289942806808085,
+          "target_pair_covariance_e36": "[[0.401053007599865, 0.003056110046541281], [0.003056110046541281, 0.39089864837287647]]",
+          "scope": "Local scalar delta propagation in the same M2/S2/N2/K2 + S54 equal-weight joint estimator; not a calibrated CI or Gaussian detection significance.",
+          "direct_phase_aligned_operator_SE_1e18": 0.6280055428385245,
+          "T_retained_member_s": 1965327.0,
+          "phase_matched_unit_member_RMS": 0.7029721332352614,
+          "eta_actual_white": 0.8725187395380561
+        },
+        {
+          "constituent": "M2",
+          "covariance_model": "existing_scaled_LS",
+          "frequency_uHz": 22.364277963323186,
+          "cos_1e18": -1.6671638561747675,
+          "sin_1e18": -4.184843206155144,
+          "amplitude_1e18": 4.504702874046011,
+          "amplitude_cm": 4.128448590211213,
+          "amplitude_SE_local_delta_1e18": 0.6823967889265642,
+          "amplitude_SE_local_delta_cm": 0.6253997522101071,
+          "rho_amplitude_over_SE": 6.601295532372123,
+          "J_cos": -0.37009407785365495,
+          "J_sin": -0.9289942806808085,
+          "target_pair_covariance_e36": "[[0.47334541016308523, 0.0034484685478801207], [0.003448468547880121, 0.4616988849606993]]",
+          "scope": "Local scalar delta propagation in the same M2/S2/N2/K2 + S54 equal-weight joint estimator; not a calibrated CI or Gaussian detection significance.",
+          "direct_phase_aligned_operator_SE_1e18": null,
+          "T_retained_member_s": null,
+          "phase_matched_unit_member_RMS": null,
+          "eta_actual_white": null
+        },
+        {
+          "constituent": "M2",
+          "covariance_model": "existing_UTC_day_jackknife",
+          "frequency_uHz": 22.364277963323186,
+          "cos_1e18": -1.6671638561747675,
+          "sin_1e18": -4.184843206155144,
+          "amplitude_1e18": 4.504702874046011,
+          "amplitude_cm": 4.128448590211213,
+          "amplitude_SE_local_delta_1e18": 0.642046058958655,
+          "amplitude_SE_local_delta_cm": 0.5884193077928298,
+          "rho_amplitude_over_SE": 7.0161677829660105,
+          "J_cos": -0.37009407785365495,
+          "J_sin": -0.9289942806808085,
+          "target_pair_covariance_e36": "[[0.7752313196097226, -0.06046686078728107], [-0.06046686078728107, 0.4027886732114367]]",
+          "scope": "Local scalar delta propagation in the same M2/S2/N2/K2 + S54 equal-weight joint estimator; not a calibrated CI or Gaussian detection significance.",
+          "direct_phase_aligned_operator_SE_1e18": null,
+          "T_retained_member_s": null,
+          "phase_matched_unit_member_RMS": null,
+          "eta_actual_white": null
+        },
+        {
+          "constituent": "S2",
+          "covariance_model": "actual_period_noise",
+          "frequency_uHz": 23.14814814814818,
+          "cos_1e18": -0.45992593971338724,
+          "sin_1e18": -1.86552257551509,
+          "amplitude_1e18": 1.9213813650021947,
+          "amplitude_cm": 1.7608984231354627,
+          "amplitude_SE_local_delta_1e18": 0.6787526306834563,
+          "amplitude_SE_local_delta_cm": 0.6220599714560987,
+          "rho_amplitude_over_SE": 2.8307534706237507,
+          "J_cos": -0.2393725410743025,
+          "J_sin": -0.9709277967900761,
+          "target_pair_covariance_e36": "[[0.4442345991469965, -0.003720748966540072], [-0.003720748966540072, 0.4635408721540406]]",
+          "scope": "Local scalar delta propagation in the same M2/S2/N2/K2 + S54 equal-weight joint estimator; not a calibrated CI or Gaussian detection significance.",
+          "direct_phase_aligned_operator_SE_1e18": 0.6787526306834563,
+          "T_retained_member_s": null,
+          "phase_matched_unit_member_RMS": null,
+          "eta_actual_white": null
+        },
+        {
+          "constituent": "S2",
+          "covariance_model": "common_alpha540_white",
+          "frequency_uHz": 23.14814814814818,
+          "cos_1e18": -0.45992593971338724,
+          "sin_1e18": -1.86552257551509,
+          "amplitude_1e18": 1.9213813650021947,
+          "amplitude_cm": 1.7608984231354627,
+          "amplitude_SE_local_delta_1e18": 0.6913960087657635,
+          "amplitude_SE_local_delta_cm": 0.6336473142573623,
+          "rho_amplitude_over_SE": 2.778988221861627,
+          "J_cos": -0.2393725410743025,
+          "J_sin": -0.9709277967900761,
+          "target_pair_covariance_e36": "[[0.46393831276856806, -0.00302664613130208], [-0.00302664613130208, 0.48037724540933696]]",
+          "scope": "Local scalar delta propagation in the same M2/S2/N2/K2 + S54 equal-weight joint estimator; not a calibrated CI or Gaussian detection significance.",
+          "direct_phase_aligned_operator_SE_1e18": 0.6913960087657635,
+          "T_retained_member_s": 1965327.0,
+          "phase_matched_unit_member_RMS": 0.7078056059692105,
+          "eta_actual_white": 0.7871100966609355
+        },
+        {
+          "constituent": "S2",
+          "covariance_model": "existing_scaled_LS",
+          "frequency_uHz": 23.14814814814818,
+          "cos_1e18": -0.45992593971338724,
+          "sin_1e18": -1.86552257551509,
+          "amplitude_1e18": 1.9213813650021947,
+          "amplitude_cm": 1.7608984231354627,
+          "amplitude_SE_local_delta_1e18": 0.7480140181286071,
+          "amplitude_SE_local_delta_cm": 0.6855363172549459,
+          "rho_amplitude_over_SE": 2.568643525971794,
+          "J_cos": -0.2393725410743025,
+          "J_sin": -0.9709277967900761,
+          "target_pair_covariance_e36": "[[0.545376339406597, -0.0030161747756256197], [-0.0030161747756256175, 0.5618721685457364]]",
+          "scope": "Local scalar delta propagation in the same M2/S2/N2/K2 + S54 equal-weight joint estimator; not a calibrated CI or Gaussian detection significance.",
+          "direct_phase_aligned_operator_SE_1e18": null,
+          "T_retained_member_s": null,
+          "phase_matched_unit_member_RMS": null,
+          "eta_actual_white": null
+        },
+        {
+          "constituent": "S2",
+          "covariance_model": "existing_UTC_day_jackknife",
+          "frequency_uHz": 23.14814814814818,
+          "cos_1e18": -0.45992593971338724,
+          "sin_1e18": -1.86552257551509,
+          "amplitude_1e18": 1.9213813650021947,
+          "amplitude_cm": 1.7608984231354627,
+          "amplitude_SE_local_delta_1e18": 0.9798492945615025,
+          "amplitude_SE_local_delta_cm": 0.898007604909697,
+          "rho_amplitude_over_SE": 1.960894778070991,
+          "J_cos": -0.2393725410743025,
+          "J_sin": -0.9709277967900761,
+          "target_pair_covariance_e36": "[[0.4909418532503673, -0.20286916889264958], [-0.20286916889264958, 1.0886520103809743]]",
+          "scope": "Local scalar delta propagation in the same M2/S2/N2/K2 + S54 equal-weight joint estimator; not a calibrated CI or Gaussian detection significance.",
+          "direct_phase_aligned_operator_SE_1e18": null,
+          "T_retained_member_s": null,
+          "phase_matched_unit_member_RMS": null,
+          "eta_actual_white": null
+        }
+      ]
+    },
+    "constituent_delete_day_coefficients": {
+      "file": "constituent_snr/results/delete_day_coefficients.csv",
+      "rows": [
+        {
+          "deleted_UTC_day": "2025-09-06",
+          "n_retained": 3251,
+          "M2_cos": -1.772399243246068,
+          "M2_sin": -4.180150676979615,
+          "S2_cos": -0.5550009851301808,
+          "S2_sin": -1.7244467674410573
+        },
+        {
+          "deleted_UTC_day": "2025-09-07",
+          "n_retained": 3186,
+          "M2_cos": -1.5018639631564696,
+          "M2_sin": -4.36327863637501,
+          "S2_cos": -0.3776269388403993,
+          "S2_sin": -2.1911035177560088
+        },
+        {
+          "deleted_UTC_day": "2025-09-08",
+          "n_retained": 3297,
+          "M2_cos": -1.6968818009642659,
+          "M2_sin": -4.19922082650348,
+          "S2_cos": -0.48606118606169363,
+          "S2_sin": -1.87598363225244
+        },
+        {
+          "deleted_UTC_day": "2025-10-07",
+          "n_retained": 3251,
+          "M2_cos": -1.6104554325292508,
+          "M2_sin": -4.217416295327428,
+          "S2_cos": -0.3782026633207178,
+          "S2_sin": -1.8629054617313079
+        },
+        {
+          "deleted_UTC_day": "2025-10-08",
+          "n_retained": 3154,
+          "M2_cos": -1.4347570652549,
+          "M2_sin": -4.172517750592224,
+          "S2_cos": -0.40605792961522835,
+          "S2_sin": -1.6054427942675509
+        },
+        {
+          "deleted_UTC_day": "2025-10-09",
+          "n_retained": 3289,
+          "M2_cos": -1.6856748992148611,
+          "M2_sin": -4.193308533670971,
+          "S2_cos": -0.4473513527233833,
+          "S2_sin": -1.8964628749801231
+        },
+        {
+          "deleted_UTC_day": "2026-01-06",
+          "n_retained": 3257,
+          "M2_cos": -1.6979667884321024,
+          "M2_sin": -4.151516051374609,
+          "S2_cos": -0.4683357819469007,
+          "S2_sin": -1.927371025814335
+        },
+        {
+          "deleted_UTC_day": "2026-01-07",
+          "n_retained": 3164,
+          "M2_cos": -2.012969007460669,
+          "M2_sin": -4.015007108729721,
+          "S2_cos": -0.2614263584392075,
+          "S2_sin": -2.288186100486629
+        },
+        {
+          "deleted_UTC_day": "2026-01-08",
+          "n_retained": 3176,
+          "M2_cos": -1.8193990067549068,
+          "M2_sin": -4.040078050962613,
+          "S2_cos": -0.4182284752486514,
+          "S2_sin": -2.0866468570182284
+        },
+        {
+          "deleted_UTC_day": "2026-01-09",
+          "n_retained": 3190,
+          "M2_cos": -1.5384670977003887,
+          "M2_sin": -4.397387175227309,
+          "S2_cos": -0.5261943898457666,
+          "S2_sin": -1.6906010834243759
+        },
+        {
+          "deleted_UTC_day": "2026-04-15",
+          "n_retained": 3212,
+          "M2_cos": -1.5847303057426827,
+          "M2_sin": -4.218915480931516,
+          "S2_cos": -0.4219161077558017,
+          "S2_sin": -2.0425156337920063
+        },
+        {
+          "deleted_UTC_day": "2026-04-16",
+          "n_retained": 3174,
+          "M2_cos": -1.886238723659206,
+          "M2_sin": -4.086469522102268,
+          "S2_cos": -0.6989530513124161,
+          "S2_sin": -1.5385824618886124
+        },
+        {
+          "deleted_UTC_day": "2026-04-17",
+          "n_retained": 3212,
+          "M2_cos": -1.5528114607568286,
+          "M2_sin": -4.219516050022501,
+          "S2_cos": -0.262608555813999,
+          "S2_sin": -1.8519347552622285
+        },
+        {
+          "deleted_UTC_day": "2026-04-18",
+          "n_retained": 3203,
+          "M2_cos": -1.69715073102707,
+          "M2_sin": -4.1646201564126315,
+          "S2_cos": -0.4891311631153903,
+          "S2_sin": -1.8968891694195213
+        },
+        {
+          "deleted_UTC_day": "2026-04-19",
+          "n_retained": 3247,
+          "M2_cos": -1.7235626664784802,
+          "M2_sin": -4.149583632352622,
+          "S2_cos": -0.5041321886468167,
+          "S2_sin": -1.9879717059841344
+        },
+        {
+          "deleted_UTC_day": "2026-05-15",
+          "n_retained": 3259,
+          "M2_cos": -1.615717223288936,
+          "M2_sin": -4.170458275206169,
+          "S2_cos": -0.3791172870697509,
+          "S2_sin": -1.8665615780565257
+        },
+        {
+          "deleted_UTC_day": "2026-05-16",
+          "n_retained": 3168,
+          "M2_cos": -1.7561699891881495,
+          "M2_sin": -4.219111479619305,
+          "S2_cos": -0.562812171016755,
+          "S2_sin": -1.959702770777832
+        },
+        {
+          "deleted_UTC_day": "2026-05-17",
+          "n_retained": 3174,
+          "M2_cos": -1.5552236650492892,
+          "M2_sin": -4.062661730863932,
+          "S2_cos": -0.4430024404962684,
+          "S2_sin": -1.523641879337678
+        },
+        {
+          "deleted_UTC_day": "2026-05-18",
+          "n_retained": 3229,
+          "M2_cos": -1.6634230702323043,
+          "M2_sin": -4.187294703444805,
+          "S2_cos": -0.45738044112913473,
+          "S2_sin": -1.85512154455314
+        },
+        {
+          "deleted_UTC_day": "2026-05-19",
+          "n_retained": 3236,
+          "M2_cos": -1.6682765139189302,
+          "M2_sin": -4.156098530969047,
+          "S2_cos": -0.5063489068048552,
+          "S2_sin": -1.9200392036605842
+        },
+        {
+          "deleted_UTC_day": "2026-06-29",
+          "n_retained": 3185,
+          "M2_cos": -1.7551339325992334,
+          "M2_sin": -4.112032460954018,
+          "S2_cos": -0.6089737151505232,
+          "S2_sin": -1.8034166130845823
+        },
+        {
+          "deleted_UTC_day": "2026-06-30",
+          "n_retained": 3250,
+          "M2_cos": -1.6987806371089105,
+          "M2_sin": -4.156712291385101,
+          "S2_cos": -0.515918575569194,
+          "S2_sin": -1.8645472969519403
+        },
+        {
+          "deleted_UTC_day": "2026-07-01",
+          "n_retained": 3227,
+          "M2_cos": -1.6210030541966298,
+          "M2_sin": -4.01598993646374,
+          "S2_cos": -0.5982225798010207,
+          "S2_sin": -1.8294513382575432
+        },
+        {
+          "deleted_UTC_day": "2026-07-02",
+          "n_retained": 3192,
+          "M2_cos": -1.626953439759935,
+          "M2_sin": -4.188935439268249,
+          "S2_cos": -0.4973478790299192,
+          "S2_sin": -1.8479376990694518
+        },
+        {
+          "deleted_UTC_day": "2026-07-03",
+          "n_retained": 3266,
+          "M2_cos": -1.6306044174031058,
+          "M2_sin": -4.116915043714069,
+          "S2_cos": -0.4895729795979,
+          "S2_sin": -1.9200289925973835
+        },
+        {
+          "deleted_UTC_day": "2026-07-04",
+          "n_retained": 3224,
+          "M2_cos": -1.806849450352023,
+          "M2_sin": -4.209400146884996,
+          "S2_cos": -0.33896531876252173,
+          "S2_sin": -1.7750991121211068
+        },
+        {
+          "deleted_UTC_day": "2026-07-05",
+          "n_retained": 3221,
+          "M2_cos": -1.66198820771887,
+          "M2_sin": -4.1839320793604555,
+          "S2_cos": -0.4645565850865543,
+          "S2_sin": -1.8711439724068728
+        },
+        {
+          "deleted_UTC_day": "2026-07-06",
+          "n_retained": 3237,
+          "M2_cos": -1.9088649900496453,
+          "M2_sin": -4.42517166381379,
+          "S2_cos": -0.45559516098803104,
+          "S2_sin": -1.413125059610043
+        },
+        {
+          "deleted_UTC_day": "2026-07-07",
+          "n_retained": 3288,
+          "M2_cos": -1.6771705780020063,
+          "M2_sin": -4.241755325285042,
+          "S2_cos": -0.5026415292404217,
+          "S2_sin": -1.8040764012129114
+        },
+        {
+          "deleted_UTC_day": "2026-08-07",
+          "n_retained": 3240,
+          "M2_cos": -1.6913917781928445,
+          "M2_sin": -4.150097714609292,
+          "S2_cos": -0.415875333141441,
+          "S2_sin": -1.8845043333863267
+        },
+        {
+          "deleted_UTC_day": "2026-08-08",
+          "n_retained": 3213,
+          "M2_cos": -1.8855224883854766,
+          "M2_sin": -4.15822925134053,
+          "S2_cos": -0.29367031751746087,
+          "S2_sin": -1.753616529601281
+        },
+        {
+          "deleted_UTC_day": "2026-08-09",
+          "n_retained": 3287,
+          "M2_cos": -1.9261418468615128,
+          "M2_sin": -4.242805779942542,
+          "S2_cos": -0.3064641673008132,
+          "S2_sin": -1.6393187208638542
+        },
+        {
+          "deleted_UTC_day": "2026-08-10",
+          "n_retained": 3216,
+          "M2_cos": -1.7665402390591676,
+          "M2_sin": -4.442386742225485,
+          "S2_cos": -0.6077795523865311,
+          "S2_sin": -1.753340770215017
+        },
+        {
+          "deleted_UTC_day": "2026-08-11",
+          "n_retained": 3155,
+          "M2_cos": -1.3813607523035756,
+          "M2_sin": -4.204875200687604,
+          "S2_cos": -0.4425793076458218,
+          "S2_sin": -1.9649810609192295
+        },
+        {
+          "deleted_UTC_day": "2026-08-12",
+          "n_retained": 3203,
+          "M2_cos": -1.730639945316032,
+          "M2_sin": -4.152727403596664,
+          "S2_cos": -0.49496953946571215,
+          "S2_sin": -1.8295825035204314
+        },
+        {
+          "deleted_UTC_day": "2026-08-13",
+          "n_retained": 3220,
+          "M2_cos": -1.7312352512142872,
+          "M2_sin": -4.17615636986772,
+          "S2_cos": -0.4954133924308027,
+          "S2_sin": -1.8963726883784653
+        },
+        {
+          "deleted_UTC_day": "2026-08-14",
+          "n_retained": 3263,
+          "M2_cos": -1.7024583641547044,
+          "M2_sin": -4.206206297385456,
+          "S2_cos": -0.4550208334642436,
+          "S2_sin": -1.9050455984088501
+        },
+        {
+          "deleted_UTC_day": "2026-08-20",
+          "n_retained": 3255,
+          "M2_cos": -1.7506485824885312,
+          "M2_sin": -4.155473947030469,
+          "S2_cos": -0.400890373014581,
+          "S2_sin": -1.8770452898831043
+        },
+        {
+          "deleted_UTC_day": "2026-08-21",
+          "n_retained": 3195,
+          "M2_cos": -1.4406400804351491,
+          "M2_sin": -4.277131836593456,
+          "S2_cos": -0.6179080764651145,
+          "S2_sin": -1.9015832890935347
+        },
+        {
+          "deleted_UTC_day": "2026-08-22",
+          "n_retained": 3155,
+          "M2_cos": -1.5407514968699496,
+          "M2_sin": -4.356475452906945,
+          "S2_cos": -0.6203064631979849,
+          "S2_sin": -1.9164691040331034
+        },
+        {
+          "deleted_UTC_day": "2026-08-23",
+          "n_retained": 3249,
+          "M2_cos": -1.5263468146751602,
+          "M2_sin": -4.159077742898364,
+          "S2_cos": -0.47634952738229847,
+          "S2_sin": -2.0034500706828786
+        },
+        {
+          "deleted_UTC_day": "2026-08-25",
+          "n_retained": 3198,
+          "M2_cos": -1.4609990195302194,
+          "M2_sin": -3.9886905817423055,
+          "S2_cos": -0.12041877707229859,
+          "S2_sin": -2.059010615727924
+        },
+        {
+          "deleted_UTC_day": "2026-08-26",
+          "n_retained": 3290,
+          "M2_cos": -1.6656246757322408,
+          "M2_sin": -4.1968174070900695,
+          "S2_cos": -0.4733478554758736,
+          "S2_sin": -1.8776018423866168
+        }
+      ]
+    },
+    "manuscript_snr_table": {
+      "file": "results/SNR_TABLE.csv",
+      "rows": [
+        {
+          "signal": "M2",
+          "label": "Lunar semidiurnal constituent (M₂)",
+          "amplitude": 4.504702874046011,
+          "amplitude_unit": "1e-18 fractional frequency",
+          "white": 7.173030438051851,
+          "period_noise": 7.320865868075475,
+          "day_jackknife": 7.0161677829660105,
+          "estimator": "Equal-weight M2/S2/N2/K2 joint sine-cosine fit and 54 offsets; local scalar amplitude propagation",
+          "u_white": null,
+          "u_period": null,
+          "u_day_jackknife": null
+        },
+        {
+          "signal": "S2",
+          "label": "Solar-frequency semidiurnal constituent (S₂)",
+          "amplitude": 1.9213813650021947,
+          "amplitude_unit": "1e-18 fractional frequency",
+          "white": 2.778988221861627,
+          "period_noise": 2.8307534706237507,
+          "day_jackknife": 1.960894778070991,
+          "estimator": "Equal-weight M2/S2/N2/K2 joint sine-cosine fit and 54 offsets; local scalar amplitude propagation",
+          "u_white": null,
+          "u_period": null,
+          "u_day_jackknife": null
+        },
+        {
+          "signal": "diurnal_group_nonoverlap",
+          "label": "Diurnal tidal group",
+          "amplitude": 0.5791945678551199,
+          "amplitude_unit": "dimensionless template response",
+          "white": 1.550442810572487,
+          "period_noise": 1.5949618239716465,
+          "day_jackknife": 1.0764325719062444,
+          "estimator": "Period-noise-weighted three-group fit and 54 offsets",
+          "u_white": 0.37356719248564707,
+          "u_period": 0.363140082195106,
+          "u_day_jackknife": 0.5380686008315687
+        },
+        {
+          "signal": "loading_new_auxiliary",
+          "label": "Ocean-loading template",
+          "amplitude": 0.48608503417469034,
+          "amplitude_unit": "dimensionless template response",
+          "white": 1.1694711106611209,
+          "period_noise": 1.1206796893442983,
+          "day_jackknife": 0.8939179142026343,
+          "estimator": "Equal-weight complete solid-Earth/loading two-template fit and 54 offsets",
+          "u_white": 0.4156451833170112,
+          "u_period": 0.43374127219089265,
+          "u_day_jackknife": 0.5437692057086396
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "results_library/legacy_loading_status.json": {
+      "value": 0.89,
+      "reported_uncertainty": 0.55,
+      "status": "LEGACY_AUTHOR_REPORTED_NOT_REPRODUCED",
+      "source": "inputs/V29_LOADING_EXCERPT.txt, Discussion paragraph beginning On the present baseline",
+      "source_sha256": "8bc41ac9f32a6359bfec8906192ac3b9c7a6af8d112e63c6f03d87b5d6e708c7",
+      "missing": [
+        "Exact v29 retained one-second mask and triangular-filter output",
+        "Aligned v29 direct-potential solid/loading model arrays",
+        "Exact loading-fit columns, treatment of any remainder and weighting specification",
+        "Error procedure specifically responsible for +/- 0.55"
+      ],
+      "non_substitution_rule": "New non-overlapping exploratory fit is separately labelled and cannot close these original-route provenance gaps."
+    },
+    "results_library/exploratory_solid_loading_fit.json": {
+      "status": "NEW_AUXILIARY_EXPLORATORY",
+      "model": "y_i = c_segment(i) + A_solid * full_solid_i + A_loading * full_loading_i + epsilon_i",
+      "data_route": "3299 non-overlapping means; equal weights; 54 segment constants; not v29 triangular-filter route",
+      "template_remainder": "Frozen full solid + frozen full loading equals frozen total. No extra remainder subtracted or fitted.",
+      "coefficients_order": [
+        "A_solid",
+        "A_loading"
+      ],
+      "coefficients": [
+        1.082321175789363,
+        0.48608503417469034
+      ],
+      "scaled_LS_SE": [
+        0.20174496181580676,
+        0.45100016293168743
+      ],
+      "scaled_LS_covariance": [
+        [
+          0.040701029618061324,
+          -0.06593187315376878
+        ],
+        [
+          -0.06593187315376876,
+          0.2034011469644086
+        ]
+      ],
+      "UTC_day_delete_one_SE": [
+        0.322408920985309,
+        0.5437692057086396
+      ],
+      "UTC_day_jackknife_covariance": [
+        [
+          0.10394751233091121,
+          -0.1556747403497067
+        ],
+        [
+          -0.1556747403497067,
+          0.2956849490770048
+        ]
+      ],
+      "UTC_day_jackknife_coefficient_correlation": -0.8879663138326045,
+      "design_correlation_after_S54": 0.7246295123124377,
+      "normalized_two_column_design_condition_number": 2.502587148062338,
+      "remaining_loading_template_energy_fraction_after_solid": 0.4749120698858388,
+      "projected_template_RMS_1e18": {
+        "solid": 3.0226148567700952,
+        "loading": 1.3520999968138323
+      },
+      "degrees_of_freedom": 3243,
+      "residual_RMS_1e18": 23.931261287599977,
+      "n_UTC_delete_blocks": 43,
+      "n_rows": 3299,
+      "n_segments": 54,
+      "independent_direct_design_rank": 56,
+      "independent_direct_coefficient_max_abs_difference": 5.329070518200751e-15,
+      "uncertainty_definition": "Scaled LS uses RSS/(n-rank); UTC day delete-one refits both coefficients and all surviving segment offsets, with (D-1)/D covariance. Not a new calibrated bootstrap CI.",
+      "limitations": "Exploratory shared-observation estimate; model systematic uncertainty not included. Not a reproduction/replacement of 0.89 +/- 0.55. No independent loading detection claim or p-value."
+    },
+    "results_library/signal_to_noise/RESULTS.json": {
+      "reported_ratios": [
+        {
+          "signal": "full_nonoverlap",
+          "A": 0.9551118452023367,
+          "u_reported": 0.10818213987308602,
+          "rho_absolute_A_over_u": 8.828738702366463,
+          "route": "600s_nonoverlap_period_weight",
+          "uncertainty_definition": "Larger of scaled LS and UTC-day jackknife",
+          "status": "EXISTING_REPRODUCIBLE_FIT"
+        },
+        {
+          "signal": "lunar_group_nonoverlap",
+          "A": 1.0004025676842117,
+          "u_reported": 0.13195555541744305,
+          "rho_absolute_A_over_u": 7.581359985333134,
+          "route": "600s_nonoverlap_period_weight",
+          "uncertainty_definition": "Larger of scaled LS and UTC-day jackknife",
+          "status": "EXISTING_REPRODUCIBLE_FIT"
+        },
+        {
+          "signal": "near12_group_nonoverlap",
+          "A": 0.925120437651621,
+          "u_reported": 0.36492910598006817,
+          "rho_absolute_A_over_u": 2.5350689284349643,
+          "route": "600s_nonoverlap_period_weight",
+          "uncertainty_definition": "Larger of scaled LS and UTC-day jackknife",
+          "status": "EXISTING_REPRODUCIBLE_FIT"
+        },
+        {
+          "signal": "diurnal_group_nonoverlap",
+          "A": 0.5791945678551199,
+          "u_reported": 0.5380686008315687,
+          "rho_absolute_A_over_u": 1.0764325719062444,
+          "route": "600s_nonoverlap_period_weight",
+          "uncertainty_definition": "Larger of scaled LS and UTC-day jackknife",
+          "status": "EXISTING_REPRODUCIBLE_FIT"
+        },
+        {
+          "signal": "full_triangular",
+          "A": 0.9,
+          "u_reported": 0.12,
+          "rho_absolute_A_over_u": 7.500000000000001,
+          "route": "v29_triangular_author_report",
+          "uncertainty_definition": "Residual calibrated for full/lunar; max scaled LS/day jackknife for near12/diurnal",
+          "status": "LEGACY_REPORTED_RATIO_ONLY_NO_DESIGN_RECONSTRUCTION"
+        },
+        {
+          "signal": "lunar_group_triangular",
+          "A": 0.97,
+          "u_reported": 0.14,
+          "rho_absolute_A_over_u": 6.928571428571428,
+          "route": "v29_triangular_author_report",
+          "uncertainty_definition": "Residual calibrated for full/lunar; max scaled LS/day jackknife for near12/diurnal",
+          "status": "LEGACY_REPORTED_RATIO_ONLY_NO_DESIGN_RECONSTRUCTION"
+        },
+        {
+          "signal": "near12_group_triangular",
+          "A": 0.9,
+          "u_reported": 0.29,
+          "rho_absolute_A_over_u": 3.1034482758620694,
+          "route": "v29_triangular_author_report",
+          "uncertainty_definition": "Residual calibrated for full/lunar; max scaled LS/day jackknife for near12/diurnal",
+          "status": "LEGACY_REPORTED_RATIO_ONLY_NO_DESIGN_RECONSTRUCTION"
+        },
+        {
+          "signal": "diurnal_twoband_triangular",
+          "A": 0.36,
+          "u_reported": 0.5,
+          "rho_absolute_A_over_u": 0.72,
+          "route": "v29_triangular_author_report",
+          "uncertainty_definition": "Residual calibrated for full/lunar; max scaled LS/day jackknife for near12/diurnal",
+          "status": "LEGACY_REPORTED_RATIO_ONLY_NO_DESIGN_RECONSTRUCTION"
+        },
+        {
+          "signal": "loading_v29",
+          "A": 0.89,
+          "u_reported": 0.55,
+          "rho_absolute_A_over_u": 1.6181818181818182,
+          "route": "v29_triangular_author_report",
+          "uncertainty_definition": "Specific error provenance unresolved",
+          "status": "LEGACY_AUTHOR_REPORTED_NOT_REPRODUCED"
+        },
+        {
+          "signal": "solid_new_auxiliary",
+          "A": 1.082321175789363,
+          "u_reported": 0.322408920985309,
+          "rho_absolute_A_over_u": 3.3569827177290805,
+          "route": "600s_nonoverlap_equal_weight_two_full_templates",
+          "uncertainty_definition": "43-day delete-one jackknife, all parameters refit",
+          "status": "NEW_AUXILIARY_EXPLORATORY"
+        },
+        {
+          "signal": "loading_new_auxiliary",
+          "A": 0.48608503417469034,
+          "u_reported": 0.5437692057086396,
+          "rho_absolute_A_over_u": 0.8939179142026343,
+          "route": "600s_nonoverlap_equal_weight_two_full_templates",
+          "uncertainty_definition": "43-day delete-one jackknife, all parameters refit",
+          "status": "NEW_AUXILIARY_EXPLORATORY"
+        }
+      ],
+      "same_estimator_noise_predictions": [
+        {
+          "signal": "full_nonoverlap",
+          "status": "SAME_ESTIMATOR_NOISE_PREDICTION",
+          "fitted_weighting": "existing_period_noise",
+          "reference_A": 0.9551118452023367,
+          "assumed_white_alpha_1e18_sqrt_s": 540.0,
+          "T_retained_member_s": 1965327.0,
+          "member_weighted_template_RMS_1e18": 4.566103230221934,
+          "u_white_same_estimator": 0.09751701839485616,
+          "rho_white_same_estimator": 9.794309351573828,
+          "unit_response_rho_white": 10.254620336636012,
+          "eta_actual_white": 0.8650679250975057,
+          "u_periodnoise_same_estimator": 0.09092073205826899,
+          "rho_periodnoise_same_estimator": 10.504885118943253,
+          "definition": "h is row of existing full LS estimator; u_white²=alpha² sum(h²/n), u_period²=sum(h² sigma²).",
+          "noise_scope": "Finite-design conditional prediction; no residual scale/jackknife calibration or model uncertainty included."
+        },
+        {
+          "signal": "lunar_group_nonoverlap",
+          "status": "SAME_ESTIMATOR_NOISE_PREDICTION",
+          "fitted_weighting": "existing_period_noise",
+          "reference_A": 1.0004025676842117,
+          "assumed_white_alpha_1e18_sqrt_s": 540.0,
+          "T_retained_member_s": 1965327.0,
+          "member_weighted_template_RMS_1e18": 3.4402609512102496,
+          "u_white_same_estimator": 0.13332413583002015,
+          "rho_white_same_estimator": 7.503536861170146,
+          "unit_response_rho_white": 7.500517395251951,
+          "eta_actual_white": 0.8398006107376057,
+          "u_periodnoise_same_estimator": 0.12329184991558659,
+          "rho_periodnoise_same_estimator": 8.114101364925181,
+          "definition": "h is row of existing full LS estimator; u_white²=alpha² sum(h²/n), u_period²=sum(h² sigma²).",
+          "noise_scope": "Finite-design conditional prediction; no residual scale/jackknife calibration or model uncertainty included."
+        },
+        {
+          "signal": "near12_group_nonoverlap",
+          "status": "SAME_ESTIMATOR_NOISE_PREDICTION",
+          "fitted_weighting": "existing_period_noise",
+          "reference_A": 0.925120437651621,
+          "assumed_white_alpha_1e18_sqrt_s": 540.0,
+          "T_retained_member_s": 1965327.0,
+          "member_weighted_template_RMS_1e18": 1.52728385067961,
+          "u_white_same_estimator": 0.29477493986327824,
+          "rho_white_same_estimator": 3.1383958150604934,
+          "unit_response_rho_white": 3.3924186379745085,
+          "eta_actual_white": 0.8555906511374589,
+          "u_periodnoise_same_estimator": 0.27966378362051275,
+          "rho_periodnoise_same_estimator": 3.307973687815634,
+          "definition": "h is row of existing full LS estimator; u_white²=alpha² sum(h²/n), u_period²=sum(h² sigma²).",
+          "noise_scope": "Finite-design conditional prediction; no residual scale/jackknife calibration or model uncertainty included."
+        },
+        {
+          "signal": "diurnal_group_nonoverlap",
+          "status": "SAME_ESTIMATOR_NOISE_PREDICTION",
+          "fitted_weighting": "existing_period_noise",
+          "reference_A": 0.5791945678551199,
+          "assumed_white_alpha_1e18_sqrt_s": 540.0,
+          "T_retained_member_s": 1965327.0,
+          "member_weighted_template_RMS_1e18": 1.3930032221551136,
+          "u_white_same_estimator": 0.37356719248564707,
+          "rho_white_same_estimator": 1.550442810572487,
+          "unit_response_rho_white": 2.676894599191607,
+          "eta_actual_white": 0.7402109408961322,
+          "u_periodnoise_same_estimator": 0.363140082195106,
+          "rho_periodnoise_same_estimator": 1.5949618239716465,
+          "definition": "h is row of existing full LS estimator; u_white²=alpha² sum(h²/n), u_period²=sum(h² sigma²).",
+          "noise_scope": "Finite-design conditional prediction; no residual scale/jackknife calibration or model uncertainty included."
+        },
+        {
+          "signal": "solid_new_auxiliary",
+          "status": "SAME_ESTIMATOR_NOISE_PREDICTION",
+          "fitted_weighting": "equal_weight",
+          "reference_A": 1.082321175789363,
+          "assumed_white_alpha_1e18_sqrt_s": 540.0,
+          "T_retained_member_s": 1965327.0,
+          "member_weighted_template_RMS_1e18": 3.382847188746186,
+          "u_white_same_estimator": 0.18623067108745606,
+          "rho_white_same_estimator": 5.811723544083093,
+          "unit_response_rho_white": 5.369684779422765,
+          "eta_actual_white": 0.6114243930969285,
+          "u_periodnoise_same_estimator": 0.20193221397488662,
+          "rho_periodnoise_same_estimator": 5.359824242426056,
+          "definition": "h is row of existing full LS estimator; u_white²=alpha² sum(h²/n), u_period²=sum(h² sigma²).",
+          "noise_scope": "Finite-design conditional prediction; no residual scale/jackknife calibration or model uncertainty included."
+        },
+        {
+          "signal": "loading_new_auxiliary",
+          "status": "SAME_ESTIMATOR_NOISE_PREDICTION",
+          "fitted_weighting": "equal_weight",
+          "reference_A": 0.48608503417469034,
+          "assumed_white_alpha_1e18_sqrt_s": 540.0,
+          "T_retained_member_s": 1965327.0,
+          "member_weighted_template_RMS_1e18": 1.5153693553783365,
+          "u_white_same_estimator": 0.4156451833170112,
+          "rho_white_same_estimator": 1.1694711106611209,
+          "unit_response_rho_white": 2.405898203894987,
+          "eta_actual_white": 0.6115544025581825,
+          "u_periodnoise_same_estimator": 0.43374127219089265,
+          "rho_periodnoise_same_estimator": 1.1206796893442983,
+          "definition": "h is row of existing full LS estimator; u_white²=alpha² sum(h²/n), u_period²=sum(h² sigma²).",
+          "noise_scope": "Finite-design conditional prediction; no residual scale/jackknife calibration or model uncertainty included."
+        }
+      ],
+      "optimal_common_white_design": [
+        {
+          "signal": "full_nonoverlap",
+          "status": "OPTIMAL_COMMON_WHITE_DESIGN",
+          "weighting": "W=n/alpha²",
+          "reference_A": 0.9551118452023367,
+          "refitted_A_with_optimal_white_weights": 0.9205184951304111,
+          "unit_response_SE": 0.09388576028096243,
+          "unit_response_rho": 10.65124249947384,
+          "rho_at_reference_A": 10.173127877370007,
+          "rho_at_refitted_A": 9.804665716884736,
+          "projected_information": 113.44896678259774,
+          "eta_total": 0.8985265125625157,
+          "eta_offset_only": 0.8985265125625157,
+          "eta_other_templates_given_offsets": 1.0,
+          "definition": "rho=|A| sqrt(s^T W R_N s), all other fitted columns in N.",
+          "not_same_estimator_warning": "White-optimal weights may differ from existing estimator; use same-estimator table for comparison with reported errors."
+        },
+        {
+          "signal": "lunar_group_nonoverlap",
+          "status": "OPTIMAL_COMMON_WHITE_DESIGN",
+          "weighting": "W=n/alpha²",
+          "reference_A": 1.0004025676842117,
+          "refitted_A_with_optimal_white_weights": 0.9554417626074672,
+          "unit_response_SE": 0.12913968201015455,
+          "unit_response_rho": 7.743553216441772,
+          "rho_at_reference_A": 7.746670520727686,
+          "rho_at_refitted_A": 7.398514133961849,
+          "projected_information": 59.96261641586572,
+          "eta_total": 0.8670122843210214,
+          "eta_offset_only": 0.9199632900427734,
+          "eta_other_templates_given_offsets": 0.9424422623219127,
+          "definition": "rho=|A| sqrt(s^T W R_N s), all other fitted columns in N.",
+          "not_same_estimator_warning": "White-optimal weights may differ from existing estimator; use same-estimator table for comparison with reported errors."
+        },
+        {
+          "signal": "near12_group_nonoverlap",
+          "status": "OPTIMAL_COMMON_WHITE_DESIGN",
+          "weighting": "W=n/alpha²",
+          "reference_A": 0.925120437651621,
+          "refitted_A_with_optimal_white_weights": 0.9709654803784257,
+          "unit_response_SE": 0.28554905181024726,
+          "unit_response_rho": 3.502025286585504,
+          "rho_at_reference_A": 3.2397951657930246,
+          "rho_at_refitted_A": 3.4003456646868875,
+          "projected_information": 12.264181107884278,
+          "eta_total": 0.8832341803895171,
+          "eta_offset_only": 0.9332712589020822,
+          "eta_other_templates_given_offsets": 0.9463852786258202,
+          "definition": "rho=|A| sqrt(s^T W R_N s), all other fitted columns in N.",
+          "not_same_estimator_warning": "White-optimal weights may differ from existing estimator; use same-estimator table for comparison with reported errors."
+        },
+        {
+          "signal": "diurnal_group_nonoverlap",
+          "status": "OPTIMAL_COMMON_WHITE_DESIGN",
+          "weighting": "W=n/alpha²",
+          "reference_A": 0.5791945678551199,
+          "refitted_A_with_optimal_white_weights": 0.43923839888583954,
+          "unit_response_SE": 0.369034344307939,
+          "unit_response_rho": 2.7097748906685895,
+          "rho_at_reference_A": 1.5694868967854483,
+          "rho_at_refitted_A": 1.1902371843183222,
+          "projected_information": 7.342879958097966,
+          "eta_total": 0.7493029505323974,
+          "eta_offset_only": 0.7534723007816174,
+          "eta_other_templates_given_offsets": 0.9944664850388063,
+          "definition": "rho=|A| sqrt(s^T W R_N s), all other fitted columns in N.",
+          "not_same_estimator_warning": "White-optimal weights may differ from existing estimator; use same-estimator table for comparison with reported errors."
+        },
+        {
+          "signal": "solid_new_auxiliary",
+          "status": "OPTIMAL_COMMON_WHITE_DESIGN",
+          "weighting": "W=n/alpha²",
+          "reference_A": 1.082321175789363,
+          "refitted_A_with_optimal_white_weights": 1.0778134783956823,
+          "unit_response_SE": 0.1852009029659837,
+          "unit_response_rho": 5.399541708409879,
+          "rho_at_reference_A": 5.844038330569886,
+          "rho_at_refitted_A": 5.8196988304838175,
+          "projected_information": 29.15505066085788,
+          "eta_total": 0.614824081427916,
+          "eta_offset_only": 0.8918615672882927,
+          "eta_other_templates_given_offsets": 0.6893716513620944,
+          "definition": "rho=|A| sqrt(s^T W R_N s), all other fitted columns in N.",
+          "not_same_estimator_warning": "White-optimal weights may differ from existing estimator; use same-estimator table for comparison with reported errors."
+        },
+        {
+          "signal": "loading_new_auxiliary",
+          "status": "OPTIMAL_COMMON_WHITE_DESIGN",
+          "weighting": "W=n/alpha²",
+          "reference_A": 0.48608503417469034,
+          "refitted_A_with_optimal_white_weights": 0.5236270591841654,
+          "unit_response_SE": 0.4136044069295593,
+          "unit_response_rho": 2.4177692095295042,
+          "rho_at_reference_A": 1.1752414288406632,
+          "rho_at_refitted_A": 1.2660093809719586,
+          "projected_information": 5.845607950548923,
+          "eta_total": 0.6145718892277467,
+          "eta_offset_only": 0.8914957382036893,
+          "eta_other_templates_given_offsets": 0.6893716513620944,
+          "definition": "rho=|A| sqrt(s^T W R_N s), all other fitted columns in N.",
+          "not_same_estimator_warning": "White-optimal weights may differ from existing estimator; use same-estimator table for comparison with reported errors."
+        }
+      ],
+      "existing_fit_verification": [
+        {
+          "model": "full_nonoverlap",
+          "point_estimate_max_abs_difference": 1.1102230246251565e-15,
+          "reproduced_A": [
+            0.9551118452023356
+          ],
+          "reproduced_scaled_LS_SE": [
+            0.09729538407994333
+          ],
+          "residual_scale": 1.1451401081472632,
+          "rank": 55,
+          "remainder": "Full prediction, all terms scaled by one coefficient."
+        },
+        {
+          "model": "groups_nonoverlap",
+          "point_estimate_max_abs_difference": 1.1102230246251565e-16,
+          "reproduced_A": [
+            1.0004025676842117,
+            0.925120437651621,
+            0.5791945678551198
+          ],
+          "reproduced_scaled_LS_SE": [
+            0.1319555554174431,
+            0.29931572867999506,
+            0.3886578980946355
+          ],
+          "residual_scale": 1.14547765081582,
+          "rank": 57,
+          "remainder": "Fixed remainder subtracted once; three templates jointly free."
+        },
+        {
+          "model": "solid_loading_new",
+          "point_estimate_max_abs_difference": 8.881784197001252e-16,
+          "reproduced_A": [
+            1.082321175789362,
+            0.4860850341746907
+          ],
+          "reproduced_scaled_LS_SE": [
+            0.20174496181580703,
+            0.4510001629316877
+          ],
+          "residual_scale": 582.5947194646757,
+          "rank": 56,
+          "remainder": "Two complete templates sum to total; no additional remainder."
+        }
+      ],
+      "definitions": {
+        "reported_rho": "|A| / quoted u; descriptive amplitude/error ratio, not a p-value.",
+        "same_estimator": "H=(X^T W X)^-1 X^T W calculated by QR; fixed remainder handled before H y.",
+        "white_noise_covariance": "diag(alpha²/n_k); alpha=540 in units of 1e-18 sqrt(s).",
+        "period_noise_covariance": "diag(sigma_k²) from frozen primary rows; no extra residual scale.",
+        "eta_actual": "alpha/(q sqrt(T) uwhite), q²=sum(n_k s_k²)/T; estimator losses are included.",
+        "time_scaling": "For assumed coherent signal and independent white noise only: rho=|A| q eta sqrt(T)/alpha, a=1,b=1/2 at fixed q and eta.",
+        "T": "sum of retained nominal one-second members, no >=2 day selection; all window effects remain in eta.",
+        "legacy": "Triangular estimates give reported ratios only; no invented sampling/estimator to predict their errors."
+      },
+      "reported_value_sources": {
+        "full_nonoverlap": "inputs/FULL_TIDE.json: A, SE",
+        "groups_nonoverlap": "inputs/original_RESULTS.json: primary.A, primary.u",
+        "new_solid_loading": "inputs/exploratory_solid_loading_fit.json: coefficients, UTC_day_delete_one_SE",
+        "legacy_triangular": {
+          "path": "../inputs/V29_REPORTED_EXCERPTS.txt",
+          "sha256": "3f406997e8df2a8651a284b964b081cedf233d6583edf6441dcc3addd8d0082d",
+          "scope": "Author-reported rounded values transcribed into reported table; no estimator reconstruction."
+        }
+      },
+      "n_rows": 3299,
+      "n_segments": 54,
+      "T_retained_member_s": 1965327.0,
+      "T_retained_member_h": 545.9241666666667,
+      "software": {
+        "python": "3.12.3",
+        "numpy": "2.5.4",
+        "pandas": "3.1.0"
+      },
+      "randomness": "None: algebraic propagation and finite-design fits, no simulation or fitted coherence exponent.",
+      "input_manifest": [
+        {
+          "file": "primary_rows.csv",
+          "source": "/home/room115/gravitation-whsh/final_candidates/A_v81_integration/data/primary_rows.csv",
+          "sha256": "ed1aef3e6dd6a44cf46a246ac5e14363f419f14d1e1e004a22b341f81118a803"
+        },
+        {
+          "file": "bins.csv",
+          "source": "/data/AI_Research/projects/grav-ws/manuscript_48h/nature_methods_closure_20261107T1343Z/results_library/inputs/bins.csv",
+          "sha256": "860b442aad8b1c39ad750aa27af0d8766cf210ae9b013006169d77fdb9e93d8d"
+        },
+        {
+          "file": "template.csv",
+          "source": "/data/AI_Research/projects/grav-ws/manuscript_48h/nature_methods_closure_20261107T1343Z/results_library/inputs/template.csv",
+          "sha256": "f17808f93e1f30cec01d7f99304ada954e04579c939a137bf7eb4e747677d0c7"
+        },
+        {
+          "file": "original_RESULTS.json",
+          "source": "/data/AI_Research/projects/grav-ws/manuscript_48h/nature_methods_closure_20261107T1343Z/results_library/inputs/original_RESULTS.json",
+          "sha256": "7e8b30a1344c1140318f7e0b49375d3c9a316d1909f994945b44fc02fd16e152"
+        },
+        {
+          "file": "FULL_TIDE.json",
+          "source": "/data/AI_Research/projects/grav-ws/manuscript_48h/nature_methods_closure_20261107T1343Z/data/amplitude_spectrum/inputs/FULL_TIDE.json",
+          "sha256": "6f09e6649c656ae4638d98e0a58f8a0da5040da9924f692a2e820835b8c64da1"
+        },
+        {
+          "file": "exploratory_solid_loading_fit.json",
+          "source": "/data/AI_Research/projects/grav-ws/manuscript_48h/nature_methods_closure_20261107T1343Z/results_library/exploratory_solid_loading_fit.json",
+          "sha256": "a287567d937f21e760bc5678dbd8f070af7fe487ed4fa72968287e6ba6db0631"
+        }
+      ],
+      "script_sha256": "592bb93d04c74fe2743f342205d2dea75d3b4dd13dcdcf6946f374943049bf2f"
+    },
+    "constituent_snr/results/RESULTS.json": {
+      "status": "COMPUTED_SAME_ESTIMATOR_SINGLE_CONSTITUENT_SCALAR_SNR",
+      "model": "raw y = M2 cos/sin + S2 cos/sin + N2 cos/sin + K2 cos/sin + 54 offsets; all free, equal fit weights.",
+      "phase_origin_UTC": "2025-09-06T16:05:00Z",
+      "n_rows": 3299,
+      "n_segments": 54,
+      "n_UTC_delete_days": 43,
+      "T_retained_member_s": 1965327.0,
+      "T_retained_member_h": 545.9241666666667,
+      "fit_rank": 62,
+      "residual_dof": 3237,
+      "fit_weighting": "Equal. Period noise changes propagated covariance only, not fitted coefficients or H.",
+      "noise_models": {
+        "actual_period_noise": "diag(sigma_k²) from existing period-dependent sigma; assumes independent bin errors, propagated H Sigma H^T.",
+        "common_alpha540_white": "diag(540²/n_k), alpha corresponds to about5.4e-16 sqrt(s).",
+        "existing_scaled_LS": "Existing residual-scaled LS covariance, independently reproduced.",
+        "existing_UTC_day_jackknife": "Existing covariance of four joint coefficients, independently reproduced by 43 deletions."
+      },
+      "scalar_definition": "A=hypot(beta_cos,beta_sin); J=(beta_cos,beta_sin)/A; uA=sqrt(J C_pair J^T); rho=A/uA.",
+      "operator_definition": "h_A=J H_pair; actual period noise uA²=sum(h_A,k² sigma_k²).",
+      "interpretation": "Measured-phase local linearization, especially approximate at low S2 SNR; not a nonlinear amplitude CI, p-value or independent detection significance.",
+      "coefficient_order": [
+        "M2_cos",
+        "M2_sin",
+        "S2_cos",
+        "S2_sin"
+      ],
+      "covariance_e36": {
+        "actual_period_noise": [
+          [
+            0.38692402240668344,
+            0.00250670091133454,
+            -0.06417147656775389,
+            -0.08367842198879472
+          ],
+          [
+            0.00250670091133454,
+            0.37530873043062896,
+            0.07965356257444868,
+            -0.03266499181222274
+          ],
+          [
+            -0.06417147656775389,
+            0.07965356257444868,
+            0.4442345991469965,
+            -0.003720748966540072
+          ],
+          [
+            -0.08367842198879472,
+            -0.03266499181222274,
+            -0.003720748966540072,
+            0.4635408721540406
+          ]
+        ],
+        "common_alpha540_white": [
+          [
+            0.401053007599865,
+            0.003056110046541281,
+            -0.1054317080181586,
+            -0.05916410321099077
+          ],
+          [
+            0.003056110046541281,
+            0.39089864837287647,
+            0.05345974252448764,
+            -0.07258908037564075
+          ],
+          [
+            -0.1054317080181586,
+            0.05345974252448764,
+            0.46393831276856806,
+            -0.00302664613130208
+          ],
+          [
+            -0.05916410321099077,
+            -0.07258908037564075,
+            -0.00302664613130208,
+            0.48037724540933696
+          ]
+        ],
+        "existing_scaled_LS": [
+          [
+            0.47334541016308523,
+            0.0034484685478801207,
+            -0.12593341188373725,
+            -0.07458224923213967
+          ],
+          [
+            0.003448468547880121,
+            0.4616988849606993,
+            0.06401506720621522,
+            -0.08606162814460841
+          ],
+          [
+            -0.12593341188373725,
+            0.06401506720621519,
+            0.545376339406597,
+            -0.0030161747756256197
+          ],
+          [
+            -0.07458224923213967,
+            -0.08606162814460841,
+            -0.0030161747756256175,
+            0.5618721685457364
+          ]
+        ],
+        "existing_UTC_day_jackknife": [
+          [
+            0.7752313196097226,
+            -0.06046686078728107,
+            -0.0029801069055621844,
+            -0.149226597039845
+          ],
+          [
+            -0.06046686078728107,
+            0.4027886732114367,
+            0.10999810284041904,
+            -0.17290447923234575
+          ],
+          [
+            -0.0029801069055621844,
+            0.10999810284041904,
+            0.4909418532503673,
+            -0.20286916889264958
+          ],
+          [
+            -0.149226597039845,
+            -0.17290447923234575,
+            -0.20286916889264958,
+            1.0886520103809743
+          ]
+        ]
+      },
+      "results": [
+        {
+          "constituent": "M2",
+          "covariance_model": "actual_period_noise",
+          "frequency_uHz": 22.364277963323186,
+          "cos_1e18": -1.6671638561747675,
+          "sin_1e18": -4.184843206155144,
+          "amplitude_1e18": 4.504702874046011,
+          "amplitude_cm": 4.128448590211213,
+          "amplitude_SE_local_delta_1e18": 0.6153237820801949,
+          "amplitude_SE_local_delta_cm": 0.5639290030178504,
+          "rho_amplitude_over_SE": 7.320865868075475,
+          "J_cos": -0.37009407785365495,
+          "J_sin": -0.9289942806808085,
+          "target_pair_covariance_e36": [
+            [
+              0.38692402240668344,
+              0.00250670091133454
+            ],
+            [
+              0.00250670091133454,
+              0.37530873043062896
+            ]
+          ],
+          "scope": "Local scalar delta propagation in the same M2/S2/N2/K2 + S54 equal-weight joint estimator; not a calibrated CI or Gaussian detection significance.",
+          "direct_phase_aligned_operator_SE_1e18": 0.6153237820801949
+        },
+        {
+          "constituent": "M2",
+          "covariance_model": "common_alpha540_white",
+          "frequency_uHz": 22.364277963323186,
+          "cos_1e18": -1.6671638561747675,
+          "sin_1e18": -4.184843206155144,
+          "amplitude_1e18": 4.504702874046011,
+          "amplitude_cm": 4.128448590211213,
+          "amplitude_SE_local_delta_1e18": 0.6280055428385244,
+          "amplitude_SE_local_delta_cm": 0.5755515225908443,
+          "rho_amplitude_over_SE": 7.173030438051851,
+          "J_cos": -0.37009407785365495,
+          "J_sin": -0.9289942806808085,
+          "target_pair_covariance_e36": [
+            [
+              0.401053007599865,
+              0.003056110046541281
+            ],
+            [
+              0.003056110046541281,
+              0.39089864837287647
+            ]
+          ],
+          "scope": "Local scalar delta propagation in the same M2/S2/N2/K2 + S54 equal-weight joint estimator; not a calibrated CI or Gaussian detection significance.",
+          "direct_phase_aligned_operator_SE_1e18": 0.6280055428385245,
+          "T_retained_member_s": 1965327.0,
+          "phase_matched_unit_member_RMS": 0.7029721332352614,
+          "eta_actual_white": 0.8725187395380561
+        },
+        {
+          "constituent": "M2",
+          "covariance_model": "existing_scaled_LS",
+          "frequency_uHz": 22.364277963323186,
+          "cos_1e18": -1.6671638561747675,
+          "sin_1e18": -4.184843206155144,
+          "amplitude_1e18": 4.504702874046011,
+          "amplitude_cm": 4.128448590211213,
+          "amplitude_SE_local_delta_1e18": 0.6823967889265642,
+          "amplitude_SE_local_delta_cm": 0.6253997522101071,
+          "rho_amplitude_over_SE": 6.601295532372123,
+          "J_cos": -0.37009407785365495,
+          "J_sin": -0.9289942806808085,
+          "target_pair_covariance_e36": [
+            [
+              0.47334541016308523,
+              0.0034484685478801207
+            ],
+            [
+              0.003448468547880121,
+              0.4616988849606993
+            ]
+          ],
+          "scope": "Local scalar delta propagation in the same M2/S2/N2/K2 + S54 equal-weight joint estimator; not a calibrated CI or Gaussian detection significance."
+        },
+        {
+          "constituent": "M2",
+          "covariance_model": "existing_UTC_day_jackknife",
+          "frequency_uHz": 22.364277963323186,
+          "cos_1e18": -1.6671638561747675,
+          "sin_1e18": -4.184843206155144,
+          "amplitude_1e18": 4.504702874046011,
+          "amplitude_cm": 4.128448590211213,
+          "amplitude_SE_local_delta_1e18": 0.642046058958655,
+          "amplitude_SE_local_delta_cm": 0.5884193077928298,
+          "rho_amplitude_over_SE": 7.0161677829660105,
+          "J_cos": -0.37009407785365495,
+          "J_sin": -0.9289942806808085,
+          "target_pair_covariance_e36": [
+            [
+              0.7752313196097226,
+              -0.06046686078728107
+            ],
+            [
+              -0.06046686078728107,
+              0.4027886732114367
+            ]
+          ],
+          "scope": "Local scalar delta propagation in the same M2/S2/N2/K2 + S54 equal-weight joint estimator; not a calibrated CI or Gaussian detection significance."
+        },
+        {
+          "constituent": "S2",
+          "covariance_model": "actual_period_noise",
+          "frequency_uHz": 23.14814814814818,
+          "cos_1e18": -0.45992593971338724,
+          "sin_1e18": -1.86552257551509,
+          "amplitude_1e18": 1.9213813650021947,
+          "amplitude_cm": 1.7608984231354627,
+          "amplitude_SE_local_delta_1e18": 0.6787526306834563,
+          "amplitude_SE_local_delta_cm": 0.6220599714560987,
+          "rho_amplitude_over_SE": 2.8307534706237507,
+          "J_cos": -0.2393725410743025,
+          "J_sin": -0.9709277967900761,
+          "target_pair_covariance_e36": [
+            [
+              0.4442345991469965,
+              -0.003720748966540072
+            ],
+            [
+              -0.003720748966540072,
+              0.4635408721540406
+            ]
+          ],
+          "scope": "Local scalar delta propagation in the same M2/S2/N2/K2 + S54 equal-weight joint estimator; not a calibrated CI or Gaussian detection significance.",
+          "direct_phase_aligned_operator_SE_1e18": 0.6787526306834563
+        },
+        {
+          "constituent": "S2",
+          "covariance_model": "common_alpha540_white",
+          "frequency_uHz": 23.14814814814818,
+          "cos_1e18": -0.45992593971338724,
+          "sin_1e18": -1.86552257551509,
+          "amplitude_1e18": 1.9213813650021947,
+          "amplitude_cm": 1.7608984231354627,
+          "amplitude_SE_local_delta_1e18": 0.6913960087657635,
+          "amplitude_SE_local_delta_cm": 0.6336473142573623,
+          "rho_amplitude_over_SE": 2.778988221861627,
+          "J_cos": -0.2393725410743025,
+          "J_sin": -0.9709277967900761,
+          "target_pair_covariance_e36": [
+            [
+              0.46393831276856806,
+              -0.00302664613130208
+            ],
+            [
+              -0.00302664613130208,
+              0.48037724540933696
+            ]
+          ],
+          "scope": "Local scalar delta propagation in the same M2/S2/N2/K2 + S54 equal-weight joint estimator; not a calibrated CI or Gaussian detection significance.",
+          "direct_phase_aligned_operator_SE_1e18": 0.6913960087657635,
+          "T_retained_member_s": 1965327.0,
+          "phase_matched_unit_member_RMS": 0.7078056059692105,
+          "eta_actual_white": 0.7871100966609355
+        },
+        {
+          "constituent": "S2",
+          "covariance_model": "existing_scaled_LS",
+          "frequency_uHz": 23.14814814814818,
+          "cos_1e18": -0.45992593971338724,
+          "sin_1e18": -1.86552257551509,
+          "amplitude_1e18": 1.9213813650021947,
+          "amplitude_cm": 1.7608984231354627,
+          "amplitude_SE_local_delta_1e18": 0.7480140181286071,
+          "amplitude_SE_local_delta_cm": 0.6855363172549459,
+          "rho_amplitude_over_SE": 2.568643525971794,
+          "J_cos": -0.2393725410743025,
+          "J_sin": -0.9709277967900761,
+          "target_pair_covariance_e36": [
+            [
+              0.545376339406597,
+              -0.0030161747756256197
+            ],
+            [
+              -0.0030161747756256175,
+              0.5618721685457364
+            ]
+          ],
+          "scope": "Local scalar delta propagation in the same M2/S2/N2/K2 + S54 equal-weight joint estimator; not a calibrated CI or Gaussian detection significance."
+        },
+        {
+          "constituent": "S2",
+          "covariance_model": "existing_UTC_day_jackknife",
+          "frequency_uHz": 23.14814814814818,
+          "cos_1e18": -0.45992593971338724,
+          "sin_1e18": -1.86552257551509,
+          "amplitude_1e18": 1.9213813650021947,
+          "amplitude_cm": 1.7608984231354627,
+          "amplitude_SE_local_delta_1e18": 0.9798492945615025,
+          "amplitude_SE_local_delta_cm": 0.898007604909697,
+          "rho_amplitude_over_SE": 1.960894778070991,
+          "J_cos": -0.2393725410743025,
+          "J_sin": -0.9709277967900761,
+          "target_pair_covariance_e36": [
+            [
+              0.4909418532503673,
+              -0.20286916889264958
+            ],
+            [
+              -0.20286916889264958,
+              1.0886520103809743
+            ]
+          ],
+          "scope": "Local scalar delta propagation in the same M2/S2/N2/K2 + S54 equal-weight joint estimator; not a calibrated CI or Gaussian detection significance."
+        }
+      ],
+      "verification": {
+        "coefficient_max_abs_difference": 4.440892098500626e-15,
+        "scaled_LS_covariance_max_abs_difference": 5.551115123125783e-16,
+        "UTC_day_covariance_max_abs_difference": 5.745404152435185e-15
+      },
+      "input_manifest": [
+        {
+          "file": "primary_rows.csv",
+          "source": "/home/room115/gravitation-whsh/final_candidates/A_v81_integration/data/primary_rows.csv",
+          "sha256": "ed1aef3e6dd6a44cf46a246ac5e14363f419f14d1e1e004a22b341f81118a803"
+        },
+        {
+          "file": "existing_NUMERIC_RESULTS.json",
+          "source": "/data/AI_Research/projects/grav-ws/manuscript_48h/final_article_20261107T061647Z/spectral_analysis/v86_auxiliary/results/NUMERIC_RESULTS.json",
+          "sha256": "d80eba3432304b937a406aff04fa23471c67152d9fe3b661ff227b62fdc9dbe0"
+        }
+      ],
+      "script_sha256": "3382b8241792644cb3339f07d72933c48ca99675598484ea7191cc302a8871c4",
+      "software": {
+        "python": "3.12.3",
+        "numpy": "2.5.4",
+        "pandas": "3.1.0"
+      },
+      "randomness": "None: deterministic fits, analytic covariance propagation, and delete-day refits; no simulated noise.",
+      "code_and_result_hashes": {
+        "constituent_snr.csv": "a657ddac0325ae0093c61be3f84f1311b664c8d42f0a49aa0562be1713467320",
+        "delete_day_coefficients.csv": "ee9a785a80c457bc367e2b593a899ea3fc3e8cf95c9e28ee5a1b29022801b8b2",
+        "estimator_rows.npz": "105699b48541281f9a03156fe520d6abaed3bf38cb72fb97d2781f8e9f689654"
+      }
+    },
+    "results/SNR_TABLE.json": {
+      "rows": [
+        {
+          "signal": "M2",
+          "label": "Lunar semidiurnal constituent (M₂)",
+          "amplitude": 4.504702874046011,
+          "amplitude_unit": "1e-18 fractional frequency",
+          "white": 7.173030438051851,
+          "period_noise": 7.320865868075475,
+          "day_jackknife": 7.0161677829660105,
+          "estimator": "Equal-weight M2/S2/N2/K2 joint sine-cosine fit and 54 offsets; local scalar amplitude propagation"
+        },
+        {
+          "signal": "S2",
+          "label": "Solar-frequency semidiurnal constituent (S₂)",
+          "amplitude": 1.9213813650021947,
+          "amplitude_unit": "1e-18 fractional frequency",
+          "white": 2.778988221861627,
+          "period_noise": 2.8307534706237507,
+          "day_jackknife": 1.960894778070991,
+          "estimator": "Equal-weight M2/S2/N2/K2 joint sine-cosine fit and 54 offsets; local scalar amplitude propagation"
+        },
+        {
+          "signal": "diurnal_group_nonoverlap",
+          "label": "Diurnal tidal group",
+          "amplitude": 0.5791945678551199,
+          "amplitude_unit": "dimensionless template response",
+          "white": 1.550442810572487,
+          "period_noise": 1.5949618239716465,
+          "day_jackknife": 1.0764325719062444,
+          "u_white": 0.37356719248564707,
+          "u_period": 0.363140082195106,
+          "u_day_jackknife": 0.5380686008315687,
+          "estimator": "Period-noise-weighted three-group fit and 54 offsets"
+        },
+        {
+          "signal": "loading_new_auxiliary",
+          "label": "Ocean-loading template",
+          "amplitude": 0.48608503417469034,
+          "amplitude_unit": "dimensionless template response",
+          "white": 1.1694711106611209,
+          "period_noise": 1.1206796893442983,
+          "day_jackknife": 0.8939179142026343,
+          "u_white": 0.4156451833170112,
+          "u_period": 0.43374127219089265,
+          "u_day_jackknife": 0.5437692057086396,
+          "estimator": "Equal-weight complete solid-Earth/loading two-template fit and 54 offsets"
+        }
+      ],
+      "n_bins": 3299,
+      "T_seconds": 1965327,
+      "input_sha256": {
+        "/data/AI_Research/projects/grav-ws/manuscript_48h/nature_delivery_20261107T151621Z/data_code/results_library/signal_to_noise/RESULTS.json": "f7386350f17c3a14b2fbbb8f6a45a358ee964fee6fcd0850be7c5beefefc56fe",
+        "/data/AI_Research/projects/grav-ws/manuscript_48h/nature_delivery_20261107T151621Z/data_code/results_library/signal_to_noise/estimator_rows.npz": "900a282171cef9c123bc9a54cd8c37c7b608dae38d0c878b76e439e7faaa8f8a",
+        "/data/AI_Research/projects/grav-ws/manuscript_48h/nature_delivery_20261107T151621Z/data_code/results_library/signal_to_noise/inputs/primary_rows.csv": "ed1aef3e6dd6a44cf46a246ac5e14363f419f14d1e1e004a22b341f81118a803",
+        "/data/AI_Research/projects/grav-ws/manuscript_48h/nature_delivery_20261107T151621Z/data_code/results_library/signal_to_noise/inputs/original_RESULTS.json": "7e8b30a1344c1140318f7e0b49375d3c9a316d1909f994945b44fc02fd16e152",
+        "/data/AI_Research/projects/grav-ws/manuscript_48h/nature_delivery_20261107T151621Z/data_code/results_library/signal_to_noise/inputs/exploratory_solid_loading_fit.json": "a287567d937f21e760bc5678dbd8f070af7fe487ed4fa72968287e6ba6db0631",
+        "/data/AI_Research/projects/grav-ws/manuscript_48h/nature_delivery_20261107T151621Z/data_code/constituent_snr/results/constituent_snr.csv": "a657ddac0325ae0093c61be3f84f1311b664c8d42f0a49aa0562be1713467320"
+      },
+      "software": {
+        "python": "3.12.3",
+        "numpy": "2.5.4",
+        "pandas": "3.1.0"
+      },
+      "randomness": "none",
+      "scope": "Algebraic re-evaluation of saved operators; no data reselection, new fit, or time-exponent estimation."
+    }
+  }
+}

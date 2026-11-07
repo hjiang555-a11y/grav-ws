@@ -1,0 +1,115 @@
+# Supplementary Information
+
+**Tidal potential measured with distant optical clocks**
+
+This document accompanies the main article. References, figure numbers, table numbers and named Methods sections follow the main article.
+
+## Supplementary Methods
+
+### SM1. Physical model implementation and sensitivity
+
+Here $V_{2m}$ are the degree-2 tide-generating potentials of the Moon and Sun separated by order $m$, $V_3$ is the lunar degree-3 potential, and $u_r$ is radial displacement. We use $k_{20}=0.29525$, $k_{22}=0.29801$ and $k_3=0.093$. The IERS 2010 resonance formula is applied constituent by constituent for $k_{21}$. It gives 0.2588 for the lunisolar diurnal tide, K₁, 0.2873 for the principal solar diurnal tide, P₁, and 0.2975 for the principal lunar diurnal tide, O₁. These diurnal constituents describe approximately once-daily changes associated with lunar and solar declination. The radial displacement is computed with the IERS algorithm, including the frequency and latitude dependence of the Love number $h$ ^20^.
+
+The ocean elevation $\zeta$ is taken from FES2022 on a $1/30^\circ$ grid ^21,22^, $\rho_w=1,025\ \mathrm{kg\,m^{-3}}$, $a$ and $M_E$ are Earth's radius and mass, and $\psi$ is angular distance. The Green's function follows ref. ^23^. PREM load Love numbers are used through degree $n=696$ ^29^, from the gravity-toolkit distribution ^30^. Above this degree, $h'_n$ is joined smoothly to its Boussinesq limit of −6.22, and the series is summed with a Kummer transformation through $n=40,000$. The convolution uses full grid resolution within 3° of each station and sums blocks of $8\times8$ cells farther away. This aggregation changes differential M₂ and K₁ loading by at most 0.05%. The ocean mean is removed to enforce mass conservation. The larger lunar elliptic diurnal tide, Q₁, accounts for a further once-daily contribution associated with the Moon's elliptical orbit. These four diurnal constituents and the four semidiurnal constituents introduced above (N₂, M₂, S₂ and K₂) are synthesized with astronomical arguments and nodal corrections.
+
+The full loading potential exceeds the vertical-displacement contribution $-g\delta h$ by factors of approximately 1.4 for the semidiurnal constituents and 1.8 for the diurnal constituents. The radial displacement from the same convolution agrees with the FES2022 load-tide grid to within 2% in amplitude and 1.2° in phase for seven of the eight constituents. This comparison checks the convolution and displacement contribution; the direct attraction and induced-potential terms use the same PREM load Love numbers. For S₂, the amplitude differs by 18% and the phase at Wuhan by 54°; the load-tide grid uses a different ocean-model release. The S₂ loading contributions expressed as fractional frequency are $0.62\times10^{-18}$ in Shanghai and $0.18\times10^{-18}$ in Wuhan, giving a differential amplitude of $0.63\times10^{-18}$, compared with $1.42\times10^{-18}$ for M₂. Substituting the S₂ loading inferred from the load-tide grid changes the full-template amplitude by 0.001 and the semidiurnal amplitude by 0.000 at the reported precision, with no reported change in the lunar amplitude. The lunar and near-12-h groups have separate fitted amplitudes.
+
+The Shanghai clock is 22 km from the nearest ocean cell. To examine coastal-mask sensitivity, land cells within 0.3° or 0.6° of the coastline in a $4^\circ\times5^\circ$ box centred on Shanghai are filled with the nearest ocean values. These strips, approximately 33–66 km wide, increase the Shanghai M₂ loading potential expressed as $\delta W/g$ from 15.3 mm to 17.0 or 18.5 mm and decrease the fitted response by 0.06 or 0.07. These are physical-model sensitivity tests, with shifts approximately half the quoted lunar statistical uncertainty; they are not treated as independent Gaussian errors or as an exhaustive loading-model uncertainty.
+
+The eight constituents explain 99.84% of the model variance. The remaining component, with an r.m.s. of $0.18\times10^{-18}$, is retained at its predicted value. Setting it to zero or doubling it gives semidiurnal amplitudes of 0.95–0.96 and lunar amplitudes of 0.95–0.99.
+
+### SM2. Selection and timing checks
+
+The transient criterion uses no tidal model. Adding the model with factors of −1, 1 or 3 leaves the removed samples unchanged. Six robust standard deviations is the lowest tested threshold for which this invariance holds up to three times the model. For block lengths of 60 or 300 s and thresholds from four to eight standard deviations, the lunar amplitude ranges from 0.93 to 1.02. Retaining the excursions gives $0.96\pm0.14$; the full-template and semidiurnal amplitudes change by less than 0.04. Before transient removal, the procedure reproduces the summer sample set of ref. ^25^. After removal, the campaign diurnal amplitudes are mutually consistent ($p=0.21$). Because the tested tidal additions do not change selection and the subsequent filter is linear, the injection simulations use the selected data.
+
+Durations refer to retained 1-s samples; exposure measured from the filtered data at 600-s steps, used for temperature overlap, is slightly shorter. The last April segment ends at 18:00 on 19 April, following the experiment team's segment table. Omitting endpoint trimming while retaining the other steps changes the lunar amplitude by −0.009 and the full-template amplitude by 0.008. Each segment has its own fitted offset. Time stamps are in local time (UTC+8); shifting the model by ±10 min changes $A$ by less than 0.02. Long-period tides are outside the analysis: the similar site latitudes make the predicted differential semiannual tide only about $2\times10^{-20}$.
+
+### SM3. Primary uncertainty calibration and injection validation
+
+For the lunar group, two independent sets of 200 realizations give standard deviations of 0.13 and 0.14, compared with 0.13 for the larger of the scaled least-squares and jackknife errors. We quote 0.14; the resampling bias is +0.01. With the daily disturbances defined in the main Methods, 5,000 realizations per scenario give standard deviations rounding to 0.14, coverage of 0.67–0.68 for the interval ±0.14, and 0.945–0.952 for ±1.96 × 0.14.
+
+For the semidiurnal response, the group-bootstrap standard deviation of 0.08 is smaller than the calibrated value of 0.12, and the larger value is quoted. Segment-bootstrap standard deviations give a lunar amplitude of $0.98\pm0.11$ and phase of $-6^\circ\pm8^\circ$.
+
+The added disturbances have r.m.s. values up to $1.9\times10^{-18}$. In 300 realizations per scenario and injected amplitude, lunar-amplitude biases lie between −0.03 and −0.00 at the reported precision. The larger of the scaled least-squares and jackknife errors covers the injected value in 0.59–0.71 of realizations at one standard error and 0.90–0.95 at 1.96 standard errors. The main estimate uses the calibrated uncertainty above. For $A=1$, the fitted lunar amplitude exceeds three times its estimated error in every realization; for $A=0$, this fraction is at most 0.003. These simulation results are conditional on the selected residual and disturbance models.
+
+In the triangular-filter reduction, the correlation between the lunar and neighbouring semidiurnal response coefficients is −0.32. The full-template and semidiurnal responses are $0.90\pm0.12$ and $0.96\pm0.12$, respectively (Extended Data Fig. 11). Summer supplies 61% of the conditional information on the lunar response and gives $0.87\pm0.18$, compared with $1.05\pm0.31$ for the earlier campaigns together. The five lunar estimates are consistent ($\chi^2=4.1$, four degrees of freedom, $p=0.40$; Extended Data Table 3). Semidiurnal estimates also agree across campaigns ($\chi^2=3.2$, four degrees of freedom, $p=0.52$; Extended Data Fig. 3). Resampling the operating groups gives a 95% lunar interval of [0.76, 1.18].
+
+### SM4. Primary prediction, monitoring and environmental checks
+
+Held-out prediction estimates the amplitude from the other observation periods and applies it to the excluded period, fitting that period's segment offsets. The whole-template prediction reduces residual sums of squares in seven of eight periods, by 4.9% when pooled; the lunar prediction improves six of eight periods, by 1.7% when pooled. These checks use the same underlying record as the primary fits.
+
+Over the 98-h overlap, the blackbody shift calculated from chamber temperature and filtered like the ratio has an r.m.s. of $2.8\times10^{-18}$, including the 30 June transient. Adding it with a free coefficient gives $0.92\pm0.74$, or $0.72\pm0.74$ after excluding the transient, with day-by-day jackknife errors. Both are consistent with zero at this precision. Through the summer lunar-estimator response of 0.016 per $10^{-18}$, a residual with the size of the observed 24-h ratio term would change the lunar amplitude by about 0.045. Without real-time correction, the blackbody shift would contain a daily component of $2.0\times10^{-18}$ peaking at 12:13 local time. In the same overlap, the fitted 24-h ratio term is $(0.9\pm1.1)\times10^{-18}$ with maximum at 10:54 ± 5.0 h. The mean daily profile of the uncorrected blackbody contribution has a peak-to-peak range of $4\times10^{-18}$, indicating the size of the removed effect.
+
+On the primary sampling after segment-mean removal, the predicted solid-tide and loading root-mean-square fractional frequencies are $3.0\times10^{-18}$ and $1.35\times10^{-18}$, and their sum is $4.1\times10^{-18}$. The whole-template response fitted to the solid-Earth tide alone is $1.19\pm0.20$, compared with 1.32 expected on this sampling for the combined model. The separately fitted loading coefficient is $0.89\pm0.55$, consistent with the combined prediction but insufficient to establish a separate loading detection.
+
+The summer 24-h term has amplitude $(2.8\pm1.3)\times10^{-18}$ and peaks at 15:48 local time, with a 1.5-h standard uncertainty; the 12-h term is $(0.6\pm0.7)\times10^{-18}$. Their summer projection coefficients are 0.016 and 0.043 per $10^{-18}$, giving maximum shifts of 0.045 and 0.024 at those fitted amplitudes (Extended Data Table 3). For the full record, a common-phase 12-h perturbation of amplitude $10^{-18}$ changes the whole-template response by at most 0.087.
+
+Campaign-specific 24-h regressors with phases fixed by local air temperature give a lunar response of $0.99\pm0.14$; free-phase campaign-specific 24-h terms give $0.97\pm0.15$. Omitting each earlier campaign in turn gives lunar responses between 0.89 and 0.99. Three of the nine identified transient excursions coincide with approximately equal and opposite link-monitor excursions (Extended Data Fig. 5). The transient criterion acts on 300-s deviations from a local running median and does not use the tidal waveform.
+
+Temperature-anomaly regressors at both sites give a lunar response of $0.98\pm0.13$. Replacing segment offsets by operating-group or period offsets gives $0.97\pm0.11$ and $0.99\pm0.11$, respectively. These estimates use the triangular-filter reduction (Fig. 4a).
+
+In the triangular-filter reduction, fits with common 24-h and 12-h terms give a lunar response of $1.00\pm0.13$. Campaign-specific free-phase 12-h terms give $0.82\pm0.17$, or $0.86\pm0.18$ when 24-h terms are also included (Fig. 4). Their errors follow the larger-of-scaled-least-squares-and-jackknife prescription for fits with empirical daily terms.
+
+### SM5. Primary spectral displays and alternative processing
+
+As a processing cross-check, the segment-wise estimator of ref. ^25^ demeans filtered data and model within each segment, fits the amplitude through the origin using non-overlapping 1,200-s windows, and combines segment estimates with inverse-variance weights. It differs from the primary joint fit in both sampling and weighting. For the summer record it gives $A=0.78\pm0.19$ with the present physical model, compared with $0.87\pm0.15$ with the model of ref. ^25^; the primary joint lunar fit gives $0.87\pm0.18$. The lower summer whole-template response, $0.67\pm0.18$, accompanies a low diurnal response and should not be substituted for the lunar estimate. For April, the segment-wise and joint estimates are $0.66\pm0.31$ and 0.91. For the complete record, the segment-wise result is $0.84\pm0.12$, with uncertainty scaled by the square root of the segment-to-segment reduced chi-square of 2.1.
+
+Independent processing of the same 2026 records uses non-overlapping 600-s means, corrected clock systematic shifts and fixed ten-day calendar baselines. It gives a whole-template response of $0.88\pm0.10$ without empirical daily terms and a lunar response of $0.89\pm0.28$ with daily terms in each ten-day block. Its whole-template prediction improves all six held-out 2026 periods. Simulations with white, Ornstein–Uhlenbeck (correlation times of 1 h to 3 d), Student-$t$ and moving-average noise give biases below 0.04 and nominal 95% interval coverage of 94.5–99.8%, using the largest of least-squares, delete-day and delete-period standard errors. Simpler solid-tide approximations change its whole-template scale by less than 0.01. These estimates are processing checks on shared observations and are not combined as independent measurements.
+
+Extended Data Fig. 11 collects the triangular-filter grouped responses, their covariance and the full-record harmonic spectrum. In the three-group fit, the diurnal coefficient is $0.35\pm0.51$; the two-band estimate in Extended Data Fig. 3b is $0.36\pm0.50$. The sampling, physical templates and uncertainty procedures are defined in “Tidal fits and uncertainty”.
+
+The full-record spectrum displays semidiurnal structure that is strongly reduced after subtraction of the fitted whole tidal template (Extended Data Fig. 11c). At M₂, harmonic power after projection of segment offsets decreases by 99%. The April time series provides a complementary view on an actual calendar-time axis (Extended Data Fig. 4). These spectra show squared sinusoidal amplitude divided by two on a linear ordinate, rather than density per unit frequency. Their residual-based thresholds provide frequency-domain evidence alongside the physical-template estimates; the power reduction is not an instrumental signal-to-noise ratio.
+
+### SM6. Auxiliary response and uncertainty details
+
+The full-template estimate is $0.9551\pm0.1082$, and the grouped lunar and neighbouring estimates are $1.0004\pm0.1320$ and $0.9251\pm0.3649$. In the phase-relaxed fit, the lunar in-phase and quadrature estimates are $1.0007\pm0.1320$ and $-0.0969\pm0.1989$.
+
+The full and lunar responses are close to the common-white-noise expectation; the other empirical errors are larger. Loading is weakly constrained, with projected solid-Earth/loading template correlation 0.725 and coefficient correlation −0.888 under day deletion. This comparison does not determine a loading coherence exponent. For the triangular-filter results, the corresponding ratios are 6.93 for the lunar group, 3.10 for the neighbouring semidiurnal group and 0.72 for the two-band diurnal estimate. These ratios retain that reduction's own uncertainty definitions.
+
+For M₂ and S₂, at the measured amplitudes $4.5047\times10^{-18}$ and $1.9214\times10^{-18}$, the observing-period noise propagation gives local standard errors $0.6153\times10^{-18}$ and $0.6788\times10^{-18}$.
+
+For the diurnal-group and auxiliary loading coefficients, respectively, the period-noise standard errors are 0.3631 and 0.4337; their UTC-day-jackknife errors are 0.5381 and 0.5438.
+
+As an additional noise comparison, we propagate the measured observing-period noise coefficients through the unchanged estimators using $C_\beta=H\Sigma H^{\mathsf T}$ and $\Sigma_{kk}=\alpha_{p(k)}^2/\Delta t_k$. Like the common-$\alpha$ calculation, this assumes independent white-frequency-noise bin errors; “period” identifies the observing period and does not denote a periodic disturbance. The resulting $S/R$ values for M₂, S₂, the diurnal group and ocean loading are 7.32, 2.83, 1.59 and 1.12. These supplementary comparisons do not change the weights or measured amplitudes of the estimators used in Table 1.
+
+### SM7. Compensation, alias and correlation diagnostics
+
+For donor $D$ and target $T$, the joint fit supplied the fixed donor coefficient vector $\hat\beta_D$. For 61 values of λ from 0 to 1.5, we formed $y_\lambda=y-\lambda X_D\hat\beta_D$ and fitted only the target pair together with $N$. With $P_T=R_NX_T$ and $P_D=R_NX_D$, its coefficient vector obeys
+
+$$
+\hat\beta_T(\lambda)=\hat\beta_{T,\mathrm{single}}-\lambda P_T^+P_D\hat\beta_D.
+$$
+
+Here $P_T^+$ denotes the Moore–Penrose pseudoinverse. We also repeated the sweep using the donor's single-frequency estimate to show the dependence on waveform definition. A separate jointly controlled fit retains both M₂ and S₂ pairs after subtraction. Its target coefficient is necessarily invariant, because the subtracted waveform lies within the fitted donor subspace; this curve is an algebraic control, not evidence against leakage. Amplitude is the norm of the two coefficients and phase is $\operatorname{atan2}(\beta_{\sin},\beta_{\cos})$, corresponding to $A\cos(2\pi f(t-t_0)-\phi)$. Target-only incremental improvement is $\Delta\mathrm{RSS}=\hat\beta_T^\mathsf TP_T^\mathsf TP_T\hat\beta_T$. The jointly controlled improvement instead residualizes the target against both $N$ and the donor, so these two improvements have different baselines even where their coefficient estimates coincide. Density panels use the normalization defined in “Auxiliary frequency-domain analysis”.
+
+Canonical correlations are the singular values of $Q_M^\mathsf TQ_S$, where each $Q$ spans a residualized constituent pair. Template lag correlations evaluate the fitted donor waveform at $t-\ell$ and the target at $t$, residualize both on the unchanged observation support, and normalize their inner product. Lags span ±24 h in 5-min steps. Their zero-lag correlation is 0.1955; maximum absolute lag correlations are 0.2413 for shifted M₂ against S₂ and 0.2113 in the reverse direction. These are design and fitted-template similarities, not an observed stochastic cross-correlation function or a measured propagation delay.
+
+For alias diagnostics, we scanned 20–25 μHz with spacing $1/(12T_{\rm span})$, where $T_{\rm span}$ is the elapsed observation span. For each donor, we selected the three strongest local maxima of its pure-injection spectrum at least $2/T_{\rm span}$ away from its own frequency. Selection used the injection response, not a significance threshold on the observed data. At each selected frequency, we compared the actual refit to the predicted vector response $\hat b_f(\lambda)=\hat b_f(0)-\lambda\hat b_{f,D}$. Its squared norm in the frequency-specific Gram metric gives the predicted quadratic power response. Numerical agreement verifies the processing operator; because this is a linear identity, agreement alone cannot establish an exclusively aliased origin of the observed peak. The compensation curves describe deterministic sensitivity conditional on the fitted waveforms. In this non-overlapping reduction, the lunar-waveform compensation minima at the sidelobes near 22.1016 and 22.6283 μHz occur at 0.996 and 1.0445 times the jointly fitted waveform (Extended Data Fig. 10).
+
+We express each four-coefficient covariance as a correlation matrix, $R_{ij}=C_{ij}/\sqrt{C_{ii}C_{jj}}$, separately for scaled least squares and UTC-day deletion (Extended Data Fig. 9c,d). These matrices describe the coupled uncertainty of the joint coefficient estimates, distinct from correlations of the design columns and fitted templates.
+
+Identification of the S₂-frequency contribution does not by itself assign its entire amplitude to the astronomical tide: a laboratory variation at exactly 12 h occupies the same frequency. Environmental and daily-term checks are described above.
+
+The largest absolute cross-component coefficient correlations between the joint M₂ and S₂ estimates are 0.248 under scaled least squares and 0.261 under UTC-day deletion (Extended Data Fig. 9). These coefficient correlations describe uncertainty coupling and differ from the canonical correlation of the projected design pairs.
+
+
+At 22.1016 and 22.6283 μHz, the lunar sampling response matches features whose powers fall by 99.56% and 99.39% after lunar subtraction (Extended Data Fig. 10).
+
+
+## References
+
+Reference numbers are retained from the main article.
+
+**20.** Petit, G. & Luzum, B. (eds) *IERS Conventions (2010)*. IERS Technical Note **36** (2010). <https://iers-conventions.obspm.fr/content/tn36.pdf>
+
+**21.** Lyard, F. H., Allain, D. J., Cancet, M., Carrère, L. & Picot, N. FES2014 global ocean tide atlas: design and performance. *Ocean Sci.* **17**, 615–649 (2021). <https://doi.org/10.5194/os-17-615-2021>
+
+**22.** CNES. *FES2022 (Finite Element Solution) Tidal model (Version 2024)* [Data set] (2024). <https://doi.org/10.24400/527896/A01-2024.004>
+
+**23.** Farrell, W. E. Deformation of the Earth by surface loads. *Rev. Geophys.* **10**, 761–797 (1972). <https://doi.org/10.1029/RG010i003p00761>
+
+**25.** Hou, L. et al. Yb/Sr optical clock comparison at $2.2\times10^{-18}$ uncertainty over a 1350-km fiber link. Preprint at <https://arxiv.org/abs/2610.34250v1> (2026).
+
+**29.** Han, D. & Wahr, J. The viscoelastic relaxation of a realistically stratified earth, and a further analysis of postglacial rebound. *Geophys. J. Int.* **120**, 287–311 (1995). <https://doi.org/10.1111/j.1365-246x.1995.tb01819.x>
+
+**30.** Sutterley, T. C. *gravity-toolkit: Python tools for working with time-variable gravity fields*. <https://github.com/polargeodesy/gravity-toolkit>.
