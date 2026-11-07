@@ -1,0 +1,23 @@
+{
+  "status": "INTRODUCTION_DRAFT4_AWAITING_AUTHOR_CONFIRMATION",
+  "baseline": "A_v83 existing results; Introduction draft3; language-only revision",
+  "paragraph_word_counts_whitespace": [
+    72,
+    115,
+    143,
+    131
+  ],
+  "word_count_whitespace": 461,
+  "references": 21,
+  "figure_1_placement": "Results; not moved or changed",
+  "abstract_modified": false,
+  "new_fits": false,
+  "data_processing": false,
+  "data_correctness_checks": false,
+  "simulations": false,
+  "literature_checked": true,
+  "next_step": "Author confirmation before Results drafting",
+  "literature_check_scope": "Sources checked in draft3; no new references in this language-only revision",
+  "author_approval": "Pending; candidate wording only",
+  "body_colons": 0
+}
