@@ -1,0 +1,19 @@
+{
+  "status": "INTRODUCTION_DRAFT7_AWAITING_AUTHOR_CONFIRMATION",
+  "baseline": "A_v83 existing results; Introduction draft6; author-directed transitions and reduced side topics",
+  "paragraph_word_counts_whitespace": [
+    119,
+    131,
+    124
+  ],
+  "word_count_whitespace": 374,
+  "references": 21,
+  "figure_1_placement": "Results; not moved or changed",
+  "abstract_modified": false,
+  "new_fits": false,
+  "data_processing": false,
+  "data_correctness_checks": false,
+  "simulations": false,
+  "literature_checked": true,
+  "next_step": "Author confirmation before Results drafting"
+}
