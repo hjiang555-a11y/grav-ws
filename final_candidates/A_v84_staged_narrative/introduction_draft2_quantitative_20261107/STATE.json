@@ -1,0 +1,22 @@
+{
+  "status": "INTRODUCTION_DRAFT2_AWAITING_AUTHOR_CONFIRMATION",
+  "baseline": "A_v83 existing results; Introduction draft1 editorial base",
+  "paragraph_word_counts_whitespace": [
+    97,
+    91,
+    100,
+    119,
+    101,
+    118
+  ],
+  "word_count_whitespace": 626,
+  "references": 14,
+  "figure_1_placement": "Results; not moved or changed",
+  "abstract_modified": false,
+  "new_fits": false,
+  "data_processing": false,
+  "data_correctness_checks": false,
+  "simulations": false,
+  "literature_checked": true,
+  "next_step": "Author confirmation before Results drafting"
+}
