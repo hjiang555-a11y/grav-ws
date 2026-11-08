@@ -1,0 +1,6 @@
+{"status": "PASS", "row_counts": {"ed7_spectra": 1286, "ed7_conditional": 237, "ed10_spectra": 3664}, "joint_max_abs_difference": 0.0}
+{"figure": "ED7", "status": "PASS", "checked_data_curves": 13, "shared_amplitude_ylim_cm": [0, 87.78062058120098]}
+{"checked_curves": 12, "rows": 488, "amplitude_definition": "hypot(cos,sin) * 100 c^2 / g0 * 1e-18; cm", "scope": "Frozen coefficients, no refit. Former density panels removed; 2x2 amplitude/phase display."}
+{"figure": "ED9", "output": "/tmp/ed_amplitude_relocation_nnjw8s5o/figures/ED_Figure_9", "new_fitting": false}
+{"figure": "ED10", "output": "/tmp/ed_amplitude_relocation_nnjw8s5o/figures/ED_Figure_10", "row_shared_ylim_cm": [[0, 55.70434330434464], [0, 3.47272849424073]]}
+

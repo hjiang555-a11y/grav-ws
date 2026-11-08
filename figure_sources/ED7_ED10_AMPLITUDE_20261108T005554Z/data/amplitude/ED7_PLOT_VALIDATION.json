@@ -1,0 +1,81 @@
+{
+  "status": "PASS",
+  "scope": "Plot saved scalar pair amplitudes in cm, no rescan or fits in this plotting script.",
+  "checked_data_curves": 13,
+  "display": "All identifiable scan values retained in full-range main axes; separate labelled 0–6 cm zoom insets below each panel. Exact nuisance rows retained with NaN/status.",
+  "axes": [
+    {
+      "panel": "a",
+      "ylim": [
+        0.0,
+        87.78062058120098
+      ],
+      "xlim": [
+        21.0,
+        24.5
+      ],
+      "yscale": "linear",
+      "data_curves": 2,
+      "ylabel": "Equivalent-height sinusoidal\npeak amplitude (cm)"
+    },
+    {
+      "panel": "b",
+      "ylim": [
+        0.0,
+        87.78062058120098
+      ],
+      "xlim": [
+        21.0,
+        24.5
+      ],
+      "yscale": "linear",
+      "data_curves": 4,
+      "ylabel": ""
+    },
+    {
+      "panel": "c",
+      "ylim": [
+        0.0,
+        87.78062058120098
+      ],
+      "xlim": [
+        21.0,
+        24.5
+      ],
+      "yscale": "linear",
+      "data_curves": 3,
+      "ylabel": "Equivalent-height sinusoidal\npeak amplitude (cm)"
+    },
+    {
+      "panel": "d",
+      "ylim": [
+        0.0,
+        87.78062058120098
+      ],
+      "xlim": [
+        21.0,
+        24.5
+      ],
+      "yscale": "linear",
+      "data_curves": 4,
+      "ylabel": ""
+    }
+  ],
+  "input_sha256": {
+    "ed7_spectra.csv": "7bbbe3c2d062bb65b8506c251c3bcede6d1b4451db8b05bbf6d531272b8139ce",
+    "ed7_conditional.csv": "0c6328fe7d3ef6406a16d494c9aaa57b9bf1a05bb70b5abc65e5ed940f6e9805",
+    "NUMERIC_RESULTS.json": "d80eba3432304b937a406aff04fa23471c67152d9fe3b661ff227b62fdc9dbe0"
+  },
+  "script_sha256": "accb0031a83f1df4538e9742c4956a37d38dd502e256bbea573dfee672b5ff83",
+  "software": {
+    "python": "3.12.3",
+    "numpy": "2.5.4",
+    "pandas": "3.1.0",
+    "matplotlib": "3.11.2"
+  },
+  "outputs_sha256": {
+    "ED_Figure_7.pdf": "b855fe94dfc244e29e95eb721e9b412be2041cee0021cf0941e9821e60f5466c",
+    "ED_Figure_7.png": "9db0d8574151bd9491cfa1c4618b0763d780f51dafc5a526744d2c7f6193bb5e",
+    "ED_Figure_7.svg": "f99143fa3a20178fb30e32bf69bf64eaa79228e9696fd73daa5c8c0f9963ade1"
+  }
+}

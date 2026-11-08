@@ -1,0 +1,466 @@
+{
+  "status": "PASS",
+  "scope": "Same sampling/grid/nuisance/weights; recover fitted pair amplitude. No JK refits, new significance, screening or interpolation.",
+  "n_rows": 3299,
+  "n_segments": 54,
+  "conversion_cm_per_1e18": 0.9164752272558087,
+  "joint_coefficients_e18": [
+    -1.6671638561747666,
+    -4.18484320615514,
+    -0.4599259397133884,
+    -1.8655225755150884
+  ],
+  "joint_max_abs_difference": 0.0,
+  "random_frequency_verification_seed": 20261108,
+  "row_counts": {
+    "ed7_spectra": 1286,
+    "ed7_conditional": 237,
+    "ed10_spectra": 3664
+  },
+  "checks": [
+    {
+      "check": "ED7 observed_N2K2_controlled Gram reproduces frozen density",
+      "max_absolute_difference": 3.603783937933258e-13,
+      "n_identifiable_compared": 1284,
+      "non_identifiable_legacy_scores_not_validated": [
+        {
+          "row": 346,
+          "old_density": 0.05900668437389596
+        },
+        {
+          "row": 813,
+          "old_density": 0.023144308284674873
+        }
+      ],
+      "status": "PASS on identifiable frequencies only"
+    },
+    {
+      "check": "ED7 minus_M2 Gram reproduces frozen density",
+      "max_absolute_difference": 1.662558979376172e-13,
+      "n_identifiable_compared": 1284,
+      "non_identifiable_legacy_scores_not_validated": [
+        {
+          "row": 346,
+          "old_density": 0.03845185207252208
+        },
+        {
+          "row": 813,
+          "old_density": 0.07566806513003745
+        }
+      ],
+      "status": "PASS on identifiable frequencies only"
+    },
+    {
+      "check": "ED7 minus_S2 Gram reproduces frozen density",
+      "max_absolute_difference": 2.956523914576792e-13,
+      "n_identifiable_compared": 1284,
+      "non_identifiable_legacy_scores_not_validated": [
+        {
+          "row": 346,
+          "old_density": 0.06046920216464929
+        },
+        {
+          "row": 813,
+          "old_density": 0.028325691865728392
+        }
+      ],
+      "status": "PASS on identifiable frequencies only"
+    },
+    {
+      "check": "ED7 minus_both Gram reproduces frozen density",
+      "max_absolute_difference": 1.3128387266192476e-13,
+      "n_identifiable_compared": 1284,
+      "non_identifiable_legacy_scores_not_validated": [
+        {
+          "row": 346,
+          "old_density": 0.04317545777286615
+        },
+        {
+          "row": 813,
+          "old_density": 0.08521118483965065
+        }
+      ],
+      "status": "PASS on identifiable frequencies only"
+    },
+    {
+      "check": "ED7 M2_only_fitted_phase Gram reproduces frozen density",
+      "max_absolute_difference": 2.446931546273845e-13,
+      "n_identifiable_compared": 1284,
+      "non_identifiable_legacy_scores_not_validated": [
+        {
+          "row": 346,
+          "old_density": 0.009189538788229475
+        },
+        {
+          "row": 813,
+          "old_density": 0.015284826062347972
+        }
+      ],
+      "status": "PASS on identifiable frequencies only"
+    },
+    {
+      "check": "ED7 S2_only_fitted_phase Gram reproduces frozen density",
+      "max_absolute_difference": 4.4603210014315664e-14,
+      "n_identifiable_compared": 1284,
+      "non_identifiable_legacy_scores_not_validated": [
+        {
+          "row": 346,
+          "old_density": 0.0005624087887201231
+        },
+        {
+          "row": 813,
+          "old_density": 0.0006030515963784352
+        }
+      ],
+      "status": "PASS on identifiable frequencies only"
+    },
+    {
+      "check": "ED7 M2_plus_S2_model Gram reproduces frozen density",
+      "max_absolute_difference": 3.056443986793056e-13,
+      "n_identifiable_compared": 1284,
+      "non_identifiable_legacy_scores_not_validated": [
+        {
+          "row": 346,
+          "old_density": 0.01301303548654036
+        },
+        {
+          "row": 813,
+          "old_density": 0.020249613787286184
+        }
+      ],
+      "status": "PASS on identifiable frequencies only"
+    },
+    {
+      "check": "ED7a baseline Gram reproduces old density",
+      "max_absolute_difference": 4.285460875053104e-13,
+      "n_identifiable_compared": 1286,
+      "non_identifiable_legacy_scores_not_validated": [],
+      "status": "PASS on identifiable frequencies only"
+    },
+    {
+      "check": "ED7a observed amplitude agrees with main Fig3",
+      "max_absolute_difference": 7.107647803650252e-13,
+      "n_identifiable_compared": 1286,
+      "non_identifiable_legacy_scores_not_validated": [],
+      "status": "PASS on identifiable frequencies only"
+    },
+    {
+      "check": "ED7a residual main-Fig3 Gram density matches old ED7",
+      "max_absolute_difference": 1.3739009929736312e-13,
+      "n_identifiable_compared": 1286,
+      "non_identifiable_legacy_scores_not_validated": [],
+      "status": "PASS on identifiable frequencies only"
+    },
+    {
+      "check": "ED7 controlled independent full LS",
+      "frequency_uHz": 22.186435570925887,
+      "coefficient_max_abs_difference_1e18": 1.7363888105137448e-13,
+      "Gram_vs_nested_RSS_max_abs_difference": 4.279172571841627e-09,
+      "status": "PASS"
+    },
+    {
+      "check": "ED7 controlled independent full LS",
+      "frequency_uHz": 21.512297158027888,
+      "coefficient_max_abs_difference_1e18": 3.6270986214503864e-13,
+      "Gram_vs_nested_RSS_max_abs_difference": 4.688217813964002e-09,
+      "status": "PASS"
+    },
+    {
+      "check": "ED7 controlled independent full LS",
+      "frequency_uHz": 21.29941134342852,
+      "coefficient_max_abs_difference_1e18": 5.697664562376303e-13,
+      "Gram_vs_nested_RSS_max_abs_difference": 5.002220859751105e-09,
+      "status": "PASS"
+    },
+    {
+      "check": "ED7 controlled independent full LS",
+      "frequency_uHz": 22.404779996155998,
+      "coefficient_max_abs_difference_1e18": 1.013633621482768e-12,
+      "Gram_vs_nested_RSS_max_abs_difference": 4.181856638751924e-09,
+      "status": "PASS"
+    },
+    {
+      "check": "ED7 controlled independent full LS",
+      "frequency_uHz": 22.60401928417849,
+      "coefficient_max_abs_difference_1e18": 7.313039063205906e-13,
+      "Gram_vs_nested_RSS_max_abs_difference": 4.3496015678101685e-09,
+      "status": "PASS"
+    },
+    {
+      "check": "ED7 controlled independent full LS",
+      "frequency_uHz": 22.462095407778914,
+      "coefficient_max_abs_difference_1e18": 2.9620750296999176e-13,
+      "Gram_vs_nested_RSS_max_abs_difference": 5.236870492808521e-09,
+      "status": "PASS"
+    },
+    {
+      "check": "ED7 controlled independent full LS",
+      "frequency_uHz": 21.10835997135216,
+      "coefficient_max_abs_difference_1e18": 3.4650060598551136e-13,
+      "Gram_vs_nested_RSS_max_abs_difference": 1.108219294110313e-08,
+      "status": "PASS"
+    },
+    {
+      "check": "ED7 controlled independent full LS",
+      "frequency_uHz": 23.826748065467168,
+      "coefficient_max_abs_difference_1e18": 1.3233858453531866e-13,
+      "Gram_vs_nested_RSS_max_abs_difference": 4.560206434689462e-09,
+      "status": "PASS"
+    },
+    {
+      "check": "ED7a baseline independent full LS",
+      "frequency_uHz": 22.186435570925887,
+      "coefficient_max_abs_difference_1e18": 1.325606291402437e-13,
+      "Gram_vs_nested_RSS_max_abs_difference": 3.728928277269006e-11,
+      "status": "PASS"
+    },
+    {
+      "check": "ED7a baseline independent full LS",
+      "frequency_uHz": 21.512297158027888,
+      "coefficient_max_abs_difference_1e18": 3.2104874314597964e-13,
+      "Gram_vs_nested_RSS_max_abs_difference": 5.243236955720931e-10,
+      "status": "PASS"
+    },
+    {
+      "check": "ED7a baseline independent full LS",
+      "frequency_uHz": 21.29941134342852,
+      "coefficient_max_abs_difference_1e18": 4.192202140984591e-13,
+      "Gram_vs_nested_RSS_max_abs_difference": 1.7826096154749393e-09,
+      "status": "PASS"
+    },
+    {
+      "check": "ED7 M2 conditional Gram density",
+      "max_absolute_difference": 2.9964919434632975e-13,
+      "n_identifiable_compared": 118,
+      "non_identifiable_legacy_scores_not_validated": [],
+      "status": "PASS on identifiable frequencies only"
+    },
+    {
+      "check": "ED7 M2 conditional independent full LS",
+      "frequency_uHz": 22.235563066602666,
+      "coefficient_max_abs_difference_1e18": 3.6992631180510216e-13,
+      "Gram_vs_nested_RSS_max_abs_difference": 1.0309122444596142e-09,
+      "status": "PASS"
+    },
+    {
+      "check": "ED7 M2 conditional independent full LS",
+      "frequency_uHz": 22.262856119756428,
+      "coefficient_max_abs_difference_1e18": 8.534839501805891e-13,
+      "Gram_vs_nested_RSS_max_abs_difference": 2.773958840407431e-10,
+      "status": "PASS"
+    },
+    {
+      "check": "ED7 M2 conditional independent full LS",
+      "frequency_uHz": 22.448448881202022,
+      "coefficient_max_abs_difference_1e18": 8.318346012003985e-13,
+      "Gram_vs_nested_RSS_max_abs_difference": 4.313278623158112e-10,
+      "status": "PASS"
+    },
+    {
+      "check": "ED7 S2 conditional Gram density",
+      "max_absolute_difference": 1.6700529847923917e-13,
+      "n_identifiable_compared": 118,
+      "non_identifiable_legacy_scores_not_validated": [
+        {
+          "row": 83,
+          "old_density": 0.08228432455777572
+        }
+      ],
+      "status": "PASS on identifiable frequencies only"
+    },
+    {
+      "check": "ED7 S2 conditional independent full LS",
+      "frequency_uHz": 23.087106325000136,
+      "coefficient_max_abs_difference_1e18": 2.0761170560490427e-13,
+      "Gram_vs_nested_RSS_max_abs_difference": 3.844888851745054e-10,
+      "status": "PASS"
+    },
+    {
+      "check": "ED7 S2 conditional independent full LS",
+      "frequency_uHz": 23.07618910373863,
+      "coefficient_max_abs_difference_1e18": 2.9140578838848796e-13,
+      "Gram_vs_nested_RSS_max_abs_difference": 2.581259650469292e-10,
+      "status": "PASS"
+    },
+    {
+      "check": "ED7 S2 conditional independent full LS",
+      "frequency_uHz": 23.07345979842325,
+      "coefficient_max_abs_difference_1e18": 6.544764730165298e-14,
+      "Gram_vs_nested_RSS_max_abs_difference": 6.548361852765083e-11,
+      "status": "PASS"
+    },
+    {
+      "check": "ED10 M2 donor Gram density",
+      "max_absolute_difference": 4.2521541843143495e-13,
+      "n_identifiable_compared": 1832,
+      "non_identifiable_legacy_scores_not_validated": [],
+      "status": "PASS on identifiable frequencies only"
+    },
+    {
+      "check": "ED10 M2 data Gram density",
+      "max_absolute_difference": 1.3933298959045715e-12,
+      "n_identifiable_compared": 1832,
+      "non_identifiable_legacy_scores_not_validated": [],
+      "status": "PASS on identifiable frequencies only"
+    },
+    {
+      "check": "ED10 M2 compensated Gram density",
+      "max_absolute_difference": 1.1475265182525618e-12,
+      "n_identifiable_compared": 1832,
+      "non_identifiable_legacy_scores_not_validated": [],
+      "status": "PASS on identifiable frequencies only"
+    },
+    {
+      "check": "ED10 M2 independent full LS",
+      "frequency_uHz": 21.50111792345661,
+      "coefficient_max_abs_difference_1e18": 4.4220183070819985e-13,
+      "Gram_vs_nested_RSS_max_abs_difference": 4.0718077798374e-09,
+      "status": "PASS"
+    },
+    {
+      "check": "ED10 M2 independent full LS",
+      "frequency_uHz": 23.74733619801079,
+      "coefficient_max_abs_difference_1e18": 4.363176486776865e-14,
+      "Gram_vs_nested_RSS_max_abs_difference": 5.145921022631228e-09,
+      "status": "PASS"
+    },
+    {
+      "check": "ED10 M2 independent full LS",
+      "frequency_uHz": 22.175256336354405,
+      "coefficient_max_abs_difference_1e18": 6.021849685566849e-13,
+      "Gram_vs_nested_RSS_max_abs_difference": 3.571017259673681e-09,
+      "status": "PASS"
+    },
+    {
+      "check": "ED10 M2 independent full LS",
+      "frequency_uHz": 21.49293000751049,
+      "coefficient_max_abs_difference_1e18": 4.072853165837387e-13,
+      "Gram_vs_nested_RSS_max_abs_difference": 8.753886504564434e-09,
+      "status": "PASS"
+    },
+    {
+      "check": "ED10 S2 donor Gram density",
+      "max_absolute_difference": 3.019806626980426e-14,
+      "n_identifiable_compared": 1832,
+      "non_identifiable_legacy_scores_not_validated": [],
+      "status": "PASS on identifiable frequencies only"
+    },
+    {
+      "check": "ED10 S2 data Gram density",
+      "max_absolute_difference": 1.3933298959045715e-12,
+      "n_identifiable_compared": 1832,
+      "non_identifiable_legacy_scores_not_validated": [],
+      "status": "PASS on identifiable frequencies only"
+    },
+    {
+      "check": "ED10 S2 compensated Gram density",
+      "max_absolute_difference": 1.5455414725806804e-12,
+      "n_identifiable_compared": 1832,
+      "non_identifiable_legacy_scores_not_validated": [],
+      "status": "PASS on identifiable frequencies only"
+    },
+    {
+      "check": "ED10 S2 independent full LS",
+      "frequency_uHz": 22.183444252300532,
+      "coefficient_max_abs_difference_1e18": 3.3240077357277187e-13,
+      "Gram_vs_nested_RSS_max_abs_difference": 3.0067894840613008e-09,
+      "status": "PASS"
+    },
+    {
+      "check": "ED10 S2 independent full LS",
+      "frequency_uHz": 23.744606892695412,
+      "coefficient_max_abs_difference_1e18": 9.087175456556906e-14,
+      "Gram_vs_nested_RSS_max_abs_difference": 3.238255885662511e-09,
+      "status": "PASS"
+    },
+    {
+      "check": "ED10 S2 independent full LS",
+      "frequency_uHz": 20.690514244790045,
+      "coefficient_max_abs_difference_1e18": 3.124722702807503e-13,
+      "Gram_vs_nested_RSS_max_abs_difference": 6.402842700481415e-09,
+      "status": "PASS"
+    },
+    {
+      "check": "ED10 S2 independent full LS",
+      "frequency_uHz": 22.68836573564503,
+      "coefficient_max_abs_difference_1e18": 1.7008616737257398e-13,
+      "Gram_vs_nested_RSS_max_abs_difference": 3.8021426007617265e-09,
+      "status": "PASS"
+    }
+  ],
+  "input_sha256": {
+    "data/frozen_auxiliary/input_manifest.json": "3c28a06b3b652c2afcba5f83cf1cda155fa9ead92b535f118de98c762f3c8c06",
+    "data/frozen_auxiliary/results/spectra.csv": "09f0f7ebaa922bad11ac8318b0450a6e66a40cc071cc13c2b7a85e7dc5b8f8ca",
+    "data/frozen_auxiliary/results/conditional.csv": "3f59e956242a2268251f22cb6d667ed93e91e06f03943ca918f91caf7e13d9f1",
+    "data/frozen_auxiliary/results/NUMERIC_RESULTS.json": "d80eba3432304b937a406aff04fa23471c67152d9fe3b661ff227b62fdc9dbe0",
+    "data/frozen_coupling/single_injection_spectra.csv": "1be7a37ce1e8ebd9ea4a4e6e64bbce7721de5ded93a243d67d586dae85657823",
+    "data/main_figure3_amplitude.csv": "4689136fdbf2cbd9d8dcb29dc19c975a37ea1f44ba7e50c79c41374708d77aee",
+    "data/frozen_auxiliary/inputs/RESULTS.json": "7e8b30a1344c1140318f7e0b49375d3c9a316d1909f994945b44fc02fd16e152",
+    "data/frozen_auxiliary/inputs/design.npz": "9adcaf43f041ee386e64aebdde1ed13ba0696045add78c89e122e7d23bd92e7b",
+    "data/frozen_auxiliary/inputs/primary_rows.csv": "ed1aef3e6dd6a44cf46a246ac5e14363f419f14d1e1e004a22b341f81118a803",
+    "data/frozen_auxiliary/inputs/semidiurnal_spectrum.csv": "3ed3e34e79813298c5a432a8469edf1dc86a060141e0de5ed95ea5636b2864f3"
+  },
+  "scripts_sha256": {
+    "recompute_amplitude.py": "3431c915c526915a8850a796a89ff509ac17241dc9136c0b8be5383bb7ca0b83",
+    "loader_amplitude.py": "159a31d9b6178ab47b5d2a0d1861fe3d9c73246e93c6f99abe005699052cf490",
+    "plot_config.py": "6490d04d391e59696f9a0f1297e07a1e01e4020af76d51c58a56abb3cf5ad1da"
+  },
+  "software": {
+    "python": "3.12.3",
+    "numpy": "2.5.4",
+    "pandas": "3.1.0"
+  },
+  "threads": 1,
+  "identifiability_definition": "Both singular values of nuisance-projected pair relative to largest singular value of original pair exceed 1e-12, consistent relative rcond scale. Keep every grid row; no amplitude threshold.",
+  "non_identifiable_frequencies": [
+    {
+      "frequency_uHz": 21.94423575170456,
+      "is_identifiable": false,
+      "rank": 0,
+      "singular_values_relative_to_original_pair": [
+        2.5573780276595986e-13,
+        2.5795512878419273e-13
+      ],
+      "Gram_eigenvalues": [
+        1.089291908799502e-22,
+        1.1082627924991785e-22
+      ],
+      "Gram_trace": 2.197554701298681e-22,
+      "status": "non_identifiable"
+    },
+    {
+      "frequency_uHz": 23.211525679024383,
+      "is_identifiable": false,
+      "rank": 0,
+      "singular_values_relative_to_original_pair": [
+        2.954312217314289e-13,
+        2.9714729134579536e-13
+      ],
+      "Gram_eigenvalues": [
+        1.4494789409119518e-22,
+        1.4663670074144177e-22
+      ],
+      "Gram_trace": 2.9158459483263695e-22,
+      "status": "non_identifiable"
+    }
+  ],
+  "conditional_non_identifiable_frequencies": [
+    {
+      "target": "S2",
+      "frequency_uHz": 23.211525679024383,
+      "is_identifiable": false,
+      "rank": 0,
+      "singular_values_relative_to_original_pair": [
+        2.9422134202529086e-13,
+        2.957244463309009e-13
+      ],
+      "Gram_eigenvalues": [
+        1.4376311464217244e-22,
+        1.4523576739284516e-22
+      ],
+      "Gram_trace": 2.889988820350176e-22,
+      "status": "non_identifiable"
+    }
+  ],
+  "n_non_identifiable_all_scans": 3
+}

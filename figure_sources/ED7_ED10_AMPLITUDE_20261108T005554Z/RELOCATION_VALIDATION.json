@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "temporary_directory": "/tmp/ed_amplitude_relocation_nnjw8s5o",
+  "execution_cwd": "/tmp",
+  "full_recompute_then_four_plots": true,
+  "png_checks": {
+    "ED_Figure_7.png": {
+      "byte_identical": true,
+      "sha256": "9db0d8574151bd9491cfa1c4618b0763d780f51dafc5a526744d2c7f6193bb5e"
+    },
+    "ED_Figure_8.png": {
+      "byte_identical": true,
+      "sha256": "39cdc5b9abd5257bff65a872a32b5ad0b293def958969d8c8847e4cf36353813"
+    },
+    "ED_Figure_9.png": {
+      "byte_identical": true,
+      "sha256": "2139b744ee3807583f4fe98e0a809ad5ff54433fa371e8c5280184e17b57051d"
+    },
+    "ED_Figure_10.png": {
+      "byte_identical": true,
+      "sha256": "af6bd1a45f5e274603655d653af84ec62e204b8e4f154bf8e7360aac40b64d20"
+    }
+  },
+  "last_change": "ED7a title cleaned; re-rendered and byte-verified in both locations."
+}

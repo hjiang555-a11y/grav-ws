@@ -1,0 +1,6 @@
+{
+  "checked_curves": 12,
+  "rows": 488,
+  "amplitude_definition": "hypot(cos,sin) * 100 c^2 / g0 * 1e-18; cm",
+  "scope": "Frozen coefficients, no refit. Former density panels removed; 2x2 amplitude/phase display."
+}

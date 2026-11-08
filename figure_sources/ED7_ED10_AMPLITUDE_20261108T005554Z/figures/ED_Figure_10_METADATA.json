@@ -1,0 +1,82 @@
+{
+  "figure": "Extended Data Figure 10",
+  "amplitude_conversion": "hypot(cos_1e18, sin_1e18) * CM_PER_1E18",
+  "CM_PER_1E18": 0.9164752272558087,
+  "new_fitting_in_plot_script": false,
+  "top_data": "Stored coefficient-based amplitudes from frozen-input reconstruction",
+  "bottom_data": "Original stored alias-sweep cosine/sine coefficients",
+  "candidate_selection_repeated": false,
+  "candidates": [
+    {
+      "direction": "M2_to_S2",
+      "candidate": 1,
+      "frequency_uHz": 22.101565092839262,
+      "rows": 61,
+      "selection": "Retained historical power-spectrum candidate; not reselected by amplitude"
+    },
+    {
+      "direction": "M2_to_S2",
+      "candidate": 2,
+      "frequency_uHz": 22.628321018706767,
+      "rows": 61,
+      "selection": "Retained historical power-spectrum candidate; not reselected by amplitude"
+    },
+    {
+      "direction": "M2_to_S2",
+      "candidate": 3,
+      "frequency_uHz": 22.156151199146777,
+      "rows": 61,
+      "selection": "Retained historical power-spectrum candidate; not reselected by amplitude"
+    },
+    {
+      "direction": "S2_to_M2",
+      "candidate": 1,
+      "frequency_uHz": 22.887605023667454,
+      "rows": 61,
+      "selection": "Retained historical power-spectrum candidate; not reselected by amplitude"
+    },
+    {
+      "direction": "S2_to_M2",
+      "candidate": 2,
+      "frequency_uHz": 23.411631644219582,
+      "rows": 61,
+      "selection": "Retained historical power-spectrum candidate; not reselected by amplitude"
+    },
+    {
+      "direction": "S2_to_M2",
+      "candidate": 3,
+      "frequency_uHz": 23.94111687540246,
+      "rows": 61,
+      "selection": "Retained historical power-spectrum candidate; not reselected by amplitude"
+    }
+  ],
+  "axis_scale": "linear",
+  "zoom_insets_cm": [
+    0,
+    6
+  ],
+  "zoom_frequency_filter": null,
+  "row_shared_ylim_cm": [
+    [
+      0,
+      55.70434330434464
+    ],
+    [
+      0,
+      3.47272849424073
+    ]
+  ],
+  "sources": {
+    "data/amplitude/ed10_single_injection_spectra.csv": "28aa675b77f5e9da4bb794c6f64b20e3c54da48a24cd590be69b8b00b7842d1a",
+    "data/frozen_coupling/alias_compensation.csv": "0010f2f2b7c6b368042af8ece9ac2a9706b790693e74cfee2775a02251d19572",
+    "data/frozen_coupling/results.json": "cadbedad29e4f454f5124aa6e6e002a3e9548662b48ba570f2e0b23831d95b8e"
+  },
+  "script_sha256": "3181d7358e57d97f0431cb93741dbcc568e8ff0fe3a936b312a5e6c79e9a647a",
+  "editable_svg_text_nodes": 120,
+  "software": {
+    "python": "3.12.3",
+    "numpy": "2.5.4",
+    "pandas": "3.1.0",
+    "matplotlib": "3.11.2"
+  }
+}

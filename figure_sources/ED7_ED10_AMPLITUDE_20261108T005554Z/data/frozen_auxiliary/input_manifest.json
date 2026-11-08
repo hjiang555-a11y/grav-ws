@@ -1,0 +1,22 @@
+[
+  {
+    "source": "/home/room115/gravitation-whsh/final_candidates/A_v81_integration/data/primary_rows.csv",
+    "copy": "inputs/primary_rows.csv",
+    "sha256": "ed1aef3e6dd6a44cf46a246ac5e14363f419f14d1e1e004a22b341f81118a803"
+  },
+  {
+    "source": "/home/room115/gravitation-whsh/final_candidates/A_v81_integration/data/design.npz",
+    "copy": "inputs/design.npz",
+    "sha256": "9adcaf43f041ee386e64aebdde1ed13ba0696045add78c89e122e7d23bd92e7b"
+  },
+  {
+    "source": "/home/room115/gravitation-whsh/final_candidates/A_v81_integration/data/RESULTS.json",
+    "copy": "inputs/RESULTS.json",
+    "sha256": "7e8b30a1344c1140318f7e0b49375d3c9a316d1909f994945b44fc02fd16e152"
+  },
+  {
+    "source": "/home/room115/gravitation-whsh/final_candidates/A_v81_integration/data/semidiurnal_spectrum.csv",
+    "copy": "inputs/semidiurnal_spectrum.csv",
+    "sha256": "3ed3e34e79813298c5a432a8469edf1dc86a060141e0de5ed95ea5636b2864f3"
+  }
+]

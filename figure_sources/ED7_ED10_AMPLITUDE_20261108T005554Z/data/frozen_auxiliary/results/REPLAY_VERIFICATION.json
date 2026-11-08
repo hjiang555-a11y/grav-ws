@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "input_location": "temporary relocated copy",
+  "numeric_checks": [
+    {
+      "file": "spectra.csv",
+      "sha256": "09f0f7ebaa922bad11ac8318b0450a6e66a40cc071cc13c2b7a85e7dc5b8f8ca",
+      "relocated_replay_identical": true
+    },
+    {
+      "file": "conditional.csv",
+      "sha256": "3f59e956242a2268251f22cb6d667ed93e91e06f03943ca918f91caf7e13d9f1",
+      "relocated_replay_identical": true
+    },
+    {
+      "file": "NUMERIC_RESULTS.json",
+      "sha256": "d80eba3432304b937a406aff04fa23471c67152d9fe3b661ff227b62fdc9dbe0",
+      "relocated_replay_identical": true
+    }
+  ],
+  "pdf_png_regenerated": true,
+  "pdf_byte_equality_not_required": "PDF metadata timestamps may differ"
+}

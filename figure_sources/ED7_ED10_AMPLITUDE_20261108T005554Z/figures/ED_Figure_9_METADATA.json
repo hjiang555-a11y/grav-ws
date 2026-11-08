@@ -1,0 +1,101 @@
+{
+  "figure": "Extended Data Figure 9",
+  "dimensionless": true,
+  "new_fitting": false,
+  "coefficient_order": [
+    "M2_cos",
+    "M2_sin",
+    "S2_cos",
+    "S2_sin"
+  ],
+  "all_matrices_color_limits": [
+    -1,
+    1
+  ],
+  "checks": {
+    "scaled_LS": {
+      "plotted_correlation": [
+        [
+          1.0000000000000002,
+          0.0073766261074982836,
+          -0.24785845504044818,
+          -0.14461975822555848
+        ],
+        [
+          0.007376626107498284,
+          0.9999999999999999,
+          0.12757178921666665,
+          -0.1689706928424371
+        ],
+        [
+          -0.24785845504044818,
+          0.1275717892166666,
+          1.0,
+          -0.00544865860184727
+        ],
+        [
+          -0.14461975822555848,
+          -0.1689706928424371,
+          -0.005448658601847267,
+          1.0
+        ]
+      ],
+      "matches_frozen_covariance_normalization": true
+    },
+    "UTC_day_jackknife": {
+      "plotted_correlation": [
+        [
+          1.0000000000000002,
+          -0.10820893995343546,
+          -0.00483060092251005,
+          -0.1624374043004851
+        ],
+        [
+          -0.10820893995343546,
+          1.0000000000000002,
+          0.24736117851177147,
+          -0.2611097446630225
+        ],
+        [
+          -0.00483060092251005,
+          0.24736117851177147,
+          0.9999999999999999,
+          -0.2774958430678786
+        ],
+        [
+          -0.1624374043004851,
+          -0.2611097446630225,
+          -0.2774958430678786,
+          0.9999999999999998
+        ]
+      ],
+      "matches_frozen_covariance_normalization": true
+    }
+  },
+  "tight_bbox_inches": [
+    0.2747907309061651,
+    0.04166999999999994,
+    9.962571553869129,
+    7.956953387461231
+  ],
+  "canvas_inches": [
+    10.0,
+    8.0
+  ],
+  "tight_bbox_within_canvas": true,
+  "sources": {
+    "data/frozen_auxiliary/results/NUMERIC_RESULTS.json": "d80eba3432304b937a406aff04fa23471c67152d9fe3b661ff227b62fdc9dbe0",
+    "data/frozen_coupling/projected_basis_correlations.csv": "783193d793ebd4c7bf6da96399573b80602456b2e4f2898b7e77cee05779ce31",
+    "data/frozen_coupling/template_lag_correlations.csv": "f77f86820c96df96023c58488ec060944a779749a709cb792fba94971fe30cd4",
+    "data/frozen_coupling/joint_coefficient_correlation_scaled_LS.csv": "8afffdc5250b87c5eda844db90d54d0bc0c79c4679d82e143220f2b1b843cf3c",
+    "data/frozen_coupling/joint_coefficient_correlation_UTC_day_jackknife.csv": "4784b478c1a39a508f9eaaa918ebecdeb2ecebac8b71e9007c72dedfd049bd0a"
+  },
+  "script_sha256": "95da11bf3c19e151af7746ec01448c5b2c7d3ab0b3862dee0fdad74d38b7fd8e",
+  "editable_svg_text_nodes": 108,
+  "software": {
+    "python": "3.12.3",
+    "numpy": "2.5.4",
+    "pandas": "3.1.0",
+    "matplotlib": "3.11.2"
+  }
+}

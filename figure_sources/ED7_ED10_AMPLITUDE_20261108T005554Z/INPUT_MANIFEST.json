@@ -1,0 +1,177 @@
+[
+  {
+    "file": "data/frozen_auxiliary/input_manifest.json",
+    "source": "/data/AI_Research/projects/grav-ws/manuscript_48h/final_article_20261107T061647Z/spectral_analysis/v86_auxiliary/input_manifest.json",
+    "sha256": "3c28a06b3b652c2afcba5f83cf1cda155fa9ead92b535f118de98c762f3c8c06"
+  },
+  {
+    "file": "data/frozen_auxiliary/results/spectra.csv",
+    "source": "/data/AI_Research/projects/grav-ws/manuscript_48h/final_article_20261107T061647Z/spectral_analysis/v86_auxiliary/results/spectra.csv",
+    "sha256": "09f0f7ebaa922bad11ac8318b0450a6e66a40cc071cc13c2b7a85e7dc5b8f8ca"
+  },
+  {
+    "file": "data/frozen_auxiliary/results/joint_refits.npz",
+    "source": "/data/AI_Research/projects/grav-ws/manuscript_48h/final_article_20261107T061647Z/spectral_analysis/v86_auxiliary/results/joint_refits.npz",
+    "sha256": "60c127b346c707fadc0ebca64da1628fc965845e4759315f6554ef8abdb54b09"
+  },
+  {
+    "file": "data/frozen_auxiliary/results/NUMERIC_RESULTS.json",
+    "source": "/data/AI_Research/projects/grav-ws/manuscript_48h/final_article_20261107T061647Z/spectral_analysis/v86_auxiliary/results/NUMERIC_RESULTS.json",
+    "sha256": "d80eba3432304b937a406aff04fa23471c67152d9fe3b661ff227b62fdc9dbe0"
+  },
+  {
+    "file": "data/frozen_auxiliary/results/conditional.csv",
+    "source": "/data/AI_Research/projects/grav-ws/manuscript_48h/final_article_20261107T061647Z/spectral_analysis/v86_auxiliary/results/conditional.csv",
+    "sha256": "3f59e956242a2268251f22cb6d667ed93e91e06f03943ca918f91caf7e13d9f1"
+  },
+  {
+    "file": "data/frozen_auxiliary/results/REPLAY_VERIFICATION.json",
+    "source": "/data/AI_Research/projects/grav-ws/manuscript_48h/final_article_20261107T061647Z/spectral_analysis/v86_auxiliary/results/REPLAY_VERIFICATION.json",
+    "sha256": "cc7d8bbf171ad3eafc80d2a6dade2aea2c4b1c92160c000ed612c307dd257b5d"
+  },
+  {
+    "file": "data/frozen_auxiliary/inputs/semidiurnal_spectrum.csv",
+    "source": "/data/AI_Research/projects/grav-ws/manuscript_48h/final_article_20261107T061647Z/spectral_analysis/v86_auxiliary/inputs/semidiurnal_spectrum.csv",
+    "sha256": "3ed3e34e79813298c5a432a8469edf1dc86a060141e0de5ed95ea5636b2864f3"
+  },
+  {
+    "file": "data/frozen_auxiliary/inputs/primary_rows.csv",
+    "source": "/data/AI_Research/projects/grav-ws/manuscript_48h/final_article_20261107T061647Z/spectral_analysis/v86_auxiliary/inputs/primary_rows.csv",
+    "sha256": "ed1aef3e6dd6a44cf46a246ac5e14363f419f14d1e1e004a22b341f81118a803"
+  },
+  {
+    "file": "data/frozen_auxiliary/inputs/design.npz",
+    "source": "/data/AI_Research/projects/grav-ws/manuscript_48h/final_article_20261107T061647Z/spectral_analysis/v86_auxiliary/inputs/design.npz",
+    "sha256": "9adcaf43f041ee386e64aebdde1ed13ba0696045add78c89e122e7d23bd92e7b"
+  },
+  {
+    "file": "data/frozen_auxiliary/inputs/RESULTS.json",
+    "source": "/data/AI_Research/projects/grav-ws/manuscript_48h/final_article_20261107T061647Z/spectral_analysis/v86_auxiliary/inputs/RESULTS.json",
+    "sha256": "7e8b30a1344c1140318f7e0b49375d3c9a316d1909f994945b44fc02fd16e152"
+  },
+  {
+    "file": "originals/v86_auxiliary/loader.py",
+    "source": "/data/AI_Research/projects/grav-ws/manuscript_48h/final_article_20261107T061647Z/spectral_analysis/v86_auxiliary/loader.py",
+    "sha256": "81b17963a3f2b570d7ef17a090f6a02d5026fec6b3e2cf953e86fb83e518a2ac"
+  },
+  {
+    "file": "originals/v86_auxiliary/run.py",
+    "source": "/data/AI_Research/projects/grav-ws/manuscript_48h/final_article_20261107T061647Z/spectral_analysis/v86_auxiliary/run.py",
+    "sha256": "353302e36758d32ae7e9669b6b5ace3d8dbfa8b4b66e6fdf12f410368c924fd4"
+  },
+  {
+    "file": "data/frozen_coupling/compensation_sweep.csv",
+    "source": "/data/AI_Research/projects/grav-ws/manuscript_48h/final_article_20261107T061647Z/spectral_analysis/v86_coupling/compensation_sweep.csv",
+    "sha256": "8381102ce9bfc65e7fe1af0b86ac8b70fc00ddf3a133cd9cfdd02ae9780212b3"
+  },
+  {
+    "file": "data/frozen_coupling/joint_coefficient_correlation_UTC_day_jackknife.csv",
+    "source": "/data/AI_Research/projects/grav-ws/manuscript_48h/final_article_20261107T061647Z/spectral_analysis/v86_coupling/joint_coefficient_correlation_UTC_day_jackknife.csv",
+    "sha256": "4784b478c1a39a508f9eaaa918ebecdeb2ecebac8b71e9007c72dedfd049bd0a"
+  },
+  {
+    "file": "data/frozen_coupling/projected_basis_correlations.csv",
+    "source": "/data/AI_Research/projects/grav-ws/manuscript_48h/final_article_20261107T061647Z/spectral_analysis/v86_coupling/projected_basis_correlations.csv",
+    "sha256": "783193d793ebd4c7bf6da96399573b80602456b2e4f2898b7e77cee05779ce31"
+  },
+  {
+    "file": "data/frozen_coupling/template_lag_correlations.csv",
+    "source": "/data/AI_Research/projects/grav-ws/manuscript_48h/final_article_20261107T061647Z/spectral_analysis/v86_coupling/template_lag_correlations.csv",
+    "sha256": "f77f86820c96df96023c58488ec060944a779749a709cb792fba94971fe30cd4"
+  },
+  {
+    "file": "data/frozen_coupling/alias_candidate_minima.csv",
+    "source": "/data/AI_Research/projects/grav-ws/manuscript_48h/final_article_20261107T061647Z/spectral_analysis/v86_coupling/alias_candidate_minima.csv",
+    "sha256": "dd939b5819830dfb2741799256fb3ea43796f8f45cb45c404fc285b414fd0bf6"
+  },
+  {
+    "file": "data/frozen_coupling/single_injection_spectra.csv",
+    "source": "/data/AI_Research/projects/grav-ws/manuscript_48h/final_article_20261107T061647Z/spectral_analysis/v86_coupling/single_injection_spectra.csv",
+    "sha256": "1be7a37ce1e8ebd9ea4a4e6e64bbce7721de5ded93a243d67d586dae85657823"
+  },
+  {
+    "file": "data/frozen_coupling/joint_correlation_manifest.json",
+    "source": "/data/AI_Research/projects/grav-ws/manuscript_48h/final_article_20261107T061647Z/spectral_analysis/v86_coupling/joint_correlation_manifest.json",
+    "sha256": "5b2134e1c47c5bcc093e9bdbdd53a993ac556924c4ff7decdcf70155b18a5b80"
+  },
+  {
+    "file": "data/frozen_coupling/joint_coefficient_correlation_scaled_LS.csv",
+    "source": "/data/AI_Research/projects/grav-ws/manuscript_48h/final_article_20261107T061647Z/spectral_analysis/v86_coupling/joint_coefficient_correlation_scaled_LS.csv",
+    "sha256": "8afffdc5250b87c5eda844db90d54d0bc0c79c4679d82e143220f2b1b843cf3c"
+  },
+  {
+    "file": "data/frozen_coupling/alias_candidate_minima.json",
+    "source": "/data/AI_Research/projects/grav-ws/manuscript_48h/final_article_20261107T061647Z/spectral_analysis/v86_coupling/alias_candidate_minima.json",
+    "sha256": "11d11021a63b2c87857fb5f9de6580fcc3e85b544b44d927ae92535b365afce0"
+  },
+  {
+    "file": "data/frozen_coupling/results.json",
+    "source": "/data/AI_Research/projects/grav-ws/manuscript_48h/final_article_20261107T061647Z/spectral_analysis/v86_coupling/results.json",
+    "sha256": "cadbedad29e4f454f5124aa6e6e002a3e9548662b48ba570f2e0b23831d95b8e"
+  },
+  {
+    "file": "data/frozen_coupling/alias_compensation.csv",
+    "source": "/data/AI_Research/projects/grav-ws/manuscript_48h/final_article_20261107T061647Z/spectral_analysis/v86_coupling/alias_compensation.csv",
+    "sha256": "0010f2f2b7c6b368042af8ece9ac2a9706b790693e74cfee2775a02251d19572"
+  },
+  {
+    "file": "originals/v86_coupling/finalize_figures.py",
+    "source": "/data/AI_Research/projects/grav-ws/manuscript_48h/final_article_20261107T061647Z/spectral_analysis/v86_coupling/finalize_figures.py",
+    "sha256": "7d22680f9aba9356c949b0b0c3a0706da084cdd4136e6a4f4b886b922a604983"
+  },
+  {
+    "file": "originals/v86_coupling/run_coupling.py",
+    "source": "/data/AI_Research/projects/grav-ws/manuscript_48h/final_article_20261107T061647Z/spectral_analysis/v86_coupling/run_coupling.py",
+    "sha256": "304d385682a06d808c3bd03f0cf9b7d9df7187ffd4b98de3bfb780a4244db1d5"
+  },
+  {
+    "file": "originals/v86_coupling/joint_correlation_figure.py",
+    "source": "/data/AI_Research/projects/grav-ws/manuscript_48h/final_article_20261107T061647Z/spectral_analysis/v86_coupling/joint_correlation_figure.py",
+    "sha256": "4bd1a0496fdf40c09745fe30a5259387c24f75c4449d839e85881cb8763ee8dd"
+  },
+  {
+    "file": "data/main_figure3_amplitude.csv",
+    "source": "/data/AI_Research/projects/grav-ws/manuscript_48h/nature_amplitude_spectrum_20261107T1332Z/data/amplitude_spectrum/amplitude_scan.csv",
+    "sha256": "4689136fdbf2cbd9d8dcb29dc19c975a37ea1f44ba7e50c79c41374708d77aee"
+  },
+  {
+    "file": "originals/ED_Figure_7.pdf",
+    "source": "/data/AI_Research/projects/grav-ws/manuscript_48h/nature_fig1_20261107T234421Z/manuscript/figures/ed7.pdf",
+    "sha256": "bb8bdf0ec4f2ff382f67077d23c3e36e0f70e0067e20024b70be28ce0b9af985"
+  },
+  {
+    "file": "originals/ED_Figure_7.png",
+    "source": "/data/AI_Research/projects/grav-ws/manuscript_48h/nature_fig1_20261107T234421Z/manuscript/figures/ed7.png",
+    "sha256": "111f81c00923f264396414a01087ec5e7c01ea3f6056a07987454b2969d3d270"
+  },
+  {
+    "file": "originals/ED_Figure_8.pdf",
+    "source": "/data/AI_Research/projects/grav-ws/manuscript_48h/nature_fig1_20261107T234421Z/manuscript/figures/ed8.pdf",
+    "sha256": "3bd26ec099df70f69256eb1da5d5e609e4259d2f821aec2ee8128a0e746b22f7"
+  },
+  {
+    "file": "originals/ED_Figure_8.png",
+    "source": "/data/AI_Research/projects/grav-ws/manuscript_48h/nature_fig1_20261107T234421Z/manuscript/figures/ed8.png",
+    "sha256": "b943fe712991be842ad46123ef13449ea70c8999570a3b01fa1d5cd21e9ec471"
+  },
+  {
+    "file": "originals/ED_Figure_9.pdf",
+    "source": "/data/AI_Research/projects/grav-ws/manuscript_48h/nature_fig1_20261107T234421Z/manuscript/figures/ed9.pdf",
+    "sha256": "ae13ca9f4b076b0c04e26e811e9ce410edcd6bc8ca775a15f87867134f394a4b"
+  },
+  {
+    "file": "originals/ED_Figure_9.png",
+    "source": "/data/AI_Research/projects/grav-ws/manuscript_48h/nature_fig1_20261107T234421Z/manuscript/figures/ed9.png",
+    "sha256": "46edf9cc2409ecbc1303f6f82595c902cb991b1f447ac52f9115fc91e2f39c42"
+  },
+  {
+    "file": "originals/ED_Figure_10.pdf",
+    "source": "/data/AI_Research/projects/grav-ws/manuscript_48h/nature_fig1_20261107T234421Z/manuscript/figures/ed10.pdf",
+    "sha256": "9d2241bc541c89959c4d85abd762659ce6a7cd92b644cc9a70d84e9994839e86"
+  },
+  {
+    "file": "originals/ED_Figure_10.png",
+    "source": "/data/AI_Research/projects/grav-ws/manuscript_48h/nature_fig1_20261107T234421Z/manuscript/figures/ed10.png",
+    "sha256": "02136241c759e4ecb942a329ff0c22287ad5285501693c1c7ceebdeea7977036"
+  }
+]
