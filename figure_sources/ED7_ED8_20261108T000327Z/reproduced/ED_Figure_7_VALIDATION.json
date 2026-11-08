@@ -1,0 +1,326 @@
+{
+  "status": "PASS",
+  "action": "Frozen-data plotting only; no refit, rescan, resampling or new observations.",
+  "input_sha256": {
+    "spectra.csv": "09f0f7ebaa922bad11ac8318b0450a6e66a40cc071cc13c2b7a85e7dc5b8f8ca",
+    "conditional.csv": "3f59e956242a2268251f22cb6d667ed93e91e06f03943ca918f91caf7e13d9f1",
+    "NUMERIC_RESULTS.json": "d80eba3432304b937a406aff04fa23471c67152d9fe3b661ff227b62fdc9dbe0"
+  },
+  "row_counts": {
+    "spectra": 1286,
+    "conditional": 237,
+    "conditional_by_target": {
+      "M2": 118,
+      "S2": 119
+    }
+  },
+  "curve_array_checks": [
+    {
+      "source": "original_observed_density_1e35_per_uHz",
+      "points": 1286,
+      "x_exact": true,
+      "y_exact": true
+    },
+    {
+      "source": "original_after_unit_prediction_density_1e35_per_uHz",
+      "points": 1286,
+      "x_exact": true,
+      "y_exact": true
+    },
+    {
+      "source": "observed_N2K2_controlled",
+      "points": 1286,
+      "x_exact": true,
+      "y_exact": true
+    },
+    {
+      "source": "minus_M2",
+      "points": 1286,
+      "x_exact": true,
+      "y_exact": true
+    },
+    {
+      "source": "minus_S2",
+      "points": 1286,
+      "x_exact": true,
+      "y_exact": true
+    },
+    {
+      "source": "minus_both",
+      "points": 1286,
+      "x_exact": true,
+      "y_exact": true
+    },
+    {
+      "source": "observed_N2K2_controlled",
+      "points": 1286,
+      "x_exact": true,
+      "y_exact": true
+    },
+    {
+      "source": "conditional M2",
+      "points": 118,
+      "x_exact": true,
+      "y_exact": true
+    },
+    {
+      "source": "conditional S2",
+      "points": 119,
+      "x_exact": true,
+      "y_exact": true
+    },
+    {
+      "source": "observed_N2K2_controlled",
+      "points": 1286,
+      "x_exact": true,
+      "y_exact": true
+    },
+    {
+      "source": "M2_only_fitted_phase",
+      "points": 1286,
+      "x_exact": true,
+      "y_exact": true
+    },
+    {
+      "source": "S2_only_fitted_phase",
+      "points": 1286,
+      "x_exact": true,
+      "y_exact": true
+    },
+    {
+      "source": "M2_plus_S2_model",
+      "points": 1286,
+      "x_exact": true,
+      "y_exact": true
+    }
+  ],
+  "axes": [
+    {
+      "index": 0,
+      "title": "a  Existing spectral route, reproduced",
+      "xlabel": "",
+      "ylabel": "Nominal 600 s LS density\n(10⁻³⁵ fractional-frequency²/µHz)",
+      "xlim": [
+        21.0,
+        24.5
+      ],
+      "ylim": [
+        0.0,
+        3.2063940834079703
+      ],
+      "yscale": "linear",
+      "lines": [
+        {
+          "line": 0,
+          "label": "Observed",
+          "points": 1286
+        },
+        {
+          "line": 1,
+          "label": "After unit physical prediction",
+          "points": 1286
+        },
+        {
+          "line": 2,
+          "label": "_child2",
+          "points": 2
+        },
+        {
+          "line": 3,
+          "label": "_child3",
+          "points": 2
+        },
+        {
+          "line": 4,
+          "label": "_child4",
+          "points": 2
+        },
+        {
+          "line": 5,
+          "label": "_child5",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "title": "b  Single-component subtraction",
+      "xlabel": "",
+      "ylabel": "",
+      "xlim": [
+        21.0,
+        24.5
+      ],
+      "ylim": [
+        0.0,
+        3.2063940834079703
+      ],
+      "yscale": "linear",
+      "lines": [
+        {
+          "line": 0,
+          "label": "Observed, N₂/K₂ controlled",
+          "points": 1286
+        },
+        {
+          "line": 1,
+          "label": "Subtract fitted M₂",
+          "points": 1286
+        },
+        {
+          "line": 2,
+          "label": "Subtract fitted S₂",
+          "points": 1286
+        },
+        {
+          "line": 3,
+          "label": "Subtract both",
+          "points": 1286
+        },
+        {
+          "line": 4,
+          "label": "_child4",
+          "points": 2
+        },
+        {
+          "line": 5,
+          "label": "_child5",
+          "points": 2
+        },
+        {
+          "line": 6,
+          "label": "_child6",
+          "points": 2
+        },
+        {
+          "line": 7,
+          "label": "_child7",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "c  Conditional frequency scans",
+      "xlabel": "Frequency (µHz)",
+      "ylabel": "Nominal 600 s LS density\n(10⁻³⁵ fractional-frequency²/µHz)",
+      "xlim": [
+        21.0,
+        24.5
+      ],
+      "ylim": [
+        0.0,
+        3.2063940834079703
+      ],
+      "yscale": "linear",
+      "lines": [
+        {
+          "line": 0,
+          "label": "N₂/K₂ controlled baseline",
+          "points": 1286
+        },
+        {
+          "line": 1,
+          "label": "M2 conditional on S₂",
+          "points": 118
+        },
+        {
+          "line": 2,
+          "label": "S2 conditional on M₂",
+          "points": 119
+        },
+        {
+          "line": 3,
+          "label": "_child3",
+          "points": 2
+        },
+        {
+          "line": 4,
+          "label": "_child4",
+          "points": 2
+        },
+        {
+          "line": 5,
+          "label": "_child5",
+          "points": 2
+        },
+        {
+          "line": 6,
+          "label": "_child6",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "d  Actual-window response and sidelobes",
+      "xlabel": "Frequency (µHz)",
+      "ylabel": "",
+      "xlim": [
+        21.0,
+        24.5
+      ],
+      "ylim": [
+        0.0,
+        3.2063940834079703
+      ],
+      "yscale": "linear",
+      "lines": [
+        {
+          "line": 0,
+          "label": "Observed, N₂/K₂ controlled",
+          "points": 1286
+        },
+        {
+          "line": 1,
+          "label": "M₂-only fitted-phase injection",
+          "points": 1286
+        },
+        {
+          "line": 2,
+          "label": "S₂-only fitted-phase injection",
+          "points": 1286
+        },
+        {
+          "line": 3,
+          "label": "Joint M₂ + S₂ waveform",
+          "points": 1286
+        },
+        {
+          "line": 4,
+          "label": "_child4",
+          "points": 2
+        },
+        {
+          "line": 5,
+          "label": "_child5",
+          "points": 2
+        },
+        {
+          "line": 6,
+          "label": "_child6",
+          "points": 2
+        },
+        {
+          "line": 7,
+          "label": "_child7",
+          "points": 2
+        }
+      ]
+    }
+  ],
+  "svg_text_nodes": 54,
+  "software": {
+    "python": "3.12.3",
+    "numpy": "2.5.4",
+    "pandas": "3.1.0",
+    "matplotlib": "3.11.2"
+  },
+  "script_sha256": "337aa3285f847f19aa15df551e2453f3b6aad5a46c4c9615a2322f8b05785aaf",
+  "outputs_sha256": {
+    "ED_Figure_7.pdf": "9f4a8aaa7338b5c1ed49f214296110d4fd05cc545986f25cc03494d953d401b3",
+    "ED_Figure_7.png": "111f81c00923f264396414a01087ec5e7c01ea3f6056a07987454b2969d3d270",
+    "ED_Figure_7.svg": "0fb1b3d09536ffb703e25df8c4584fd2d18dec45e31f9a6a0aea595eaf014bad",
+    "ED_Figure_7_plotted_arrays.npz": "b308e666cd3443d9d5a3ae1265dd00bfb3ac7585b597854e73aa1d4aa61c1d20"
+  }
+}

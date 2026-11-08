@@ -1,0 +1,150 @@
+{
+  "status": "COMPUTED_AUXILIARY_NONOVERLAPPING_ROUTE",
+  "n_rows": 3299,
+  "n_segments": 54,
+  "n_days": 43,
+  "accepted_member_hours": 545.9241666666667,
+  "calendar_span_days": 353.3888888888889,
+  "weights": "equal for spectra and this joint harmonic fit; not the campaign-weighted physical coefficient fit",
+  "unit": "y values in fractional-frequency units of 1e-18; nominal600 density per microhertz = 600*DeltaRSS*1e-42",
+  "normalization": "deltaRSS is nonnegative reduction after fitting a trial cosine-sine pair with identical nuisance projection on response and pair; no Parseval claim",
+  "baseline": "54 segment constants plus freely phased N2 and K2; raw rows.y, no fixed physical-template subtraction",
+  "bin_operator": "sinusoids evaluated at stored bin-centre UTC times, as in v86 spectra; not reconstructed within-bin membership or v29 triangular filtering",
+  "frequency_Hz": {
+    "M2": 2.2364277963323187e-05,
+    "S2": 2.314814814814818e-05,
+    "N2": 2.194423575170456e-05,
+    "K2": 2.3211525679024384e-05,
+    "K1": 1.1605762839512192e-05,
+    "O1": 1.0758515123810992e-05,
+    "P1": 1.1542385308635992e-05,
+    "Q1": 1.0338472912192374e-05
+  },
+  "joint_order": [
+    "M2_cos",
+    "M2_sin",
+    "S2_cos",
+    "S2_sin"
+  ],
+  "joint_coefficients_e18": [
+    -1.6671638561747666,
+    -4.18484320615514,
+    -0.4599259397133884,
+    -1.8655225755150884
+  ],
+  "joint_scaled_LS_covariance_e36": [
+    [
+      0.47334541016308523,
+      0.0034484685478801207,
+      -0.12593341188373725,
+      -0.07458224923213967
+    ],
+    [
+      0.003448468547880121,
+      0.4616988849606993,
+      0.06401506720621522,
+      -0.08606162814460841
+    ],
+    [
+      -0.12593341188373725,
+      0.06401506720621519,
+      0.545376339406597,
+      -0.0030161747756256197
+    ],
+    [
+      -0.07458224923213967,
+      -0.08606162814460841,
+      -0.0030161747756256175,
+      0.5618721685457364
+    ]
+  ],
+  "joint_UTC_day_jackknife_covariance_e36": [
+    [
+      0.7752313196097226,
+      -0.06046686078728107,
+      -0.0029801069055621844,
+      -0.149226597039845
+    ],
+    [
+      -0.06046686078728107,
+      0.4027886732114367,
+      0.10999810284041904,
+      -0.17290447923234575
+    ],
+    [
+      -0.0029801069055621844,
+      0.10999810284041904,
+      0.4909418532503673,
+      -0.20286916889264958
+    ],
+    [
+      -0.149226597039845,
+      -0.17290447923234575,
+      -0.20286916889264958,
+      1.0886520103809743
+    ]
+  ],
+  "joint_working_coefficient_SE_e18": [
+    0.8804722139907213,
+    0.6794842786707426,
+    0.7384959982332991,
+    1.0433848812307827
+  ],
+  "joint_amplitudes_e18": [
+    4.504702874046006,
+    1.9213813650021934
+  ],
+  "without_N2K2_joint_coefficients_e18": [
+    -1.9511043311528053,
+    -4.202869850327781,
+    -0.24695330548040728,
+    -1.804255032165716
+  ],
+  "normalized_design_condition": 1.3488728573851694,
+  "conditional_nominal": [
+    {
+      "target": "M2",
+      "conditional_delta_RSS_e36": 25382.950459878975,
+      "conditional_density_1e35_per_uHz": 1.5229770275927386
+    },
+    {
+      "target": "S2",
+      "conditional_delta_RSS_e36": 3842.9719789812316,
+      "conditional_density_1e35_per_uHz": 0.2305783187388739
+    }
+  ],
+  "controlled_grid_peaks": [
+    {
+      "target": "M2",
+      "controlled_local_grid_max_uHz": 22.361111111109977,
+      "density_1e35_per_uHz": 1.9592564264412227
+    },
+    {
+      "target": "S2",
+      "controlled_local_grid_max_uHz": 23.179902705722927,
+      "density_1e35_per_uHz": 0.8358927668805389
+    }
+  ],
+  "fitted_phase_injection_cross_power": {
+    "M2_at_S2": 0.04465223891122511,
+    "S2_at_M2": 0.05822104366031664,
+    "definition": "opposite-frequency DeltaRSS divided by own-frequency DeltaRSS; fitted-phase pure sinusoids, equal-weight S54+free N2/K2; not astronomical nodal injections"
+  },
+  "original_spectrum_max_relative_error": 6.885825243330146e-12,
+  "tests": [
+    "input hashes and timestamps verified",
+    "original observed spectrum reproduced",
+    "conditional score agrees with full nested regression",
+    "subtracting joint M2/S2 removes their joint coefficients"
+  ],
+  "significance": "No new false-alarm probability or calibrated detection significance computed; coefficient SEs are descriptive scaled-LS/day-jackknife checks.",
+  "model_scope": "No solar or diurnal nuisance terms beyond N2/K2; this is a specified local harmonic diagnostic, not a full physical tide fit.",
+  "software": {
+    "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+    "packages": {
+      "numpy": "2.5.4",
+      "pandas": "3.1.0",
+      "matplotlib": "3.11.2"
+    }
+  }
+}

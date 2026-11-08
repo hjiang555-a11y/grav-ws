@@ -1,0 +1,36 @@
+{
+  "ED7": {
+    "same_dimensions": true,
+    "original_shape": [
+      1292,
+      1710,
+      3
+    ],
+    "reproduced_shape": [
+      1292,
+      1710,
+      3
+    ],
+    "original_sha256": "111f81c00923f264396414a01087ec5e7c01ea3f6056a07987454b2969d3d270",
+    "reproduced_sha256": "111f81c00923f264396414a01087ec5e7c01ea3f6056a07987454b2969d3d270",
+    "pixel_max_abs_difference": 0,
+    "pixels_changed": 0
+  },
+  "ED8": {
+    "same_dimensions": true,
+    "original_shape": [
+      1800,
+      2000,
+      3
+    ],
+    "reproduced_shape": [
+      1800,
+      2000,
+      3
+    ],
+    "original_sha256": "b943fe712991be842ad46123ef13449ea70c8999570a3b01fa1d5cd21e9ec471",
+    "reproduced_sha256": "b943fe712991be842ad46123ef13449ea70c8999570a3b01fa1d5cd21e9ec471",
+    "pixel_max_abs_difference": 0,
+    "pixels_changed": 0
+  }
+}

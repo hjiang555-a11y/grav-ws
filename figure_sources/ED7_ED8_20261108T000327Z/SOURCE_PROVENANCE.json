@@ -1,0 +1,22 @@
+{
+  "source_scripts": [
+    {
+      "figure": "ED7",
+      "path": "/data/AI_Research/projects/grav-ws/manuscript_48h/final_article_20261107T061647Z/spectral_analysis/v86_auxiliary/run.py",
+      "sha256": "353302e36758d32ae7e9669b6b5ace3d8dbfa8b4b66e6fdf12f410368c924fd4",
+      "extraction": "Original rcParams and plotting block; named arrays restored from the original exported CSV columns rather than recalculated. Labels, colors, limits, titles and PNG DPI retained."
+    },
+    {
+      "figure": "ED8",
+      "path": "/data/AI_Research/projects/grav-ws/manuscript_48h/final_article_20261107T061647Z/spectral_analysis/v86_coupling/finalize_figures.py",
+      "sha256": "7d22680f9aba9356c949b0b0c3a0706da084cdd4136e6a4f4b886b922a604983",
+      "extraction": "Original first (3x2 compensation) plotting block and label helper; read only compensation_sweep.csv. Other figures and candidate-minimum calculations omitted."
+    }
+  ],
+  "changes": [
+    "Relative data and output paths; input hash and plotted-array checks added.",
+    "SVG output added with svg.fonttype=none; PDF/PNG retain original style.",
+    "ED8 phase unwrap is retained solely as the original display transformation; no signal model estimated."
+  ],
+  "execution_scope": "Plotting only; no upstream numerical analysis included or run."
+}

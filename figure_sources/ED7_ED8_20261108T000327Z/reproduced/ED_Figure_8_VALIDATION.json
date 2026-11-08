@@ -1,0 +1,369 @@
+{
+  "status": "PASS",
+  "action": "Frozen-data plotting only; no refit, rescan, resampling or new observations.",
+  "input_sha256": {
+    "compensation_sweep.csv": "8381102ce9bfc65e7fe1af0b86ac8b70fc00ddf3a133cd9cfdd02ae9780212b3"
+  },
+  "row_counts": {
+    "compensation_sweep": 488,
+    "lambda_values": 61,
+    "by_direction_waveform_fit": {
+      "M2_to_S2|joint|joint_controlled": 61,
+      "M2_to_S2|joint|target_only": 61,
+      "M2_to_S2|single|joint_controlled": 61,
+      "M2_to_S2|single|target_only": 61,
+      "S2_to_M2|joint|joint_controlled": 61,
+      "S2_to_M2|joint|target_only": 61,
+      "S2_to_M2|single|joint_controlled": 61,
+      "S2_to_M2|single|target_only": 61
+    }
+  },
+  "curve_array_checks": [
+    {
+      "source": "M2_to_S2 joint target_only 0",
+      "points": 61,
+      "x_exact": true,
+      "y_exact": true
+    },
+    {
+      "source": "M2_to_S2 joint target_only 1",
+      "points": 61,
+      "x_exact": true,
+      "y_exact": true
+    },
+    {
+      "source": "M2_to_S2 joint target_only 2",
+      "points": 61,
+      "x_exact": true,
+      "y_exact": true
+    },
+    {
+      "source": "M2_to_S2 single target_only 0",
+      "points": 61,
+      "x_exact": true,
+      "y_exact": true
+    },
+    {
+      "source": "M2_to_S2 single target_only 1",
+      "points": 61,
+      "x_exact": true,
+      "y_exact": true
+    },
+    {
+      "source": "M2_to_S2 single target_only 2",
+      "points": 61,
+      "x_exact": true,
+      "y_exact": true
+    },
+    {
+      "source": "M2_to_S2 joint_controlled 0",
+      "points": 61,
+      "x_exact": true,
+      "y_exact": true
+    },
+    {
+      "source": "M2_to_S2 joint_controlled 1",
+      "points": 61,
+      "x_exact": true,
+      "y_exact": true
+    },
+    {
+      "source": "M2_to_S2 joint_controlled 2",
+      "points": 61,
+      "x_exact": true,
+      "y_exact": true
+    },
+    {
+      "source": "S2_to_M2 joint target_only 0",
+      "points": 61,
+      "x_exact": true,
+      "y_exact": true
+    },
+    {
+      "source": "S2_to_M2 joint target_only 1",
+      "points": 61,
+      "x_exact": true,
+      "y_exact": true
+    },
+    {
+      "source": "S2_to_M2 joint target_only 2",
+      "points": 61,
+      "x_exact": true,
+      "y_exact": true
+    },
+    {
+      "source": "S2_to_M2 single target_only 0",
+      "points": 61,
+      "x_exact": true,
+      "y_exact": true
+    },
+    {
+      "source": "S2_to_M2 single target_only 1",
+      "points": 61,
+      "x_exact": true,
+      "y_exact": true
+    },
+    {
+      "source": "S2_to_M2 single target_only 2",
+      "points": 61,
+      "x_exact": true,
+      "y_exact": true
+    },
+    {
+      "source": "S2_to_M2 joint_controlled 0",
+      "points": 61,
+      "x_exact": true,
+      "y_exact": true
+    },
+    {
+      "source": "S2_to_M2 joint_controlled 1",
+      "points": 61,
+      "x_exact": true,
+      "y_exact": true
+    },
+    {
+      "source": "S2_to_M2 joint_controlled 2",
+      "points": 61,
+      "x_exact": true,
+      "y_exact": true
+    }
+  ],
+  "axes": [
+    {
+      "index": 0,
+      "title": "Subtract M₂; re-estimate S₂",
+      "xlabel": "",
+      "ylabel": "Target amplitude ($10^{-18}$)",
+      "xlim": [
+        -0.07500000000000001,
+        1.575
+      ],
+      "ylim": [
+        0.0,
+        4.898645801257283
+      ],
+      "yscale": "linear",
+      "lines": [
+        {
+          "line": 0,
+          "label": "joint-fit donor",
+          "points": 61
+        },
+        {
+          "line": 1,
+          "label": "single-fit donor",
+          "points": 61
+        },
+        {
+          "line": 2,
+          "label": "joint-controlled identity",
+          "points": 61
+        },
+        {
+          "line": 3,
+          "label": "_child3",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "title": "Subtract S₂; re-estimate M₂",
+      "xlabel": "",
+      "ylabel": "",
+      "xlim": [
+        -0.07500000000000001,
+        1.575
+      ],
+      "ylim": [
+        0.0,
+        4.898645801257283
+      ],
+      "yscale": "linear",
+      "lines": [
+        {
+          "line": 0,
+          "label": "joint-fit donor",
+          "points": 61
+        },
+        {
+          "line": 1,
+          "label": "single-fit donor",
+          "points": 61
+        },
+        {
+          "line": 2,
+          "label": "joint-controlled identity",
+          "points": 61
+        },
+        {
+          "line": 3,
+          "label": "_child3",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "",
+      "xlabel": "",
+      "ylabel": "Phase φ (degrees)",
+      "xlim": [
+        -0.07500000000000001,
+        1.575
+      ],
+      "ylim": [
+        -112.29100016280064,
+        -95.46314562146695
+      ],
+      "yscale": "linear",
+      "lines": [
+        {
+          "line": 0,
+          "label": "joint-fit donor",
+          "points": 61
+        },
+        {
+          "line": 1,
+          "label": "single-fit donor",
+          "points": 61
+        },
+        {
+          "line": 2,
+          "label": "joint-controlled identity",
+          "points": 61
+        },
+        {
+          "line": 3,
+          "label": "_child3",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "",
+      "xlabel": "",
+      "ylabel": "",
+      "xlim": [
+        -0.07500000000000001,
+        1.575
+      ],
+      "ylim": [
+        -114.88859638089153,
+        -108.99566239279056
+      ],
+      "yscale": "linear",
+      "lines": [
+        {
+          "line": 0,
+          "label": "joint-fit donor",
+          "points": 61
+        },
+        {
+          "line": 1,
+          "label": "single-fit donor",
+          "points": 61
+        },
+        {
+          "line": 2,
+          "label": "joint-controlled identity",
+          "points": 61
+        },
+        {
+          "line": 3,
+          "label": "_child3",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "",
+      "xlabel": "Compensation factor λ",
+      "ylabel": "Nominal 600 s LS density\n($10^{-35}$/μHz)",
+      "xlim": [
+        -0.07500000000000001,
+        1.575
+      ],
+      "ylim": [
+        0.0,
+        1.8813530558223919
+      ],
+      "yscale": "linear",
+      "lines": [
+        {
+          "line": 0,
+          "label": "joint-fit donor",
+          "points": 61
+        },
+        {
+          "line": 1,
+          "label": "single-fit donor",
+          "points": 61
+        },
+        {
+          "line": 2,
+          "label": "joint-controlled identity",
+          "points": 61
+        },
+        {
+          "line": 3,
+          "label": "_child3",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "title": "",
+      "xlabel": "Compensation factor λ",
+      "ylabel": "",
+      "xlim": [
+        -0.07500000000000001,
+        1.575
+      ],
+      "ylim": [
+        0.0,
+        1.8813530558223919
+      ],
+      "yscale": "linear",
+      "lines": [
+        {
+          "line": 0,
+          "label": "joint-fit donor",
+          "points": 61
+        },
+        {
+          "line": 1,
+          "label": "single-fit donor",
+          "points": 61
+        },
+        {
+          "line": 2,
+          "label": "joint-controlled identity",
+          "points": 61
+        },
+        {
+          "line": 3,
+          "label": "_child3",
+          "points": 2
+        }
+      ]
+    }
+  ],
+  "svg_text_nodes": 75,
+  "software": {
+    "python": "3.12.3",
+    "numpy": "2.5.4",
+    "pandas": "3.1.0",
+    "matplotlib": "3.11.2"
+  },
+  "script_sha256": "37552750e59b251a7e3ebeeb26d0bebcee0fccbf09878cb0f93744dbf5fad2b7",
+  "outputs_sha256": {
+    "ED_Figure_8.pdf": "56fcaca9b4b9803c8313c9381511aded93472fad8ae1dac48298bcbe6731fd22",
+    "ED_Figure_8.png": "b943fe712991be842ad46123ef13449ea70c8999570a3b01fa1d5cd21e9ec471",
+    "ED_Figure_8.svg": "3eb51ac0b8fb10978ab9388654363072e0bcf993b95070726108e004b957b6f4",
+    "ED_Figure_8_plotted_arrays.npz": "4fdf05bf34aea4aa38b9dad5c9d85af373ec119d1410ea684dd18439a4868385"
+  }
+}

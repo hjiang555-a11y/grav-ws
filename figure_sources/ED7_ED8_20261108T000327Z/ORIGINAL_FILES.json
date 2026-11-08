@@ -1,0 +1,37 @@
+[
+  {
+    "file": "figures/ED_Figure_7.pdf",
+    "source": "/data/AI_Research/projects/grav-ws/manuscript_48h/nature_fig1_20261107T234421Z/manuscript/figures/ed7.pdf",
+    "sha256": "bb8bdf0ec4f2ff382f67077d23c3e36e0f70e0067e20024b70be28ce0b9af985"
+  },
+  {
+    "file": "figures/ED_Figure_7.png",
+    "source": "/data/AI_Research/projects/grav-ws/manuscript_48h/nature_fig1_20261107T234421Z/manuscript/figures/ed7.png",
+    "sha256": "111f81c00923f264396414a01087ec5e7c01ea3f6056a07987454b2969d3d270"
+  },
+  {
+    "file": "figures/ED_Figure_8.pdf",
+    "source": "/data/AI_Research/projects/grav-ws/manuscript_48h/nature_fig1_20261107T234421Z/manuscript/figures/ed8.pdf",
+    "sha256": "3bd26ec099df70f69256eb1da5d5e609e4259d2f821aec2ee8128a0e746b22f7"
+  },
+  {
+    "file": "figures/ED_Figure_8.png",
+    "source": "/data/AI_Research/projects/grav-ws/manuscript_48h/nature_fig1_20261107T234421Z/manuscript/figures/ed8.png",
+    "sha256": "b943fe712991be842ad46123ef13449ea70c8999570a3b01fa1d5cd21e9ec471"
+  },
+  {
+    "file": "original_scripts/ed7_full_analysis.py",
+    "source": "/data/AI_Research/projects/grav-ws/manuscript_48h/final_article_20261107T061647Z/spectral_analysis/v86_auxiliary/run.py",
+    "sha256": "353302e36758d32ae7e9669b6b5ace3d8dbfa8b4b66e6fdf12f410368c924fd4"
+  },
+  {
+    "file": "original_scripts/ed7_loader.py",
+    "source": "/data/AI_Research/projects/grav-ws/manuscript_48h/final_article_20261107T061647Z/spectral_analysis/v86_auxiliary/loader.py",
+    "sha256": "81b17963a3f2b570d7ef17a090f6a02d5026fec6b3e2cf953e86fb83e518a2ac"
+  },
+  {
+    "file": "original_scripts/ed8_original_finalize.py",
+    "source": "/data/AI_Research/projects/grav-ws/manuscript_48h/final_article_20261107T061647Z/spectral_analysis/v86_coupling/finalize_figures.py",
+    "sha256": "7d22680f9aba9356c949b0b0c3a0706da084cdd4136e6a4f4b886b922a604983"
+  }
+]

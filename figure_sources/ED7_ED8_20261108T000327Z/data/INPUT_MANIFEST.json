@@ -1,0 +1,26 @@
+[
+  {
+    "file": "spectra.csv",
+    "sha256": "09f0f7ebaa922bad11ac8318b0450a6e66a40cc071cc13c2b7a85e7dc5b8f8ca",
+    "source": "/data/AI_Research/projects/grav-ws/manuscript_48h/final_article_20261107T061647Z/spectral_analysis/v86_auxiliary/results/spectra.csv",
+    "bytes": 256348
+  },
+  {
+    "file": "conditional.csv",
+    "sha256": "3f59e956242a2268251f22cb6d667ed93e91e06f03943ca918f91caf7e13d9f1",
+    "source": "/data/AI_Research/projects/grav-ws/manuscript_48h/final_article_20261107T061647Z/spectral_analysis/v86_auxiliary/results/conditional.csv",
+    "bytes": 10567
+  },
+  {
+    "file": "NUMERIC_RESULTS.json",
+    "sha256": "d80eba3432304b937a406aff04fa23471c67152d9fe3b661ff227b62fdc9dbe0",
+    "source": "/data/AI_Research/projects/grav-ws/manuscript_48h/final_article_20261107T061647Z/spectral_analysis/v86_auxiliary/results/NUMERIC_RESULTS.json",
+    "bytes": 4614
+  },
+  {
+    "file": "compensation_sweep.csv",
+    "sha256": "8381102ce9bfc65e7fe1af0b86ac8b70fc00ddf3a133cd9cfdd02ae9780212b3",
+    "source": "/data/AI_Research/projects/grav-ws/manuscript_48h/final_article_20261107T061647Z/spectral_analysis/v86_coupling/compensation_sweep.csv",
+    "bytes": 75950
+  }
+]

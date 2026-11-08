@@ -1,0 +1,24 @@
+{
+  "7": {
+    "reference_size": [
+      1710,
+      1292
+    ],
+    "new_size": [
+      1710,
+      1292
+    ],
+    "pixels_identical": true
+  },
+  "8": {
+    "reference_size": [
+      2000,
+      1800
+    ],
+    "new_size": [
+      2000,
+      1800
+    ],
+    "pixels_identical": true
+  }
+}
