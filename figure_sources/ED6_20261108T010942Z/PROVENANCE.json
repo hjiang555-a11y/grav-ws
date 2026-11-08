@@ -1,0 +1,23 @@
+{
+  "source_pdf_sha256": "3483abc17e4b2c44d8f4c76fd9877b7f8b90119be5cca2304222da0a5c4fef7b",
+  "source_page_1_based": 14,
+  "extraction": {
+    "name": "ed6",
+    "source_page_1_based": 14,
+    "crop_top_origin_points": [
+      60,
+      78,
+      537,
+      236
+    ],
+    "pdf": "ed6.pdf",
+    "pdf_sha256": "0f08ed2634a6855d3ed125e4d4da0292d4d1555c3292baa2d9cfb6c3491e3756",
+    "png_sha256": "f1a519bd3117fc49c462a70fed3d2d47a261fcf1967b050232cc828842f79eab",
+    "width_points": 477,
+    "height_points": 158
+  },
+  "plotting_code_available": false,
+  "numerical_table_available": false,
+  "svg_method": "pdftocairo export of original vector figure; glyphs may be outlines; not data-based regeneration",
+  "pdf_matches_current_manuscript": true
+}
