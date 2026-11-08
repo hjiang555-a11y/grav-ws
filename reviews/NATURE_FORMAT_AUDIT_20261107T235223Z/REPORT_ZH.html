@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang xml:lang>
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Nature 篇幅与格式核查</title>
+  <style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+
+ul.task-list[class]{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+font-size: inherit;
+width: 0.8em;
+margin: 0 0.8em 0.2em -1.6em;
+vertical-align: middle;
+}
+.display.math{display: block; text-align: center; margin: 0.5rem auto;}
+</style>
+  <style type="text/css">body{max-width:1040px;margin:40px auto;padding:0 24px;font:17px/1.7 system-ui,"Noto Sans CJK SC",sans-serif;color:#222}h1{font-size:28px}h2{font-size:23px}table{border-collapse:collapse;width:100%}th,td{padding:7px 9px;border-bottom:1px solid #ccc;text-align:left}.negative,.negative *{color:#C00000!important}a{color:#245c8c}code{overflow-wrap:anywhere}@media print{body{font-size:11pt;margin:0}thead{display:table-header-group}}</style>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Nature 篇幅与格式核查</h1>
+</header>
+<h1 id="nature-篇幅与格式核查">Nature 篇幅与格式核查</h1>
+<p>核查日期：2026年11月8日。对象为刚替换图1的当前版本
+<code>nature_fig1_20261107T234421Z</code>。本轮只核查，不改稿、不计算科学结果、不推送。</p>
+<p><strong>结论：正文没有明显超长；优先处理 Extended Data 数量、Methods
+精简和文档组织。</strong> 合并PDF的46页包括Methods、逐页图表、Extended
+Data和补充信息，不能拿它直接对比Nature的印刷6页。</p>
+<h2 id="官网口径">官网口径</h2>
+<p>Nature目前提供的<a href="https://www.nature.com/documents/nature-manuscript-checklist-research.pdf">稿件检查表</a>写明摘要不超过230词且至少含一条引文；<a href="https://www.nature.com/nature/for-authors/formatting-guide">通用格式指南</a>仍建议约200词。<a href="https://www.nature.com/nature/for-authors/initial-submission">初投指南</a>允许合理的格式弹性；Methods通常以3000词为目标，必要时可更长。不能把这些建议全部当作统一拒稿门槛。</p>
+<p>典型6页Article约2500词并配4项较小图表；实际印刷长度由编辑根据图表面积决定。为避免统计口径造成误判，本报告同时列正文和正文加摘要，二者均未超过2500词。主稿4图加1表需结合复合图面积评估，不等于仅因多一项就违规。</p>
+<h2 id="当前篇幅">当前篇幅</h2>
+<p>下表为实际源文件计数范围：左端保留连字符复合词，右端拆开；不含标题、引文编号、公式、表和表注。正文包含Introduction、Results、Discussion、Summary及末尾前作说明。它是可复算的编辑计数，不冒充期刊系统的唯一算法。</p>
+<table>
+<colgroup>
+<col style="width: 30%" />
+<col style="width: 40%" />
+<col style="width: 30%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>项目</th>
+<th style="text-align: right;">当前计数</th>
+<th>判断</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>标题</td>
+<td style="text-align: right;">52字符，含空格</td>
+<td>低于75字符要求</td>
+</tr>
+<tr class="even">
+<td>摘要</td>
+<td style="text-align: right;">189–194词</td>
+<td>长度合适</td>
+</tr>
+<tr class="odd">
+<td>Introduction</td>
+<td style="text-align: right;">396–403词</td>
+<td>无需为字数强删背景</td>
+</tr>
+<tr class="even">
+<td>Results</td>
+<td style="text-align: right;">974–1017词</td>
+<td>核心结果有足够篇幅</td>
+</tr>
+<tr class="odd">
+<td>Discussion</td>
+<td style="text-align: right;">374–395词</td>
+<td>不长</td>
+</tr>
+<tr class="even">
+<td>Summary及前作说明</td>
+<td style="text-align: right;">119–126词</td>
+<td>单独Summary不是官网禁止项</td>
+</tr>
+<tr class="odd">
+<td>正文合计</td>
+<td style="text-align: right;">1863–1941词</td>
+<td>没有明显超长</td>
+</tr>
+<tr class="even">
+<td>摘要加正文</td>
+<td style="text-align: right;">2052–2135词</td>
+<td>留有版面余量</td>
+</tr>
+<tr class="odd">
+<td>Methods合计</td>
+<td style="text-align: right;">3195–3373词</td>
+<td>接近但超过通常3000词目标</td>
+</tr>
+<tr class="even">
+<td>Supplementary Methods</td>
+<td style="text-align: right;">2628–2783词</td>
+<td>SI可保留；无据以判为超长的统一词数上限</td>
+</tr>
+<tr class="odd">
+<td>图1／2／3／4图注</td>
+<td style="text-align: right;">165／129／217／142词</td>
+<td>连字符拆开后170／139／236／148词，仍全部低于250词</td>
+</tr>
+<tr class="even">
+<td>正文／完整稿引用</td>
+<td style="text-align: right;">26／32条</td>
+<td>没有超过主文约50条的指导数量</td>
+</tr>
+</tbody>
+</table>
+<p>行内数学每式计一词时，正文为1899词、Methods为3283词。采用哪一种合理算法，篇幅判断均相同。源文献库有61条条目，但实际编译只引用32条，不能将源库数量当作论文参考文献数量。</p>
+<h2 id="需要处理的篇幅与格式问题">需要处理的篇幅与格式问题</h2>
+<div class="negative">
+<ol type="1">
+<li><p><strong>Extended Data合计17项，超过10项上限。</strong>
+当前11幅图、6张表。应按科学问题合并相关显示项并去除重复；不能只缩小图中文字，也不能把普通补充图移进SI来规避限额。这是最明确的数量问题。依据：<a href="https://research-figure-guide.nature.com/figures/extended-data-formatting-guidelines/">Extended
+Data官方指南</a>。</p></li>
+<li><p><strong>摘要没有引文。</strong>
+当前长度已经合适，不必先减字；按当前检查表，需要至少一条适合摘要背景的真实引用。应优先从已有文献中选择，而非机械增加新文献。</p></li>
+<li><p><strong>六个主稿小标题超过40字符。</strong>
+Results有三处，分别为47、47、54字符；辅助Methods有三处，分别为46、48、49字符。应缩短标题，不改变对应小节内容。SI的标题也有较长者，可为可读性简化，但不将主稿40字符规则机械扩张为SI的硬性缺陷。</p></li>
+<li><p><strong>Methods值得再压缩约200–400词。</strong>
+目前约3200–3400词，3000词是通常目标而非绝对上限。可先清理重复的处理路线说明、主图3与辅助谱分析重复的定义，以及主表/补充方法重复的误差解释；保留筛选、时间、模型、权重和误差算法的必要区别。图注目前未超长，图3可按清晰度减少算法细节，不能说它已超过图注字数上限。</p></li>
+<li><p><strong>章节和文献列表顺序需要整理。</strong>
+当前Methods在参考文献和主图注之前，Author
+contributions在统一References之前。最终文本应将主文参考文献、主图注放在Methods之前，Methods后接其参考文献和声明。目前主文使用1–26，新增Methods引文为27–32；可分为两份列表并保持连续编号，不需重找文献。依据：<a href="https://www.nature.com/documents/nature-manuscript-checklist-research.pdf">当前检查表</a>。</p></li>
+<li><p><strong>字号和行距未按首选稿件样式设置。</strong> 当前PDF为11 pt
+DejaVu Serif、1.5倍行距，Word为11 pt Times New
+Roman、1.5倍行距。官网要求双倍行距，首选12 pt Times New
+Roman；其中字体是首选项，不能说DejaVu被禁止。PDF正文已有行号和页码；图注、表格中的行号覆盖还需按最终交付方式检查。Word未预设行号不构成初投硬缺项，因为Nature投稿系统会为Word添加行号；无需将这一点列为强制修订。</p></li>
+<li><p><strong>主稿的声明部分仍未完整纳入。</strong>
+已有作者贡献，但正式的Data availability、Code
+availability、Funding、Competing
+interests及通讯联系方式未进入主稿；已有独立草案不能等同于稿内已完成。作者贡献采用全名，最终可按期刊要求使用可区分的首字母缩写。是否需要伦理说明应按本研究适用性判断，不为光钟实验编造伦理审批。本轮不代填作者事实。</p></li>
+<li><p><strong>阅读版还需转换成正式生产文件组织。</strong>
+当前合并稿和“主稿＋SI”适合阅读与初审；正式终稿还要分别交付主图、Extended
+Data图表，并保留主稿内的相应图注。当前ED表是稿内可编辑表，还需单独导出期刊接受的图像格式。图1当前是同事提供的JPEG，初审可读性与最终可编辑图要求应区分；正式生产宜取得同事的可编辑源图，单纯转存为PDF不会使它成为矢量图。不得因此在本轮重画图1。</p></li>
+<li><p><strong>SI的最终封面与源数据文件需要规范组织。</strong>
+当前SI首段已有论文题名，但同页即开始SM1；应按检查表的title-page要求整理。现有数据与结果库需逐图映射到Source
+Data文件，不能把有一个通用数据包等同于已完成每幅图的源数据交付；仅整理实际已有材料，不补造数据。</p></li>
+<li><p><strong>ED7内部标签与ED Table 2仍有排版问题。</strong>
+ED7面板标题“Existing spectral route,
+reproduced”是内部复现措辞，正式图宜改成面向读者的描述。ED Table
+2第一列及区间列偏窄，文字和区间被拆成多行；表头与图注中的Atrue还需规范为带true下标的数学排版。当前数字均可见，这些是文字和版式问题，不需要重算数据或删行。</p></li>
+</ol>
+</div>
+<h2 id="精炼顺序">精炼顺序</h2>
+<p>建议先确定Extended
+Data如何合并，再精简Methods和过长小标题，然后调整文献与声明顺序，最后统一字体、行距和交付格式。正文优先做句子层面的清理，保留现有科学框架；本轮没有理由为了46页PDF而再做大规模删节。</p>
+<p>本报告保留初投与正式终稿两个阶段的区别。初投指南图注建议低于250词，当前检查表列不超过300词；本稿两项口径都满足。SI仍是Nature允许的文件类型，无需为“没有补充材料”这一误解重新合并全部细节。</p>
+<p>实际计数见 <code>WORD_COUNTS.md</code> 和
+<code>WORD_COUNTS.json</code>，复现脚本为
+<code>WORD_COUNTS.py</code>。官方检查表已下载保存并查看第二页实际渲染。部分官网正文直接访问出现登录重定向；相应段落通过官方域名的可检索页面内容核对，未采用其他Nature子刊规则。</p>
+</body>
+</html>
