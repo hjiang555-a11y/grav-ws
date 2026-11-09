@@ -1,0 +1,51 @@
+--- before/sections/auxiliary_methods.md
++++ after/sections/auxiliary_methods.md
+@@ -26,7 +26,7 @@
+ 
+ For the full template, the semidiurnal band and the lunar group, uncertainties are calibrated by residual resampling. The fitted residuals are shifted circularly within each continuous run of the filtered record, added to the model with $A=1$ and refitted; the standard deviation over 200 realizations gives the error, retaining the within-run residual structure. For the diurnal and near-12-h groups, fits with empirical daily terms and fitted daily amplitudes, we quote the larger of the scaled least-squares standard error^52^ and the day-by-day jackknife error; in the resampled data these differ from the calibrated uncertainty by factors of 0.8–1.3. Group-bootstrap intervals draw the 29 operating groups with replacement in 1,000 refits; the segment bootstrap draws the 54 segments. In the phase test, each band has in-phase and quadrature templates, the latter shifting every constituent by 90°, with segment-bootstrap uncertainties. Quoted uncertainties are one standard deviation (Supplementary Methods SM3).
+ 
+-The phase-folded summer display (Fig. 2b) subtracts the fitted offsets and non-lunar groups and averages in 30° M₂-phase bins; the M₂+N₂ model is folded with the same sampling, and the day-by-day jackknife error bars hold the fitted non-lunar terms fixed. The time-series display uses 3-h averages, with gaps longer than 6 h removed from the horizontal axis and marked.
++For Fig. 2b, data minus fitted offsets and non-lunar groups, and the M₂+N₂ model, are averaged in 30° M₂-phase bins on identical sampling. Day-by-day jackknife errors hold non-lunar fits fixed. Time-series displays use 3-h averages with marked compression of gaps longer than 6 h.
+ 
+ The full-record and April spectra (Extended Data Fig. 7c and Extended Data Fig. 2c) show sinusoidal power, the squared amplitude divided by two, after projection of segment offsets and before and after subtraction of the fitted whole template. Their thresholds are 99% quantiles of the maximum over 5–40 μHz from 200 resampled residual series (full record) and over 15–50 μHz from 1,000 series (April, together with pointwise 99% levels). No April frequency exceeds the latter threshold after tidal correction.
+ 
+--- before/sections/methods.md
++++ after/sections/methods.md
+@@ -12,7 +12,7 @@
+ 
+ ### Main analysis: grouped responses
+ 
+-The main analysis (labelled the auxiliary reduction in the supplementary material) provides the summary responses, spectra and signal-to-noise ratios. The filtered validation analysis (labelled the primary reduction in the figure and supplementary labels) provides the time-domain displays and robustness checks. These analyses share observations and are not independent measurements (Extended Data Table 1a).
++The main analysis (auxiliary reduction) provides summary responses, spectra and signal-to-noise ratios; the filtered validation analysis (primary reduction) provides time-domain displays and robustness checks. Their observations are shared, so they are not independent measurements (Extended Data Table 1a).
+ 
+ Figure 3 and Extended Data Figs. 3–6 use $N_{\rm b}=3,299$ non-overlapping 600-s means over a calendar span of 353.39 days and 54 segment constants. Within each predefined observing segment, beat-frequency records differing by more than 10 Hz from the segment median were excluded. Retained records were averaged separately within each segment on a 600-s wall-clock grid in Beijing time (UTC+8), retaining bins with at least 180 nominal one-second members. Bin timestamps denote the nominal grid centres. This reduction applies neither the triangular filter nor the additional running-median transient screening used in the filtered validation analysis. Its solid-Earth template converts the IERS radial displacements into fractional frequency,
+ 
+@@ -22,7 +22,7 @@
+ 
+ with $h_2=0.6078$, $k_2=0.3010$ and $g=9.794\ \mathrm{m/s^2}$, which differ from the IERS values of the filtered-validation model ($k_{22}=0.29801$) by 0.4% in $1+k_2-h_2$; its loading template uses the effective-potential convolution with 18 constituents. The lunar (M₂, N₂), near-12-h (S₂, K₂) and diurnal (K₁, O₁, P₁, Q₁) groups comprise eight constituents; the remaining terms form a fixed remainder $r_0$. The complete-template and grouped models are $y_i=c_{s(i)}+A_T(s_{L,i}+s_{S,i}+s_{D,i}+r_{0,i})+\epsilon_i$ and $y_i-r_{0,i}=c_{s(i)}+A_Ls_{L,i}+A_Ss_{S,i}+A_Ds_{D,i}+\epsilon_i$. The phase-relaxed model adds a quarter-cycle-shifted lunar template while keeping the M₂/N₂ relation.
+ 
+-The weights are $W_{ii}=1/\sigma_i^2$ with $\sigma_i=\alpha_{p(i)}/\sqrt{\Delta t_i}$, where $\Delta t_i=n_i\delta t$ is the retained exposure of bin $i$ ($n_i$ one-second members, $\delta t=1$ s) and $\alpha_p$ is the white-frequency-noise coefficient of observing period $p$ from overlapping Allan deviations at 256–4,096 s: 9.70 and $5.70\times10^{-16}$ for September and October 2025, and $4.30$–$5.76\times10^{-16}$ for the six 2026 periods. Errors are the larger of the residual-scaled least-squares and UTC-day-deletion jackknife errors, each deletion refitting all coefficients. The contours in Fig. 3b show the scaled least-squares covariance at radii one and two.
++The weights are $W_{ii}=1/\sigma_i^2$ with $\sigma_i=\alpha_{p(i)}/\sqrt{\Delta t_i}$, where $\Delta t_i=n_i\delta t$ is the retained exposure of bin $i$ ($n_i$ one-second members, $\delta t=1$ s) and $\alpha_p$ is the white-frequency-noise coefficient of observing period $p$ from overlapping Allan deviations at 256–4,096 s: 9.70 and $5.70\times10^{-16}$ for September and October 2025, and $4.30$–$5.76\times10^{-16}$ for the six 2026 periods. Errors are the larger of the residual-scaled least-squares and UTC-day-deletion jackknife errors, each deletion refitting all coefficients.
+ 
+ ### Spectra and constituent separation
+ 
+--- before/sections/results_discussion.md
++++ after/sections/results_discussion.md
+@@ -12,7 +12,7 @@
+ 
+ The full-template response is $0.96\pm0.11$, where a response of one denotes agreement with the predicted change in frequency ratio (Fig. 3a). To separate the semidiurnal contributions, we group M₂ with the larger lunar elliptic semidiurnal tide, N₂, and the principal solar semidiurnal tide, S₂, with the lunisolar semidiurnal tide, K₂. Within each group, relative amplitudes and phases follow the physical model. The lunar-group response is $1.00\pm0.13$ (Fig. 3a), and allowing its phase to vary gives timing consistent with the prediction (Fig. 3b).
+ 
+-The lunar and solar semidiurnal periods are approximately 12.42 h and 12 h, and their changing relative phase allows the observations to distinguish them. The two-month summer campaign covers the full relative-phase cycle, whereas the shorter campaigns cover narrower intervals (Fig. 1d). The five filtered-analysis campaign estimates are mutually consistent (Extended Data Fig. 1a,b and Extended Data Table 2a). As shown in Fig. 2, the summer time series and its dependence on lunar phase, after removal of the fitted offsets and non-lunar groups, agree well with the predicted lunar variation. Gaps are compressed on the time axis; Extended Data Fig. 2a shows the records of all campaigns, and Extended Data Fig. 2b,c shows the April campaign in calendar time.
++The lunar and solar semidiurnal periods are approximately 12.42 h and 12 h, and their changing relative phase allows the observations to distinguish them. The two-month summer campaign covers the full relative-phase cycle, whereas the shorter campaigns cover narrower intervals (Fig. 1d). The five filtered-analysis campaign estimates are mutually consistent (Extended Data Fig. 1a,b and Extended Data Table 2a). After removal of fitted offsets and non-lunar groups, the summer time series and its dependence on lunar phase agree well with the predicted variation (Fig. 2). The time axis compresses gaps; Extended Data Fig. 2a shows all campaigns, and panels b,c show April in calendar time.
+ 
+ The 274-h summer record was also used in the absolute frequency-ratio measurement of Hou et al.;^12^ Extended Data Table 2b relates those estimates to the present analysis.
+ 
+@@ -28,7 +28,7 @@
+ 
+ ### Ocean loading and diurnal response
+ 
+-The separate ocean-loading and diurnal responses are constrained less precisely, with signal-to-noise ratios near unity (Table 1). The corresponding filtered-data fits are consistent with the prediction (Extended Data Fig. 1b; Supplementary Methods SM4 and SM5). Refined coastal loading models and longer continuous runs are expected to sharpen these comparisons.^15^ These weaker constraints, compared with the lunar response, motivate a quantitative account of component precision.
++The separate ocean-loading and diurnal responses are constrained less precisely, with signal-to-noise ratios near unity (Table 1). The corresponding filtered-data fits are consistent with the prediction (Extended Data Fig. 1b; Supplementary Methods SM4 and SM5). Refined coastal loading models and longer continuous runs are expected to sharpen these comparisons.^15^ These weaker constraints motivate a quantitative account of component precision.
+ 
+ ## Discussion
+ 

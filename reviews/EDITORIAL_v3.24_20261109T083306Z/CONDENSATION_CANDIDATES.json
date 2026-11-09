@@ -1,0 +1,72 @@
+[
+  {
+    "id": "C01",
+    "file": "sections/results_discussion.md",
+    "line": 15,
+    "original": "As shown in Fig. 2, the summer time series and its dependence on lunar phase, after removal of the fitted offsets and non-lunar groups, agree well with the predicted lunar variation. Gaps are compressed on the time axis; Extended Data Fig. 2a shows the records of all campaigns, and Extended Data Fig. 2b,c shows the April campaign in calendar time.",
+    "candidate": "After removal of fitted offsets and non-lunar groups, the summer time series and its dependence on lunar phase agree well with the predicted variation (Fig. 2). The time axis compresses gaps; Extended Data Fig. 2a shows all campaigns, and panels b,c show April in calendar time.",
+    "reason": "把处理条件前置，避免主语与谓语之间插入长限定；压缩连续两次完整ED图号的导航文字。保留时序与相位两类支持证据。",
+    "preserved": "fitted offsets与non-lunar groups已被移除；summer time series和dependence on lunar phase；agree well的符合程度；Fig. 2、Extended Data Fig. 2a及同一图的b,c；压缩时间轴与April保留calendar time的区别；无结果数字或文献上标删改",
+    "old_words": 60,
+    "new_words": 46,
+    "executed": true,
+    "saved_words": 14,
+    "executed_utc": "2026-11-09T08:49:28Z"
+  },
+  {
+    "id": "C02",
+    "file": "sections/results_discussion.md",
+    "line": 31,
+    "original": "These weaker constraints, compared with the lunar response, motivate a quantitative account of component precision.",
+    "candidate": "These weaker constraints motivate a quantitative account of component precision.",
+    "reason": "去掉在前文月球主响应及本段less precisely/near unity对照后已清楚的插入比较语，保留弱分量引出精度解释的桥梁。",
+    "preserved": "These weaker constraints仍指本段ocean-loading与diurnal responses；quantitative account of component precision过渡功能不变；本段Table 1、ED Fig. 1b、SM4/SM5及ref15全部不动；无数字、误差定义、模型结论或因果限定删改",
+    "old_words": 15,
+    "new_words": 10,
+    "executed": true,
+    "saved_words": 5,
+    "executed_utc": "2026-11-09T08:49:28Z"
+  },
+  {
+    "id": "C03",
+    "file": "sections/methods.md",
+    "line": 15,
+    "original": "The main analysis (labelled the auxiliary reduction in the supplementary material) provides the summary responses, spectra and signal-to-noise ratios. The filtered validation analysis (labelled the primary reduction in the figure and supplementary labels) provides the time-domain displays and robustness checks. These analyses share observations and are not independent measurements (Extended Data Table 1a).",
+    "candidate": "The main analysis (auxiliary reduction) provides summary responses, spectra and signal-to-noise ratios; the filtered validation analysis (primary reduction) provides time-domain displays and robustness checks. Their observations are shared, so they are not independent measurements (Extended Data Table 1a).",
+    "reason": "去掉标签所在文件的重复说明，直接一一映射两套名称；保留分析分工，不能删掉整个导航段。",
+    "preserved": "保留两种分析名称/别名、全部用途、共享观测非独立、ED Table1a入口；SI第3行仍交代各SM归属。",
+    "old_words": 53,
+    "new_words": 38,
+    "executed": true,
+    "saved_words": 15,
+    "executed_utc": "2026-11-09T08:49:28Z"
+  },
+  {
+    "id": "C04",
+    "file": "sections/methods.md",
+    "line": 25,
+    "original": "The contours in Fig. 3b show the scaled least-squares covariance at radii one and two.",
+    "candidate": "",
+    "reason": "纯重复：Fig. 3b图注已完整给出同一轮廓定义，Methods前一句保留实测误差规则。仅删除这一句，不动整段。",
+    "preserved": "figures_tables.md:13保留scaled least-squares covariance及radii one and two；methods.md:25仍保留取较大误差和逐日全参数重拟合。",
+    "old_words": 15,
+    "new_words": 0,
+    "executed": true,
+    "saved_words": 15,
+    "executed_utc": "2026-11-09T08:49:28Z"
+  },
+  {
+    "id": "C05",
+    "file": "sections/auxiliary_methods.md",
+    "line": 29,
+    "original": "The phase-folded summer display (Fig. 2b) subtracts the fitted offsets and non-lunar groups and averages in 30° M₂-phase bins; the M₂+N₂ model is folded with the same sampling, and the day-by-day jackknife error bars hold the fitted non-lunar terms fixed. The time-series display uses 3-h averages, with gaps longer than 6 h removed from the horizontal axis and marked.",
+    "candidate": "For Fig. 2b, data minus fitted offsets and non-lunar groups, and the M₂+N₂ model, are averaged in 30° M₂-phase bins on identical sampling. Day-by-day jackknife errors hold non-lunar fits fixed. Time-series displays use 3-h averages with marked compression of gaps longer than 6 h.",
+    "reason": "缩短显示方法的复述；图2图注仍完整独立，不把方法只留一个笼统图号。",
+    "preserved": "保留减去偏置/非月潮项、M₂+N₂、相同采样和30°分箱、误差条件、3-h与6-h。",
+    "old_words": 59,
+    "new_words": 44,
+    "executed": true,
+    "saved_words": 15,
+    "executed_utc": "2026-11-09T08:49:28Z"
+  }
+]

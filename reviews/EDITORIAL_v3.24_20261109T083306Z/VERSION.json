@@ -1,0 +1,22 @@
+{
+  "version": "v3.24",
+  "created_utc": "2026-11-09T08:33:06Z",
+  "parent_version": "v3.23",
+  "parent_directory": "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v323_20261109T073128Z",
+  "implemented": [
+    "A",
+    "B",
+    "T1",
+    "T2",
+    "T3"
+  ],
+  "additional_condensation": "C01–C05 approved and implemented",
+  "updated_utc": "2026-11-09T08:49:28Z",
+  "condensation_changes": [
+    "C01",
+    "C02",
+    "C03",
+    "C04",
+    "C05"
+  ]
+}

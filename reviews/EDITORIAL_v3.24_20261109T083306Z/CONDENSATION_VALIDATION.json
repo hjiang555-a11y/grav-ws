@@ -1,0 +1,28 @@
+{
+  "NATURE_ARTICLE_v3.24": {
+    "pages": 40,
+    "new_text_present": true,
+    "frozen_phrase_present": true,
+    "llm_heading_fixed": true
+  },
+  "NATURE_ARTICLE_MAIN_v3.24": {
+    "pages": 25,
+    "new_text_present": true,
+    "frozen_phrase_present": true,
+    "llm_heading_fixed": true
+  },
+  "word": {
+    "math_objects": 152,
+    "tables": 1
+  },
+  "changed_sections": [
+    "results_discussion.md",
+    "methods.md",
+    "auxiliary_methods.md"
+  ],
+  "only_authorized_edits": true,
+  "figures_unchanged": 119,
+  "all_math_unchanged": true,
+  "citation_order_unchanged": true,
+  "entire_discussion_unchanged": true
+}
