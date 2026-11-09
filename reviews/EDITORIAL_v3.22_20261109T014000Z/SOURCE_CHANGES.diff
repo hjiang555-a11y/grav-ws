@@ -1,0 +1,416 @@
+diff --git a/sections/author_block.md b/sections/author_block.md
+index 6fea7c5..9b342d9 100644
+--- a/sections/author_block.md
++++ b/sections/author_block.md
+@@ -11,3 +11,5 @@ Lei Hou^1,2^, Xiang Zhang^1,2,3^, Qiang Zhu^4^, Xiang-Pei Liu^1,3^, Fa-Xi Chen^1
+ ^5^ Jinan Institute of Quantum Technology and CAS Center for Excellence in Quantum Information and Quantum Physics, University of Science and Technology of China, Jinan, China
+ 
+ ^6^ Time and Frequency Geodesy Center (TFGC), School of Geodesy and Geomatics, Wuhan University, Wuhan, China
++
++**Correspondence (provisional; author confirmation required):** [Corresponding author name to be confirmed]; [Corresponding author email to be confirmed].
+diff --git a/sections/author_contributions.md b/sections/author_contributions.md
+index c0b6362..ee87ba3 100644
+--- a/sections/author_contributions.md
++++ b/sections/author_contributions.md
+@@ -1,3 +1,5 @@
+ ## Author contributions
+ 
+-J.-W.P. planned and directed the study. Q. Zhang and H.-F.J. designed and coordinated the comparison experiment; L.H., X.-P.L. and Q.S. contributed to its design, and S.-K.L., J.Y. and C.-Z.P. to its planning. X.J., H.-N.D. and Y.-A.C. were responsible for the Sr clock; X.Z., D.-Q.K., J.-H.Z., L.-F.L., X.-Y.C., P.X., P.L., J.L. and H.-Q.Z. built, operated and maintained it. Z.-X.X. and B.L. were responsible for the Yb clock; Q. Zhu, B.W. and L.-X.H. built and operated it, and D.-Z.X. and B.L. evaluated its systematic shifts. F.-X.C. and L.-B.L. were responsible for the fibre link. L.H., W.-X.S., J.-Y.G., Y.-C.Z. and S.-M.W. operated the frequency combs and transfer lasers and acquired the comparison data. X.-P.L., Y.-C.Z., Y.X., L.W. and W.-B.S. evaluated the gravitational potentials at the two sites. X.Z., Q. Zhu, W.-X.S., J.-Y.G. and Y.-A.C. processed the data. L.H., W.-X.S., J.-Y.G., H.-N.D., Q. Zhang, Y.-A.C., H.-F.J. and J.-W.P. wrote the manuscript, with input from all authors.
++**Provisional contribution statement.** The assignments below are based on the recorded individual contributions and remain subject to author confirmation.
++
++J.-W.P. planned and directed the study and contributed to manuscript writing. Q. Zhang and H.-F.J. designed and coordinated the clock-comparison experiment, and H.-F.J. organized its implementation. X.-P.L. designed and coordinated the Sr-clock comparison experiment and evaluated the gravitational redshift. Q.S. designed the frequency-comb and clock-comparison schemes. S.-K.L., J.Y. and C.-Z.P. participated in experimental-design and planning discussions. X.J. and Y.-A.C. were responsible for the Sr-clock system, and H.-N.D. for its overall design. X.Z., J.-H.Z. and L.-F.L. operated and maintained the Sr clock, and X.Z. analysed its data. D.-Q.K. maintained the U1 ultrastable laser. X.-Y.C., P.X., P.L. and J.L. constructed and maintained the Sr-clock laser servos, ultrastable clock laser, atomic-physics system and electronics, respectively. H.-Q.Z. optimized and modified the Sr-clock laser output. Z.-X.X. and B.L. were responsible for the overall Yb-clock system. Q. Zhu constructed its optical system, designed its electronics and analysed data. B.W. constructed the Yb-clock optical system and operated and maintained the clock, and L.-X.H. operated and maintained it. D.-Z.X. simulated and analysed the Yb-clock blackbody-radiation shift and ultrastable-cavity vibrations. B.L. performed theoretical analysis and uncertainty-related data processing for its AC Stark shift. F.-X.C. was responsible for the fibre link, and L.-B.L. maintained it. L.H. was responsible for the optical frequency combs at both stations and coordinated the remote comparison. W.-X.S. operated the Shanghai comb and acquired and processed data. J.-Y.G. was responsible for the combs and for acquiring and processing comparison data. Y.-C.Z. was responsible for the Sr1-laser-to-comb link and Shanghai height measurements. S.-M.W. was responsible for the 1550-nm ultrastable frequency-transfer laser in the local comb system. Y.X., L.W. and W.-B.S. evaluated the gravitational potentials at both sites. Y.-A.C. processed data. L.H., W.-X.S., J.-Y.G., H.-N.D., Q. Zhang, Y.-A.C. and H.-F.J. contributed to manuscript writing.
+diff --git a/sections/auxiliary_methods.md b/sections/auxiliary_methods.md
+index b731ce8..41f68b6 100644
+--- a/sections/auxiliary_methods.md
++++ b/sections/auxiliary_methods.md
+@@ -1,46 +1,54 @@
+-### Auxiliary grouped estimates
++### Filtered validation: data selection
+ 
+-Figure 3, Extended Data Figs. 4–6 and Supplementary Fig. 2 use $N_{\rm b}=3,299$ non-overlapping 600-s means over 353.39 days and 54 segment constants. This reduction uses its own valid-interval selection, without the triangular filter or transient screening. Its solid-Earth template converts the IERS radial displacements into fractional frequency,
++Every segment is processed identically. The time axis is reconstructed from the first time stamp and the sample index. Samples more than 10 Hz (approximately $5\times10^{-14}$ in Yb/Sr) from the segment median are removed, the longest uninterrupted run is retained, and leading and trailing samples deviating from the median by more than 1% of the peak-to-peak range are trimmed. To remove smaller transient excursions, 300-s averages are compared with a running median over ±30 min, and averages deviating by more than six robust standard deviations are removed together with their neighbours. This step removes 0.4% of the samples, or 2.2 h (Supplementary Fig. 3). The criterion uses no tidal model, and adding the model to the data leaves the selection unchanged; because the subsequent filter is linear, injection tests use the selected data. Screening variants are given in Supplementary Methods SM2.
++
++### Filtered validation: tidal model
++
++The solid Earth contribution at each clock is
+ 
+ $$
+-y_{\rm solid}=-\frac{1+k_2-h_2}{h_2}\frac{g(u_{\rm Wuhan}-u_{\rm Shanghai})}{c^2},
++\delta W=\sum_m(1+k_{2m})V_{2m}+(1+k_3)V_3-g u_r,
+ $$
+ 
+-with $h_2=0.6078$, $k_2=0.3010$ and $g=9.794\ \mathrm{m/s^2}$, which differ from the IERS values of the primary model ($k_{22}=0.29801$) by 0.4% in $1+k_2-h_2$; its loading template uses the effective-potential convolution with 18 constituents. The eight named constituents form the lunar, near-12-h and diurnal groups, and the remaining terms form a fixed remainder $r_0$. The complete-template and grouped models are $y_i=c_{s(i)}+A_T(s_{L,i}+s_{S,i}+s_{D,i}+r_{0,i})+\epsilon_i$ and $y_i-r_{0,i}=c_{s(i)}+A_Ls_{L,i}+A_Ss_{S,i}+A_Ds_{D,i}+\epsilon_i$. The phase-relaxed model adds a quarter-cycle-shifted lunar template while keeping the M₂/N₂ relation.
++where $V_{2m}$ are the degree-2 tide-generating potentials of the Moon and Sun of order $m$, $V_3$ is the lunar degree-3 potential and $u_r$ is the radial displacement. Love numbers and displacements follow the IERS 2010 conventions ^16^ (Supplementary Methods SM1). The ocean-loading potential is computed by grid convolution,
+ 
+-The weights are $W_{ii}=1/\sigma_i^2$ with $\sigma_i=\alpha_{p(i)}/\sqrt{\Delta t_i}$, where $\Delta t_i=n_i\delta t$ is the retained exposure of bin $i$ ($n_i$ one-second members, $\delta t=1$ s) and $\alpha_p$ is the white-frequency-noise coefficient of observing period $p$ from overlapping Allan deviations at 256–4,096 s: 9.70 and $5.70\times10^{-16}$ for September and October 2025, and $4.30$–$5.76\times10^{-16}$ for the six 2026 periods. Errors are the larger of the residual-scaled least-squares and UTC-day-deletion jackknife errors, each deletion refitting all coefficients. The contours in Fig. 3b show the scaled least-squares covariance at radii one and two.
++$$
++\delta W_{\rm ocean}(t)=\sum_{\rm ocean}\rho_w\zeta(\mathbf r',t)G_W(\psi)\,\mathrm dA,
++\qquad
++G_W(\psi)=\frac{ga}{M_E}\sum_n(1+k'_n-h'_n)P_n(\cos\psi),
++$$
+ 
+-### Spectra and constituent separation
++with the FES2022 ocean elevation $\zeta$ on a $1/30^\circ$ grid ^17,18^, $\rho_w=1,025\ \mathrm{kg\,m^{-3}}$, Earth's radius $a$ and mass $M_E$, and angular distance $\psi$. The Green's function ^19^ uses PREM load Love numbers ^27,28^. After removal of the ocean mean, eight constituents (M₂, S₂, N₂, K₂ and the diurnal K₁, O₁, P₁, Q₁) are synthesized with astronomical arguments and nodal corrections. They explain 99.84% of the model variance; the remainder, with an r.m.s. of $0.18\times10^{-18}$, is held at its predicted value. The radial displacement from the same convolution agrees with the FES2022 load-tide grid to within 2.2% in amplitude and 1.2° in phase for seven of the eight constituents; for S₂ the grid derives from a different ocean-model release, and substituting it changes the full-template response by 0.001 (Supplementary Fig. 4; Supplementary Methods SM1). Extending the ocean mask near Shanghai by 0.3° or 0.6° changes the lunar response by −0.05 or −0.08, respectively, about half of its statistical uncertainty of 0.14.
+ 
+-For Fig. 3c, at each trial frequency we fit a freely phased sinusoid and the 54 segment constants to the auxiliary means with equal weights,
++### Filtered validation: fit and uncertainties
+ 
+-$$
+-y_i=c_{s(i)}+a_f\cos[2\pi f(t_i-t_0)]+b_f\sin[2\pi f(t_i-t_0)]+\epsilon_i,
+-$$
++The 1-s observations and model are filtered identically with a 1,200-s triangular window stepped by 600 s and fitted by least squares as $y(t)=c_i+A s(t)$, with an offset $c_i$ for segment $i$. For band analyses, the eight-constituent model is divided into semidiurnal (M₂, S₂, N₂, K₂) and diurnal (K₁, O₁, P₁, Q₁) bands, or into lunar (M₂, N₂), near-12-h (S₂, K₂) and diurnal groups with separate amplitudes. The primary grouped fit contains no empirical daily terms. Separate fits of the solid-Earth and loading templates assess their coupling (Supplementary Methods SM4).
+ 
+-and plot the peak amplitude $A_y(f)=\sqrt{a_f^2+b_f^2}$; for the residual curve, the fixed unit-amplitude physical prediction is subtracted first. The equivalent height is $A_{h,\mathrm{cm}}=100c^2A_y/g_0$ with $g_0=9.80665\ \mathrm{m/s^2}$. The span $T_{\rm span}=353.3889$ d sets the nominal Rayleigh scale $1/T_{\rm span}=0.03275$ μHz. The scan spacing is $1/(12T_{\rm span})=0.002729$ μHz, with the astronomical frequencies added, and the peaks are local maxima within one Rayleigh scale of each prescribed frequency.
++For the full template, the semidiurnal band and the lunar group, uncertainties are calibrated by residual resampling. The fitted residuals are shifted circularly within each continuous run of the filtered record, added to the model with $A=1$ and refitted; the standard deviation over 200 realizations gives the error, retaining the within-run residual structure. For the diurnal and near-12-h groups, fits with empirical daily terms and fitted daily amplitudes, we quote the larger of the scaled least-squares standard error^52^ and the day-by-day jackknife error; in the resampled data these differ from the calibrated uncertainty by factors of 0.8–1.3. Group-bootstrap intervals draw the 29 operating groups with replacement in 1,000 refits; the segment bootstrap draws the 54 segments. In the phase test, each band has in-phase and quadrature templates, the latter shifting every constituent by 90°, with segment-bootstrap uncertainties. Quoted uncertainties are one standard deviation (Supplementary Methods SM3).
+ 
+-For Extended Data Figs. 4–6 and Supplementary Fig. 2, a nuisance matrix $N$ (segment constants, and free N₂ and K₂ pairs where stated) is projected out of the data and of each trial cosine–sine pair $X_f$ with $R_N=I-QQ^{\mathsf T}$, where $Q$ is an orthonormal basis of $N$. The fitted coefficients $\hat{\boldsymbol\beta}_f=(R_NX_f)^+R_Ny$, with $y$ in units of $10^{-18}$, give the equivalent-height peak amplitude $A_{h,\mathrm{cm}}(f)=(c^2/g_0)\,10^{-16}\,\|\hat{\boldsymbol\beta}_f\|$, as in Fig. 3c. At a frequency coinciding with a controlled constituent, the trial pair lies in the nuisance space and its amplitude is undefined; these entries are not plotted. Phases refer to 6 September 2025, 16:05 UTC. The M₂ and S₂ waveforms come from a simultaneous four-coefficient fit with no amplitude or phase constraint between them; without N₂/K₂ control their amplitudes are 4.63 and $1.82\times10^{-18}$. Conditional scans add the other principal pair to $N$ and scan within ±0.16 μHz of the target. Compensation tests subtract a scaled donor waveform and re-estimate the target with the same nuisance terms, and canonical correlations are the singular values of $Q_M^{\mathsf T}Q_S$ for the residualized pairs (Supplementary Methods SM7).
++The phase-folded summer display (Fig. 2b) subtracts the fitted offsets and non-lunar groups and averages in 30° M₂-phase bins; the M₂+N₂ model is folded with the same sampling, and the day-by-day jackknife error bars hold the fitted non-lunar terms fixed. The time-series display uses 3-h averages, with gaps longer than 6 h removed from the horizontal axis and marked.
+ 
+-### Signal-to-noise ratios
++The full-record and April spectra (Supplementary Fig. 1b and Extended Data Fig. 1c) show sinusoidal power, the squared amplitude divided by two, after projection of segment offsets and before and after subtraction of the fitted whole template. Their thresholds are 99% quantiles of the maximum over 5–40 μHz from 200 resampled residual series (full record) and over 15–50 μHz from 1,000 series (April, together with pointwise 99% levels). No April frequency exceeds the latter threshold after tidal correction.
+ 
+-We define $\rho_i=|\hat A_i|/u(\hat A_i)$. For the white-noise case of equation (1), $H=(X^{\mathsf T}WX)^{-1}X^{\mathsf T}W$ maps the observations to the fitted coefficients for design matrix $X$ and weights $W$. For white frequency noise with $\alpha=5.4\times10^{-16}\sqrt{\mathrm{s}}$, the bin variance is $\alpha^2/\Delta t_k$, giving
++### Environmental, daily-disturbance and prediction checks
+ 
+-$$
+-u_{i,\mathrm{white}}^2=\alpha^2\sum_k\frac{H_{ik}^2}{\Delta t_k},
+-\qquad
+-\rho_{i,\mathrm{white}}=\frac{|\hat A_i|}{u_{i,\mathrm{white}}}.\tag{2}
+-$$
++In the filtered validation analysis, daily sensitivity fits add $a_1\cos\omega t+b_1\sin\omega t+a_2\cos2\omega t+b_2\sin2\omega t$, where $\omega=2\pi/(1\ \mathrm{day})$ and $t$ is local time, with common or campaign-specific coefficients. Alternatives use, in each campaign, a free-amplitude 24-h term with the phase of the 24-h harmonic of hourly ERA5 2-m air temperature at the two sites ^25^, or the air-temperature anomalies at both sites relative to a 24-h running mean as two regressors.
+ 
+-With the retained exposure $T=\sum_{k=1}^{N_{\rm b}}\Delta t_k$ of the $N_{\rm b}$ means, $s_{i,\mathrm{rms}}^2=\sum_k\Delta t_k\,s_i(t_k)^2/T$ for template $s_i$ per unit response and $\eta_i=\alpha/(s_{i,\mathrm{rms}}\sqrt{T}\,u_{i,\mathrm{white}})$,
++The response of the lunar estimate to a disturbance $B\cos(\omega t-\varphi)$ follows from the lunar row $h$ of the estimator $H$ (defined in the signal-to-noise calculation) for the specified fit. For a common phase, the maximum amplitude change is
+ 
+ $$
+-\rho_{i,\mathrm{white}}=
+-\frac{|\hat A_i|s_{i,\mathrm{rms}}}{\alpha}\,\eta_i\sqrt{T}.\tag{3}
++B\sqrt{(h\cdot\cos\omega t)^2+(h\cdot\sin\omega t)^2};
+ $$
+ 
+-The sampling window, offsets, template coupling and weights enter $\eta_i$, and equation (3) gives the $a_i=1$, $b_i=1/2$ sensitivity at the measured amplitude (Supplementary Table 2). For M₂ and S₂ in Table 1, $\hat A=(\beta_c^2+\beta_s^2)^{1/2}$ from the equal-weight joint fit of M₂, S₂, N₂ and K₂ pairs with 54 segment offsets, and $u^2(\hat A)=JC_iJ^{\mathsf T}$ with $J=(\beta_c,\beta_s)/\hat A$; $C_\beta=H\Sigma H^{\mathsf T}$ with $\Sigma_{kk}=\alpha^2/\Delta t_k$ for the white-noise row, and the covariance of 43 UTC-day deletion fits for the measured row. The diurnal column uses the three-group fit. The loading column uses a fit of the complete solid-Earth and loading templates with two free coefficients, 54 segment offsets and equal weights, which gives $A_{\rm solid}=1.08\pm0.32$ and $A_{\rm loading}=0.49\pm0.54$ with UTC-day-deletion errors (Supplementary Methods SM6).
++for phases independent between campaigns, it is the sum of the corresponding campaign norms. The main-analysis bounds reported in Results use the three-group design, with the main sample times, lunar, near-12-h and diurnal templates, segment offsets and observing-period-noise weights defined in Methods. Figure 4 uses the corresponding operator for the equal-weight filtered validation fit. The following injection, environmental and held-out prediction checks use the filtered record.
++
++Injection tests add either the full tidal model ($A=1$) or the model without its lunar group ($A=0$) to circularly shifted residuals of the full-template fit, under four daily-disturbance scenarios: none; campaign-specific 24-h terms with air-temperature phases and fitted amplitudes; common 24-h and 12-h terms with fitted amplitudes and phases; and the fitted summer 24-h and 12-h terms. With 300 realizations per scenario and injected amplitude, the lunar-amplitude biases lie between −0.03 and 0.00, and for $A=1$ the fitted amplitude exceeds three standard errors in every realization (Extended Data Table 3).
++
++Campaign information shares project the lunar template onto the complement of the near-12-h and diurnal templates and segment offsets, and sum the squared projection within each campaign. Held-out prediction fits the amplitude to all but one observation period and applies it to the excluded period, refitting only that period's offsets (Supplementary Methods SM4).
++
++The round-trip beat of the fibre link, recorded in Shanghai near 10 MHz at 1-s resolution, is normalized by the optical carrier frequency and filtered like the clock ratio. It covers 474 h of the analysed data. Including it as an additional regressor, or excluding 300-s blocks in which it deviates by more than $5\times10^{-16}$, changes the lunar and whole-template responses by less than 0.005.
+ 
++The Sr vacuum-chamber temperature, the mean of 20 PT100 sensors sampled every 20 s, is available from 28 June to 7 July 2026 and overlaps 98 h of the filtered summer record. The blackbody sensitivity is $6.26\times10^{-17}\ \mathrm{K^{-1}}$ at 294.3 K. Because both clocks correct blackbody shifts in real time, a regression of the ratio on the chamber-temperature shift tests residual correction errors and has an expected coefficient of zero; it gives $0.92\pm0.74$ (Supplementary Methods SM4).
+ ### Use of large language models
+ 
+ Large language models were used to assist with code writing, manuscript drafting and editing. All scientific content, analyses and conclusions are those of the authors, who independently verified all numerical results and take full responsibility for the manuscript.
+diff --git a/sections/figures_tables.md b/sections/figures_tables.md
+index 4edd41f..f90034a 100644
+--- a/sections/figures_tables.md
++++ b/sections/figures_tables.md
+@@ -2,16 +2,16 @@
+ 
+ ![Figure 1](figures/figure1_v319.pdf){width=100%}
+ 
+-**Fig. 1 | The predicted tide on a coastal–inland baseline.** **a,** The Sr clock in Shanghai, the Yb clock in Wuhan and the fibre link through Hefei; the dashed line marks the 692-km distance between the clocks. Land contours show the predicted M₂ tidal potential sensed by a clock, including the solid Earth tide and ocean loading, in units of 10⁻¹⁸ in fractional frequency (interval 0.5; integer contours labelled). Sea shading and contours show the FES2022 M₂ ocean-tide amplitude (interval 25 cm; 50, 100 and 150 cm labelled). The inset shows the ocean-loading contribution within the dashed box around Shanghai, with labelled contours at 1 and 2 × 10⁻¹⁸. **b,** Observation calendar of the five campaigns from September 2025 to August 2026. Bars mark the retained observation intervals, brackets span campaigns with separated runs, and numbers give the hours of retained data. **c,** Predicted differential M₂ phasors of the solid Earth tide, the ocean-loading potential and their sum, referenced to the solid Earth tide; the loading phasor is at 20° to the solid Earth tide. **d,** Relative astronomical phase of S₂ and M₂, including the nodal correction, at the filtered 600-s samples, shown as one tick per sample on a −180° to 180° axis. The short campaigns cover limited ranges of relative phase, whereas the summer campaign covers the full cycle, with some gaps, as the lunar tide moves through the solar day.
++**Fig. 1 | The predicted tide on a coastal–inland baseline.** **a,** The Sr clock in Shanghai, the Yb clock in Wuhan and the fibre link through Hefei; the dashed line marks the 692-km distance between the clocks. Land contours show the predicted M₂ tidal potential sensed by a clock, including the solid Earth tide and ocean loading, in units of 10⁻¹⁸ in fractional frequency (interval 0.5; integer contours labelled). Sea shading and contours show the FES2022 M₂ ocean-tide amplitude (interval 25 cm; 50, 100 and 150 cm labelled). The inset shows the ocean-loading contribution within the dashed box around Shanghai, with labelled contours at 1 and 2 × 10⁻¹⁸. **b,** Observation calendar of the five campaigns from September 2025 to August 2026. Bars mark the retained observation intervals, brackets span campaigns with separated runs, and numbers give the hours of retained data in the filtered validation analysis. **c,** Predicted differential M₂ phasors of the solid Earth tide, the ocean-loading potential and their sum, referenced to the solid Earth tide; the loading phasor is at 20° to the solid Earth tide. **d,** Relative astronomical phase of S₂ and M₂, including the nodal correction, at the filtered 600-s samples, shown as one tick per sample on a −180° to 180° axis. The short campaigns cover limited ranges of relative phase, whereas the summer campaign covers the full cycle, with some gaps, as the lunar tide moves through the solar day.
+ 
+ ![Figure 2](figures/figure2_v1.pdf){width=100%}
+ 
+-**Fig. 2 | The lunar tide in the summer record.** **a,** Three-hour running averages of the June–August 2026 frequency ratio after subtracting fitted segment offsets and the fitted near-12-h and diurnal (non-lunar) tidal groups (blue), with the lunar model (black). The measurement-time axis compresses gaps longer than 6 h; grey lines mark their removal, and values below −13 × 10⁻¹⁸ are clipped (open triangles). White frequency noise alone corresponds to a scatter of approximately 5 × 10⁻¹⁸ for a 3-h average. **b,** The same data folded at the model M₂ phase, relative to the predicted maximum, in 30° bins, with the lunar model (M₂ and N₂) folded on identical sampling. Error bars are day-by-day jackknife uncertainties with the fitted non-lunar terms held fixed. No empirical daily terms are fitted.
++**Fig. 2 | The lunar tide in the summer record.** Both panels use the filtered validation analysis (Methods). **a,** Three-hour running averages of the June–August 2026 frequency ratio after subtracting fitted segment offsets and the fitted near-12-h and diurnal (non-lunar) tidal groups (blue), with the lunar model (black). The measurement-time axis compresses gaps longer than 6 h; grey lines mark their removal, and values below −13 × 10⁻¹⁸ are clipped (open triangles). White frequency noise alone corresponds to a scatter of approximately 5 × 10⁻¹⁸ for a 3-h average. **b,** The same data folded at the model M₂ phase, relative to the predicted maximum, in 30° bins, with the lunar model (M₂ and N₂) folded on identical sampling. Error bars are day-by-day jackknife uncertainties with the fitted non-lunar terms held fixed. No empirical daily terms are fitted.
+ 
+ ![Figure 3](figures/amplitude/figure3.pdf){width=100%}
+ 
+-**Fig. 3 | Amplitude, phase and frequency of the tidal response.** All panels use the auxiliary reduction into 3,299 non-overlapping 600-s means with 54 segment constants. **a,** Complete-template (‘full tide’) response and jointly fitted lunar (M₂, N₂) and near-12-h (S₂, K₂) group responses, from separate fits with period-dependent noise weights. Error bars are one standard error, the larger of the scaled least-squares and UTC-day-deletion jackknife errors. **b,** Lunar-group in-phase and quadrature coefficients; the cross marks $(1,0)$, and contours have radii one and two in the scaled least-squares covariance. The quoted marginal errors, the larger of the scaled least-squares and UTC-day-jackknife values, are 0.13 and 0.20; the scaled least-squares quadrature error is 0.127. **c,** Equivalent-height sinusoidal peak-amplitude spectra over 21–24.5 μHz, before and after subtracting the fixed unit-amplitude physical prediction, with equal weights and segment constants projected from data and trial sinusoids. The left and right axes give equivalent height and fractional-frequency amplitude, related by $A_{h,\mathrm{cm}}=100c^2A_y/g_0$ with $g_0=9.80665\ \mathrm{m/s^2}$; both are linear. Markers indicate the M₂ and S₂ frequencies; the nominal Rayleigh scale (0.03275 μHz) and grid step (0.002729 μHz) are annotated.
++**Fig. 3 | Amplitude, phase and frequency of the tidal response.** All panels use the main analysis (the auxiliary reduction) into 3,299 non-overlapping 600-s means with 54 segment constants. **a,** Complete-template (‘full tide’) response and jointly fitted lunar (M₂, N₂) and near-12-h (S₂, K₂) group responses, from separate fits with period-dependent noise weights. Error bars are one standard error, the larger of the scaled least-squares and UTC-day-deletion jackknife errors. **b,** Lunar-group in-phase and quadrature coefficients; the cross marks $(1,0)$, and contours have radii one and two in the scaled least-squares covariance. The quoted marginal errors, the larger of the scaled least-squares and UTC-day-jackknife values, are 0.13 and 0.20; the scaled least-squares quadrature error is 0.127. **c,** Equivalent-height sinusoidal peak-amplitude spectra over 21–24.5 μHz, before and after subtracting the fixed unit-amplitude physical prediction, with equal weights and segment constants projected from data and trial sinusoids. The left and right axes give equivalent height and fractional-frequency amplitude, related by $A_{h,\mathrm{cm}}=100c^2A_y/g_0$ with $g_0=9.80665\ \mathrm{m/s^2}$; both are linear. Markers indicate the M₂ and S₂ frequencies; the nominal Rayleigh scale (0.03275 μHz) and grid step (0.002729 μHz) are annotated.
+ 
+ ![Figure 4](figures/figure4.pdf){width=100%}
+ 
+-**Fig. 4 | Robustness of the lunar amplitude.** **a,** Lunar amplitude for the primary fit (filled diamond and shaded uncertainty band), alternative offset definitions, daily terms represented by air-temperature measurements or fitted 24-h and 12-h sinusoids, the summer campaign alone, omission of each campaign, and retention of segment ends or transient excursions. The thin bar below the primary result is the 95% interval from resampling operating groups. These estimates share observations. The grey interval is obtained without the summer campaign. **b,** Change in the lunar amplitude caused by a 24-h or 12-h sinusoid of fractional-frequency amplitude 10⁻¹⁸, with one phase common to all campaigns or with the combination of independent campaign phases that produces the largest change. The dashed line marks the uncertainty of the primary estimate.
++**Fig. 4 | Robustness of the lunar amplitude.** Both panels use the filtered validation analysis (the primary reduction). **a,** Lunar amplitude for the primary fit (filled diamond and shaded uncertainty band), alternative offset definitions, daily terms represented by air-temperature measurements or fitted 24-h and 12-h sinusoids, the summer campaign alone, omission of each campaign, and retention of segment ends or transient excursions. The thin bar below the primary result is the 95% interval from resampling operating groups. These estimates share observations. The grey interval is obtained without the summer campaign. **b,** Change in the lunar amplitude caused by a 24-h or 12-h sinusoid of fractional-frequency amplitude 10⁻¹⁸, with one phase common to all campaigns or with the combination of independent campaign phases that produces the largest change. The dashed line marks the uncertainty of the primary estimate.
+diff --git a/sections/methods.md b/sections/methods.md
+index db6d7a0..be11902 100644
+--- a/sections/methods.md
++++ b/sections/methods.md
+@@ -8,56 +8,49 @@ A 1,550-nm carrier referenced to the Sr clock through a frequency comb in Shangh
+ 
+ The 1,350-km link extends a 2,067-km dissemination system with bias-free noise compensation based on digital radio-frequency phase recording [12,24]. The out-of-loop round-trip signal and the optical phase-locked loops of the frequency chain are monitored continuously [12]; maintaining lock preserves the phase connection needed for coherent accumulation.
+ 
+-The record contains five campaigns (September–October 2025, January 2026, April 2026, May 2026 and June–August 2026) and 54 segments defined by the experiment team; the summer segments are those of ref. [12]. There are 270 h in 38 segments before June and 274 h in 16 segments in June–August, 544 h in total. Campaigns define the seasonal subsets and campaign-specific daily terms, the eight observation periods are the units of held-out prediction, the 29 operating groups are the units of group-bootstrap resampling, and segments carry the fitted offsets. Time stamps are in local time (UTC+8).
++The filtered validation record contains five campaigns (September–October 2025, January 2026, April 2026, May 2026 and June–August 2026) and 54 segments defined by the experiment team; the summer segments are those of ref. [12]. There are 270 h in 38 segments before June and 274 h in 16 segments in June–August, 544 h in total. Campaigns define the seasonal subsets and campaign-specific daily terms, the eight observation periods are the units of held-out prediction, the 29 operating groups are the units of group-bootstrap resampling, and segments carry the fitted offsets. Time stamps are in local time (UTC+8).
+ 
+-### Data selection
++### Main analysis: grouped responses
+ 
+-Every segment is processed identically. The time axis is reconstructed from the first time stamp and the sample index. Samples more than 10 Hz (approximately $5\times10^{-14}$ in Yb/Sr) from the segment median are removed, the longest uninterrupted run is retained, and leading and trailing samples deviating from the median by more than 1% of the peak-to-peak range are trimmed. To remove smaller transient excursions, 300-s averages are compared with a running median over ±30 min, and averages deviating by more than six robust standard deviations are removed together with their neighbours. This step removes 0.4% of the samples, or 2.2 h (Supplementary Fig. 3). The criterion uses no tidal model, and adding the model to the data leaves the selection unchanged; because the subsequent filter is linear, injection tests use the selected data. Screening variants are given in Supplementary Methods SM2.
++The main analysis (labelled the auxiliary reduction in the supplementary material) provides the summary responses, spectra and signal-to-noise ratios. The filtered validation analysis (labelled the primary reduction in the figure and supplementary labels) provides the time-domain displays and robustness checks. These analyses share observations and are not independent measurements (Supplementary Table 4).
+ 
+-### Tidal model
+-
+-The solid Earth contribution at each clock is
++Figure 3, Extended Data Figs. 4–6 and Supplementary Fig. 2 use $N_{\rm b}=3,299$ non-overlapping 600-s means over 353.39 days and 54 segment constants. Within each predefined observing segment, beat-frequency records differing by more than 10 Hz from the segment median were excluded. Retained records were averaged separately within each segment on a 600-s wall-clock grid in Beijing time (UTC+8), retaining bins with at least 180 nominal one-second members. Bin timestamps denote the nominal grid centres. This reduction applies neither the triangular filter nor the additional running-median transient screening used in the filtered validation analysis. Its solid-Earth template converts the IERS radial displacements into fractional frequency,
+ 
+ $$
+-\delta W=\sum_m(1+k_{2m})V_{2m}+(1+k_3)V_3-g u_r,
++y_{\rm solid}=-\frac{1+k_2-h_2}{h_2}\frac{g(u_{\rm Wuhan}-u_{\rm Shanghai})}{c^2},
+ $$
+ 
+-where $V_{2m}$ are the degree-2 tide-generating potentials of the Moon and Sun of order $m$, $V_3$ is the lunar degree-3 potential and $u_r$ is the radial displacement. Love numbers and displacements follow the IERS 2010 conventions [16] (Supplementary Methods SM1). The ocean-loading potential is computed by grid convolution,
++with $h_2=0.6078$, $k_2=0.3010$ and $g=9.794\ \mathrm{m/s^2}$, which differ from the IERS values of the filtered-validation model ($k_{22}=0.29801$) by 0.4% in $1+k_2-h_2$; its loading template uses the effective-potential convolution with 18 constituents. The lunar (M₂, N₂), near-12-h (S₂, K₂) and diurnal (K₁, O₁, P₁, Q₁) groups comprise eight constituents; the remaining terms form a fixed remainder $r_0$. The complete-template and grouped models are $y_i=c_{s(i)}+A_T(s_{L,i}+s_{S,i}+s_{D,i}+r_{0,i})+\epsilon_i$ and $y_i-r_{0,i}=c_{s(i)}+A_Ls_{L,i}+A_Ss_{S,i}+A_Ds_{D,i}+\epsilon_i$. The phase-relaxed model adds a quarter-cycle-shifted lunar template while keeping the M₂/N₂ relation.
+ 
+-$$
+-\delta W_{\rm ocean}(t)=\sum_{\rm ocean}\rho_w\zeta(\mathbf r',t)G_W(\psi)\,\mathrm dA,
+-\qquad
+-G_W(\psi)=\frac{ga}{M_E}\sum_n(1+k'_n-h'_n)P_n(\cos\psi),
+-$$
++The weights are $W_{ii}=1/\sigma_i^2$ with $\sigma_i=\alpha_{p(i)}/\sqrt{\Delta t_i}$, where $\Delta t_i=n_i\delta t$ is the retained exposure of bin $i$ ($n_i$ one-second members, $\delta t=1$ s) and $\alpha_p$ is the white-frequency-noise coefficient of observing period $p$ from overlapping Allan deviations at 256–4,096 s: 9.70 and $5.70\times10^{-16}$ for September and October 2025, and $4.30$–$5.76\times10^{-16}$ for the six 2026 periods. Errors are the larger of the residual-scaled least-squares and UTC-day-deletion jackknife errors, each deletion refitting all coefficients. The contours in Fig. 3b show the scaled least-squares covariance at radii one and two.
+ 
+-with the FES2022 ocean elevation $\zeta$ on a $1/30^\circ$ grid [17,18], $\rho_w=1,025\ \mathrm{kg\,m^{-3}}$, Earth's radius $a$ and mass $M_E$, and angular distance $\psi$. The Green's function [19] uses PREM load Love numbers [27,28]. After removal of the ocean mean, eight constituents (M₂, S₂, N₂, K₂ and the diurnal K₁, O₁, P₁, Q₁) are synthesized with astronomical arguments and nodal corrections. They explain 99.84% of the model variance; the remainder, with an r.m.s. of $0.18\times10^{-18}$, is held at its predicted value. The radial displacement from the same convolution agrees with the FES2022 load-tide grid to within 2.2% in amplitude and 1.2° in phase for seven of the eight constituents; for S₂ the grid derives from a different ocean-model release, and substituting it changes the full-template response by 0.001 (Supplementary Fig. 4; Supplementary Methods SM1). Extending the ocean mask near Shanghai by 0.3° or 0.6° changes the lunar response by −0.05 or −0.08, respectively, about half of its statistical uncertainty of 0.14.
++### Spectra and constituent separation
+ 
+-### Primary fit and uncertainties
++For Fig. 3c, at each trial frequency we fit a freely phased sinusoid and the 54 segment constants to the auxiliary means with equal weights,
+ 
+-The 1-s observations and model are filtered identically with a 1,200-s triangular window stepped by 600 s and fitted by least squares as $y(t)=c_i+A s(t)$, with an offset $c_i$ for segment $i$. For band analyses, the eight-constituent model is divided into semidiurnal (M₂, S₂, N₂, K₂) and diurnal (K₁, O₁, P₁, Q₁) bands, or into lunar (M₂, N₂), near-12-h (S₂, K₂) and diurnal groups with separate amplitudes. The primary grouped fit contains no empirical daily terms. Because loading adds to the solid tide with an M₂ phase difference of about 20°, a fit of the solid Earth tide alone is expected to give $A=1.32$ on the actual sampling; it gives $1.19\pm0.20$, and a separately fitted loading coefficient gives $0.89\pm0.55$ (Supplementary Methods SM4).
+-
+-For the full template, the semidiurnal band and the lunar group, uncertainties are calibrated by residual resampling. The fitted residuals are shifted circularly within each continuous run of the filtered record, added to the model with $A=1$ and refitted; the standard deviation over 200 realizations gives the error, retaining the within-run residual structure. For the diurnal and near-12-h groups, fits with empirical daily terms and fitted daily amplitudes, we quote the larger of the scaled least-squares standard error^52^ and the day-by-day jackknife error; in the resampled data these differ from the calibrated uncertainty by factors of 0.8–1.3. Group-bootstrap intervals draw the 29 operating groups with replacement in 1,000 refits; the segment bootstrap draws the 54 segments. In the phase test, each band has in-phase and quadrature templates, the latter shifting every constituent by 90°, with segment-bootstrap uncertainties. Quoted uncertainties are one standard deviation (Supplementary Methods SM3).
+-
+-The phase-folded summer display (Fig. 2b) subtracts the fitted offsets and non-lunar groups and averages in 30° M₂-phase bins; the M₂+N₂ model is folded with the same sampling, and the day-by-day jackknife error bars hold the fitted non-lunar terms fixed. The time-series display uses 3-h averages, with gaps longer than 6 h removed from the horizontal axis and marked.
++$$
++y_i=c_{s(i)}+a_f\cos[2\pi f(t_i-t_0)]+b_f\sin[2\pi f(t_i-t_0)]+\epsilon_i,
++$$
+ 
+-The full-record and April spectra (Supplementary Fig. 1b and Extended Data Fig. 1c) show sinusoidal power, the squared amplitude divided by two, after projection of segment offsets and before and after subtraction of the fitted whole template. Their thresholds are 99% quantiles of the maximum over 5–40 μHz from 200 resampled residual series (full record) and over 15–50 μHz from 1,000 series (April, together with pointwise 99% levels). No April frequency exceeds the latter threshold after tidal correction.
++and plot the peak amplitude $A_y(f)=\sqrt{a_f^2+b_f^2}$; for the residual curve, the fixed unit-amplitude physical prediction is subtracted first. The equivalent height is $A_{h,\mathrm{cm}}=100c^2A_y/g_0$ with $g_0=9.80665\ \mathrm{m/s^2}$. The span $T_{\rm span}=353.3889$ d sets the nominal Rayleigh scale $1/T_{\rm span}=0.03275$ μHz. The scan spacing is $1/(12T_{\rm span})=0.002729$ μHz, with the astronomical frequencies added, and the peaks are local maxima within one Rayleigh scale of each prescribed frequency.
+ 
+-### Daily disturbances and validation
++For Extended Data Figs. 4–6 and Supplementary Fig. 2, a nuisance matrix $N$ (segment constants, and free N₂ and K₂ pairs where stated) is projected out of the data and of each trial cosine–sine pair $X_f$ with $R_N=I-QQ^{\mathsf T}$, where $Q$ is an orthonormal basis of $N$. The fitted coefficients $\hat{\boldsymbol\beta}_f=(R_NX_f)^+R_Ny$, with $y$ in units of $10^{-18}$, give the equivalent-height peak amplitude $A_{h,\mathrm{cm}}(f)=(c^2/g_0)\,10^{-16}\,\|\hat{\boldsymbol\beta}_f\|$, as in Fig. 3c. At a frequency coinciding with a controlled constituent, the trial pair lies in the nuisance space and its amplitude is undefined; these entries are not plotted. Phases refer to 6 September 2025, 16:05 UTC. The M₂ and S₂ waveforms come from a simultaneous four-coefficient fit with no amplitude or phase constraint between them; without N₂/K₂ control their amplitudes are 4.63 and $1.82\times10^{-18}$. Conditional scans add the other principal pair to $N$ and scan within ±0.16 μHz of the target. Compensation tests subtract a scaled donor waveform and re-estimate the target with the same nuisance terms, and canonical correlations are the singular values of $Q_M^{\mathsf T}Q_S$ for the residualized pairs (Supplementary Methods SM7).
+ 
+-Daily sensitivity fits add $a_1\cos\omega t+b_1\sin\omega t+a_2\cos2\omega t+b_2\sin2\omega t$, where $\omega=2\pi/(1\ \mathrm{day})$ and $t$ is local time, with common or campaign-specific coefficients. Alternatives use, in each campaign, a free-amplitude 24-h term with the phase of the 24-h harmonic of hourly ERA5 2-m air temperature at the two sites [25], or the air-temperature anomalies at both sites relative to a 24-h running mean as two regressors.
++### Signal-to-noise ratios
+ 
+-The response of the lunar estimate to a disturbance $B\cos(\omega t-\varphi)$ follows from the lunar row $h$ of the estimator $H$ (defined below) for the primary fit. For a common phase, the maximum amplitude change is
++We define $\rho_i=|\hat A_i|/u(\hat A_i)$. For the white-noise case of equation (1), $H=(X^{\mathsf T}WX)^{-1}X^{\mathsf T}W$ maps the observations to the fitted coefficients for design matrix $X$ and weights $W$. For white frequency noise with $\alpha=5.4\times10^{-16}\sqrt{\mathrm{s}}$, the bin variance is $\alpha^2/\Delta t_k$, giving
+ 
+ $$
+-B\sqrt{(h\cdot\cos\omega t)^2+(h\cdot\sin\omega t)^2};
++u_{i,\mathrm{white}}^2=\alpha^2\sum_k\frac{H_{ik}^2}{\Delta t_k},
++\qquad
++\rho_{i,\mathrm{white}}=\frac{|\hat A_i|}{u_{i,\mathrm{white}}}.\tag{2}
+ $$
+ 
+-for phases independent between campaigns, it is the sum of the corresponding campaign norms.
+-
+-Injection tests add either the full tidal model ($A=1$) or the model without its lunar group ($A=0$) to circularly shifted residuals of the full-template fit, under four daily-disturbance scenarios: none; campaign-specific 24-h terms with air-temperature phases and fitted amplitudes; common 24-h and 12-h terms with fitted amplitudes and phases; and the fitted summer 24-h and 12-h terms. With 300 realizations per scenario and injected amplitude, the lunar-amplitude biases lie between −0.03 and 0.00, and for $A=1$ the fitted amplitude exceeds three standard errors in every realization (Extended Data Table 3).
++With the retained exposure $T=\sum_{k=1}^{N_{\rm b}}\Delta t_k$ of the $N_{\rm b}$ means, $s_{i,\mathrm{rms}}^2=\sum_k\Delta t_k\,s_i(t_k)^2/T$ for template $s_i$ per unit response and $\eta_i=\alpha/(s_{i,\mathrm{rms}}\sqrt{T}\,u_{i,\mathrm{white}})$,
+ 
+-Campaign information shares project the lunar template onto the complement of the near-12-h and diurnal templates and segment offsets, and sum the squared projection within each campaign. Held-out prediction fits the amplitude to all but one observation period and applies it to the excluded period, refitting only that period's offsets (Supplementary Methods SM4).
+-
+-The round-trip beat of the fibre link, recorded in Shanghai near 10 MHz at 1-s resolution, is normalized by the optical carrier frequency and filtered like the clock ratio. It covers 474 h of the analysed data. Including it as an additional regressor, or excluding 300-s blocks in which it deviates by more than $5\times10^{-16}$, changes the lunar and whole-template responses by less than 0.005.
++$$
++\rho_{i,\mathrm{white}}=
++\frac{|\hat A_i|s_{i,\mathrm{rms}}}{\alpha}\,\eta_i\sqrt{T}.\tag{3}
++$$
+ 
+-The Sr vacuum-chamber temperature, the mean of 20 PT100 sensors sampled every 20 s, is available from 28 June to 7 July 2026 and overlaps 98 h of the filtered summer record. The blackbody sensitivity is $6.26\times10^{-17}\ \mathrm{K^{-1}}$ at 294.3 K. Because both clocks correct blackbody shifts in real time, a regression of the ratio on the chamber-temperature shift tests residual correction errors and has an expected coefficient of zero; it gives $0.92\pm0.74$ (Supplementary Methods SM4).
++The sampling window, offsets, template coupling and weights enter $\eta_i$, and equation (3) gives the $a_i=1$, $b_i=1/2$ sensitivity at the measured amplitude (Supplementary Table 2). For M₂ and S₂ in Table 1, $\hat A=(\beta_c^2+\beta_s^2)^{1/2}$ from the equal-weight joint fit of M₂, S₂, N₂ and K₂ pairs with 54 segment offsets, and $u^2(\hat A)=JC_iJ^{\mathsf T}$ with $J=(\beta_c,\beta_s)/\hat A$; $C_\beta=H\Sigma H^{\mathsf T}$ with $\Sigma_{kk}=\alpha^2/\Delta t_k$ for the white-noise row, and the covariance of 43 UTC-day deletion fits for the measured row. The diurnal column uses the three-group fit. The loading column uses a fit of the complete solid-Earth and loading templates with two free coefficients, 54 segment offsets and equal weights, with UTC-day-deletion errors (Supplementary Table 2 and Supplementary Methods SM6).
+diff --git a/sections/opening.md b/sections/opening.md
+index 39d6d50..bddd406 100644
+--- a/sections/opening.md
++++ b/sections/opening.md
+@@ -4,8 +4,8 @@
+ 
+ ## Introduction
+ 
+-Optical clocks measure gravitational potential differences through the gravitational redshift. In the weak-field limit of general relativity, a potential difference $\Delta U$ produces a fractional frequency shift $\Delta\nu/\nu\simeq\Delta U/c^2$, where $c$ is the speed of light.^5^ Evaluated fractional systematic uncertainties now approach $10^{-19}$.^33^ Near Earth's surface, fractional shifts of $10^{-18}$, $10^{-19}$ and $10^{-20}$ correspond to equivalent heights of approximately 1 cm, 1 mm and 0.1 mm.^29,10^ Fibre networks and free-space frequency transfer connect distant clocks,^6,46,47,65^ and proposed quantum clock networks^44^ have reached an elementary demonstration with entangled clocks.^59^ Clock comparisons complement levelling and satellite gravity observations,^8,54^ have resolved the gravitational redshift within a millimetre-sized atomic sample,^10^ and support ultralight-dark-matter searches and gravitational-wave detection proposals.^38,62^
++Optical clocks connected by frequency-transfer links measure gravitational potential differences through the gravitational redshift. In the weak-field limit of general relativity, a potential difference $\Delta U$ produces a fractional frequency shift $\Delta\nu/\nu\simeq\Delta U/c^2$, where $c$ is the speed of light.^5^ Evaluated fractional systematic uncertainties now approach $10^{-19}$.^33^ Near Earth's surface, fractional shifts of $10^{-18}$, $10^{-19}$ and $10^{-20}$ correspond to equivalent heights of approximately 1 cm, 1 mm and 0.1 mm.^29,10^ The redshift has been resolved within a millimetre-sized atomic sample,^10^ while fibre networks and free-space frequency transfer extend comparisons to distant sites.^6,46,47,65^ Proposed quantum clock networks^44^ have also reached an elementary demonstration with entangled clocks.^59^
+ 
+-Earth's gravitational potential also changes with volcanic activity,^60^ tsunamis^61^ and water storage.^55^ These contributions overlap in a clock record, so detecting a weak signal requires identifying the stronger variations and knowing how accurately each can be removed. Tides provide a predictable signal with which to develop this capability. Lunar and solar contributions must be distinguished from each other and from laboratory variations that follow the solar day, while observational gaps spread spectral power into neighbouring frequencies. Subtracting the tidal background therefore requires separating the tidal components and their sampling sidelobes and quantifying the precision of each component.
++Clock comparisons complement levelling and satellite gravity observations.^8,54^ Earth's gravitational potential also changes with volcanic activity,^60^ tsunamis^61^ and water storage.^55^ These contributions overlap in a clock record, so detecting a weak signal requires identifying the stronger variations and knowing how accurately each can be removed. Tides provide a predictable signal with which to develop this capability. Lunar and solar contributions must be distinguished from each other and from laboratory variations that follow the solar day, while observational gaps spread spectral power into neighbouring frequencies. Subtracting the tidal background therefore requires separating the tidal components and their sampling sidelobes and quantifying the precision of each component.
+ 
+ Here we report measurements of tidal changes in the potential difference between a strontium clock in coastal Shanghai^21^ and an ytterbium clock in inland Wuhan,^22^ 692 km apart and connected by a 1,350-km fibre link.^24^ Over 545.9 hours of observations spanning 353 days, we measure the combined solid-Earth and ocean-loading tide and separately detect the principal lunar semidiurnal contribution (M₂) and the contribution at the principal solar semidiurnal frequency (S₂). The two contributions drift in relative phase and produce neighbouring spectral peaks, and each remains identifiable after the other is removed. We develop a signal-to-noise model that combines signal strength, noise and the actual sampling, and show that it accounts for most of the differences in precision between components.
+diff --git a/sections/results_discussion.md b/sections/results_discussion.md
+index 81ff68e..3e05857 100644
+--- a/sections/results_discussion.md
++++ b/sections/results_discussion.md
+@@ -6,33 +6,33 @@ As shown in Fig. 1a, the Shanghai Sr clock and the Wuhan Yb clock lie on a 692-k
+ 
+ On this baseline, ocean loading contributes appreciably. We compute the solid-Earth tide following the IERS conventions^16^ and the loading potential from FES2022,^17,18^ including water attraction, induced Earth potential and clock displacement.^19^ For the principal lunar semidiurnal tide, M₂, the differential solid-tide and loading amplitudes are $3.41\times10^{-18}$ and $1.42\times10^{-18}$ in fractional frequency, and their 20° phase difference gives a combined amplitude of $4.76\times10^{-18}$ (Fig. 1c).
+ 
+-The record comprises 544 h of retained data in five campaigns and 54 observing segments over 353 days (Fig. 1b). We analyse it in two reductions, both with segment offsets. The primary reduction uses the data after transient screening and applies a 1,200-s triangular filter at 600-s steps to observations and model alike. The auxiliary reduction consists of 3,299 non-overlapping 600-s means from the same 54 segments, with 545.9 h of retained samples, and is used without the triangular filter. The reductions share observations but differ in selection, weights and template realizations (Methods). The auxiliary reduction provides the summary responses, spectra and signal-to-noise ratios, and the primary reduction provides the time-domain displays (Fig. 2) and robustness tests (Supplementary Methods SM6).
++The observations span five campaigns and 54 observing segments over 353 days (Fig. 1b). The main analysis uses 545.9 h of retained samples to estimate template responses, spectra and signal-to-noise ratios. A filtered analysis of the same observations provides the time-domain displays (Fig. 2) and validation tests. Both analyses fit segment offsets; their selection, weights and template realizations are described in Methods and Supplementary Table 4.
+ 
+ ### Amplitude, phase and coverage
+ 
+-The auxiliary full-template response is $0.96\pm0.11$, where a response of one denotes agreement with the predicted change in frequency ratio (Fig. 3a). To separate the semidiurnal contributions, we group M₂ with the larger lunar elliptic semidiurnal tide, N₂, and the principal solar semidiurnal tide, S₂, with the lunisolar semidiurnal tide, K₂. Within each group, relative amplitudes and phases follow the physical model. The auxiliary lunar-group response is $1.00\pm0.13$ (Fig. 3a). The primary reduction, with no empirical daily terms in the fit, gives lunar-group and near-12-h-group responses of $0.97\pm0.14$ and $0.90\pm0.29$ (Fig. 2 and Extended Data Fig. 1). A free-phase lunar fit in the primary reduction gives an amplitude of $0.98\pm0.11$ and a phase offset of $-6°\pm8°$ (segment-bootstrap uncertainties), and the auxiliary phase fit likewise agrees with the predicted timing (Fig. 3b).
++The full-template response is $0.96\pm0.11$, where a response of one denotes agreement with the predicted change in frequency ratio (Fig. 3a). To separate the semidiurnal contributions, we group M₂ with the larger lunar elliptic semidiurnal tide, N₂, and the principal solar semidiurnal tide, S₂, with the lunisolar semidiurnal tide, K₂. Within each group, relative amplitudes and phases follow the physical model. The lunar-group response is $1.00\pm0.13$ (Fig. 3a), and allowing its phase to vary gives timing consistent with the prediction (Fig. 3b).
+ 
+-The lunar and solar semidiurnal periods are approximately 12.42 h and 12 h, and their changing relative phase allows the observations to distinguish them. The two-month summer campaign covers the full relative-phase cycle, whereas the shorter campaigns cover narrower intervals (Fig. 1d). The five campaign estimates are mutually consistent (Extended Data Fig. 2 and Extended Data Table 1). As shown in Fig. 2, the summer time series and its dependence on lunar phase, after removal of the fitted offsets and non-lunar groups, agree well with the predicted lunar variation. Gaps are compressed on the time axis; Extended Data Fig. 3 shows the records of all campaigns, and Supplementary Fig. 1 shows the April campaign in calendar time.
++The lunar and solar semidiurnal periods are approximately 12.42 h and 12 h, and their changing relative phase allows the observations to distinguish them. The two-month summer campaign covers the full relative-phase cycle, whereas the shorter campaigns cover narrower intervals (Fig. 1d). The five filtered-analysis campaign estimates are mutually consistent (Extended Data Fig. 2 and Extended Data Table 1). As shown in Fig. 2, the summer time series and its dependence on lunar phase, after removal of the fitted offsets and non-lunar groups, agree well with the predicted lunar variation. Gaps are compressed on the time axis; Extended Data Fig. 3 shows the records of all campaigns, and Supplementary Fig. 1 shows the April campaign in calendar time.
+ 
+ The 274-h summer record was also used in the absolute frequency-ratio measurement of Hou et al.;^12^ Extended Data Table 2 relates those estimates to the present analysis.
+ 
+ ### Separate semidiurnal detections
+ 
+-In the auxiliary reduction, the equivalent-height amplitude spectrum (Fig. 3c) has lunar and solar-frequency peaks of 4.87 and 2.87 cm at 22.361 and 23.148 μHz. Subtracting the fixed unit-amplitude physical prediction reduces the amplitudes at these frequencies to 0.71 and 1.02 cm. Each principal frequency retains its peak when the other is controlled by a freely phased sinusoid, with N₂ and K₂ also controlled (Extended Data Fig. 4). A joint fit gives M₂ and S₂ amplitudes of 4.13 and 1.76 cm ($4.50\times10^{-18}$ and $1.92\times10^{-18}$; Supplementary Table 1); these differ from the scan peaks because neighbouring frequencies are fitted simultaneously. The conditional spectra thus separate the M₂ and S₂-frequency contributions without imposing their astronomical phase relation. In the primary reduction, detection of the near-12-h contribution is quantified by the predicted-phase (S₂, K₂) group response of $0.90\pm0.29$ (Extended Data Fig. 1).
++The equivalent-height amplitude spectrum (Fig. 3c) has lunar and solar-frequency peaks of 4.87 and 2.87 cm at 22.361 and 23.148 μHz. Subtracting the fixed unit-amplitude physical prediction reduces the amplitudes at these frequencies to 0.71 and 1.02 cm. Each principal frequency retains its peak when the other is controlled by a freely phased sinusoid, with N₂ and K₂ also controlled (Extended Data Fig. 4). A joint fit gives M₂ and S₂ amplitudes of 4.13 and 1.76 cm ($4.50\times10^{-18}$ and $1.92\times10^{-18}$; Supplementary Table 1). These differ from the scan peaks because neighbouring frequencies are fitted simultaneously. The conditional spectra thus separate the M₂ and S₂-frequency contributions without imposing their astronomical phase relation. The predicted-phase group responses in Fig. 3a instead test agreement with the physical waveforms, keeping the relative phases of S₂ and K₂ fixed within their group (Methods).
+ 
+ ### Reliability of the separated signals
+ 
+-Reciprocal subtraction tests the coupling introduced by the sampling (Extended Data Fig. 5). Removing the jointly fitted lunar waveform changes the solar-frequency amplitude from 2.67 to 1.76 cm ($2.918$ to $1.921\times10^{-18}$), and removing the solar-frequency waveform changes the lunar amplitude from 4.45 to 4.13 cm ($4.857$ to $4.505\times10^{-18}$); both remain identifiable. The maximum canonical correlation between the projected sine–cosine pairs is 0.290 (Extended Data Fig. 6), and the strongest sampling sidelobes respond to lunar-waveform subtraction as predicted (Supplementary Fig. 2).
++Reciprocal subtraction tests the coupling introduced by the sampling (Extended Data Fig. 5). Removing the jointly fitted lunar waveform changes the solar-frequency amplitude from 2.67 to 1.76 cm ($2.918$ to $1.921\times10^{-18}$). Removing the solar-frequency waveform changes the lunar amplitude from 4.45 to 4.13 cm ($4.857$ to $4.505\times10^{-18}$). Both remain identifiable. The maximum canonical correlation between the projected sine–cosine pairs is 0.290 (Extended Data Fig. 6), and the strongest sampling sidelobes respond to lunar-waveform subtraction as predicted (Supplementary Fig. 2).
+ 
+-The primary lunar estimate is also stable against daily disturbances (Fig. 4). A $10^{-18}$ fractional-frequency sinusoid at 24 h or 12 h with a phase fixed across the record changes the lunar response by at most 0.020, and with independent phases in each campaign the bounds are 0.032 and 0.12, respectively. For the auxiliary lunar estimate, the same disturbances give at most 0.023 with a fixed phase, and 0.030 and 0.12 with independent campaign phases. Both clocks correct blackbody shifts in real time, and temperature regressions provide further checks (Methods and Extended Data Fig. 7). Adding the fibre-link monitor as a regressor changes the lunar and full-template responses by less than 0.005, retaining the screened transients leaves the lunar result consistent, and the fits improve predictions for most withheld observation periods (Methods). Extending the ocean mask near Shanghai by 0.3° or 0.6° changes the lunar response by −0.05 or −0.08, respectively, about half of its statistical uncertainty.
++The lunar estimate is also stable against specified daily disturbances. A $10^{-18}$ fractional-frequency sinusoid at 24 h or 12 h changes the main lunar response by at most 0.023 with a phase fixed across the record; with independent phases in each campaign, the bounds are 0.030 and 0.12, respectively. The filtered analysis provides complementary checks of daily terms, sampling and data selection (Fig. 4). Both clocks correct blackbody shifts in real time, and temperature regressions test residual correction errors (Methods and Extended Data Fig. 7). In the filtered analysis, adding the fibre-link monitor as a regressor changes the lunar and full-template responses by less than 0.005. Retaining the screened transients leaves the lunar result consistent, and the fits improve predictions for most withheld observation periods (Methods). Extending the ocean mask near Shanghai by 0.3° or 0.6° changes the filtered lunar response by −0.05 or −0.08, respectively, about half of its statistical uncertainty.
+ 
+ ### Ocean loading and diurnal response
+ 
+-The separate ocean-loading and diurnal responses are constrained less precisely. The loading coefficient is $0.89\pm0.55$ (Methods), and a joint diurnal–semidiurnal fit gives a diurnal response of $0.36\pm0.50$ (Extended Data Fig. 2b). These primary-reduction responses differ from the auxiliary estimators used for the signal-to-noise comparison in Table 1 (Methods). Both are consistent with the prediction, and refined coastal loading models and longer continuous runs are expected to sharpen these comparisons.^15^
++The separate ocean-loading and diurnal responses are constrained less precisely, with signal-to-noise ratios near unity (Table 1). The corresponding filtered-data fits are consistent with the prediction (Extended Data Fig. 2b; Supplementary Methods SM4 and SM5). Refined coastal loading models and longer continuous runs are expected to sharpen these comparisons.^15^ These weaker constraints, compared with the lunar response, motivate a quantitative account of component precision.
+ 
+ ## Discussion
+ 
+-The differences in precision between tidal components reflect their signal strengths, the noise and the phase coverage. We develop a signal-to-noise model that combines these factors to account for component precision and guide future observations. Within short segments, a slowly varying tide is partly absorbed by the fitted offset. For a specified estimator, the amplitude signal-to-noise ratio scales locally as
++We develop a signal-to-noise model that relates component precision to signal strength, noise and phase coverage. The observation schedule enters through the sampling window and coupling between fitted components; within short segments, a slowly varying tide is partly absorbed by the fitted offset. For a specified estimator, the amplitude signal-to-noise ratio scales locally as
+ 
+ $$
+ \rho_i(T)\simeq\rho_i(T_0)
+@@ -40,7 +40,7 @@ $$
+ \left(\frac{T}{T_0}\right)^{a_i-b_i}.\tag{1}
+ $$
+ 
+-Here $T$ is the retained exposure and $\rho_i=S/R$. The exponents $a_i$ and $b_i$ describe how the phase-aligned signal and the noise standard deviation accumulate, and $\eta_i$ accounts for the sampling window, weights and parameter coupling. For a coherent signal in white noise, $a_i=1$ and $b_i=1/2$, giving $\rho_i\propto\sqrt{T}$ at fixed $\eta_i$. Table 1 compares this white-noise expectation, evaluated on the actual sampling, with the measured ratios.
++Here $T$ is the retained exposure and $\rho_i=S/R$. The exponents $a_i$ and $b_i$ describe how the phase-aligned signal and the noise standard deviation accumulate, and $\eta_i$ accounts for the sampling window, weights and parameter coupling. For a coherent signal in white noise, $a_i=1$ and $b_i=1/2$, giving $\rho_i\propto\sqrt{T}$ at fixed $\eta_i$. We evaluate this white-noise case on the actual sampling with the measured amplitudes and a common clock-noise coefficient (Methods). Table 1 compares the resulting precision with the empirical errors of the same estimators.
+ 
+ ::: display
+ **Table 1 | Calculated and measured signal-to-noise ratios.**
+@@ -53,10 +53,10 @@ Here $T$ is the retained exposure and $\rho_i=S/R$. The exponents $a_i$ and $b_i
+ $S=|\hat A|$ is the measured amplitude or template-response magnitude and $R=u(\hat A)$ its standard error. The white-noise row uses the common noise coefficient and the actual sampling; the measured row uses UTC-day-jackknife covariance. All entries use the auxiliary reduction: M₂ and S₂ from their joint sine–cosine fit, the diurnal group from the three-group fit and ocean loading from the two-template solid-Earth/loading fit (Methods).
+ :::
+ 
+-As shown in Table 1, the lunar precision agrees well with the white-noise expectation, whereas the solar-frequency contribution has a larger empirical uncertainty. The diurnal group and the separate loading response have signal-to-noise ratios near unity, because short segments constrain diurnal cycles weakly after offset removal and the smaller loading signal overlaps the solid-Earth waveform. The signal-to-noise model thus accounts for most of the differences in precision between components.
++As shown in Table 1, the lunar precision agrees well with the white-noise expectation, whereas the solar-frequency, diurnal and loading estimates have larger empirical uncertainties. Short segments constrain diurnal cycles weakly after offset removal, and the smaller loading signal overlaps the solid-Earth waveform. The signal-to-noise model thus accounts for most of the differences in precision between components. This comparison evaluates precision at the measured amplitudes; the exposure scaling in equation (1) remains conditional on the noise and sampling efficiency of future observations.
+ 
+-Sustained network operation would extend phase coverage, and better clock stability would increase sensitivity for a given observing time. Continuous runs of at least two days with maintained phase lock cover successive diurnal cycles, a longer calendar span separates neighbouring frequencies, and gaps create sidelobes (Supplementary Fig. 2). Together with additional sites and local environmental records, improved coverage and stability would allow weaker potential changes to be identified after subtraction of the tidal background.
++The model identifies distinct ways to improve future observations. Better clock stability lowers noise for a given retained exposure, whereas sustained network operation improves phase coverage and reduces component coupling. Continuous runs of at least two days with maintained phase lock cover successive diurnal cycles; a longer calendar span separates neighbouring frequencies, while gaps create sidelobes (Supplementary Fig. 2). Increasing retained exposure accumulates signal according to equation (1), with the applicable noise and sampling efficiency. Together with additional sites and local environmental records, these improvements would allow weaker potential changes to be identified after subtraction of the tidal background.
+ 
+-Distant optical clocks measured the tidal potential difference between Shanghai and Wuhan and separately detected the lunar semidiurnal and solar-frequency semidiurnal contributions, with equivalent-height spectral peaks of 4.87 and 2.87 cm. The signal-to-noise model, based on signal strength, noise and sampling, agrees broadly with the precision achieved. These results extend demonstrated sub-centimetre-equivalent clock performance^29^ to time-varying geophysical signals, and represent a step toward clock networks for geodesy, ultralight-dark-matter searches^38^ and future clock-based gravitational-wave detectors.^62^ They also help characterize the tidal background in optical-clock networks, with potential applications to the redefinition of the second^63^ and the unification of height systems at the centimetre level.^64^
++The measurement and separation of the lunar and solar-frequency semidiurnal contributions extend demonstrated sub-centimetre-equivalent clock performance^29^ to time-varying geophysical signals. Together with the signal-to-noise model, they support the development of clock networks for geodesy, ultralight-dark-matter searches^38^ and future clock-based gravitational-wave detectors.^62^ Characterizing the tidal background has potential applications to the redefinition of the second^63^ and the unification of height systems at the centimetre level.^64^
+ 
+ **Note added.** During the preparation of this manuscript, a related observation of tidal variations of the gravity potential in a European optical-clock network was reported;^20^ the present work is complementary in separating the lunar and solar semidiurnal contributions on a coastal–inland baseline.
+diff --git a/sections/supplementary_methods.md b/sections/supplementary_methods.md
+index bb096c7..bb0c739 100644
+--- a/sections/supplementary_methods.md
++++ b/sections/supplementary_methods.md
+@@ -1,5 +1,7 @@
+ ## Supplementary Methods
+ 
++SM1–SM5 describe the filtered validation analysis, also labelled the primary reduction. SM6 and SM7 describe the main analysis, also labelled the auxiliary reduction, unless a filtered-data comparison is explicitly identified. Supplementary Table 4 summarizes their methodological differences.
++
+ ### SM1. Physical model
+ 
+ We use $k_{20}=0.29525$, $k_{22}=0.29801$ and $k_3=0.093$. The IERS 2010 resonance formula, applied constituent by constituent for $k_{21}$, gives 0.2588 for K₁, 0.2873 for P₁ and 0.2975 for O₁. The radial displacement is computed with the IERS algorithm, including the frequency and latitude dependence of the Love number $h$ ^16^.
+@@ -22,7 +24,7 @@ Omitting endpoint trimming changes the lunar amplitude by −0.009 and the full-
+ 
+ For the lunar group, two independent sets of 200 realizations give standard deviations of 0.13 and 0.14, compared with 0.13 for the larger of the scaled least-squares and jackknife errors; we quote 0.14, with a resampling bias of +0.01. With the daily disturbances of Methods, which have r.m.s. values up to $1.9\times10^{-18}$, 5,000 realizations per scenario give standard deviations rounding to 0.14 (0.13–0.15 for the 300 realizations of Extended Data Table 3) and coverage of 0.67–0.68 for ±0.14 and 0.945–0.952 for ±1.96 × 0.14.
+ 
+-For the semidiurnal response, the group-bootstrap standard deviation of 0.08 is smaller than the calibrated value of 0.12, which is quoted. The segment bootstrap gives a lunar amplitude of $0.98\pm0.11$ and phase of $-6^\circ\pm8^\circ$. The correlation between the lunar and neighbouring semidiurnal coefficients is −0.32. The full-template and semidiurnal responses are $0.90\pm0.12$ and $0.96\pm0.12$ (Extended Data Fig. 1).
++For the semidiurnal response, the group-bootstrap standard deviation of 0.08 is smaller than the calibrated value of 0.12, which is quoted. The segment bootstrap gives a lunar amplitude of $0.98\pm0.11$ and phase of $-6^\circ\pm8^\circ$. The correlation between the lunar and neighbouring semidiurnal coefficients is −0.32.
+ 
+ Summer supplies 61% of the conditional information on the lunar response and gives $0.87\pm0.18$, compared with $1.05\pm0.31$ for the earlier campaigns together. The five lunar estimates are consistent ($\chi^2=4.1$, four degrees of freedom, $p=0.40$; Extended Data Table 1), as are the semidiurnal estimates ($\chi^2=3.2$, $p=0.52$; Extended Data Fig. 2). Resampling the operating groups gives a 95% lunar interval of [0.76, 1.18].
+ 
+@@ -48,7 +50,7 @@ At M₂, the harmonic power of the full record after projection of segment offse
+ 
+ ### SM6. Auxiliary response and uncertainty details
+ 
+-Supplementary Table 4 compares the primary and auxiliary reductions. The full-template estimate is $0.9551\pm0.1082$, and the grouped lunar and neighbouring estimates are $1.0004\pm0.1320$ and $0.9251\pm0.3649$. In the phase-relaxed fit, the lunar in-phase and quadrature estimates are $1.0007\pm0.1320$ and $-0.0969\pm0.1989$; the scaled least-squares quadrature error is 0.1273.
++Supplementary Table 4 compares the main and filtered validation analyses; Supplementary Table 2 gives the main response estimates and their uncertainties. In the phase-relaxed fit, the lunar in-phase and quadrature estimates are $1.0007\pm0.1320$ and $-0.0969\pm0.1989$; the scaled least-squares quadrature error is 0.1273.
+ 
+ The projected solid-Earth/loading template correlation is 0.725 and the coefficient correlation under day deletion is −0.888. For M₂ and S₂, at the measured amplitudes $4.5047\times10^{-18}$ and $1.9214\times10^{-18}$, observing-period noise propagation gives standard errors of $0.6153\times10^{-18}$ and $0.6788\times10^{-18}$. For the diurnal-group and loading coefficients, the period-noise standard errors are 0.3631 and 0.4337 and the UTC-day-jackknife errors 0.5381 and 0.5438.
+ 
+@@ -62,7 +64,7 @@ $$
+ \hat\beta_T(\lambda)=\hat\beta_{T,\mathrm{single}}-\lambda P_T^+P_D\hat\beta_D,
+ $$
+ 
+-where $P_T^+$ is the Moore–Penrose pseudoinverse. We repeat the sweep with the donor's single-frequency estimate. A fit retaining both pairs after subtraction leaves the target unchanged by construction and serves as an algebraic control. Amplitude is the norm of the two coefficients and phase is $\operatorname{atan2}(\beta_{\sin},\beta_{\cos})$, corresponding to $A\cos(2\pi f(t-t_0)-\phi)$. Amplitudes are converted to equivalent height as in Methods.
++where $P_T^+$ is the Moore–Penrose pseudoinverse. We repeat the sweep with the donor's single-frequency estimate. A fit retaining both pairs after subtraction leaves the target unchanged by construction and is an algebraic control. Amplitude is the norm of the two coefficients and phase is $\operatorname{atan2}(\beta_{\sin},\beta_{\cos})$, corresponding to $A\cos(2\pi f(t-t_0)-\phi)$. Amplitudes are converted to equivalent height as in Methods.
+ 
+ Template lag correlations evaluate the fitted donor waveform at $t-\ell$ and the target at $t$, residualize both on the observation support and normalize their inner product, for lags within ±24 h in 5-min steps. The zero-lag correlation is 0.1955, and the maximum absolute lag correlations are 0.2413 for shifted M₂ against S₂ and 0.2113 in the reverse direction. The largest cross-component coefficient correlations between the joint M₂ and S₂ estimates, $R_{ij}=C_{ij}/\sqrt{C_{ii}C_{jj}}$, are 0.248 under scaled least squares and 0.261 under UTC-day deletion (Extended Data Fig. 6).
+ 
+@@ -103,16 +105,15 @@ For alias diagnostics, we scan 20–25 μHz with spacing $1/(12T_{\rm span})$ an
+ | Student-*t*₅ MA(1) | +0.001 | 98.9 | +0.003 | 98.3 |
+ | Student-*t*₇ MA(1) + OU | +0.001 | 97.2 | +0.005 | 98.5 |
+ 
+-**Supplementary Table 4 | Primary and auxiliary reductions.** Both reductions use the same 54 observing segments, each with its own offset. They differ in selection, filtering, tidal-template realization and weighting, so their estimates are related but are not independent measurements.
++**Supplementary Table 4 | Main and filtered validation analyses.** Both reductions use the same 54 observing segments, each with its own offset. They differ in selection, filtering, tidal-template realization and weighting, so their estimates are related but are not independent measurements.
+ 
+-| | Primary reduction | Auxiliary reduction |
++| | Filtered validation (primary) | Main analysis (auxiliary) |
+ |:--|:--|:--|
+-| Data | 1-s samples after transient screening; 544 h | 3,299 non-overlapping 600-s means with their own valid-interval selection, without transient screening; 545.9 h |
++| Data | 1-s samples after transient screening; 544 h | 3,299 non-overlapping 600-s means after segment-median counter-jump rejection and per-segment wall-clock binning (Methods), without the additional running-median transient screening; 545.9 h |
+ | Filtering | 1,200-s triangular window at 600-s steps, applied to data and model | None |
+ | Tidal template | IERS 2010 solid tide with constituent-dependent Love numbers; ocean-loading potential by Green's-function convolution of FES2022 (SM1) | IERS radial displacement converted with $h_2$ and $k_2$; effective-potential loading convolution with 18 constituents (Methods) |
+ | Weights | Equal | Observing-period noise for the full-template and three-group fits; equal for spectral scans, joint sinusoid fits and the solid-Earth/loading fit |
+ | Uncertainties | Residual resampling for the full template, semidiurnal band and lunar group; larger of scaled least squares and day-by-day jackknife otherwise | Larger of scaled least squares and UTC-day jackknife |
+-| Full template / lunar / near-12-h | $0.90\pm0.12$ / $0.97\pm0.14$ / $0.90\pm0.29$ | $0.96\pm0.11$ / $1.00\pm0.13$ / $0.93\pm0.36$ |
+ | Used in | Fig. 1b,d, Figs. 2 and 4, Extended Data Figs. 1–3 and 7, Extended Data Tables 1–3, Supplementary Figs. 1 and 3 | Fig. 3, Table 1, Extended Data Figs. 4–6, Supplementary Fig. 2, Supplementary Tables 1 and 2 |
+ 
+ ### Supplementary Figures
+diff --git a/submission/AUTHOR_CONFIRMATIONS_ZH.md b/submission/AUTHOR_CONFIRMATIONS_ZH.md
+new file mode 100644
+index 0000000..c31778d
+--- /dev/null
++++ b/submission/AUTHOR_CONFIRMATIONS_ZH.md
+@@ -0,0 +1,22 @@
++# v3.22 作者待确认事项
++
++本版为作者审阅稿。以下事实未获本轮确认，投稿信及正文中的占位和 provisional 标记须在作者确认后处理；本文件不构成投稿授权。
++
++| 项目 | 当前依据与状态 | 请作者确认的具体内容 |
++|:--|:--|:--|
++| 通讯作者 | 尚无本轮指定姓名/邮箱；未依据作者顺序或联系方式推选 | 通讯作者姓名、准确英文机构、通信邮箱；如有多位，说明各人身份与联系顺序 |
++| 作者名单与机构 | 保留底稿 36 位作者顺序及 6 项机构；未新增共同贡献标记 | 全体姓名拼写、顺序、机构编号及机构名称；是否需要共同贡献等特殊标记 |
++| 作者贡献 | 依据逐人贡献记录与 PJW 最新决定暂拟，明确标为 provisional | 每位作者核对本人的具体角色，并确认英文缩写；Jian-Wei Pan 的策划、指挥及论文写作按已有明确指示保留 |
++| 全作者批准 | 尚未收到对本次最终版本及向 Nature 投稿的全体同意记录 | 全体作者是否批准最终稿内容并同意此次投稿；不能以本次编辑授权替代 |
++| 出版状态 | 已知文献与共享观测披露不等于本稿出版状态确认 | 本稿是否已正式发表，是否有本稿预印本及其准确链接/版本；与已发表或预印本材料的关系 |
++| 独占审理 | 无作者确认 | 本稿是否正在其他期刊审理；如是，不能填写未投他刊声明 |
++| Hou 相关研究和重叠 | 正文披露共享 274 小时夏季记录；投稿信沿用既有 arXiv 标识 | Hou 稿件的最新出版/审理状态、是否须向编辑另附相关稿件，以及是否存在其他数据或文字重叠 |
++| Stahl 相关研究 | 按正文 Note added 披露欧洲网络相关观测；未声称数据共享 | 提交时核对该工作的最新书目信息及是否需更新相关说明 |
++| 其他相关稿件 | 无完整作者清单 | 是否存在其他相关稿件，尤其正在 Springer Nature 审理的稿件；若有，提供题名、编号、状态及关系 |
++| 既往编辑沟通 | 无作者记录，未写“无” | 是否曾与编辑讨论本工作；若有，提供编辑姓名、日期、稿号及必要内容 |
++| 推荐或回避审稿人 | 未提供，未推定 | 如需填写，给出真实姓名、机构、联系方式及推荐/回避理由 |
++| 日期与签名 | 信中日期为本版准备日 2026-11-09 | 实际提交日、签字/署名者及机构，确保与投稿系统一致 |
++
++Nature Support 的 [Cover letter](https://support.nature.com/en/support/solutions/articles/6000245674-cover-letter) 与 [Cover letter for your manuscript](https://support.nature.com/en/support/solutions/articles/6000245673-cover-letter-for-your-manuscript) 要求如实说明全作者批准、出版/独占状态及相关稿件和编辑沟通。上述事实尚未确认，因此只保留可见占位，未代为作出声明。[Nature initial submission](https://www.nature.com/nature/for-authors/initial-submission) 将 cover letter 作为说明工作意义与期刊适配性的机会；当日该页完整访问受站点重定向限制，仅核对到官方搜索索引摘要。
++
++历史 `USER_LATEST_DECISIONS.md` 曾要求不标通讯作者；本轮已批准方案明确允许暂写通讯信息，故加入姓名/邮箱占位而不指定任何人。所有投稿、预印本提交及公开发布仍须用户明确授权。
+diff --git a/submission/COVER_LETTER_v3.22.md b/submission/COVER_LETTER_v3.22.md
+new file mode 100644
+index 0000000..4cf40ae
+--- /dev/null
++++ b/submission/COVER_LETTER_v3.22.md
+@@ -0,0 +1,25 @@
++9 November 2026
++
++Dear Editors,
++
++Please consider our manuscript, “Tidal potential measured with distant optical clocks”, for publication as an Article in *Nature*.
++
++Optical clocks can measure changes in gravitational potential through their relative ticking rates. Using this capability to study Earth requires separating overlapping geophysical contributions and establishing how clock noise and intermittent operation limit their measurement. Astronomical tides provide a predictable signal for addressing these questions, while their proximity to daily laboratory variations makes attribution challenging.
++
++We compare a strontium clock in coastal Shanghai with an ytterbium clock in inland Wuhan across a 692-km baseline, connected by a 1,350-km fibre link. Five campaigns spanning 353 days yield 545.9 hours of observations in the main analysis. The measured response to the combined solid-Earth and ocean-loading prediction is 0.96 ± 0.11, and the lunar semidiurnal group response is 1.00 ± 0.13. The amplitude spectrum resolves peaks near the principal lunar and solar semidiurnal frequencies, with equivalent-height amplitudes of 4.87 and 2.87 cm. Conditional fits and sampling-response tests show that each contribution remains identifiable when the other is controlled. Additional analyses quantify sensitivity to specified daily disturbances and ocean-loading assumptions.
++
++We develop a signal-to-noise model that combines signal strength, clock noise and actual sampling. The model accounts for the lunar precision and helps explain why the solar-frequency, diurnal and separate ocean-loading contributions are less precisely constrained. It relates component precision to observing duration, phase coverage and parameter coupling. Its exposure scaling is conditional on the noise and sampling efficiency of future observations.
++
++The work will interest Nature’s readers in quantum metrology, gravitation and geophysics. It demonstrates how distant optical clocks can distinguish components of a time-varying geophysical signal and quantify the precision available for each. Characterizing this tidal background has potential applications to optical-clock networks supporting the redefinition of the second and the unification of height systems.
++
++The 274-hour summer record is shared with the absolute frequency-ratio study by Hou and colleagues (arXiv:2610.34250). This relationship is disclosed in the manuscript; the present work uses the extended record for tidal-component analysis. We also discuss the related European-network observations by Stahl and colleagues (arXiv:2610.39635) and explain the complementary focus on separating lunar and solar semidiurnal contributions along a coastal–inland baseline.
++
++[Author confirmation required: publication status, exclusive consideration, approval of the manuscript and submission by all authors, and any related submissions or prior editorial discussions.]
++
++Thank you for considering our manuscript.
++
++Yours sincerely,
++
++[Corresponding author name to be confirmed]  
++[Institution to be confirmed]  
++[Corresponding author email to be confirmed]

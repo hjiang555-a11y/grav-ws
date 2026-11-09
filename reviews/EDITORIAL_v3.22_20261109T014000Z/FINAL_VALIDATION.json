@@ -1,0 +1,102 @@
+{
+  "scope": "Editorial/layout verification only; no scientific recalculation or raw-data reproduction",
+  "changed_sections": [
+    "author_block.md",
+    "author_contributions.md",
+    "auxiliary_methods.md",
+    "figures_tables.md",
+    "methods.md",
+    "opening.md",
+    "results_discussion.md",
+    "supplementary_methods.md"
+  ],
+  "frozen_baseline_files_verified": 112,
+  "approved_title_abstract_exact": true,
+  "abstract_words_excluding_operators": 188,
+  "display_equations_unchanged": true,
+  "Table1_exact": true,
+  "all_figure_files_byte_identical": 66,
+  "main_figure_links_sizes_order_unchanged": true,
+  "main_selected_result_series_only": true,
+  "removed_alternative_numbers_recorded_in": "agents/task1/CHANGE_MAP.md",
+  "numeric_multiset_unchanged": false,
+  "numeric_changes": "Author-authorized redundant-result deletions; existing selection rules disclosed with frozen-source provenance",
+  "citation_sources_unchanged": true,
+  "citation_first_appearance": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35
+  ],
+  "main_figure_first_appearance": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "author_order_affiliations_unchanged": true,
+  "provisional_author_contributions_included": true,
+  "compiler_serious_warnings": {},
+  "pending_author_items": [
+    "Corresponding author identity and email",
+    "Approval of provisional contributions and submission declarations",
+    "Original segment-window selection rationale",
+    "Existing S2 detection/attribution claim boundary",
+    "Fig1 campaign-hour aggregation",
+    "Data/code access arrangements"
+  ],
+  "build": {
+    "abstract_whitespace_tokens": 190,
+    "abstract_words_excluding_operators": 188,
+    "approved_abstract_exact_text": true,
+    "author_contributions_included": true,
+    "records": [
+      {
+        "stem": "NATURE_ARTICLE_v3.22",
+        "pdf": "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/formal_build_01/NATURE_ARTICLE_v3.22.pdf"
+      },
+      {
+        "stem": "NATURE_ARTICLE_MAIN_v3.22",
+        "pdf": "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/formal_build_01/NATURE_ARTICLE_MAIN_v3.22.pdf"
+      },
+      {
+        "stem": "SUPPLEMENTARY_INFORMATION_v3.22",
+        "pdf": "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/formal_build_01/SUPPLEMENTARY_INFORMATION_v3.22.pdf"
+      }
+    ],
+    "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+    "body_font": "Liberation Serif, 12pt (Times-compatible substitute)",
+    "body_line_spacing": "double"
+  }
+}

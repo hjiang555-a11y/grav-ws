@@ -1,0 +1,448 @@
+{
+  "SUPPLEMENTARY_INFORMATION_v3.22.pdf": {
+    "pages": 14,
+    "layout_issues": [],
+    "page_inventory": [
+      {
+        "page": 1,
+        "characters": 140,
+        "first_text": "Supplementary Information\nTidal potential measured with distant optical clocks\nLei Hou et al.\nReference numbers follow the main manuscript.\n"
+      },
+      {
+        "page": 2,
+        "characters": 2328,
+        "first_text": "Tidal potential measured with distant optical clocks\nSupplementary Methods\n1\nSM1–SM5 describe the filtered validation analysis, also labelled the prim"
+      },
+      {
+        "page": 3,
+        "characters": 2396,
+        "first_text": "Tidal potential measured with distant optical clocks\n33–66 km wide, increases the Shanghai M2 loading potential expressed as 𝛿𝑊/𝑔from 15.3 mm to\n27\n17"
+      },
+      {
+        "page": 4,
+        "characters": 2544,
+        "first_text": "Tidal potential measured with distant optical clocks\n0.11 and phase of −6∘± 8∘. The correlation between the lunar and neighbouring semidiurnal\n54\ncoef"
+      },
+      {
+        "page": 5,
+        "characters": 2421,
+        "first_text": "Tidal potential measured with distant optical clocks\nThe lunar responses for alternative daily models (Fig. 4a) are: campaign-specific 24-h terms with"
+      },
+      {
+        "page": 6,
+        "characters": 2246,
+        "first_text": "Tidal potential measured with distant optical clocks\nThe projected solid-Earth/loading template correlation is 0.725 and the coefficient correlation u"
+      },
+      {
+        "page": 7,
+        "characters": 1419,
+        "first_text": "Tidal potential measured with distant optical clocks\nFor alias diagnostics, we scan 20–25 μHz with spacing 1/(12𝑇span) and, for each donor, select the"
+      },
+      {
+        "page": 8,
+        "characters": 946,
+        "first_text": "Tidal potential measured with distant optical clocks\nSupplementary Table 2 | Template-response signal-to-noise ratios. The first four rows use the non"
+      },
+      {
+        "page": 9,
+        "characters": 1056,
+        "first_text": "Tidal potential measured with distant optical clocks\nSupplementary Table 3 | Noise-model simulations of the alternative processing. Bias and coverage "
+      },
+      {
+        "page": 10,
+        "characters": 1590,
+        "first_text": "Tidal potential measured with distant optical clocks\nSupplementary Table 4 | Main and filtered validation analyses. Both reductions use the same 54 ob"
+      },
+      {
+        "page": 11,
+        "characters": 1222,
+        "first_text": "Tidal potential measured with distant optical clocks\nSupplementary Figures\n159\n16 Apr\n17 Apr\n18 Apr\n19 Apr\n−30\n−20\n−10\n0\n10\n20\n30\nΔy (10\n−18)\na\nYb/Sr "
+      },
+      {
+        "page": 12,
+        "characters": 1642,
+        "first_text": "Tidal potential measured with distant optical clocks\n20\n21\n22\n23\n24\n25\n0\n10\n20\n30\n40\n50\nEquivalent-height sinusoidal\npeak amplitude (cm)\nN2\nK2\na\nM2 in"
+      },
+      {
+        "page": 13,
+        "characters": 848,
+        "first_text": "Tidal potential measured with distant optical clocks\n−2\n0\n2\n4\nTime from 01:10, 7 July 2026 (h)\n−15\n−10\n−5\n0\nΔy, 60-s averages (10\n−16)\na\nRetained\nRemo"
+      },
+      {
+        "page": 14,
+        "characters": 599,
+        "first_text": "Tidal potential measured with distant optical clocks\nM2\nS2\nN2\nK2\nK1\nO1\nP1\nQ1\n0.85\n0.90\n0.95\n1.00\nAmplitude ratio\na\nShanghai\nWuhan\nM2\nS2\nN2\nK2\nK1\nO1\nP1"
+      }
+    ],
+    "sha256": "60e083edf8f3e4929e5f49a7412abb35ab73ff92e60e64c30b79c64c16be6dcb"
+  },
+  "NATURE_ARTICLE_MAIN_v3.22.pdf": {
+    "pages": 24,
+    "layout_issues": [],
+    "page_inventory": [
+      {
+        "page": 1,
+        "characters": 3060,
+        "first_text": "Tidal potential measured with distant optical clocks\nTidal potential measured with distant optical clocks\n1\nLei Hou1,2, Xiang Zhang1,2,3, Qiang Zhu4, "
+      },
+      {
+        "page": 2,
+        "characters": 2524,
+        "first_text": "Tidal potential measured with distant optical clocks\nIntroduction\n17\nOptical clocks connected by frequency-transfer links measure gravitational potent"
+      },
+      {
+        "page": 3,
+        "characters": 2470,
+        "first_text": "Tidal potential measured with distant optical clocks\nResults\n44\nA coastal–inland clock baseline\n45\nAs shown in Fig. 1a, the Shanghai Sr clock and the "
+      },
+      {
+        "page": 4,
+        "characters": 2346,
+        "first_text": "Tidal potential measured with distant optical clocks\nThe five filtered-analysis campaign estimates are mutually consistent (Extended Data Fig. 2 and\n7"
+      },
+      {
+        "page": 5,
+        "characters": 2403,
+        "first_text": "Tidal potential measured with distant optical clocks\nThe lunar estimate is also stable against specified daily disturbances. A 10−18 fractional-freque"
+      },
+      {
+        "page": 6,
+        "characters": 2608,
+        "first_text": "Tidal potential measured with distant optical clocks\ngiving 𝜌𝑖∝\n√\n𝑇at fixed 𝜂𝑖. We evaluate this white-noise case on the actual sampling with the mea-"
+      },
+      {
+        "page": 7,
+        "characters": 2129,
+        "first_text": "Tidal potential measured with distant optical clocks\nReferences\n149\n1. Petit, G. & Luzum, B. (eds) IERS Conventions (2010). IERS Technical Note 36 (20"
+      },
+      {
+        "page": 8,
+        "characters": 2148,
+        "first_text": "Tidal potential measured with distant optical clocks\n13. Caldwell, E. D. et al. Quantum-limited optical time transfer for future geosynchronous links."
+      },
+      {
+        "page": 9,
+        "characters": 2286,
+        "first_text": "Tidal potential measured with distant optical clocks\n25. CNES. FES2022 (Finite Element Solution) Tidal model (Version 2024) [Data set] (2024).\n202\nhtt"
+      },
+      {
+        "page": 10,
+        "characters": 2965,
+        "first_text": "Tidal potential measured with distant optical clocks\ndashed box around Shanghai, with labelled contours at 1 and 2 × 10−18. b, Observation calendar\n22"
+      },
+      {
+        "page": 11,
+        "characters": 2559,
+        "first_text": "Tidal potential measured with distant optical clocks\nfractional-frequency amplitude, related by 𝐴ℎ,cm = 100𝑐2𝐴𝑦/𝑔0 with 𝑔0 = 9.80665 m/s2; both\n256\nar"
+      },
+      {
+        "page": 12,
+        "characters": 2458,
+        "first_text": "Tidal potential measured with distant optical clocks\n7.9 × 10−16 in September–October 2025 and 4.2–5.3 × 10−16 in the 2026 campaigns, evaluated\n284\nfo"
+      },
+      {
+        "page": 13,
+        "characters": 2094,
+        "first_text": "Tidal potential measured with distant optical clocks\n𝑦solid = −1 + 𝑘2 −ℎ2\nℎ2\n𝑔(𝑢Wuhan −𝑢Shanghai)\n𝑐2\n,\nwith ℎ2 = 0.6078, 𝑘2 = 0.3010 and 𝑔= 9.794 m/s2"
+      },
+      {
+        "page": 14,
+        "characters": 2262,
+        "first_text": "Tidal potential measured with distant optical clocks\nFor Extended Data Figs. 4–6 and Supplementary Fig. 2, a nuisance matrix 𝑁(segment constants,\n333\n"
+      },
+      {
+        "page": 15,
+        "characters": 1855,
+        "first_text": "Tidal potential measured with distant optical clocks\ndiurnal column uses the three-group fit. The loading column uses a fit of the complete solid-Eart"
+      },
+      {
+        "page": 16,
+        "characters": 2795,
+        "first_text": "Tidal potential measured with distant optical clocks\nwith the FES2022 ocean elevation 𝜁on a 1/30∘grid 24,25, 𝜌𝑤= 1, 025 kg m−3, Earth’s radius 𝑎\n376\na"
+      },
+      {
+        "page": 17,
+        "characters": 2291,
+        "first_text": "Tidal potential measured with distant optical clocks\nThe phase-folded summer display (Fig. 2b) subtracts the fitted offsets and non-lunar groups and\n4"
+      },
+      {
+        "page": 18,
+        "characters": 2526,
+        "first_text": "Tidal potential measured with distant optical clocks\nInjection tests add either the full tidal model (𝐴= 1) or the model without its lunar group (𝐴= 0"
+      },
+      {
+        "page": 19,
+        "characters": 1847,
+        "first_text": "Tidal potential measured with distant optical clocks\nCode availability\n456\nThe analysis code for the primary and auxiliary reductions is available fro"
+      },
+      {
+        "page": 20,
+        "characters": 2692,
+        "first_text": "Tidal potential measured with distant optical clocks\nIndependent Deployment Project of HFNL (grant nos. ZB2025010400 and ZB2025010100); the\n481\nAnhui "
+      },
+      {
+        "page": 21,
+        "characters": 2347,
+        "first_text": "Tidal potential measured with distant optical clocks\nthe 1550-nm ultrastable frequency-transfer laser in the local comb system. Y.X., L.W. and W.-B.S."
+      },
+      {
+        "page": 22,
+        "characters": 2829,
+        "first_text": "Tidal potential measured with distant optical clocks\ngroup; for the diurnal band and solid Earth tide alone they are the larger of the scaled least-sq"
+      },
+      {
+        "page": 23,
+        "characters": 1559,
+        "first_text": "Tidal potential measured with distant optical clocks\nevaluated on the original timestamps without interpolating missing observations; these describe\n5"
+      },
+      {
+        "page": 24,
+        "characters": 2065,
+        "first_text": "Tidal potential measured with distant optical clocks\nExtended Data Table 1 | Daily terms and campaign-specific tidal amplitudes. Amplitude and\n579\nloc"
+      }
+    ],
+    "sha256": "99a651e1f51e4e86a0b9aa7b590efc51e405b76337611a4b78640d9edf53489f"
+  },
+  "NATURE_ARTICLE_v3.22.pdf": {
+    "pages": 47,
+    "layout_issues": [],
+    "page_inventory": [
+      {
+        "page": 1,
+        "characters": 3060,
+        "first_text": "Tidal potential measured with distant optical clocks\nTidal potential measured with distant optical clocks\n1\nLei Hou1,2, Xiang Zhang1,2,3, Qiang Zhu4, "
+      },
+      {
+        "page": 2,
+        "characters": 2524,
+        "first_text": "Tidal potential measured with distant optical clocks\nIntroduction\n17\nOptical clocks connected by frequency-transfer links measure gravitational potent"
+      },
+      {
+        "page": 3,
+        "characters": 2470,
+        "first_text": "Tidal potential measured with distant optical clocks\nResults\n44\nA coastal–inland clock baseline\n45\nAs shown in Fig. 1a, the Shanghai Sr clock and the "
+      },
+      {
+        "page": 4,
+        "characters": 2346,
+        "first_text": "Tidal potential measured with distant optical clocks\nThe five filtered-analysis campaign estimates are mutually consistent (Extended Data Fig. 2 and\n7"
+      },
+      {
+        "page": 5,
+        "characters": 2403,
+        "first_text": "Tidal potential measured with distant optical clocks\nThe lunar estimate is also stable against specified daily disturbances. A 10−18 fractional-freque"
+      },
+      {
+        "page": 6,
+        "characters": 2667,
+        "first_text": "Tidal potential measured with distant optical clocks\ngiving 𝜌𝑖∝\n√\n𝑇at fixed 𝜂𝑖. We evaluate this white-noise case on the actual sampling with the mea-"
+      },
+      {
+        "page": 7,
+        "characters": 2171,
+        "first_text": "Tidal potential measured with distant optical clocks\ngeodesy, ultralight-dark-matter searches27 and future clock-based gravitational-wave detectors.28"
+      },
+      {
+        "page": 8,
+        "characters": 2099,
+        "first_text": "Tidal potential measured with distant optical clocks\n10. Arnold, K. J. et al. Lu+ optical frequency references with accuracy verified at the 19th digi"
+      },
+      {
+        "page": 9,
+        "characters": 1604,
+        "first_text": "Tidal potential measured with distant optical clocks\n22. Chen, F.-X. et al. 10−21-Level optical frequency dissemination over 2067 km of noise-loaded\n2"
+      },
+      {
+        "page": 10,
+        "characters": 2096,
+        "first_text": "Tidal potential measured with distant optical clocks\n112°E\n116°E\n120°E\n124°E\n26°N\n30°N\n34°N\n12\n13\n14\n15\n50 cm\n100 cm\n150 cm\n692 km\nShanghai\n87Sr\nWuhan"
+      },
+      {
+        "page": 11,
+        "characters": 1202,
+        "first_text": "Tidal potential measured with distant optical clocks\n0\n50\n100\n150\n200\n250\nMeasurement time in June–August 2026 (h; gaps > 6 h removed)\n−10\n−5\n0\n5\n10\n1"
+      },
+      {
+        "page": 12,
+        "characters": 2032,
+        "first_text": "Tidal potential measured with distant optical clocks\n0.0\n0.5\n1.0\n1.5\nResponse coefficient\nFull tide\na\nOverall and grouped responses\n0.6\n0.8\n1.0\n1.2\n1."
+      },
+      {
+        "page": 13,
+        "characters": 1636,
+        "first_text": "Tidal potential measured with distant optical clocks\n−0.5\n0.0\n0.5\n1.0\n1.5\n2.0\nLunar amplitude factor A\nMain result\nOffsets per operating group\nOffsets"
+      },
+      {
+        "page": 14,
+        "characters": 2510,
+        "first_text": "Tidal potential measured with distant optical clocks\nMethods\n269\nClocks, link and data\n270\nThe Sr optical lattice clock is in Shanghai (31.130° N, 121"
+      },
+      {
+        "page": 15,
+        "characters": 2495,
+        "first_text": "Tidal potential measured with distant optical clocks\nMain analysis: grouped responses\n297\nThe main analysis (labelled the auxiliary reduction in the s"
+      },
+      {
+        "page": 16,
+        "characters": 2067,
+        "first_text": "Tidal potential measured with distant optical clocks\nall coefficients. The contours in Fig. 3b show the scaled least-squares covariance at radii one a"
+      },
+      {
+        "page": 17,
+        "characters": 2109,
+        "first_text": "Tidal potential measured with distant optical clocks\nSignal-to-noise ratios\n345\nWe define 𝜌𝑖= |̂𝐴𝑖|/𝑢(̂𝐴𝑖). For the white-noise case of equation (1), "
+      },
+      {
+        "page": 18,
+        "characters": 1875,
+        "first_text": "Tidal potential measured with distant optical clocks\ncriterion uses no tidal model, and adding the model to the data leaves the selection unchanged;\n3"
+      },
+      {
+        "page": 19,
+        "characters": 2686,
+        "first_text": "Tidal potential measured with distant optical clocks\nFiltered validation: fit and uncertainties\n387\nThe 1-s observations and model are filtered identi"
+      },
+      {
+        "page": 20,
+        "characters": 2388,
+        "first_text": "Tidal potential measured with distant optical clocks\nEnvironmental, daily-disturbance and prediction checks\n415\nIn the filtered validation analysis, d"
+      },
+      {
+        "page": 21,
+        "characters": 2037,
+        "first_text": "Tidal potential measured with distant optical clocks\nThe round-trip beat of the fibre link, recorded in Shanghai near 10 MHz at 1-s resolution, is nor"
+      },
+      {
+        "page": 22,
+        "characters": 2023,
+        "first_text": "Tidal potential measured with distant optical clocks\n32. Han, D. & Wahr, J. The viscoelastic relaxation of a realistically stratified earth, and a fur"
+      },
+      {
+        "page": 23,
+        "characters": 2426,
+        "first_text": "Tidal potential measured with distant optical clocks\nJ.-W.P. planned and directed the study and contributed to manuscript writing. Q. Zhang and H.-F.J"
+      },
+      {
+        "page": 24,
+        "characters": 1728,
+        "first_text": "Tidal potential measured with distant optical clocks\n0.0\n0.5\n1.0\n1.5\n2.0\nAmplitude factor A\nFull model\nSemidiurnal band\nLunar (M2 + N2)\nNear-12-h (S2 "
+      },
+      {
+        "page": 25,
+        "characters": 1156,
+        "first_text": "Tidal potential measured with distant optical clocks\n0.0\n0.5\n1.0\n1.5\n2.0\nAmplitude factor\nSep–Oct 2025\nJan 2026\nApr 2026\nMay 2026\nJun–Aug 2026\nAll\na\nF"
+      },
+      {
+        "page": 26,
+        "characters": 826,
+        "first_text": "Tidal potential measured with distant optical clocks\n0\n20\n40\n60\nMeasurement time (h)\n−15\n−10\n−5\n0\n5\n10\n15\nΔy (10\n−18)\n30 d\nSep–Oct 2025\n0\n25\n50\n75\nMea"
+      },
+      {
+        "page": 27,
+        "characters": 2266,
+        "first_text": "Tidal potential measured with distant optical clocks\n21.0\n21.5\n22.0\n22.5\n23.0\n23.5\n24.0\n24.5\n0\n20\n40\n60\n80\nEquivalent-height sinusoidal\npeak amplitude"
+      },
+      {
+        "page": 28,
+        "characters": 1208,
+        "first_text": "Tidal potential measured with distant optical clocks\n0.0\n0.5\n1.0\n1.5\n2.0\n2.5\n3.0\n3.5\n4.0\nEquivalent-height sinusoidal\npeak amplitude (cm)\na\nSubtract M"
+      },
+      {
+        "page": 29,
+        "characters": 1723,
+        "first_text": "Tidal potential measured with distant optical clocks\nM2 cos\nM2 sin\nS2 cos\nS2 sin\nM2 cos\nM2 sin\nS2 cos\nS2 sin\n1.000\n-0.015\n0.251\n0.146\n-0.015\n1.000\n-0."
+      },
+      {
+        "page": 30,
+        "characters": 1320,
+        "first_text": "Tidal potential measured with distant optical clocks\n0\n90\n180\n270\n360\nM2 phase (degrees)\n−6\n−4\n−2\n0\n2\n4\n6\nΔy (10\n−18)\na\nData\nM2 model\n0\n6\n12\n18\n24\nLoc"
+      },
+      {
+        "page": 31,
+        "characters": 1249,
+        "first_text": "Tidal potential measured with distant optical clocks\nExtended Data Table 1 | Daily terms and campaign-specific tidal amplitudes. Amplitude and local t"
+      },
+      {
+        "page": 32,
+        "characters": 1173,
+        "first_text": "Tidal potential measured with distant optical clocks\nExtended Data Table 2 | Related tidal estimates. These estimates share observations and are not c"
+      },
+      {
+        "page": 33,
+        "characters": 1607,
+        "first_text": "Tidal potential measured with distant optical clocks\nExtended Data Table 3 | Injection tests of the primary estimator. Lunar amplitudes fitted with se"
+      },
+      {
+        "page": 34,
+        "characters": 140,
+        "first_text": "Supplementary Information\nTidal potential measured with distant optical clocks\nLei Hou et al.\nReference numbers follow the main manuscript.\n"
+      },
+      {
+        "page": 35,
+        "characters": 2364,
+        "first_text": "Tidal potential measured with distant optical clocks\nSupplementary Methods\n601\nSM1–SM5 describe the filtered validation analysis, also labelled the pr"
+      },
+      {
+        "page": 36,
+        "characters": 2424,
+        "first_text": "Tidal potential measured with distant optical clocks\n33–66 km wide, increases the Shanghai M2 loading potential expressed as 𝛿𝑊/𝑔from 15.3 mm to\n627\n1"
+      },
+      {
+        "page": 37,
+        "characters": 2573,
+        "first_text": "Tidal potential measured with distant optical clocks\n0.11 and phase of −6∘± 8∘. The correlation between the lunar and neighbouring semidiurnal\n654\ncoe"
+      },
+      {
+        "page": 38,
+        "characters": 2440,
+        "first_text": "Tidal potential measured with distant optical clocks\nThe lunar responses for alternative daily models (Fig. 4a) are: campaign-specific 24-h terms with"
+      },
+      {
+        "page": 39,
+        "characters": 2247,
+        "first_text": "Tidal potential measured with distant optical clocks\nThe projected solid-Earth/loading template correlation is 0.725 and the coefficient correlation u"
+      },
+      {
+        "page": 40,
+        "characters": 1420,
+        "first_text": "Tidal potential measured with distant optical clocks\nFor alias diagnostics, we scan 20–25 μHz with spacing 1/(12𝑇span) and, for each donor, select the"
+      },
+      {
+        "page": 41,
+        "characters": 947,
+        "first_text": "Tidal potential measured with distant optical clocks\nSupplementary Table 2 | Template-response signal-to-noise ratios. The first four rows use the non"
+      },
+      {
+        "page": 42,
+        "characters": 1057,
+        "first_text": "Tidal potential measured with distant optical clocks\nSupplementary Table 3 | Noise-model simulations of the alternative processing. Bias and coverage "
+      },
+      {
+        "page": 43,
+        "characters": 1590,
+        "first_text": "Tidal potential measured with distant optical clocks\nSupplementary Table 4 | Main and filtered validation analyses. Both reductions use the same 54 ob"
+      },
+      {
+        "page": 44,
+        "characters": 1222,
+        "first_text": "Tidal potential measured with distant optical clocks\nSupplementary Figures\n759\n16 Apr\n17 Apr\n18 Apr\n19 Apr\n−30\n−20\n−10\n0\n10\n20\n30\nΔy (10\n−18)\na\nYb/Sr "
+      },
+      {
+        "page": 45,
+        "characters": 1642,
+        "first_text": "Tidal potential measured with distant optical clocks\n20\n21\n22\n23\n24\n25\n0\n10\n20\n30\n40\n50\nEquivalent-height sinusoidal\npeak amplitude (cm)\nN2\nK2\na\nM2 in"
+      },
+      {
+        "page": 46,
+        "characters": 848,
+        "first_text": "Tidal potential measured with distant optical clocks\n−2\n0\n2\n4\nTime from 01:10, 7 July 2026 (h)\n−15\n−10\n−5\n0\nΔy, 60-s averages (10\n−16)\na\nRetained\nRemo"
+      },
+      {
+        "page": 47,
+        "characters": 599,
+        "first_text": "Tidal potential measured with distant optical clocks\nM2\nS2\nN2\nK2\nK1\nO1\nP1\nQ1\n0.85\n0.90\n0.95\n1.00\nAmplitude ratio\na\nShanghai\nWuhan\nM2\nS2\nN2\nK2\nK1\nO1\nP1"
+      }
+    ],
+    "sha256": "e2fc7f35ad57ae92fd059cdb97f6bec306c2dc5fed5f7543a0a1b7dd9f0ae367"
+  }
+}
