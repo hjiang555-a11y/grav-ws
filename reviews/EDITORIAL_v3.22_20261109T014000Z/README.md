@@ -1,17 +1,13 @@
-# v3.22 作者审阅稿
+# v3.22 当前作者审阅稿
 
-按作者最后裁定从v3.21修订。正文只保留已指定主数值系列，重复的另一处理结果不强行搬入Methods/SI；保留已批准摘要、四张主图和模型贡献，未做科学重算。Grok评论仅供参考。
+**2026-11-09 最新更正：按作者明确指令删除作者贡献整节，并覆盖本目录同名稿件。** 详见 AUTHOR_CONTRIBUTIONS_REMOVED_ZH.md。旧报告中关于加入该节的记录已失效。
 
-- NATURE_ARTICLE_v3.22.pdf：合并审阅稿（正文、主图、Methods、ED、SI）。
-- NATURE_ARTICLE_v3.21.pdf：原版对照，同目录保存。
-- NATURE_ARTICLE_MAIN_v3.22.pdf / .docx：文字、表格、图注和方法；Word中的公式和表格可编辑。图片在合并PDF中，分页以PDF为准。
-- SUPPLEMENTARY_INFORMATION_v3.22.pdf：独立SI，已包含于合并稿末尾。
-- COVER_LETTER_v3.22.md / .pdf / .docx：对应稿件的投稿信草稿。
-- REVISION_REPORT_ZH.md / .pdf：执行清单、检查证据与作者待决事项。
-- AUTHOR_CONFIRMATIONS_ZH.md：通讯、贡献及投稿声明等作者核对项。
-- CHANGE_MAP.md：数值出现次数及段落变动的审计，不能解读为重新计算。
-- SOURCE_v3.22.zip：可重建排版的源文、引用图件、脚本和审阅记录，不含原始观测数据。
+- NATURE_ARTICLE_v3.22.pdf：当前合并稿（正文、主图、Methods、ED、SI）。
+- NATURE_ARTICLE_MAIN_v3.22.pdf / .docx：当前正文文字、表格、图注和方法；Word 公式和表格可编辑，分页以 PDF 为准。
+- SUPPLEMENTARY_INFORMATION_v3.22.pdf：独立 SI。
+- SOURCE_v3.22.zip：当前可重建排版源码，不含已删除内容或旧审阅记录。
+- COVER_LETTER_v3.22.md / .pdf / .docx：原投稿信草稿，未改动。
+- NATURE_ARTICLE_v3.21.pdf、原修订报告与审阅记录：历史对照，不能据此恢复已撤销内容。
+- AUTHOR_REMOVAL_CHECKS.json、FINAL_VALIDATION.json、PDF_CHECKS.json、WORD_CHECKS.json、SOURCE_REBUILD_CHECKS.json：本次删除、排版和重建核对。
 
-通讯身份和贡献有明确暂定标记，数据代码访问与既有科学表述边界仍需作者落实。编辑/排版检查不代表自动获得科学或投稿批准。未代为投稿、提交预印本或公开数据。
-
-实际源包重建已完成：三份稿件PDF的页数和提取全文一致，见 SOURCE_REBUILD_CHECKS.json。终审F1已在 FINAL_FIX_REVIEW.md 关闭。
+除删除作者贡献外，正文、摘要、作者名单及图件不变；未重算科学数据。通讯信息等既有待确认项仍保留。未代为投稿或公开发布。

@@ -1,16 +1,16 @@
 {
-  "scope": "Manuscript layout rebuild only; no scientific analysis",
-  "source_zip_sha256": "0c14afded92d7e9a209b1cc9d644e25ca4355f607bd6fc43edf23682f0d09041",
+  "scope": "Current source layout rebuild only",
+  "source_zip_sha256": "a68570fef962c7db17aefb41ae5b6d2371b19454639d1805d1cac54ec91dab37",
   "checks": {
     "NATURE_ARTICLE_v3.22.pdf": {
       "pages": 47,
       "extracted_text_exact": true,
-      "text_sha256": "8c62ffeef02477e4bf5e17497dd0b46b0e40dc16d7acb89481f015fa462c28b5"
+      "text_sha256": "85a818e591506371230fec1ee83a8fc91a09cac2397559797624a2b51124b161"
     },
     "NATURE_ARTICLE_MAIN_v3.22.pdf": {
-      "pages": 24,
+      "pages": 23,
       "extracted_text_exact": true,
-      "text_sha256": "b936a7f53832db5487f2f825fcf7cee491424ad949991331aad1c8f0202c0509"
+      "text_sha256": "753f2241abce540fa036fe69ae213f132fe3a7f1b53d58f7780f5dfbc123dac2"
     },
     "SUPPLEMENTARY_INFORMATION_v3.22.pdf": {
       "pages": 14,

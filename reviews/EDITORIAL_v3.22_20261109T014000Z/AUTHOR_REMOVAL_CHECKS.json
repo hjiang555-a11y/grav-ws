@@ -1,0 +1,15 @@
+{
+  "scope": "Author-directed removal only; no scientific recalculation",
+  "author_contributions_absent": true,
+  "other_compiled_manuscript_text_exact": true,
+  "remaining_sections_byte_identical_to_previous_delivery": true,
+  "si_source_byte_identical": true,
+  "all_figures_byte_identical": true,
+  "word": {
+    "math_objects": 149,
+    "editable_tables": 1,
+    "preview_pages": 27,
+    "preview_out_of_page_text": []
+  },
+  "backup_directory": "/data/AI_Research/shared/handoff/grav_ws_editorial_v322_20261109T014000Z_before_author_removal_20261109T030018Z"
+}
