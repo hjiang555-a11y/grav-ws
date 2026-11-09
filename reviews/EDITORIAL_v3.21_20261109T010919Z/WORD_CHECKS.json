@@ -1,0 +1,9 @@
+{
+  "pages_in_libreoffice_preview": 26,
+  "out_of_page_spans": [],
+  "editable_equations": 161,
+  "editable_tables": 1,
+  "line_numbering_configured": true,
+  "pandoc_warnings": false,
+  "visual_review": "first page inspected; remaining pages checked for out-of-page text; authoritative layout is XeLaTeX PDF"
+}
