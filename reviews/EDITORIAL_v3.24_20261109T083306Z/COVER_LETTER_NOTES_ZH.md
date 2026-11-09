@@ -4,6 +4,8 @@
 
 ## 核查与范围
 
+按用户最新指示，将欧洲相关研究一句恢复为此前consolidated_20261108T011413Z/editorial/COVER_LETTER_DRAFT.md中的“An independent study has also reported…”说法，说明这是另一项独立研究。参考编号采用纯文本arXiv形式便于PDF与Word一致排版。仅此一句改变；六位推荐审稿人及其他正文保持不变。
+
 - 当前正文、Methods、SI和图件均未修改；记录全部13个section文件的SHA-256。
 - 两项响应数值、545.9小时有效时间、353天跨度、基线与链路长度均对照当前稿件。
 - 未声称海洋负荷单独检测，未声称太阳频率成分排除了实验室扰动；SNR偏差原因保持可能解释。

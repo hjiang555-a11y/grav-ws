@@ -12,7 +12,7 @@ We develop a signal-to-noise model that combines signal strength, clock noise an
 
 The study connects quantum metrology with gravitation and geophysics by showing how distant clocks can identify components of a time-varying gravitational signal and assess their attainable precision. Characterizing this tidal background is relevant to future optical-clock networks and their use in timekeeping and geodesy.
 
-The 274-hour summer record is shared with the absolute frequency-ratio study by Hou and colleagues (arXiv:2610.34250), as disclosed in the manuscript. The present work uses the extended record for tidal-component analysis. We also discuss the related European-network observations by Stahl and colleagues (arXiv:2610.39635), with our complementary focus on lunar and solar-frequency semidiurnal contributions along a coastal–inland baseline.
+The 274-hour summer record is shared with the absolute frequency-ratio study by Hou and colleagues (arXiv:2610.34250), as disclosed in the manuscript. The present work uses the extended record for tidal-component analysis. An independent study has also reported tidal potential variations in a European optical-clock network: K. Stahl et al., *Optical clock network tracks tidal variations of the gravity potential*, arXiv:2610.39635v1 (2026).
 
 Thank you for considering our manuscript. Our suggested referees are listed on the following page.
 
