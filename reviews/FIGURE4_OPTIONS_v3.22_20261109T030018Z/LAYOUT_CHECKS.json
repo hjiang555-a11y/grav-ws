@@ -1,0 +1,24 @@
+{
+  "source_unchanged": true,
+  "original_intervals_checked": 18,
+  "all_intervals_inside_display_range": true,
+  "row_strips_do_not_overlap": true,
+  "scientific_refitting": false,
+  "outputs": {
+    "OPTION_A_two_columns_below": {
+      "pages": 1,
+      "width_pt": 510.0,
+      "height_pt": 341.0
+    },
+    "OPTION_B_three_columns": {
+      "pages": 1,
+      "width_pt": 510.0,
+      "height_pt": 192.0
+    },
+    "OPTION_C_compact_single_column": {
+      "pages": 1,
+      "width_pt": 510.0,
+      "height_pt": 225.0
+    }
+  }
+}

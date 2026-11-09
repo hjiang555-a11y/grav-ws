@@ -1,0 +1,52 @@
+{
+  "source": "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/figures/figure4.pdf",
+  "sha256": "5be67f0a119e2d0a595838e85bb1f1bab0d327157bc2a1a0b831037a741f3733",
+  "method": "Reflow original PDF vector marks; no raw data read, no fits, no manufactured observations",
+  "a_x_axis_original_ticks": [
+    -0.5,
+    0,
+    0.5,
+    1,
+    1.5,
+    2
+  ],
+  "a_x_axis_preview_ticks": [
+    0.5,
+    1,
+    1.5
+  ],
+  "source_a_rows": 17,
+  "options": {
+    "OPTION_A_two_columns_below": {
+      "width_mm": 179.9,
+      "height_mm": 120.3
+    },
+    "OPTION_B_three_columns": {
+      "width_mm": 179.9,
+      "height_mm": 67.7
+    },
+    "OPTION_C_compact_single_column": {
+      "width_mm": 179.9,
+      "height_mm": 79.4
+    }
+  },
+  "shortened_labels": {
+    "Main result": "Main result",
+    "Offsets per operating group": "Operating-group offsets",
+    "Offsets per observation period": "Observation-period offsets",
+    "24-h terms, phase of air temperature": "24 h: air-temperature phase",
+    "Air-temperature regressors": "Air-temperature regressors",
+    "Common 24-h and 12-h terms": "Common 24 h + 12 h",
+    "24-h terms per campaign": "24 h per campaign",
+    "12-h terms per campaign": "12 h per campaign",
+    "24-h and 12-h terms per campaign": "24 h + 12 h per campaign",
+    "Summer only": "Summer only",
+    "Without Sep–Oct 2025": "Omit Sep–Oct 2025",
+    "Without Jan 2026": "Omit Jan 2026",
+    "Without Apr 2026": "Omit Apr 2026",
+    "Without May 2026": "Omit May 2026",
+    "Without Jun–Aug 2026": "Omit Jun–Aug 2026",
+    "Without trimming of segment ends": "Keep segment ends",
+    "Without removal of excursions": "Keep excursions"
+  }
+}
