@@ -56,25 +56,25 @@
       {
         "page": 11,
         "characters": 1222,
-        "first_text": "Tidal potential measured with distant optical clocks\nSupplementary Figures\n159\n16 Apr\n17 Apr\n18 Apr\n19 Apr\n−30\n−20\n−10\n0\n10\n20\n30\nΔy (10\n−18)\na\nYb/Sr "
+        "first_text": "Tidal potential measured with distant optical clocks\nSupplementary Figures\n159\n16 Apr\n17 Apr\n18 Apr\n19 Apr\n−30\n−20\n−10\n0\n10\n20\n30\nΔy (10\n−18)\na\nYb/Sr "
       },
       {
         "page": 12,
         "characters": 1642,
-        "first_text": "Tidal potential measured with distant optical clocks\n20\n21\n22\n23\n24\n25\n0\n10\n20\n30\n40\n50\nEquivalent-height sinusoidal\npeak amplitude (cm)\nN2\nK2\na\nM2 in"
+        "first_text": "Tidal potential measured with distant optical clocks\n20\n21\n22\n23\n24\n25\n0\n10\n20\n30\n40\n50\nEquivalent­height sinusoidal\npeak amplitude (cm)\nN2\nK2\na\nM2 in"
       },
       {
         "page": 13,
         "characters": 848,
-        "first_text": "Tidal potential measured with distant optical clocks\n−2\n0\n2\n4\nTime from 01:10, 7 July 2026 (h)\n−15\n−10\n−5\n0\nΔy, 60-s averages (10\n−16)\na\nRetained\nRemo"
+        "first_text": "Tidal potential measured with distant optical clocks\n−2\n0\n2\n4\nTime from 01:10, 7 July 2026 (h)\n−15\n−10\n−5\n0\nΔy, 60­s averages (10\n−16)\na\nRetained\nRemo"
       },
       {
         "page": 14,
         "characters": 599,
-        "first_text": "Tidal potential measured with distant optical clocks\nM2\nS2\nN2\nK2\nK1\nO1\nP1\nQ1\n0.85\n0.90\n0.95\n1.00\nAmplitude ratio\na\nShanghai\nWuhan\nM2\nS2\nN2\nK2\nK1\nO1\nP1"
+        "first_text": "Tidal potential measured with distant optical clocks\nM2\nS2\nN2\nK2\nK1\nO1\nP1\nQ1\n0.85\n0.90\n0.95\n1.00\nAmplitude ratio\na\nShanghai\nWuhan\nM2\nS2\nN2\nK2\nK1\nO1\nP1"
       }
     ],
-    "sha256": "a29fc216bda05dcbd35236fc2d26d812453fec8ec61f6d440cb588647639c734"
+    "sha256": "63f2c89c4e3a0b35407b9452e8de1e970d8462a4a8aefe7493fcad6bee2fb0cf"
   },
   "NATURE_ARTICLE_MAIN_v3.22.pdf": {
     "pages": 23,
@@ -132,13 +132,13 @@
       },
       {
         "page": 11,
-        "characters": 2559,
+        "characters": 2564,
         "first_text": "Tidal potential measured with distant optical clocks\nfractional-frequency amplitude, related by 𝐴ℎ,cm = 100𝑐2𝐴𝑦/𝑔0 with 𝑔0 = 9.80665 m/s2; both\n256\nar"
       },
       {
         "page": 12,
-        "characters": 2458,
-        "first_text": "Tidal potential measured with distant optical clocks\n7.9 × 10−16 in September–October 2025 and 4.2–5.3 × 10−16 in the 2026 campaigns, evaluated\n284\nfo"
+        "characters": 2563,
+        "first_text": "Tidal potential measured with distant optical clocks\nlevel of the tide-corrected ratio, 𝜎𝑦\n√𝜏, from the overlapping Allan deviation 31 at 256–4,096 s,"
       },
       {
         "page": 13,
@@ -148,7 +148,7 @@
       {
         "page": 14,
         "characters": 2262,
-        "first_text": "Tidal potential measured with distant optical clocks\nFor Extended Data Figs. 4–6 and Supplementary Fig. 2, a nuisance matrix 𝑁(segment constants,\n333\n"
+        "first_text": "Tidal potential measured with distant optical clocks\nFor Extended Data Figs. 4–6 and Supplementary Fig. 2, a nuisance matrix 𝑁(segment constants,\n334\n"
       },
       {
         "page": 15,
@@ -158,7 +158,7 @@
       {
         "page": 16,
         "characters": 2795,
-        "first_text": "Tidal potential measured with distant optical clocks\nwith the FES2022 ocean elevation 𝜁on a 1/30∘grid 24,25, 𝜌𝑤= 1, 025 kg m−3, Earth’s radius 𝑎\n376\na"
+        "first_text": "Tidal potential measured with distant optical clocks\nwith the FES2022 ocean elevation 𝜁on a 1/30∘grid 24,25, 𝜌𝑤= 1, 025 kg m−3, Earth’s radius 𝑎\n377\na"
       },
       {
         "page": 17,
@@ -173,12 +173,12 @@
       {
         "page": 19,
         "characters": 1847,
-        "first_text": "Tidal potential measured with distant optical clocks\nCode availability\n456\nThe analysis code for the primary and auxiliary reductions is available fro"
+        "first_text": "Tidal potential measured with distant optical clocks\nCode availability\n457\nThe analysis code for the primary and auxiliary reductions is available fro"
       },
       {
         "page": 20,
         "characters": 2273,
-        "first_text": "Tidal potential measured with distant optical clocks\nIndependent Deployment Project of HFNL (grant nos. ZB2025010400 and ZB2025010100); the\n481\nAnhui "
+        "first_text": "Tidal potential measured with distant optical clocks\nIndependent Deployment Project of HFNL (grant nos. ZB2025010400 and ZB2025010100); the\n482\nAnhui "
       },
       {
         "page": 21,
@@ -188,15 +188,15 @@
       {
         "page": 22,
         "characters": 1862,
-        "first_text": "Tidal potential measured with distant optical clocks\nExtended Data Fig. 6 | Harmonic geometry and joint-coefficient correlations on the auxiliary\n536\n"
+        "first_text": "Tidal potential measured with distant optical clocks\nExtended Data Fig. 6 | Harmonic geometry and joint-coefficient correlations on the auxiliary\n537\n"
       },
       {
         "page": 23,
         "characters": 2065,
-        "first_text": "Tidal potential measured with distant optical clocks\nExtended Data Table 1 | Daily terms and campaign-specific tidal amplitudes. Amplitude and\n554\nloc"
+        "first_text": "Tidal potential measured with distant optical clocks\nExtended Data Table 1 | Daily terms and campaign-specific tidal amplitudes. Amplitude and\n555\nloc"
       }
     ],
-    "sha256": "af74e0dc0f57b6f3d3f2e49bc170baf805f8ba2c3f17a307a9fc43ce3e025166"
+    "sha256": "dffac3eb330a4a82cb49e86856c9cd4dffa3adfd221da5b38c9191484a43b3c6"
   },
   "NATURE_ARTICLE_v3.22.pdf": {
     "pages": 47,
@@ -250,32 +250,32 @@
       {
         "page": 10,
         "characters": 2096,
-        "first_text": "Tidal potential measured with distant optical clocks\n112°E\n116°E\n120°E\n124°E\n26°N\n30°N\n34°N\n12\n13\n14\n15\n50 cm\n100 cm\n150 cm\n692 km\nShanghai\n87Sr\nWuhan"
+        "first_text": "Tidal potential measured with distant optical clocks\n112°E\n116°E\n120°E\n124°E\n26°N\n30°N\n34°N\n12\n13\n14\n15\n50 cm\n100 cm\n150 cm\n692 km\nShanghai\n87Sr\nWuhan"
       },
       {
         "page": 11,
         "characters": 1202,
-        "first_text": "Tidal potential measured with distant optical clocks\n0\n50\n100\n150\n200\n250\nMeasurement time in June–August 2026 (h; gaps > 6 h removed)\n−10\n−5\n0\n5\n10\n1"
+        "first_text": "Tidal potential measured with distant optical clocks\n0\n50\n100\n150\n200\n250\nMeasurement time in June–August 2026 (h; gaps > 6 h removed)\n−10\n−5\n0\n5\n10\n1"
       },
       {
         "page": 12,
         "characters": 2032,
-        "first_text": "Tidal potential measured with distant optical clocks\n0.0\n0.5\n1.0\n1.5\nResponse coefficient\nFull tide\na\nOverall and grouped responses\n0.6\n0.8\n1.0\n1.2\n1."
+        "first_text": "Tidal potential measured with distant optical clocks\n0.0\n0.5\n1.0\n1.5\nResponse coefficient\nFull tide\na\nOverall and grouped responses\n0.6\n0.8\n1.0\n1.2\n1."
       },
       {
         "page": 13,
-        "characters": 1636,
-        "first_text": "Tidal potential measured with distant optical clocks\n−0.5\n0.0\n0.5\n1.0\n1.5\n2.0\nLunar amplitude factor A\nMain result\nOffsets per operating group\nOffsets"
+        "characters": 1706,
+        "first_text": "Tidal potential measured with distant optical clocks\na\nModel / daily terms\nCampaign / selection\nMain result\nOperating­group offsets\nObservation­period"
       },
       {
         "page": 14,
         "characters": 2510,
-        "first_text": "Tidal potential measured with distant optical clocks\nMethods\n269\nClocks, link and data\n270\nThe Sr optical lattice clock is in Shanghai (31.130° N, 121"
+        "first_text": "Tidal potential measured with distant optical clocks\nMethods\n270\nClocks, link and data\n271\nThe Sr optical lattice clock is in Shanghai (31.130° N, 121"
       },
       {
         "page": 15,
         "characters": 2495,
-        "first_text": "Tidal potential measured with distant optical clocks\nMain analysis: grouped responses\n297\nThe main analysis (labelled the auxiliary reduction in the s"
+        "first_text": "Tidal potential measured with distant optical clocks\nMain analysis: grouped responses\n298\nThe main analysis (labelled the auxiliary reduction in the s"
       },
       {
         "page": 16,
@@ -285,7 +285,7 @@
       {
         "page": 17,
         "characters": 2109,
-        "first_text": "Tidal potential measured with distant optical clocks\nSignal-to-noise ratios\n345\nWe define 𝜌𝑖= |̂𝐴𝑖|/𝑢(̂𝐴𝑖). For the white-noise case of equation (1), "
+        "first_text": "Tidal potential measured with distant optical clocks\nSignal-to-noise ratios\n346\nWe define 𝜌𝑖= |̂𝐴𝑖|/𝑢(̂𝐴𝑖). For the white-noise case of equation (1), "
       },
       {
         "page": 18,
@@ -295,12 +295,12 @@
       {
         "page": 19,
         "characters": 2686,
-        "first_text": "Tidal potential measured with distant optical clocks\nFiltered validation: fit and uncertainties\n387\nThe 1-s observations and model are filtered identi"
+        "first_text": "Tidal potential measured with distant optical clocks\nFiltered validation: fit and uncertainties\n388\nThe 1-s observations and model are filtered identi"
       },
       {
         "page": 20,
         "characters": 2388,
-        "first_text": "Tidal potential measured with distant optical clocks\nEnvironmental, daily-disturbance and prediction checks\n415\nIn the filtered validation analysis, d"
+        "first_text": "Tidal potential measured with distant optical clocks\nEnvironmental, daily-disturbance and prediction checks\n416\nIn the filtered validation analysis, d"
       },
       {
         "page": 21,
@@ -315,12 +315,12 @@
       {
         "page": 23,
         "characters": 142,
-        "first_text": "Tidal potential measured with distant optical clocks\nAdditional information\n489\nSupplementary information is available for this paper.\n490\n23\n"
+        "first_text": "Tidal potential measured with distant optical clocks\nAdditional information\n490\nSupplementary information is available for this paper.\n491\n23\n"
       },
       {
         "page": 24,
         "characters": 1728,
-        "first_text": "Tidal potential measured with distant optical clocks\n0.0\n0.5\n1.0\n1.5\n2.0\nAmplitude factor A\nFull model\nSemidiurnal band\nLunar (M2 + N2)\nNear-12-h (S2 "
+        "first_text": "Tidal potential measured with distant optical clocks\n0.0\n0.5\n1.0\n1.5\n2.0\nAmplitude factor A\nFull model\nSemidiurnal band\nLunar (M2 + N2)\nNear­12­h (S2 "
       },
       {
         "page": 25,
@@ -330,27 +330,27 @@
       {
         "page": 26,
         "characters": 826,
-        "first_text": "Tidal potential measured with distant optical clocks\n0\n20\n40\n60\nMeasurement time (h)\n−15\n−10\n−5\n0\n5\n10\n15\nΔy (10\n−18)\n30 d\nSep–Oct 2025\n0\n25\n50\n75\nMea"
+        "first_text": "Tidal potential measured with distant optical clocks\n0\n20\n40\n60\nMeasurement time (h)\n−15\n−10\n−5\n0\n5\n10\n15\nΔy (10\n−18)\n30 d\nSep–Oct 2025\n0\n25\n50\n75\nMea"
       },
       {
         "page": 27,
         "characters": 2266,
-        "first_text": "Tidal potential measured with distant optical clocks\n21.0\n21.5\n22.0\n22.5\n23.0\n23.5\n24.0\n24.5\n0\n20\n40\n60\n80\nEquivalent-height sinusoidal\npeak amplitude"
+        "first_text": "Tidal potential measured with distant optical clocks\n21.0\n21.5\n22.0\n22.5\n23.0\n23.5\n24.0\n24.5\n0\n20\n40\n60\n80\nEquivalent­height sinusoidal\npeak amplitude"
       },
       {
         "page": 28,
         "characters": 1208,
-        "first_text": "Tidal potential measured with distant optical clocks\n0.0\n0.5\n1.0\n1.5\n2.0\n2.5\n3.0\n3.5\n4.0\nEquivalent-height sinusoidal\npeak amplitude (cm)\na\nSubtract M"
+        "first_text": "Tidal potential measured with distant optical clocks\n0.0\n0.5\n1.0\n1.5\n2.0\n2.5\n3.0\n3.5\n4.0\nEquivalent­height sinusoidal\npeak amplitude (cm)\na\nSubtract M"
       },
       {
         "page": 29,
         "characters": 1723,
-        "first_text": "Tidal potential measured with distant optical clocks\nM2 cos\nM2 sin\nS2 cos\nS2 sin\nM2 cos\nM2 sin\nS2 cos\nS2 sin\n1.000\n-0.015\n0.251\n0.146\n-0.015\n1.000\n-0."
+        "first_text": "Tidal potential measured with distant optical clocks\nM2 cos\nM2 sin\nS2 cos\nS2 sin\nM2 cos\nM2 sin\nS2 cos\nS2 sin\n1.000\n­0.015\n0.251\n0.146\n­0.015\n1.000\n­0."
       },
       {
         "page": 30,
-        "characters": 1320,
-        "first_text": "Tidal potential measured with distant optical clocks\n0\n90\n180\n270\n360\nM2 phase (degrees)\n−6\n−4\n−2\n0\n2\n4\n6\nΔy (10\n−18)\na\nData\nM2 model\n0\n6\n12\n18\n24\nLoc"
+        "characters": 1322,
+        "first_text": "Tidal potential measured with distant optical clocks\n0\n90\n180\n270\n360\nM2 phase (degrees)\n−6\n−4\n−2\n0\n2\n4\n6\nΔy (10\n−18\n)\na\nData\nM2 model\n0\n6\n12\n18\n24\nLo"
       },
       {
         "page": 31,
@@ -375,17 +375,17 @@
       {
         "page": 35,
         "characters": 2364,
-        "first_text": "Tidal potential measured with distant optical clocks\nSupplementary Methods\n576\nSM1–SM5 describe the filtered validation analysis, also labelled the pr"
+        "first_text": "Tidal potential measured with distant optical clocks\nSupplementary Methods\n577\nSM1–SM5 describe the filtered validation analysis, also labelled the pr"
       },
       {
         "page": 36,
         "characters": 2424,
-        "first_text": "Tidal potential measured with distant optical clocks\n33–66 km wide, increases the Shanghai M2 loading potential expressed as 𝛿𝑊/𝑔from 15.3 mm to\n602\n1"
+        "first_text": "Tidal potential measured with distant optical clocks\n33–66 km wide, increases the Shanghai M2 loading potential expressed as 𝛿𝑊/𝑔from 15.3 mm to\n603\n1"
       },
       {
         "page": 37,
         "characters": 2573,
-        "first_text": "Tidal potential measured with distant optical clocks\n0.11 and phase of −6∘± 8∘. The correlation between the lunar and neighbouring semidiurnal\n629\ncoe"
+        "first_text": "Tidal potential measured with distant optical clocks\n0.11 and phase of −6∘± 8∘. The correlation between the lunar and neighbouring semidiurnal\n630\ncoe"
       },
       {
         "page": 38,
@@ -420,24 +420,24 @@
       {
         "page": 44,
         "characters": 1222,
-        "first_text": "Tidal potential measured with distant optical clocks\nSupplementary Figures\n734\n16 Apr\n17 Apr\n18 Apr\n19 Apr\n−30\n−20\n−10\n0\n10\n20\n30\nΔy (10\n−18)\na\nYb/Sr "
+        "first_text": "Tidal potential measured with distant optical clocks\nSupplementary Figures\n735\n16 Apr\n17 Apr\n18 Apr\n19 Apr\n−30\n−20\n−10\n0\n10\n20\n30\nΔy (10\n−18)\na\nYb/Sr "
       },
       {
         "page": 45,
         "characters": 1642,
-        "first_text": "Tidal potential measured with distant optical clocks\n20\n21\n22\n23\n24\n25\n0\n10\n20\n30\n40\n50\nEquivalent-height sinusoidal\npeak amplitude (cm)\nN2\nK2\na\nM2 in"
+        "first_text": "Tidal potential measured with distant optical clocks\n20\n21\n22\n23\n24\n25\n0\n10\n20\n30\n40\n50\nEquivalent­height sinusoidal\npeak amplitude (cm)\nN2\nK2\na\nM2 in"
       },
       {
         "page": 46,
         "characters": 848,
-        "first_text": "Tidal potential measured with distant optical clocks\n−2\n0\n2\n4\nTime from 01:10, 7 July 2026 (h)\n−15\n−10\n−5\n0\nΔy, 60-s averages (10\n−16)\na\nRetained\nRemo"
+        "first_text": "Tidal potential measured with distant optical clocks\n−2\n0\n2\n4\nTime from 01:10, 7 July 2026 (h)\n−15\n−10\n−5\n0\nΔy, 60­s averages (10\n−16)\na\nRetained\nRemo"
       },
       {
         "page": 47,
         "characters": 599,
-        "first_text": "Tidal potential measured with distant optical clocks\nM2\nS2\nN2\nK2\nK1\nO1\nP1\nQ1\n0.85\n0.90\n0.95\n1.00\nAmplitude ratio\na\nShanghai\nWuhan\nM2\nS2\nN2\nK2\nK1\nO1\nP1"
+        "first_text": "Tidal potential measured with distant optical clocks\nM2\nS2\nN2\nK2\nK1\nO1\nP1\nQ1\n0.85\n0.90\n0.95\n1.00\nAmplitude ratio\na\nShanghai\nWuhan\nM2\nS2\nN2\nK2\nK1\nO1\nP1"
       }
     ],
-    "sha256": "0ef986efe53313e6a8a306416749c0c3f6fda58f4f3de2274d654b1914b7d633"
+    "sha256": "9df8b978949a0f6d61fed0ed6a5dacdb562543f21be6e4f504028a96eba650a9"
   }
 }

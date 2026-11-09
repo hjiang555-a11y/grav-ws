@@ -1,13 +1,13 @@
 # v3.22 当前作者审阅稿
 
-**2026-11-09 最新更正：按作者明确指令删除作者贡献整节，并覆盖本目录同名稿件。** 详见 AUTHOR_CONTRIBUTIONS_REMOVED_ZH.md。旧报告中关于加入该节的记录已失效。
+最新更新：作者指定 Figure 4 方案 B，图注同步结构；其他适用图件按 Nature 图规范调整格式。作者贡献保持删除。具体范围和核对结果见 FIGURE_FORMAT_UPDATE_ZH.md 与 FIGURE_FORMAT_INTEGRATION_CHECKS.json。
 
-- NATURE_ARTICLE_v3.22.pdf：当前合并稿（正文、主图、Methods、ED、SI）。
-- NATURE_ARTICLE_MAIN_v3.22.pdf / .docx：当前正文文字、表格、图注和方法；Word 公式和表格可编辑，分页以 PDF 为准。
+- NATURE_ARTICLE_v3.22.pdf：当前合并稿，含主图、Methods、ED、SI。
+- NATURE_ARTICLE_MAIN_v3.22.pdf / .docx：正文、可编辑公式/表格、图注与方法。
 - SUPPLEMENTARY_INFORMATION_v3.22.pdf：独立 SI。
-- SOURCE_v3.22.zip：当前可重建排版源码，不含已删除内容或旧审阅记录。
-- COVER_LETTER_v3.22.md / .pdf / .docx：原投稿信草稿，未改动。
-- NATURE_ARTICLE_v3.21.pdf、原修订报告与审阅记录：历史对照，不能据此恢复已撤销内容。
-- AUTHOR_REMOVAL_CHECKS.json、FINAL_VALIDATION.json、PDF_CHECKS.json、WORD_CHECKS.json、SOURCE_REBUILD_CHECKS.json：本次删除、排版和重建核对。
+- figure4.pdf / .png / .svg：当前图4方案 B。
+- SOURCE_v3.22.zip：当前排版源码及图件格式处理来源，不包含旧作者贡献内容。
+- COVER_LETTER_v3.22.md / .pdf / .docx：原投稿信草稿，未修改。
+- FINAL_VALIDATION.json、PDF_CHECKS.json、WORD_CHECKS.json、SOURCE_REBUILD_CHECKS.json：当前验证。
 
-除删除作者贡献外，正文、摘要、作者名单及图件不变；未重算科学数据。通讯信息等既有待确认项仍保留。未代为投稿或公开发布。
+原 v3.21、旧修订和审阅报告仅作历史对照。原作者贡献添加记录已撤销，当前稿件不含该节。除明确记录的图注结构说明外，科学正文、摘要、作者名单不变；未重算数据。未代为投稿或公开发布。

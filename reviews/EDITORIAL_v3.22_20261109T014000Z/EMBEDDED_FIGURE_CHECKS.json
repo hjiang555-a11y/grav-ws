@@ -1,0 +1,515 @@
+{
+  "scope": "Actual PDF embedding: all 15 active figures, including 4 standalone-SI placements",
+  "all_figure_text_retained": true,
+  "all_visible_text_at_least_5pt": true,
+  "ordinary_text_at_most_7pt": true,
+  "figure4_caption_layout_and_axis_window_matched": true,
+  "figures": [
+    {
+      "label": "Figure 1",
+      "path": "figures/figure1_v319.pdf",
+      "caption_title": "Fig. 1 | The predicted tide on a coastal–inland baseline.",
+      "source_pdf_sha256": "a50522d859bd43aa14ac645a785ce8fe78ec2eddc0f3c0673390b2765048d25b",
+      "source_width_mm": 183.0000055948893,
+      "checks": [
+        {
+          "document": "combined",
+          "page": 10,
+          "figure_text_characters_exact": true,
+          "visible_text_spans": 78,
+          "fonts": [
+            "Arial Bold",
+            "Arial Regular"
+          ],
+          "font_size_range_pt": [
+            5.080023765563965,
+            7.257199764251709
+          ],
+          "ordinary_font_size_range_pt": [
+            5.080023765563965,
+            6.346237659454346
+          ],
+          "embedded_width_mm": 166.0084516221025
+        }
+      ]
+    },
+    {
+      "label": "Figure 2",
+      "path": "figures/figure2_v1.pdf",
+      "caption_title": "Fig. 2 | The lunar tide in the summer record.",
+      "source_pdf_sha256": "987523bfe3932a8c70e682e0718f818f55456315bcb076611040e633d44eda3e",
+      "source_width_mm": 183.0000055948893,
+      "checks": [
+        {
+          "document": "combined",
+          "page": 11,
+          "figure_text_characters_exact": true,
+          "visible_text_spans": 46,
+          "fonts": [
+            "Arial Bold",
+            "Arial Italic",
+            "Arial Regular"
+          ],
+          "font_size_range_pt": [
+            5.080039978027344,
+            7.257199764251709
+          ],
+          "ordinary_font_size_range_pt": [
+            5.080039978027344,
+            6.35004997253418
+          ],
+          "embedded_width_mm": 166.00845154298005
+        }
+      ]
+    },
+    {
+      "label": "Figure 3",
+      "path": "figures/amplitude/figure3.pdf",
+      "caption_title": "Fig. 3 | Amplitude, phase and frequency of the tidal response.",
+      "source_pdf_sha256": "7ab20d68e18b041bd8c37cdec57b608f308e84538a8322a94908b20fda399b74",
+      "source_width_mm": 183.0000055948893,
+      "checks": [
+        {
+          "document": "combined",
+          "page": 12,
+          "figure_text_characters_exact": true,
+          "visible_text_spans": 74,
+          "fonts": [
+            "Arial Bold",
+            "Arial Regular"
+          ],
+          "font_size_range_pt": [
+            5.080039978027344,
+            7.257199764251709
+          ],
+          "ordinary_font_size_range_pt": [
+            5.080039978027344,
+            6.35004997253418
+          ],
+          "embedded_width_mm": 166.00844848069872
+        }
+      ]
+    },
+    {
+      "label": "Figure 4",
+      "path": "figures/figure4.pdf",
+      "caption_title": "Fig. 4 | Robustness of the lunar amplitude.",
+      "source_pdf_sha256": "dd016cda044362291e9ce89778a7131f547f2449ebd9e3e9683b213bed0ab424",
+      "source_width_mm": 183.0000055948893,
+      "checks": [
+        {
+          "document": "combined",
+          "page": 13,
+          "figure_text_characters_exact": true,
+          "visible_text_spans": 45,
+          "fonts": [
+            "Arial Bold",
+            "Arial Italic",
+            "Arial Regular"
+          ],
+          "font_size_range_pt": [
+            5.442899703979492,
+            7.257199764251709
+          ],
+          "ordinary_font_size_range_pt": [
+            5.442899703979492,
+            6.35004997253418
+          ],
+          "embedded_width_mm": 166.0084511521089
+        }
+      ]
+    },
+    {
+      "label": "Extended Data Figure 1",
+      "path": "figures/primary_response_methods.pdf",
+      "caption_title": "Extended Data Fig. 1 | Primary grouped responses and full-record sinusoidal power.",
+      "source_pdf_sha256": "e68390195e856fde88f661011f707ca944d91cf56401c9e50bdd2d2be08bd82d",
+      "source_width_mm": 183.0000055948893,
+      "checks": [
+        {
+          "document": "combined",
+          "page": 24,
+          "figure_text_characters_exact": true,
+          "visible_text_spans": 64,
+          "fonts": [
+            "Arial Bold",
+            "Arial Italic",
+            "Arial Regular"
+          ],
+          "font_size_range_pt": [
+            5.080039978027344,
+            7.257199764251709
+          ],
+          "ordinary_font_size_range_pt": [
+            5.080039978027344,
+            6.35004997253418
+          ],
+          "embedded_width_mm": 166.00845258594322
+        }
+      ]
+    },
+    {
+      "label": "Extended Data Figure 2",
+      "path": "figures/ed3.pdf",
+      "caption_title": "Extended Data Fig. 2 | Campaign-resolved tidal amplitudes.",
+      "source_pdf_sha256": "8a9bb7ef5b5b318f5367ec2f88155b9778ae1543209cbfc7650c69523687929d",
+      "source_width_mm": 183.0000055948893,
+      "checks": [
+        {
+          "document": "combined",
+          "page": 25,
+          "figure_text_characters_exact": true,
+          "visible_text_spans": 26,
+          "fonts": [
+            "Arial-BoldMT",
+            "ArialMT"
+          ],
+          "font_size_range_pt": [
+            5.442899703979492,
+            7.257199764251709
+          ],
+          "ordinary_font_size_range_pt": [
+            5.442899703979492,
+            6.35004997253418
+          ],
+          "embedded_width_mm": 166.00845271922353
+        }
+      ]
+    },
+    {
+      "label": "Extended Data Figure 3",
+      "path": "figures/ed1.pdf",
+      "caption_title": "Extended Data Fig. 3 | Tidal records in all campaigns.",
+      "source_pdf_sha256": "fc559ec44e288c6c7821180b4fea9a967073ae54d7c84f8d136221202422bcb9",
+      "source_width_mm": 183.0000055948893,
+      "checks": [
+        {
+          "document": "combined",
+          "page": 26,
+          "figure_text_characters_exact": true,
+          "visible_text_spans": 81,
+          "fonts": [
+            "Arial Italic",
+            "Arial Regular"
+          ],
+          "font_size_range_pt": [
+            5.080039978027344,
+            6.35004997253418
+          ],
+          "ordinary_font_size_range_pt": [
+            5.080039978027344,
+            6.35004997253418
+          ],
+          "embedded_width_mm": 166.0084535058827
+        }
+      ]
+    },
+    {
+      "label": "Extended Data Figure 4",
+      "path": "figures/ED_Figure_4_v35.pdf",
+      "caption_title": "Extended Data Fig. 4 | Amplitude spectra and sampling-response checks.",
+      "source_pdf_sha256": "e69e39abb06fbf354696ead28cd48530f4da00e1cb92e561e0de951f31f1096d",
+      "source_width_mm": 183.0000055948893,
+      "checks": [
+        {
+          "document": "combined",
+          "page": 27,
+          "figure_text_characters_exact": true,
+          "visible_text_spans": 139,
+          "fonts": [
+            "Arial Bold",
+            "Arial Regular"
+          ],
+          "font_size_range_pt": [
+            5.080039978027344,
+            7.257199764251709
+          ],
+          "ordinary_font_size_range_pt": [
+            5.080039978027344,
+            5.896474838256836
+          ],
+          "embedded_width_mm": 166.00844818892722
+        }
+      ]
+    },
+    {
+      "label": "Extended Data Figure 5",
+      "path": "figures/ED_Figure_5_v35.pdf",
+      "caption_title": "Extended Data Fig. 5 | Amplitude and phase sensitivity to compensation.",
+      "source_pdf_sha256": "3affe04a08762372c4a179cf72b3796dd1f072fed89cfcb1c939fcc28dfd962b",
+      "source_width_mm": 183.0000055948893,
+      "checks": [
+        {
+          "document": "combined",
+          "page": 28,
+          "figure_text_characters_exact": true,
+          "visible_text_spans": 72,
+          "fonts": [
+            "Arial Bold",
+            "Arial Regular"
+          ],
+          "font_size_range_pt": [
+            5.080039978027344,
+            7.257199764251709
+          ],
+          "ordinary_font_size_range_pt": [
+            5.080039978027344,
+            5.896474838256836
+          ],
+          "embedded_width_mm": 166.00844835504077
+        }
+      ]
+    },
+    {
+      "label": "Extended Data Figure 6",
+      "path": "figures/ED_Figure_6_v35.pdf",
+      "caption_title": "Extended Data Fig. 6 | Harmonic geometry and joint-coefficient correlations on the auxiliary 600-s record.",
+      "source_pdf_sha256": "bf6783347834012b59f080299086d3318ca613a9d478b6bf0ea829d6d223dc40",
+      "source_width_mm": 183.0000055948893,
+      "checks": [
+        {
+          "document": "combined",
+          "page": 29,
+          "figure_text_characters_exact": true,
+          "visible_text_spans": 156,
+          "fonts": [
+            "Arial Bold",
+            "Arial Regular"
+          ],
+          "font_size_range_pt": [
+            5.080039978027344,
+            7.257199764251709
+          ],
+          "ordinary_font_size_range_pt": [
+            5.080039978027344,
+            5.896474838256836
+          ],
+          "embedded_width_mm": 166.008450958836
+        }
+      ]
+    },
+    {
+      "label": "Extended Data Figure 7",
+      "path": "figures/ed2.pdf",
+      "caption_title": "Extended Data Fig. 7 | Folds by tidal phase and local time.",
+      "source_pdf_sha256": "c1977e3d7f97cb9fe2896102320ada6968bc1c7a8016749cc2931e3498cd7d2f",
+      "source_width_mm": 183.0000055948893,
+      "checks": [
+        {
+          "document": "combined",
+          "page": 30,
+          "figure_text_characters_exact": true,
+          "visible_text_spans": 50,
+          "fonts": [
+            "Arial Bold",
+            "Arial Italic",
+            "Arial Regular"
+          ],
+          "font_size_range_pt": [
+            5.080039978027344,
+            7.257199764251709
+          ],
+          "ordinary_font_size_range_pt": [
+            5.080039978027344,
+            6.35004997253418
+          ],
+          "embedded_width_mm": 166.0084528909956
+        }
+      ]
+    },
+    {
+      "label": "Supplementary Figure 1",
+      "path": "figures/ed4.pdf",
+      "caption_title": "Supplementary Fig. 1 | April campaign in calendar time and frequency.",
+      "source_pdf_sha256": "cb9b031d5a54cf6f6e0302b14093acc3d64ca3506a6b327dd6389a4e3cb8deb8",
+      "source_width_mm": 183.0000055948893,
+      "checks": [
+        {
+          "document": "combined",
+          "page": 44,
+          "figure_text_characters_exact": true,
+          "visible_text_spans": 58,
+          "fonts": [
+            "Arial Bold",
+            "Arial Italic",
+            "Arial Regular"
+          ],
+          "font_size_range_pt": [
+            5.080039978027344,
+            7.257199764251709
+          ],
+          "ordinary_font_size_range_pt": [
+            5.080039978027344,
+            6.35004997253418
+          ],
+          "embedded_width_mm": 166.0084529107832
+        },
+        {
+          "document": "standalone_si",
+          "page": 11,
+          "figure_text_characters_exact": true,
+          "visible_text_spans": 58,
+          "fonts": [
+            "Arial Bold",
+            "Arial Italic",
+            "Arial Regular"
+          ],
+          "font_size_range_pt": [
+            5.080039978027344,
+            7.257199764251709
+          ],
+          "ordinary_font_size_range_pt": [
+            5.080039978027344,
+            6.35004997253418
+          ],
+          "embedded_width_mm": 166.0084529107832
+        }
+      ]
+    },
+    {
+      "label": "Supplementary Figure 2",
+      "path": "figures/SI_Figure_2_v35.pdf",
+      "caption_title": "Supplementary Fig. 2 | Sampling aliases and amplitude response to compensation.",
+      "source_pdf_sha256": "235af0f85e556169ee058a88c2908f22f45bd698af4972c21a9f97b29d7b54ed",
+      "source_width_mm": 183.0000055948893,
+      "checks": [
+        {
+          "document": "combined",
+          "page": 45,
+          "figure_text_characters_exact": true,
+          "visible_text_spans": 128,
+          "fonts": [
+            "Arial Bold",
+            "Arial Regular"
+          ],
+          "font_size_range_pt": [
+            5.080039978027344,
+            7.257199764251709
+          ],
+          "ordinary_font_size_range_pt": [
+            5.080039978027344,
+            5.896474838256836
+          ],
+          "embedded_width_mm": 166.00844894792615
+        },
+        {
+          "document": "standalone_si",
+          "page": 12,
+          "figure_text_characters_exact": true,
+          "visible_text_spans": 128,
+          "fonts": [
+            "Arial Bold",
+            "Arial Regular"
+          ],
+          "font_size_range_pt": [
+            5.080039978027344,
+            7.257199764251709
+          ],
+          "ordinary_font_size_range_pt": [
+            5.080039978027344,
+            5.896474838256836
+          ],
+          "embedded_width_mm": 166.00844894792615
+        }
+      ]
+    },
+    {
+      "label": "Supplementary Figure 3",
+      "path": "figures/ed5.pdf",
+      "caption_title": "Supplementary Fig. 3 | Transient excursions and sample exclusion.",
+      "source_pdf_sha256": "3afca09f9644ff0839004167cae64151bc1ef48dbff5dfc2f5556367c23df32f",
+      "source_width_mm": 183.0000055948893,
+      "checks": [
+        {
+          "document": "combined",
+          "page": 46,
+          "figure_text_characters_exact": true,
+          "visible_text_spans": 49,
+          "fonts": [
+            "Arial Bold",
+            "Arial Italic",
+            "Arial Regular"
+          ],
+          "font_size_range_pt": [
+            5.080039978027344,
+            7.257199764251709
+          ],
+          "ordinary_font_size_range_pt": [
+            5.080039978027344,
+            6.35004997253418
+          ],
+          "embedded_width_mm": 166.00845453832474
+        },
+        {
+          "document": "standalone_si",
+          "page": 13,
+          "figure_text_characters_exact": true,
+          "visible_text_spans": 49,
+          "fonts": [
+            "Arial Bold",
+            "Arial Italic",
+            "Arial Regular"
+          ],
+          "font_size_range_pt": [
+            5.080039978027344,
+            7.257199764251709
+          ],
+          "ordinary_font_size_range_pt": [
+            5.080039978027344,
+            6.35004997253418
+          ],
+          "embedded_width_mm": 166.00845453832474
+        }
+      ]
+    },
+    {
+      "label": "Supplementary Figure 4",
+      "path": "figures/SI_Figure_4_v36.pdf",
+      "caption_title": "Supplementary Fig. 4 | Radial-displacement validation of the loading convolution.",
+      "source_pdf_sha256": "0c3d5904d2a6a731c96d740a8b65d32984e85782dcd15bad782751c89caa0f9b",
+      "source_width_mm": 183.0000055948893,
+      "checks": [
+        {
+          "document": "combined",
+          "page": 47,
+          "figure_text_characters_exact": true,
+          "visible_text_spans": 48,
+          "fonts": [
+            "Arial Bold",
+            "Arial Regular"
+          ],
+          "font_size_range_pt": [
+            5.080039978027344,
+            7.257199764251709
+          ],
+          "ordinary_font_size_range_pt": [
+            5.080039978027344,
+            5.896474838256836
+          ],
+          "embedded_width_mm": 166.00845009729474
+        },
+        {
+          "document": "standalone_si",
+          "page": 14,
+          "figure_text_characters_exact": true,
+          "visible_text_spans": 48,
+          "fonts": [
+            "Arial Bold",
+            "Arial Regular"
+          ],
+          "font_size_range_pt": [
+            5.080039978027344,
+            7.257199764251709
+          ],
+          "ordinary_font_size_range_pt": [
+            5.080039978027344,
+            5.896474838256836
+          ],
+          "embedded_width_mm": 166.00845009729474
+        }
+      ]
+    }
+  ],
+  "rendered_page_directory": "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/visual_check_01/embedded_figures",
+  "pymupdf": "2.1"
+}
