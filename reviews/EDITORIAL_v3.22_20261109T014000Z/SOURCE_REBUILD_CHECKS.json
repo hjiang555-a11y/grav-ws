@@ -1,21 +1,21 @@
 {
-  "scope": "Current source layout rebuild only",
-  "source_zip_sha256": "503c83c208d3f5dd2d6320453a46900bdd0be571c0756b8407d48c5293fe780f",
-  "checks": {
+  "scope": "Layout only; no scientific recomputation",
+  "source_zip_sha256": "0a3522825f11f588ef8c5d262ce9840651b3b42733685f3ffa9999b4a56b02eb",
+  "files": {
     "NATURE_ARTICLE_v3.22.pdf": {
-      "pages": 47,
-      "extracted_text_exact": true,
-      "text_sha256": "8f8075c3ff76c61b2dcdd28afd8af9b311f4c4a1fc3faac43b86b005adc512f2"
+      "pages": 40,
+      "page_text_exact": true,
+      "raster_exact_28_8_dpi": true
     },
     "NATURE_ARTICLE_MAIN_v3.22.pdf": {
-      "pages": 23,
-      "extracted_text_exact": true,
-      "text_sha256": "2e078411b856797ea3d0fa81c4a9f027bf1e3c5c40228e57484ce525c1a65893"
+      "pages": 25,
+      "page_text_exact": true,
+      "raster_exact_28_8_dpi": true
     },
     "SUPPLEMENTARY_INFORMATION_v3.22.pdf": {
-      "pages": 14,
-      "extracted_text_exact": true,
-      "text_sha256": "87f6239e4e79fd3dc58aa62696988ffe56c5edc29d89a6fc143741ff0c1d27a6"
+      "pages": 7,
+      "page_text_exact": true,
+      "raster_exact_28_8_dpi": true
     }
   }
 }

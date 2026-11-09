@@ -1,0 +1,279 @@
+{
+  "scope": "Length accounting only; SI and author contributions excluded; no scientific computation",
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "records": {
+    "abstract": {
+      "words": 188,
+      "inline_math_objects": 0,
+      "display_equations": 0
+    },
+    "introduction": {
+      "words": 327,
+      "inline_math_objects": 7,
+      "display_equations": 0
+    },
+    "results": {
+      "words": 870,
+      "inline_math_objects": 14,
+      "display_equations": 0
+    },
+    "discussion": {
+      "words": 383,
+      "inline_math_objects": 9,
+      "display_equations": 1
+    },
+    "note_added": {
+      "words": 40,
+      "inline_math_objects": 0,
+      "display_equations": 0
+    },
+    "main_body_no_table_no_note": {
+      "words": 1580,
+      "inline_math_objects": 30,
+      "display_equations": 1
+    },
+    "main_body_with_note_no_table": {
+      "words": 1620,
+      "inline_math_objects": 30,
+      "display_equations": 1
+    },
+    "summary_plus_body_with_note": {
+      "words": 1808,
+      "inline_math_objects": 30,
+      "display_equations": 1
+    },
+    "table1_all": {
+      "words": 90,
+      "inline_math_objects": 4,
+      "display_equations": 0
+    },
+    "summary_body_note_table1": {
+      "words": 1898,
+      "inline_math_objects": 34,
+      "display_equations": 1
+    },
+    "methods": {
+      "words": 2311,
+      "inline_math_objects": 94,
+      "display_equations": 7
+    },
+    "availability": {
+      "words": 48,
+      "inline_math_objects": 0,
+      "display_equations": 0
+    },
+    "funding_and_other_endnotes": {
+      "words": 139,
+      "inline_math_objects": 0,
+      "display_equations": 0
+    },
+    "author_names_affiliations_correspondence": {
+      "words": 205,
+      "inline_math_objects": 0,
+      "display_equations": 0
+    },
+    "figure1_legend_with_title_labels": {
+      "words": 228,
+      "inline_math_objects": 0,
+      "display_equations": 0
+    },
+    "figure2_legend_with_title_labels": {
+      "words": 134,
+      "inline_math_objects": 0,
+      "display_equations": 0
+    },
+    "figure3_legend_with_title_labels": {
+      "words": 182,
+      "inline_math_objects": 3,
+      "display_equations": 0
+    },
+    "figure4_legend_with_title_labels": {
+      "words": 166,
+      "inline_math_objects": 0,
+      "display_equations": 0
+    },
+    "main_figure_legends": {
+      "words": 710,
+      "inline_math_objects": 3,
+      "display_equations": 0
+    },
+    "extended_data_legends": {
+      "words": 1750,
+      "inline_math_objects": 5,
+      "display_equations": 0
+    },
+    "extended_data_table_cells": {
+      "words": 656,
+      "inline_math_objects": 0,
+      "display_equations": 0
+    },
+    "extended_data_all": {
+      "words": 2406,
+      "inline_math_objects": 5,
+      "display_equations": 0
+    },
+    "references_main": {
+      "words": 564,
+      "inline_math_objects": 7,
+      "display_equations": 0
+    },
+    "references_methods": {
+      "words": 115,
+      "inline_math_objects": 1,
+      "display_equations": 0
+    }
+  },
+  "totals": {
+    "main_display_items": 5,
+    "main_figures": 4,
+    "main_tables": 1,
+    "extended_data_figures": 8,
+    "extended_data_tables": 2,
+    "main_references": 29,
+    "methods_references": 6,
+    "source_reference_entries": 65,
+    "used_references": 35,
+    "all_nonSI_counted_words_excluding_author_metadata": 8191,
+    "all_nonSI_counted_words_including_author_metadata": 8396
+  },
+  "pdfs": {
+    "NATURE_ARTICLE_v3.22": {
+      "pages": 40,
+      "si_title_pages": [
+        34
+      ],
+      "sha256": "1fc472e2321a5c64f327b730f056cbe6b6da6e83e9b5417eecd5efd9a95b7bd9",
+      "author_contribution_heading_present": false,
+      "pages_excluding_SI": 33,
+      "SI_pages_in_combined": 7
+    },
+    "NATURE_ARTICLE_MAIN_v3.22": {
+      "pages": 25,
+      "si_title_pages": [],
+      "sha256": "d23ba2db3a1673bb9a177e2b893ea5ce5fa01adc960e9de49d6b79d5fb209090",
+      "author_contribution_heading_present": false
+    },
+    "SUPPLEMENTARY_INFORMATION_v3.22": {
+      "pages": 7,
+      "si_title_pages": [
+        1
+      ],
+      "sha256": "667514ca7f3ddf629fdb83ced40fa4f0209691e525ab67c813f6313128bc65ab",
+      "author_contribution_heading_present": false
+    }
+  },
+  "source_hashes": {
+    "opening.md": "a26c8aad765b07ae61d86e571991a245a465879db089df6373c6b16e49945798",
+    "results_discussion.md": "8edab35d78be48cb8d2c9ecae3271557176c7425b2967f524b03565bd68ceb97",
+    "methods.md": "f33cc565465da52d938cfe232666ad864f1f4c5319cbda316052c7e26299515d",
+    "auxiliary_methods.md": "ffd6fc2dba574b152719dfcfcf55b270e209f0baac2978857f669a18daf312a6",
+    "figures_tables.md": "cc078c3fdb24d5f715ce0e0070d09da8ebc45c2a3c8802a1f1c7ee2b43866d83",
+    "extended_data.md": "d46a2a3e0e29205fd49e3dff9d1bc115a80e0c507686772ece41767cfc00e46d",
+    "references.md": "dac9ff1ef0976763f4e5053525eaad902b52a090f54b64ccd4b38194f2f9a142",
+    "author_block.md": "8befd210de808f384ac2eefb7bccb67512ea20b0ee5f16bea1603736356fe437",
+    "declarations_pre.md": "6eb3a4c769a0f46d4286a2905c37894448b1d2c85f375ad7c8a79c2e52a22171",
+    "declarations_post.md": "654ed4213b81ee59e601cb7af55a60d173a7a912f4c0c584c9ddad3e9d08e0be"
+  },
+  "build_checks": {
+    "abstract_whitespace_tokens": 190,
+    "abstract_words_excluding_operators": 188,
+    "approved_abstract_exact_text": true,
+    "author_contributions_included": false,
+    "records": [
+      {
+        "stem": "NATURE_ARTICLE_v3.22",
+        "pdf": "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/formal_build_01/NATURE_ARTICLE_v3.22.pdf"
+      },
+      {
+        "stem": "NATURE_ARTICLE_MAIN_v3.22",
+        "pdf": "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/formal_build_01/NATURE_ARTICLE_MAIN_v3.22.pdf"
+      },
+      {
+        "stem": "SUPPLEMENTARY_INFORMATION_v3.22",
+        "pdf": "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/formal_build_01/SUPPLEMENTARY_INFORMATION_v3.22.pdf"
+      }
+    ],
+    "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+    "body_font": "Liberation Serif, 12pt (Times-compatible substitute)",
+    "body_line_spacing": "double"
+  },
+  "citation_order": {
+    "source_to_compiled": {
+      "16": 1,
+      "19": 2,
+      "5": 3,
+      "6": 4,
+      "29": 5,
+      "21": 6,
+      "22": 7,
+      "63": 8,
+      "64": 9,
+      "33": 10,
+      "10": 11,
+      "46": 12,
+      "47": 13,
+      "65": 14,
+      "44": 15,
+      "59": 16,
+      "8": 17,
+      "54": 18,
+      "60": 19,
+      "61": 20,
+      "55": 21,
+      "24": 22,
+      "12": 23,
+      "17": 24,
+      "18": 25,
+      "15": 26,
+      "38": 27,
+      "62": 28,
+      "20": 29,
+      "23": 30,
+      "26": 31,
+      "27": 32,
+      "28": 33,
+      "52": 34,
+      "25": 35
+    },
+    "origins": {
+      "16": "main",
+      "19": "main",
+      "5": "main",
+      "6": "main",
+      "29": "main",
+      "21": "main",
+      "22": "main",
+      "63": "main",
+      "64": "main",
+      "33": "main",
+      "10": "main",
+      "46": "main",
+      "47": "main",
+      "65": "main",
+      "44": "main",
+      "59": "main",
+      "8": "main",
+      "54": "main",
+      "60": "main",
+      "61": "main",
+      "55": "main",
+      "24": "main",
+      "12": "main",
+      "17": "main",
+      "18": "main",
+      "15": "main",
+      "38": "main",
+      "62": "main",
+      "20": "main",
+      "23": "methods",
+      "26": "methods",
+      "27": "methods",
+      "28": "methods",
+      "52": "methods",
+      "25": "methods"
+    },
+    "main_count": 29,
+    "methods_count": 6,
+    "total": 35
+  }
+}

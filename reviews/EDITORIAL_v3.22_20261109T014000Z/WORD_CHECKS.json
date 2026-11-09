@@ -1,7 +1,8 @@
 {
-  "math_objects": 149,
-  "editable_tables": 1,
-  "preview_pages": 27,
-  "preview_out_of_page_text": [],
-  "author_contributions_absent": true
+  "editable_math_objects": 152,
+  "editable_main_tables": 1,
+  "preview_pages": 28,
+  "out_of_page_text": [],
+  "author_contributions_absent": true,
+  "effective_observing_time_checked": true
 }

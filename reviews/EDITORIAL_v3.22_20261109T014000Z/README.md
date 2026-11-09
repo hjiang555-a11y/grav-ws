@@ -1,13 +1,14 @@
 # v3.22 当前作者审阅稿
 
-最新更新：作者指定 Figure 4 方案 B，图注同步结构；其他适用图件按 Nature 图规范调整格式。作者贡献保持删除。具体范围和核对结果见 FIGURE_FORMAT_UPDATE_ZH.md 与 FIGURE_FORMAT_INTEGRATION_CHECKS.json。
+本次按作者批准执行 A01–A03、A06–A10；A04作者信息保持原样，A05作者贡献保持删除。全数据集有效观测时间统一为545.9 h，353天为日历跨度。主文科学结果和摘要保持，未进行科学重算。详见 SUBMISSION_FIXES_ZH.md。
 
-- NATURE_ARTICLE_v3.22.pdf：当前合并稿，含主图、Methods、ED、SI。
-- NATURE_ARTICLE_MAIN_v3.22.pdf / .docx：正文、可编辑公式/表格、图注与方法。
-- SUPPLEMENTARY_INFORMATION_v3.22.pdf：独立 SI。
-- figure4.pdf / .png / .svg：当前图4方案 B。
-- SOURCE_v3.22.zip：当前排版源码及图件格式处理来源，不包含旧作者贡献内容。
-- COVER_LETTER_v3.22.md / .pdf / .docx：原投稿信草稿，未修改。
-- FINAL_VALIDATION.json、PDF_CHECKS.json、WORD_CHECKS.json、SOURCE_REBUILD_CHECKS.json：当前验证。
+- NATURE_ARTICLE_v3.22.pdf：最新完整稿，含主图、Methods、8张ED图、2张ED表及文字SI。
+- NATURE_ARTICLE_MAIN_v3.22.pdf / .docx：正文、方法、图注与可编辑主表。
+- SUPPLEMENTARY_INFORMATION_v3.22.pdf：SM1–SM7文字方法。
+- EXTENDED_DATA_v3.22.zip：10个ED项目的独立PDF、SVG、450dpi TIFF及图表说明。
+- SOURCE_v3.22.zip：当前排版源文件、图件及可追溯制作输入/脚本，不含字体文件。
+- figure4.pdf / .png / .svg：修复兼容性的Option B图4。
+- COVER_LETTER_v3.22.*：既有投稿信草稿，此轮未修改。
+- FINAL_VALIDATION.json、PDF_CHECKS.json、WORD_CHECKS.json、LENGTH_COUNTS.json、SOURCE_REBUILD_CHECKS.json：本次实测检查。
 
-原 v3.21、旧修订和审阅报告仅作历史对照。原作者贡献添加记录已撤销，当前稿件不含该节。除明确记录的图注结构说明外，科学正文、摘要、作者名单不变；未重算数据。未代为投稿或公开发布。
+目录内更早的审稿、格式和修订报告仅作历史记录；当前状态以本说明和SUBMISSION_FIXES_ZH.md为准。旧版PDF仍在同一目录，覆盖前版本另有本地备份和Git历史。没有代投稿或公开发布。

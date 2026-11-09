@@ -1,0 +1,18 @@
+{
+  "verified_date": "2026-11-09",
+  "policy_urls": [
+    "https://www.nature.com/nature/for-authors/initial-submission",
+    "https://www.nature.com/nature/for-authors/formatting-guide"
+  ],
+  "guideline_not_universal_hard_limit": true,
+  "summary_body_note_and_main_table_words": 1898,
+  "conservative_body_budget_words": 2500,
+  "methods_plus_availability_words": 2359,
+  "methods_budget_words": 3000,
+  "file_bytes": 14047113,
+  "file_budget_bytes": 30000000,
+  "main_display_items": 5,
+  "extended_data_display_items": 10,
+  "all_length_gates_pass": true,
+  "pages_note": "Author review PDF pages are not typeset print pages; no guaranteed final print page count."
+}
