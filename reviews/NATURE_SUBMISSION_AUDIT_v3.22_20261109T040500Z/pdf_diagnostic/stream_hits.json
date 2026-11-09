@@ -1,0 +1,54 @@
+[
+  {
+    "path": "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/figures/figure4.pdf",
+    "hits": [
+      {
+        "xref": 15,
+        "stream_bytes": 55,
+        "decoded_offset": 3,
+        "operator": "[2 2] d",
+        "context": "\nq\n[2 2] d\n143.5 175 m\n143.5 40 l\n.5 w\n.2 .2 .2 RG S\nQ\n"
+      },
+      {
+        "xref": 91,
+        "stream_bytes": 55,
+        "decoded_offset": 3,
+        "operator": "[2 2] d",
+        "context": "\nq\n[2 2] d\n319.5 175 m\n319.5 40 l\n.5 w\n.2 .2 .2 RG S\nQ\n"
+      },
+      {
+        "xref": 130,
+        "stream_bytes": 67,
+        "decoded_offset": 3,
+        "operator": "[3 2] d",
+        "context": "\nq\n[3 2] d\n397 121.61905 m\n508 121.61905 l\n.5 w\n.08 .66 .51 RG S\nQ\n"
+      }
+    ]
+  },
+  {
+    "path": "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/formal_build_01/NATURE_ARTICLE_v3.22.pdf",
+    "hits": [
+      {
+        "xref": 364,
+        "stream_bytes": 7487,
+        "decoded_offset": 478,
+        "operator": "[2 2] d",
+        "context": "460057004c00520051>]TJ\nET\nQ\n\nq\n132.58396 40 18.22319 135 re\nh\n.92815688 .9711373 .9582745 rg f\nQ\n\nq\n[2 2] d\n143.5 175 m\n143.5 40 l\n.5 w\n.2 .2 .2 RG S\nQ\n q /fzFrm0 Do Q \nq\nBT\n1 0 0 1 5 160.42 Tm\n/FigureArial "
+      },
+      {
+        "xref": 364,
+        "stream_bytes": 7487,
+        "decoded_offset": 2956,
+        "operator": "[2 2] d",
+        "context": ".1 .1 .1 rg [<0024>]TJ\nET\nQ\n\nq\n308.58396 40 18.22319 135 re\nh\n.92815688 .9711373 .9582745 rg f\nQ\n\nq\n[2 2] d\n319.5 175 m\n319.5 40 l\n.5 w\n.2 .2 .2 RG S\nQ\n q /fzFrm9 Do Q \nq\nBT\n1 0 0 1 181 160.42 Tm\n/FigureAria"
+      },
+      {
+        "xref": 364,
+        "stream_bytes": 7487,
+        "decoded_offset": 5188,
+        "operator": "[3 2] d",
+        "context": "zFrm17 Do Q \nq\n397 126 m\n397 34 l\n.5 w\n.2 .2 .2 RG S\nQ\n\nq\n397 34 m\n508 34 l\n.5 w\n.2 .2 .2 RG S\nQ\n\nq\n[3 2] d\n397 121.61905 m\n508 121.61905 l\n.5 w\n.08 .66 .51 RG S\nQ\n\nq\n394.5 34 m\n397 34 l\n.5 w\n.2 .2 .2 RG S\nQ"
+      }
+    ]
+  }
+]

@@ -1,0 +1,97 @@
+{
+  "opening_headings": [
+    {
+      "heading": "Tidal potential measured with distant optical clocks",
+      "chars": 52
+    },
+    {
+      "heading": "Introduction",
+      "chars": 12
+    }
+  ],
+  "results_discussion_headings": [
+    {
+      "heading": "Results",
+      "chars": 7
+    },
+    {
+      "heading": "A coastal\u2013inland clock baseline",
+      "chars": 31
+    },
+    {
+      "heading": "Amplitude, phase and coverage",
+      "chars": 29
+    },
+    {
+      "heading": "Separate semidiurnal detections",
+      "chars": 31
+    },
+    {
+      "heading": "Reliability of the separated signals",
+      "chars": 36
+    },
+    {
+      "heading": "Ocean loading and diurnal response",
+      "chars": 34
+    },
+    {
+      "heading": "Discussion",
+      "chars": 10
+    }
+  ],
+  "methods_headings": [
+    {
+      "heading": "Methods",
+      "chars": 7
+    },
+    {
+      "heading": "Clocks, link and data",
+      "chars": 21
+    },
+    {
+      "heading": "Main analysis: grouped responses",
+      "chars": 32
+    },
+    {
+      "heading": "Spectra and constituent separation",
+      "chars": 34
+    },
+    {
+      "heading": "Signal-to-noise ratios",
+      "chars": 22
+    }
+  ],
+  "auxiliary_methods_headings": [
+    {
+      "heading": "Filtered validation: data selection",
+      "chars": 35
+    },
+    {
+      "heading": "Filtered validation: tidal model",
+      "chars": 32
+    },
+    {
+      "heading": "Filtered validation: fit and uncertainties",
+      "chars": 42
+    },
+    {
+      "heading": "Environmental, daily-disturbance and prediction checks",
+      "chars": 54
+    },
+    {
+      "heading": "Use of large language models",
+      "chars": 28
+    }
+  ],
+  "pdf_sizes_MB": {
+    "SUPPLEMENTARY_INFORMATION_v3.22.pdf": 3.026,
+    "NATURE_ARTICLE_MAIN_v3.22.pdf": 0.15,
+    "NATURE_ARTICLE_v3.22.pdf": 11.231
+  },
+  "SI_figure_count": 4,
+  "SI_table_count": 4,
+  "source_methods_figure_or_table_blocks": {
+    "methods": [],
+    "auxiliary_methods": []
+  }
+}

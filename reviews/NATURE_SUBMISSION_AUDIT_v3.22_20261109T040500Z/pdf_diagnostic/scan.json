@@ -1,0 +1,506 @@
+[
+  {
+    "path": "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/figures/ED_Figure_4_v35.pdf",
+    "sha256": "e69e39abb06fbf354696ead28cd48530f4da00e1cb92e561e0de951f31f1096d",
+    "command": [
+      "pdftotext",
+      "-layout",
+      "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/figures/ED_Figure_4_v35.pdf",
+      "-"
+    ],
+    "exit_code": 0,
+    "stderr": "",
+    "stdout_bytes": 6078,
+    "text_sha256": "f51ad6d603402cb8717cda943717e710319b9ac9862671f1c2bc01b362682f99"
+  },
+  {
+    "path": "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/figures/ED_Figure_5_v35.pdf",
+    "sha256": "3affe04a08762372c4a179cf72b3796dd1f072fed89cfcb1c939fcc28dfd962b",
+    "command": [
+      "pdftotext",
+      "-layout",
+      "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/figures/ED_Figure_5_v35.pdf",
+      "-"
+    ],
+    "exit_code": 0,
+    "stderr": "",
+    "stdout_bytes": 3129,
+    "text_sha256": "8d1ba5d4a61dcbd43d581d99ea7c59e3c26f5c99b6149ac5e3c3b5c7409fc33b"
+  },
+  {
+    "path": "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/figures/ED_Figure_6_v35.pdf",
+    "sha256": "bf6783347834012b59f080299086d3318ca613a9d478b6bf0ea829d6d223dc40",
+    "command": [
+      "pdftotext",
+      "-layout",
+      "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/figures/ED_Figure_6_v35.pdf",
+      "-"
+    ],
+    "exit_code": 0,
+    "stderr": "",
+    "stdout_bytes": 5289,
+    "text_sha256": "26da79387b6c45ad88249e59f0a13431755d47224cd4e0f889132a8edb454e0e"
+  },
+  {
+    "path": "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/figures/SI_Figure_2_v35.pdf",
+    "sha256": "235af0f85e556169ee058a88c2908f22f45bd698af4972c21a9f97b29d7b54ed",
+    "command": [
+      "pdftotext",
+      "-layout",
+      "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/figures/SI_Figure_2_v35.pdf",
+      "-"
+    ],
+    "exit_code": 0,
+    "stderr": "",
+    "stdout_bytes": 5763,
+    "text_sha256": "d5d932f4c700253d601a5ec0b3ecd84ae541391408171443fc8c2a4b04325ede"
+  },
+  {
+    "path": "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/figures/SI_Figure_4_v36.pdf",
+    "sha256": "0c3d5904d2a6a731c96d740a8b65d32984e85782dcd15bad782751c89caa0f9b",
+    "command": [
+      "pdftotext",
+      "-layout",
+      "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/figures/SI_Figure_4_v36.pdf",
+      "-"
+    ],
+    "exit_code": 0,
+    "stderr": "",
+    "stdout_bytes": 1130,
+    "text_sha256": "e546c6c5f243d88706f5565cf6c2486221b981d9e138180823392064e6dd058f"
+  },
+  {
+    "path": "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/figures/amplitude/figure3.pdf",
+    "sha256": "7ab20d68e18b041bd8c37cdec57b608f308e84538a8322a94908b20fda399b74",
+    "command": [
+      "pdftotext",
+      "-layout",
+      "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/figures/amplitude/figure3.pdf",
+      "-"
+    ],
+    "exit_code": 0,
+    "stderr": "",
+    "stdout_bytes": 5013,
+    "text_sha256": "d083eb1020355c6e3fd3914eebf833af5a2fd7388ed34d827b2a02a40c72e602"
+  },
+  {
+    "path": "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/figures/ed1.pdf",
+    "sha256": "fc559ec44e288c6c7821180b4fea9a967073ae54d7c84f8d136221202422bcb9",
+    "command": [
+      "pdftotext",
+      "-layout",
+      "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/figures/ed1.pdf",
+      "-"
+    ],
+    "exit_code": 0,
+    "stderr": "",
+    "stdout_bytes": 2066,
+    "text_sha256": "cc5071199484776d86f28d9d18aa0924693f74711bf4eb2ec844a5453fc6916e"
+  },
+  {
+    "path": "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/figures/ed2.pdf",
+    "sha256": "c1977e3d7f97cb9fe2896102320ada6968bc1c7a8016749cc2931e3498cd7d2f",
+    "command": [
+      "pdftotext",
+      "-layout",
+      "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/figures/ed2.pdf",
+      "-"
+    ],
+    "exit_code": 0,
+    "stderr": "",
+    "stdout_bytes": 1925,
+    "text_sha256": "28d782e7a7494b942bf756639f1fc91cb291d44b5699557b12e1c473e7d33ac7"
+  },
+  {
+    "path": "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/figures/ed3.pdf",
+    "sha256": "8a9bb7ef5b5b318f5367ec2f88155b9778ae1543209cbfc7650c69523687929d",
+    "command": [
+      "pdftotext",
+      "-layout",
+      "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/figures/ed3.pdf",
+      "-"
+    ],
+    "exit_code": 0,
+    "stderr": "",
+    "stdout_bytes": 581,
+    "text_sha256": "e5029526d24457b0df51a5546ea601ba504409a2840dd4d823e7b37f8479d55b"
+  },
+  {
+    "path": "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/figures/ed4.pdf",
+    "sha256": "cb9b031d5a54cf6f6e0302b14093acc3d64ca3506a6b327dd6389a4e3cb8deb8",
+    "command": [
+      "pdftotext",
+      "-layout",
+      "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/figures/ed4.pdf",
+      "-"
+    ],
+    "exit_code": 0,
+    "stderr": "",
+    "stdout_bytes": 2235,
+    "text_sha256": "1444964be6658519134557bcd10dc86ec2a2c1dc08ed7296717f81f58e7833c2"
+  },
+  {
+    "path": "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/figures/ed5.pdf",
+    "sha256": "3afca09f9644ff0839004167cae64151bc1ef48dbff5dfc2f5556367c23df32f",
+    "command": [
+      "pdftotext",
+      "-layout",
+      "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/figures/ed5.pdf",
+      "-"
+    ],
+    "exit_code": 0,
+    "stderr": "",
+    "stdout_bytes": 2129,
+    "text_sha256": "4eec794cc3b32f8f55472f5051acb245fe5bdca669f92f59e109796b24c4d3b3"
+  },
+  {
+    "path": "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/figures/figure1_v319.pdf",
+    "sha256": "a50522d859bd43aa14ac645a785ce8fe78ec2eddc0f3c0673390b2765048d25b",
+    "command": [
+      "pdftotext",
+      "-layout",
+      "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/figures/figure1_v319.pdf",
+      "-"
+    ],
+    "exit_code": 0,
+    "stderr": "",
+    "stdout_bytes": 4179,
+    "text_sha256": "45e12efe1fa227e32557a76face83f45d91356708a0fa31eae7d53d41b0c15dc"
+  },
+  {
+    "path": "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/figures/figure2_v1.pdf",
+    "sha256": "987523bfe3932a8c70e682e0718f818f55456315bcb076611040e633d44eda3e",
+    "command": [
+      "pdftotext",
+      "-layout",
+      "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/figures/figure2_v1.pdf",
+      "-"
+    ],
+    "exit_code": 0,
+    "stderr": "",
+    "stdout_bytes": 1438,
+    "text_sha256": "5c116e919de329ac5b10c90ab1eb24d85caa12b312819f7234fce31f08d4cbbc"
+  },
+  {
+    "path": "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/figures/figure4.pdf",
+    "sha256": "dd016cda044362291e9ce89778a7131f547f2449ebd9e3e9683b213bed0ab424",
+    "command": [
+      "pdftotext",
+      "-layout",
+      "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/figures/figure4.pdf",
+      "-"
+    ],
+    "exit_code": 0,
+    "stderr": "Syntax Error (40074): Too few (1) args to 'd' operator\n",
+    "stdout_bytes": 48,
+    "text_sha256": "a9c2e10cae9163b4a8584927214a5ee666fe77ae14ca309ba16f8433424e436a"
+  },
+  {
+    "path": "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/figures/primary_response_methods.pdf",
+    "sha256": "e68390195e856fde88f661011f707ca944d91cf56401c9e50bdd2d2be08bd82d",
+    "command": [
+      "pdftotext",
+      "-layout",
+      "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/figures/primary_response_methods.pdf",
+      "-"
+    ],
+    "exit_code": 0,
+    "stderr": "",
+    "stdout_bytes": 3193,
+    "text_sha256": "ef8853149a22ea98a374a2d1e30c4e3b12230397242b640c51ef0e9ab89ce511"
+  },
+  {
+    "path": "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/archive/before_figure_format_20261109T040000Z/figures/ED_Figure_4_v35.pdf",
+    "sha256": "bb7ef92ac88be160464e19d3d68722255619fc2ddc4571fb1285c0cd0042bd3e",
+    "command": [
+      "pdftotext",
+      "-layout",
+      "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/archive/before_figure_format_20261109T040000Z/figures/ED_Figure_4_v35.pdf",
+      "-"
+    ],
+    "exit_code": 0,
+    "stderr": "",
+    "stdout_bytes": 5769,
+    "text_sha256": "e7eda1ccf4eea43a2bbab573a6eb3281dc2b0481b6a551a96515107f5763dd15"
+  },
+  {
+    "path": "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/archive/before_figure_format_20261109T040000Z/figures/ED_Figure_5_v35.pdf",
+    "sha256": "f940f2857bb0197a5ee26e468853784b6777d75e9852cfeaecd516dec0e8c1d0",
+    "command": [
+      "pdftotext",
+      "-layout",
+      "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/archive/before_figure_format_20261109T040000Z/figures/ED_Figure_5_v35.pdf",
+      "-"
+    ],
+    "exit_code": 0,
+    "stderr": "",
+    "stdout_bytes": 3120,
+    "text_sha256": "e205b3c1a0041b299fec0313a368c5c19d7a5ecae9e9e5bb571a755115c8112e"
+  },
+  {
+    "path": "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/archive/before_figure_format_20261109T040000Z/figures/ED_Figure_6_v35.pdf",
+    "sha256": "8b68435d924cfe3119d52c67d43ec2c7977cd1309e217ffd84af892517cc9078",
+    "command": [
+      "pdftotext",
+      "-layout",
+      "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/archive/before_figure_format_20261109T040000Z/figures/ED_Figure_6_v35.pdf",
+      "-"
+    ],
+    "exit_code": 0,
+    "stderr": "",
+    "stdout_bytes": 5514,
+    "text_sha256": "7b4fb0c671cfde2f243b8b37ad87cc1f35cb8cf6f692abc75434c8c761a65645"
+  },
+  {
+    "path": "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/archive/before_figure_format_20261109T040000Z/figures/SI_Figure_2_v35.pdf",
+    "sha256": "f9c0b3c0074cc72cd6cd01921f9e8c795fc1c6d20d4a353f6e39242ca9c41ee2",
+    "command": [
+      "pdftotext",
+      "-layout",
+      "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/archive/before_figure_format_20261109T040000Z/figures/SI_Figure_2_v35.pdf",
+      "-"
+    ],
+    "exit_code": 0,
+    "stderr": "",
+    "stdout_bytes": 5797,
+    "text_sha256": "cb9bd844dd594b35f34f96c7ec7398990ba6f8a5190eb5b781d37c8e373b3ea7"
+  },
+  {
+    "path": "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/archive/before_figure_format_20261109T040000Z/figures/SI_Figure_4_v36.pdf",
+    "sha256": "c5b3195551badf4b4b497f8ba7fb550ba9c2589bdade702499cfbb28889e4f10",
+    "command": [
+      "pdftotext",
+      "-layout",
+      "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/archive/before_figure_format_20261109T040000Z/figures/SI_Figure_4_v36.pdf",
+      "-"
+    ],
+    "exit_code": 0,
+    "stderr": "",
+    "stdout_bytes": 1130,
+    "text_sha256": "e546c6c5f243d88706f5565cf6c2486221b981d9e138180823392064e6dd058f"
+  },
+  {
+    "path": "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/archive/before_figure_format_20261109T040000Z/figures/amplitude/figure3.pdf",
+    "sha256": "983cf5b5a93a97b49b113c16d0bc6a2a3a9918791164b619079ba06cbf29861f",
+    "command": [
+      "pdftotext",
+      "-layout",
+      "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/archive/before_figure_format_20261109T040000Z/figures/amplitude/figure3.pdf",
+      "-"
+    ],
+    "exit_code": 0,
+    "stderr": "",
+    "stdout_bytes": 4960,
+    "text_sha256": "8acccdf85bfd711c55f1f67045b0e7b4b41c5d6d29049334f89bf817c6d2a37f"
+  },
+  {
+    "path": "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/archive/before_figure_format_20261109T040000Z/figures/ed1.pdf",
+    "sha256": "97a50728324b385b9df8a66830b9d67a00385afdfeec783d3972fe87c4aef809",
+    "command": [
+      "pdftotext",
+      "-layout",
+      "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/archive/before_figure_format_20261109T040000Z/figures/ed1.pdf",
+      "-"
+    ],
+    "exit_code": 0,
+    "stderr": "",
+    "stdout_bytes": 2066,
+    "text_sha256": "cc5071199484776d86f28d9d18aa0924693f74711bf4eb2ec844a5453fc6916e"
+  },
+  {
+    "path": "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/archive/before_figure_format_20261109T040000Z/figures/ed2.pdf",
+    "sha256": "133dfb9718a90fda3c2834ad593884cd835337cda62de121d422cb0bed9f9ad9",
+    "command": [
+      "pdftotext",
+      "-layout",
+      "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/archive/before_figure_format_20261109T040000Z/figures/ed2.pdf",
+      "-"
+    ],
+    "exit_code": 0,
+    "stderr": "",
+    "stdout_bytes": 1743,
+    "text_sha256": "20ecae8dfd2644b1b36156969a4f9a5ce23c00759cd334906ee42ccc1b096603"
+  },
+  {
+    "path": "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/archive/before_figure_format_20261109T040000Z/figures/ed3.pdf",
+    "sha256": "8a9bb7ef5b5b318f5367ec2f88155b9778ae1543209cbfc7650c69523687929d",
+    "command": [
+      "pdftotext",
+      "-layout",
+      "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/archive/before_figure_format_20261109T040000Z/figures/ed3.pdf",
+      "-"
+    ],
+    "exit_code": 0,
+    "stderr": "",
+    "stdout_bytes": 581,
+    "text_sha256": "e5029526d24457b0df51a5546ea601ba504409a2840dd4d823e7b37f8479d55b"
+  },
+  {
+    "path": "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/archive/before_figure_format_20261109T040000Z/figures/ed4.pdf",
+    "sha256": "c30cd421837117638c33064f45c01a82dc90e43ad93de00e2e1899a78d856a8e",
+    "command": [
+      "pdftotext",
+      "-layout",
+      "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/archive/before_figure_format_20261109T040000Z/figures/ed4.pdf",
+      "-"
+    ],
+    "exit_code": 0,
+    "stderr": "",
+    "stdout_bytes": 2361,
+    "text_sha256": "a85d619b722101073a58c5cd66efe6f72480bdd0b120bf6c2ef90b636f99ec0b"
+  },
+  {
+    "path": "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/archive/before_figure_format_20261109T040000Z/figures/ed5.pdf",
+    "sha256": "2cd003bf0d6e8dde95659cab5ec17e0c3bcfc6462cc4688bdf8c488a17d2eafd",
+    "command": [
+      "pdftotext",
+      "-layout",
+      "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/archive/before_figure_format_20261109T040000Z/figures/ed5.pdf",
+      "-"
+    ],
+    "exit_code": 0,
+    "stderr": "",
+    "stdout_bytes": 2180,
+    "text_sha256": "5de75a28b85ecaa272ebf3e2686b03f3fefbf3f2e66d802e9b01c95c1f6919a3"
+  },
+  {
+    "path": "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/archive/before_figure_format_20261109T040000Z/figures/figure1_v319.pdf",
+    "sha256": "fb1c97176fcd471ef8bf1dce692df22ac60d46d14453d210ee7a42e0184ea3c2",
+    "command": [
+      "pdftotext",
+      "-layout",
+      "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/archive/before_figure_format_20261109T040000Z/figures/figure1_v319.pdf",
+      "-"
+    ],
+    "exit_code": 0,
+    "stderr": "",
+    "stdout_bytes": 44208,
+    "text_sha256": "288b871cf9b92375754e4831004780975f800deee716176e83f07eb2ffb9ae0b"
+  },
+  {
+    "path": "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/archive/before_figure_format_20261109T040000Z/figures/figure2_v1.pdf",
+    "sha256": "eaacd5ec4883ea6f2522e2b2d044873156175752807e3763c51d043b5b3126a0",
+    "command": [
+      "pdftotext",
+      "-layout",
+      "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/archive/before_figure_format_20261109T040000Z/figures/figure2_v1.pdf",
+      "-"
+    ],
+    "exit_code": 0,
+    "stderr": "",
+    "stdout_bytes": 1557,
+    "text_sha256": "29bb55095861f723208f4f861c3a747b4529b70ea54cd79be42a312983905193"
+  },
+  {
+    "path": "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/archive/before_figure_format_20261109T040000Z/figures/figure4.pdf",
+    "sha256": "5be67f0a119e2d0a595838e85bb1f1bab0d327157bc2a1a0b831037a741f3733",
+    "command": [
+      "pdftotext",
+      "-layout",
+      "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/archive/before_figure_format_20261109T040000Z/figures/figure4.pdf",
+      "-"
+    ],
+    "exit_code": 0,
+    "stderr": "",
+    "stdout_bytes": 2568,
+    "text_sha256": "0c9d3b1619bf48b2179a96d01eecaacc48c30f6033315dd0d4d716b3734e8707"
+  },
+  {
+    "path": "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/archive/before_figure_format_20261109T040000Z/figures/primary_response_methods.pdf",
+    "sha256": "e46ef445ffa9e7418ae32d572d3256e6e73ac01efaaa4bf076b8db4424351565",
+    "command": [
+      "pdftotext",
+      "-layout",
+      "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/archive/before_figure_format_20261109T040000Z/figures/primary_response_methods.pdf",
+      "-"
+    ],
+    "exit_code": 0,
+    "stderr": "",
+    "stdout_bytes": 3162,
+    "text_sha256": "157aa437aee973f2ef54e58c649f8cb103f5ad17d0770978aa93a1ebabfefcf9"
+  },
+  {
+    "path": "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/formal_build_01/NATURE_ARTICLE_MAIN_v3.22.pdf",
+    "sha256": "dffac3eb330a4a82cb49e86856c9cd4dffa3adfd221da5b38c9191484a43b3c6",
+    "command": [
+      "pdftotext",
+      "-layout",
+      "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/formal_build_01/NATURE_ARTICLE_MAIN_v3.22.pdf",
+      "-"
+    ],
+    "exit_code": 0,
+    "stderr": "",
+    "stdout_bytes": 62258,
+    "text_sha256": "8bb379aea5ee3d5d7f839962b2ff5551c45238568ab0708da7a045e5d9e43ce2"
+  },
+  {
+    "path": "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/formal_build_01/NATURE_ARTICLE_v3.22.pdf",
+    "sha256": "9df8b978949a0f6d61fed0ed6a5dacdb562543f21be6e4f504028a96eba650a9",
+    "command": [
+      "pdftotext",
+      "-layout",
+      "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/formal_build_01/NATURE_ARTICLE_v3.22.pdf",
+      "-"
+    ],
+    "exit_code": 0,
+    "stderr": "Syntax Error (3091931): Too few (1) args to 'd' operator\n",
+    "stdout_bytes": 141513,
+    "text_sha256": "f0f662bd7076727faaca5d429d90382d8799a81c4236b7095c7e2621801810f4"
+  },
+  {
+    "path": "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/formal_build_01/SUPPLEMENTARY_INFORMATION_v3.22.pdf",
+    "sha256": "63f2c89c4e3a0b35407b9452e8de1e970d8462a4a8aefe7493fcad6bee2fb0cf",
+    "command": [
+      "pdftotext",
+      "-layout",
+      "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/formal_build_01/SUPPLEMENTARY_INFORMATION_v3.22.pdf",
+      "-"
+    ],
+    "exit_code": 0,
+    "stderr": "",
+    "stdout_bytes": 38139,
+    "text_sha256": "17e033c68c47784e4109e232802ad878817b85579743e2326293a2935d276481"
+  },
+  {
+    "path": "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/formal_build_before_figure_format_20261109T040000Z/NATURE_ARTICLE_MAIN_v3.22.pdf",
+    "sha256": "af74e0dc0f57b6f3d3f2e49bc170baf805f8ba2c3f17a307a9fc43ce3e025166",
+    "command": [
+      "pdftotext",
+      "-layout",
+      "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/formal_build_before_figure_format_20261109T040000Z/NATURE_ARTICLE_MAIN_v3.22.pdf",
+      "-"
+    ],
+    "exit_code": 0,
+    "stderr": "",
+    "stdout_bytes": 62147,
+    "text_sha256": "177510e467e5705fce7921b88a958e4eba831465c0f53d76a44a0460107496a2"
+  },
+  {
+    "path": "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/formal_build_before_figure_format_20261109T040000Z/NATURE_ARTICLE_v3.22.pdf",
+    "sha256": "0ef986efe53313e6a8a306416749c0c3f6fda58f4f3de2274d654b1914b7d633",
+    "command": [
+      "pdftotext",
+      "-layout",
+      "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/formal_build_before_figure_format_20261109T040000Z/NATURE_ARTICLE_v3.22.pdf",
+      "-"
+    ],
+    "exit_code": 0,
+    "stderr": "",
+    "stdout_bytes": 320844,
+    "text_sha256": "48ca8f49230a986992fa7d5d394935dc21dd3ac98e5d51240b6d5bf5f054e680"
+  },
+  {
+    "path": "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/formal_build_before_figure_format_20261109T040000Z/SUPPLEMENTARY_INFORMATION_v3.22.pdf",
+    "sha256": "a29fc216bda05dcbd35236fc2d26d812453fec8ec61f6d440cb588647639c734",
+    "command": [
+      "pdftotext",
+      "-layout",
+      "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/formal_build_before_figure_format_20261109T040000Z/SUPPLEMENTARY_INFORMATION_v3.22.pdf",
+      "-"
+    ],
+    "exit_code": 0,
+    "stderr": "",
+    "stdout_bytes": 38361,
+    "text_sha256": "dee0fea98e25db693e13971fa04f599c61620d81c0f020d8b488a6f056c7ebc9"
+  }
+]

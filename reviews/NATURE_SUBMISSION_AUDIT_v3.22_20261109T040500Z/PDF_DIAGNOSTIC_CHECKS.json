@@ -1,0 +1,335 @@
+{
+  "scope": "Read-only PDF diagnostic; no manuscript, figures, handoff or scripts modified",
+  "severity": "Submission-blocking PDF rendering incompatibility in current Figure 4",
+  "finding": "Three line-dash d operators omit the required dashPhase operand; Poppler stops processing the Figure 4 stream, while MuPDF renders it",
+  "files_scanned": 36,
+  "warnings": [
+    {
+      "path": "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/figures/figure4.pdf",
+      "sha256": "dd016cda044362291e9ce89778a7131f547f2449ebd9e3e9683b213bed0ab424",
+      "command": [
+        "pdftotext",
+        "-layout",
+        "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/figures/figure4.pdf",
+        "-"
+      ],
+      "exit_code": 0,
+      "stderr": "Syntax Error (40074): Too few (1) args to 'd' operator\n",
+      "stdout_bytes": 48,
+      "text_sha256": "a9c2e10cae9163b4a8584927214a5ee666fe77ae14ca309ba16f8433424e436a"
+    },
+    {
+      "path": "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/formal_build_01/NATURE_ARTICLE_v3.22.pdf",
+      "sha256": "9df8b978949a0f6d61fed0ed6a5dacdb562543f21be6e4f504028a96eba650a9",
+      "command": [
+        "pdftotext",
+        "-layout",
+        "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/formal_build_01/NATURE_ARTICLE_v3.22.pdf",
+        "-"
+      ],
+      "exit_code": 0,
+      "stderr": "Syntax Error (3091931): Too few (1) args to 'd' operator\n",
+      "stdout_bytes": 141513,
+      "text_sha256": "f0f662bd7076727faaca5d429d90382d8799a81c4236b7095c7e2621801810f4"
+    }
+  ],
+  "prior_files_no_warning": true,
+  "current_main_text_pdf_no_warning": true,
+  "current_standalone_SI_no_warning": true,
+  "malformed_operators": [
+    {
+      "path": "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/figures/figure4.pdf",
+      "hits": [
+        {
+          "xref": 15,
+          "stream_bytes": 55,
+          "decoded_offset": 3,
+          "operator": "[2 2] d",
+          "context": "\nq\n[2 2] d\n143.5 175 m\n143.5 40 l\n.5 w\n.2 .2 .2 RG S\nQ\n"
+        },
+        {
+          "xref": 91,
+          "stream_bytes": 55,
+          "decoded_offset": 3,
+          "operator": "[2 2] d",
+          "context": "\nq\n[2 2] d\n319.5 175 m\n319.5 40 l\n.5 w\n.2 .2 .2 RG S\nQ\n"
+        },
+        {
+          "xref": 130,
+          "stream_bytes": 67,
+          "decoded_offset": 3,
+          "operator": "[3 2] d",
+          "context": "\nq\n[3 2] d\n397 121.61905 m\n508 121.61905 l\n.5 w\n.08 .66 .51 RG S\nQ\n"
+        }
+      ]
+    },
+    {
+      "path": "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/formal_build_01/NATURE_ARTICLE_v3.22.pdf",
+      "hits": [
+        {
+          "xref": 364,
+          "stream_bytes": 7487,
+          "decoded_offset": 478,
+          "operator": "[2 2] d",
+          "context": "460057004c00520051>]TJ\nET\nQ\n\nq\n132.58396 40 18.22319 135 re\nh\n.92815688 .9711373 .9582745 rg f\nQ\n\nq\n[2 2] d\n143.5 175 m\n143.5 40 l\n.5 w\n.2 .2 .2 RG S\nQ\n q /fzFrm0 Do Q \nq\nBT\n1 0 0 1 5 160.42 Tm\n/FigureArial "
+        },
+        {
+          "xref": 364,
+          "stream_bytes": 7487,
+          "decoded_offset": 2956,
+          "operator": "[2 2] d",
+          "context": ".1 .1 .1 rg [<0024>]TJ\nET\nQ\n\nq\n308.58396 40 18.22319 135 re\nh\n.92815688 .9711373 .9582745 rg f\nQ\n\nq\n[2 2] d\n319.5 175 m\n319.5 40 l\n.5 w\n.2 .2 .2 RG S\nQ\n q /fzFrm9 Do Q \nq\nBT\n1 0 0 1 181 160.42 Tm\n/FigureAria"
+        },
+        {
+          "xref": 364,
+          "stream_bytes": 7487,
+          "decoded_offset": 5188,
+          "operator": "[3 2] d",
+          "context": "zFrm17 Do Q \nq\n397 126 m\n397 34 l\n.5 w\n.2 .2 .2 RG S\nQ\n\nq\n397 34 m\n508 34 l\n.5 w\n.2 .2 .2 RG S\nQ\n\nq\n[3 2] d\n397 121.61905 m\n508 121.61905 l\n.5 w\n.08 .66 .51 RG S\nQ\n\nq\n394.5 34 m\n397 34 l\n.5 w\n.2 .2 .2 RG S\nQ"
+        }
+      ]
+    }
+  ],
+  "combined_page": 13,
+  "combined_page_xref": 301,
+  "combined_page_contents_xref": 365,
+  "combined_figure_Form_XObject_xref": 364,
+  "combined_figure_Form_XObject_name": "Fm3",
+  "poppler_version": "24.02.0",
+  "pymupdf_version": "2.1",
+  "rendering_consequence_confirmed": true,
+  "rendering_consequence": "Poppler loses all result markers and intervals and panel b, leaving initial a/column headings and first pale band; main caption and page furniture remain visible",
+  "all_15_source_figures_Arial_in_MuPDF": true,
+  "font_scan": [
+    {
+      "file": "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/figures/ED_Figure_4_v35.pdf",
+      "sha256": "e69e39abb06fbf354696ead28cd48530f4da00e1cb92e561e0de951f31f1096d",
+      "fonts": [
+        "Arial Bold",
+        "Arial Regular"
+      ],
+      "size_range_pt": [
+        5.599999904632568,
+        8.0
+      ],
+      "text_spans": 139,
+      "all_Arial": true
+    },
+    {
+      "file": "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/figures/ED_Figure_5_v35.pdf",
+      "sha256": "3affe04a08762372c4a179cf72b3796dd1f072fed89cfcb1c939fcc28dfd962b",
+      "fonts": [
+        "Arial Bold",
+        "Arial Regular"
+      ],
+      "size_range_pt": [
+        5.599999904632568,
+        8.0
+      ],
+      "text_spans": 72,
+      "all_Arial": true
+    },
+    {
+      "file": "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/figures/ED_Figure_6_v35.pdf",
+      "sha256": "bf6783347834012b59f080299086d3318ca613a9d478b6bf0ea829d6d223dc40",
+      "fonts": [
+        "Arial Bold",
+        "Arial Regular"
+      ],
+      "size_range_pt": [
+        5.599999904632568,
+        8.0
+      ],
+      "text_spans": 156,
+      "all_Arial": true
+    },
+    {
+      "file": "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/figures/SI_Figure_2_v35.pdf",
+      "sha256": "235af0f85e556169ee058a88c2908f22f45bd698af4972c21a9f97b29d7b54ed",
+      "fonts": [
+        "Arial Bold",
+        "Arial Regular"
+      ],
+      "size_range_pt": [
+        5.599999904632568,
+        8.0
+      ],
+      "text_spans": 128,
+      "all_Arial": true
+    },
+    {
+      "file": "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/figures/SI_Figure_4_v36.pdf",
+      "sha256": "0c3d5904d2a6a731c96d740a8b65d32984e85782dcd15bad782751c89caa0f9b",
+      "fonts": [
+        "Arial Bold",
+        "Arial Regular"
+      ],
+      "size_range_pt": [
+        5.599999904632568,
+        8.0
+      ],
+      "text_spans": 48,
+      "all_Arial": true
+    },
+    {
+      "file": "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/figures/amplitude/figure3.pdf",
+      "sha256": "7ab20d68e18b041bd8c37cdec57b608f308e84538a8322a94908b20fda399b74",
+      "fonts": [
+        "Arial Bold",
+        "Arial Regular"
+      ],
+      "size_range_pt": [
+        5.599999904632568,
+        8.0
+      ],
+      "text_spans": 74,
+      "all_Arial": true
+    },
+    {
+      "file": "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/figures/ed1.pdf",
+      "sha256": "fc559ec44e288c6c7821180b4fea9a967073ae54d7c84f8d136221202422bcb9",
+      "fonts": [
+        "Arial Italic",
+        "Arial Regular"
+      ],
+      "size_range_pt": [
+        5.599999904632568,
+        7.0
+      ],
+      "text_spans": 81,
+      "all_Arial": true
+    },
+    {
+      "file": "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/figures/ed2.pdf",
+      "sha256": "c1977e3d7f97cb9fe2896102320ada6968bc1c7a8016749cc2931e3498cd7d2f",
+      "fonts": [
+        "Arial Bold",
+        "Arial Italic",
+        "Arial Regular"
+      ],
+      "size_range_pt": [
+        5.599999904632568,
+        8.0
+      ],
+      "text_spans": 50,
+      "all_Arial": true
+    },
+    {
+      "file": "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/figures/ed3.pdf",
+      "sha256": "8a9bb7ef5b5b318f5367ec2f88155b9778ae1543209cbfc7650c69523687929d",
+      "fonts": [
+        "Arial-BoldMT",
+        "ArialMT"
+      ],
+      "size_range_pt": [
+        6.0,
+        8.0
+      ],
+      "text_spans": 26,
+      "all_Arial": true
+    },
+    {
+      "file": "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/figures/ed4.pdf",
+      "sha256": "cb9b031d5a54cf6f6e0302b14093acc3d64ca3506a6b327dd6389a4e3cb8deb8",
+      "fonts": [
+        "Arial Bold",
+        "Arial Italic",
+        "Arial Regular"
+      ],
+      "size_range_pt": [
+        5.599999904632568,
+        8.0
+      ],
+      "text_spans": 58,
+      "all_Arial": true
+    },
+    {
+      "file": "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/figures/ed5.pdf",
+      "sha256": "3afca09f9644ff0839004167cae64151bc1ef48dbff5dfc2f5556367c23df32f",
+      "fonts": [
+        "Arial Bold",
+        "Arial Italic",
+        "Arial Regular"
+      ],
+      "size_range_pt": [
+        5.599999904632568,
+        8.0
+      ],
+      "text_spans": 49,
+      "all_Arial": true
+    },
+    {
+      "file": "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/figures/figure1_v319.pdf",
+      "sha256": "a50522d859bd43aa14ac645a785ce8fe78ec2eddc0f3c0673390b2765048d25b",
+      "fonts": [
+        "Arial Bold",
+        "Arial Regular"
+      ],
+      "size_range_pt": [
+        5.599982738494873,
+        8.0
+      ],
+      "text_spans": 78,
+      "all_Arial": true
+    },
+    {
+      "file": "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/figures/figure2_v1.pdf",
+      "sha256": "987523bfe3932a8c70e682e0718f818f55456315bcb076611040e633d44eda3e",
+      "fonts": [
+        "Arial Bold",
+        "Arial Italic",
+        "Arial Regular"
+      ],
+      "size_range_pt": [
+        5.599999904632568,
+        8.0
+      ],
+      "text_spans": 46,
+      "all_Arial": true
+    },
+    {
+      "file": "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/figures/figure4.pdf",
+      "sha256": "dd016cda044362291e9ce89778a7131f547f2449ebd9e3e9683b213bed0ab424",
+      "fonts": [
+        "Arial Bold",
+        "Arial Italic",
+        "Arial Regular"
+      ],
+      "size_range_pt": [
+        6.0,
+        8.0
+      ],
+      "text_spans": 45,
+      "all_Arial": true
+    },
+    {
+      "file": "/data/AI_Research/projects/grav-ws/manuscript_48h/editorial_v322_20261109T014000Z/figures/primary_response_methods.pdf",
+      "sha256": "e68390195e856fde88f661011f707ca944d91cf56401c9e50bdd2d2be08bd82d",
+      "fonts": [
+        "Arial Bold",
+        "Arial Italic",
+        "Arial Regular"
+      ],
+      "size_range_pt": [
+        5.599999904632568,
+        8.0
+      ],
+      "text_spans": 64,
+      "all_Arial": true
+    }
+  ],
+  "unit_scope": "No new unit-content alteration found by this diagnostic; prior unit/semantic checks were not repeated as an independent scientific audit. Poppler cannot render most Figure 4 labels or units after the malformed operator.",
+  "primary_specification": "https://opensource.adobe.com/dc-acrobat-sdk-docs/pdfstandards/pdfreference1.7old.pdf",
+  "specification_location": "Table 4.7, graphics state operators: dashArray dashPhase d",
+  "recommendation_only": "After explicit authorization, supply dash phase in the figure source (e.g. [2 2] 0 and [3 2] 0), regenerate Figure 4 and affected deliverables, compare against frozen values, and verify in both MuPDF and Poppler; do not merely suppress stderr. No repair performed.",
+  "source_files_hashes_unchanged_after_diagnostic": true,
+  "artifacts": {
+    "scan": "pdf_diagnostic/scan.json",
+    "streams": "pdf_diagnostic/stream_hits.json",
+    "page_structure": "pdf_diagnostic/page13_structure.json",
+    "figure_poppler": "pdf_diagnostic/figure4_poppler.png",
+    "figure_mupdf": "pdf_diagnostic/figure4_mupdf.png",
+    "combined_page13_poppler": "pdf_diagnostic/combined_page13_poppler.png",
+    "combined_page13_mupdf": "pdf_diagnostic/combined_page13_mupdf.png"
+  }
+}
